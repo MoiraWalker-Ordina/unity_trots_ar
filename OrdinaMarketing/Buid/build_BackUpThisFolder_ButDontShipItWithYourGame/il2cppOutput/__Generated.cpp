@@ -8,6 +8,7 @@
 
 
 #include <limits>
+#include <stdint.h>
 
 
 
@@ -26,6 +27,7 @@ IL2CPP_EXTERN_C_END
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+struct Il2CppArrayBounds;
 
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
@@ -37,11 +39,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 };
 // Native definition for COM marshalling of System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
-{
-};
-
-// System.__Il2CppComDelegate
-struct __Il2CppComDelegate_tD0DD2BBA6AC8F151D32B6DFD02F6BDA339F8DC4D  : public Il2CppComObject
 {
 };
 
@@ -58,12 +55,9 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 
 // System.__Il2CppComDelegate
-
-// System.__Il2CppComDelegate
-
-// System.Void
-
-// System.Void
+struct __Il2CppComDelegate_tD0DD2BBA6AC8F151D32B6DFD02F6BDA339F8DC4D  : public Il2CppComObject
+{
+};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -8,6 +8,7 @@
 
 
 #include <limits>
+#include <stdint.h>
 
 
 
@@ -35,6 +36,7 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t5CFA55679A8E9D2525AFBC9C50BEC051BEA21310 
 {
 };
+struct Il2CppArrayBounds;
 
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
@@ -48,6 +50,12 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
 };
 
 // System.ValueType
@@ -68,6 +76,14 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 {
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
 };
 
 // System.Runtime.Serialization.DataContractAttribute
@@ -108,50 +124,6 @@ struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C
 	// System.Int32 System.Int32::m_value
 	int32_t ___m_value_0;
 };
-
-// <Module>
-
-// <Module>
-
-// System.String
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
-};
-
-// System.String
-
-// System.Boolean
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
-// System.Boolean
-
-// System.Runtime.Serialization.DataContractAttribute
-
-// System.Runtime.Serialization.DataContractAttribute
-
-// System.Runtime.Serialization.DataMemberAttribute
-
-// System.Runtime.Serialization.DataMemberAttribute
-
-// System.Runtime.Serialization.EnumMemberAttribute
-
-// System.Runtime.Serialization.EnumMemberAttribute
-
-// System.Runtime.Serialization.IgnoreDataMemberAttribute
-
-// System.Runtime.Serialization.IgnoreDataMemberAttribute
-
-// System.Int32
-
-// System.Int32
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

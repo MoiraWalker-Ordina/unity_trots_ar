@@ -9,30 +9,30 @@
 #include "codegen/il2cpp-codegen-metadata.h"
 
 
-extern const RuntimeMethod* VuCloudImageTargetObserver_HandleObservations_mFF4D5D104658E28566F34729D345C85F0E3BE84A_RuntimeMethod_var;
-extern const RuntimeMethod* VuCloudImageTargetObserver_HandleQueryError_m457E52E7A90C36D4BFA825AFBEDE5C48034B84FD_RuntimeMethod_var;
+extern const RuntimeMethod* VuCloudImageTargetObserver_HandleObservations_mE49F9F40FAB47D37ACD176A9CD7BFA30BC5B8BE3_RuntimeMethod_var;
+extern const RuntimeMethod* VuCloudImageTargetObserver_HandleQueryError_mA370AEF5C4D3505500F7360C18520C88E6F74B47_RuntimeMethod_var;
 
 
 
 // 0x00000001 System.Void Vuforia.VuAreaTargetCaptureConfig::.ctor()
 extern void VuAreaTargetCaptureConfig__ctor_m13B8167B0A048EB4CB0A28FE3D03E6B07CBC75E6 (void);
 // 0x00000002 Vuforia.VuAreaTargetCaptureConfig/Internal Vuforia.VuAreaTargetCaptureConfig/Internal::Create(Vuforia.VuAreaTargetCaptureConfig)
-extern void Internal_Create_mAA34F3D618533492A9711782FA8BD0891E0FFC03 (void);
+extern void Internal_Create_mA1A4A839D042B189F0C8FE11E28211EDFCCC31C7 (void);
 // 0x00000003 System.Object Vuforia.VuAreaTargetCaptureConfig/Internal::Clone()
 extern void Internal_Clone_m5D650994C4749269AAE9E368D21F59274483D79D (void);
 // 0x00000004 System.Void Vuforia.VuAreaTargetCaptureGenerationConfig::.ctor()
 extern void VuAreaTargetCaptureGenerationConfig__ctor_m9A280BCC69C31E4330B4B2F8767FCF6C3719AB70 (void);
 // 0x00000005 Vuforia.VuAreaTargetCaptureGenerationConfig/Internal Vuforia.VuAreaTargetCaptureGenerationConfig/Internal::Create(Vuforia.VuAreaTargetCaptureGenerationConfig)
-extern void Internal_Create_mDBB3833B7B7C558E240346396A2A3052DB00DDD9 (void);
+extern void Internal_Create_m4E484356BED87035783AEE7A11F93BEB223B15AF (void);
 // 0x00000006 System.Object Vuforia.VuAreaTargetCaptureGenerationConfig/Internal::Clone()
 extern void Internal_Clone_m8CC1C502A9233B8D95E824DA4EF6EFC5E7BA6CF1 (void);
 // 0x00000007 Vuforia.IVuAreaTargetCapture Vuforia.IVuAreaTargetCaptureController::CreateAreaTargetCapture(Vuforia.VuAreaTargetCaptureConfig,Vuforia.VuAreaTargetCaptureCreationError&)
 // 0x00000008 Vuforia.VuResult Vuforia.VuAreaTargetCaptureController::vuEngineGetAreaTargetCaptureController(System.IntPtr,System.IntPtr&)
-extern void VuAreaTargetCaptureController_vuEngineGetAreaTargetCaptureController_mC7FCD9F27D4DF8671963BAE3316CFA5798F369EA (void);
+extern void VuAreaTargetCaptureController_vuEngineGetAreaTargetCaptureController_mDC6CA123284BBE43BA9453332E2DAC7A930524EB (void);
 // 0x00000009 Vuforia.VuResult Vuforia.VuAreaTargetCaptureController::vuAreaTargetCaptureControllerCreateAreaTargetCapture(System.IntPtr,Vuforia.VuAreaTargetCaptureConfig/Internal&,System.IntPtr&,Vuforia.VuAreaTargetCaptureCreationError&)
-extern void VuAreaTargetCaptureController_vuAreaTargetCaptureControllerCreateAreaTargetCapture_m06F511C91BF47BE8B661BE1D6B39646D259A23D0 (void);
+extern void VuAreaTargetCaptureController_vuAreaTargetCaptureControllerCreateAreaTargetCapture_m3CBF57C53C2F89C70DD5E5EDD9DEA081C378FCDB (void);
 // 0x0000000A Vuforia.VuAreaTargetCaptureController Vuforia.VuAreaTargetCaptureController::Create(Vuforia.VuEngine)
-extern void VuAreaTargetCaptureController_Create_m95CE9D642A52E714524EC96B064FF3B1DA9DEF87 (void);
+extern void VuAreaTargetCaptureController_Create_mFC678A87CB92C86B2FD2C39ADD756339E0223C51 (void);
 // 0x0000000B System.Void Vuforia.VuAreaTargetCaptureController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuAreaTargetCaptureController__ctor_m684BCAD8248039FF6C062654EC29C08AA3ED6B83 (void);
 // 0x0000000C Vuforia.IVuAreaTargetCapture Vuforia.VuAreaTargetCaptureController::CreateAreaTargetCapture(Vuforia.VuAreaTargetCaptureConfig,Vuforia.VuAreaTargetCaptureCreationError&)
@@ -49,27 +49,27 @@ extern void VuAreaTargetCaptureController_CreateAreaTargetCapture_m702852AEC47A1
 // 0x00000016 System.Int32 Vuforia.IVuAreaTargetCapture::get_GenerationTimeEstimate()
 // 0x00000017 System.Boolean Vuforia.IVuAreaTargetCapture::Destroy()
 // 0x00000018 Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureStart(System.IntPtr)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureStart_mDDFBB649BE01FE54370E467B1DDCBB1DAA1AF61B (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureStart_m1DEF448497A21FDBE9FBE03ADE0031699CD789F2 (void);
 // 0x00000019 Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureStop(System.IntPtr)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureStop_mDBAC0532CCE89FA1B2DDEF5EEDAAC657E847356B (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureStop_mAE9166C2FD3B416438038AFC3B5652108F4249EB (void);
 // 0x0000001A Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCapturePause(System.IntPtr)
-extern void VuAreaTargetCapture_vuAreaTargetCapturePause_m9119AFB8BB685EEA62FFE3AE07A6F93330B8BBE3 (void);
+extern void VuAreaTargetCapture_vuAreaTargetCapturePause_mC7E50DFA4C5429F103B5658FB1669E55740E67E5 (void);
 // 0x0000001B Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureResume(System.IntPtr)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureResume_m6FAE3CF7FCFCE518D0F047B8E6F08736719F64CA (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureResume_mDD48502849E3F7C069901A9CE1046DB21A2CDB10 (void);
 // 0x0000001C Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureGenerate(System.IntPtr,Vuforia.VuAreaTargetCaptureGenerationConfig/Internal&,Vuforia.VuAreaTargetCaptureGenerationError&)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureGenerate_m45936C0C99D96FB8706FE4CFD00809EAD0FBFF6B (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureGenerate_m259BAA78F35120C8CB78DFBD3E1D187499D0B5C3 (void);
 // 0x0000001D Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureGetStatus(System.IntPtr,Vuforia.VuAreaTargetCaptureStatus&)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureGetStatus_m75BDE9DEB0C4568EAD6C8AF227C77E25487FF7FF (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureGetStatus_mCE3A2E6E45BB345364F0DF281E5B2C603D32A78F (void);
 // 0x0000001E Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureGetStatusInfo(System.IntPtr,Vuforia.VuAreaTargetCaptureStatusInfo&)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureGetStatusInfo_m0C9575AE21EE3532D3450B827C1CA156BF7FC92E (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureGetStatusInfo_m7B612D6070C6B162220A9DFA082364E0CD674BAA (void);
 // 0x0000001F Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureCancelGeneration(System.IntPtr)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureCancelGeneration_m2112B0CDC94147BB64441B57E79A91CB049780BB (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureCancelGeneration_m2BF952E3422FCE41A9266A537FDD7F8716854EAE (void);
 // 0x00000020 Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureGetGenerationProgress(System.IntPtr,System.Single&)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationProgress_m8249E9C71222A6426F105BBBD731495B848CEC05 (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationProgress_m2CB78324F4117D1D99A7CEE0DF72E0EFAB827739 (void);
 // 0x00000021 Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureGetGenerationTimeEstimate(System.IntPtr,System.Int32&)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationTimeEstimate_m6C58E458903E885AAD85EB6FFF82A182E8D0B0B0 (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationTimeEstimate_m29C29337B64C2E73A3E851FA85F264BBADECCB53 (void);
 // 0x00000022 Vuforia.VuResult Vuforia.VuAreaTargetCapture::vuAreaTargetCaptureDestroy(System.IntPtr)
-extern void VuAreaTargetCapture_vuAreaTargetCaptureDestroy_mCB89D975B41B664E61408E603B09FFF1A70E9D82 (void);
+extern void VuAreaTargetCapture_vuAreaTargetCaptureDestroy_mDD70E5A583E102A16D950B23ED6234164BA945D0 (void);
 // 0x00000023 System.IntPtr Vuforia.VuAreaTargetCapture::get_NativeHandle()
 extern void VuAreaTargetCapture_get_NativeHandle_mBD757A158BD2918C664DB5B03F6EFC82E2846130 (void);
 // 0x00000024 Vuforia.VuAreaTargetCaptureStatus Vuforia.VuAreaTargetCapture::get_Status()
@@ -101,19 +101,19 @@ extern void VuBarcodeConfig_Clone_mD1D7CB7F1FAEAE797BD417FF46653566D3A3CD1D (voi
 // 0x00000031 System.Void Vuforia.VuBarcodeConfig::.ctor()
 extern void VuBarcodeConfig__ctor_mE36283E714D11CFA7D4FC10F5E43D52B2FAB8684 (void);
 // 0x00000032 Vuforia.VuBarcodeConfig/Internal Vuforia.VuBarcodeConfig/Internal::Create(Vuforia.VuBarcodeConfig)
-extern void Internal_Create_mBEEE88FC48546850B0989F22F104F28DE41F1B8A (void);
+extern void Internal_Create_m1A3A807287C6FCF56FCA86307E4345BFF9852067 (void);
 // 0x00000033 System.Void Vuforia.VuBarcodeConfig/Internal::.ctor()
 extern void Internal__ctor_m109379E7A215FB1CF25ECC46C9068BEF7561FD20 (void);
 // 0x00000034 Vuforia.VuResult Vuforia.VuBarcodeTypeSet::vuBarcodeTypeSetCreate(System.IntPtr&)
-extern void VuBarcodeTypeSet_vuBarcodeTypeSetCreate_mD1DFFF82061EA427D880FA5DA3EE8CED1EBCBC40 (void);
+extern void VuBarcodeTypeSet_vuBarcodeTypeSetCreate_mCF678BC91CB574DE4B12C73E6CE2169583ADB91C (void);
 // 0x00000035 Vuforia.VuResult Vuforia.VuBarcodeTypeSet::vuBarcodeTypeSetGetSize(System.IntPtr,System.Int32&)
-extern void VuBarcodeTypeSet_vuBarcodeTypeSetGetSize_m8FF1AE2E90A5E386DA85C4A2ADB86A979329BE84 (void);
+extern void VuBarcodeTypeSet_vuBarcodeTypeSetGetSize_mF5512E4F9A2CAD2540E948F63D3736EDB37AEE33 (void);
 // 0x00000036 Vuforia.VuResult Vuforia.VuBarcodeTypeSet::vuBarcodeTypeSetHasElement(System.IntPtr,Vuforia.VuBarcodeType,Vuforia.VuBool&)
-extern void VuBarcodeTypeSet_vuBarcodeTypeSetHasElement_mFBA635292EF674F96E41FC984923908397023D4E (void);
+extern void VuBarcodeTypeSet_vuBarcodeTypeSetHasElement_mA72452A1437EEFD29DA4746B61BBC63F5B2AA7AF (void);
 // 0x00000037 Vuforia.VuResult Vuforia.VuBarcodeTypeSet::vuBarcodeTypeSetAddElement(System.IntPtr,Vuforia.VuBarcodeType)
-extern void VuBarcodeTypeSet_vuBarcodeTypeSetAddElement_mD026EF45D89B45C1A7D00865B6FF905042BA0E60 (void);
+extern void VuBarcodeTypeSet_vuBarcodeTypeSetAddElement_m5B760686C567C5E01BE267F76CCB48D5BFDF5953 (void);
 // 0x00000038 Vuforia.VuResult Vuforia.VuBarcodeTypeSet::vuBarcodeTypeSetDestroy(System.IntPtr)
-extern void VuBarcodeTypeSet_vuBarcodeTypeSetDestroy_m0CBDA47E44E21E126EE40A4BBB30F02312B2818E (void);
+extern void VuBarcodeTypeSet_vuBarcodeTypeSetDestroy_m17BC88CB9DFD7BA89A1F1E5351714AECD342A625 (void);
 // 0x00000039 System.Void Vuforia.VuBarcodeTypeSet::.ctor()
 extern void VuBarcodeTypeSet__ctor_mDF4F56C3DA8717D4F00D6CD80099E807DC7BB85E (void);
 // 0x0000003A System.Void Vuforia.VuBarcodeTypeSet::.ctor(System.Collections.Generic.HashSet`1<Vuforia.VuBarcodeType>)
@@ -123,29 +123,29 @@ extern void VuBarcodeTypeSet_GetEnumerator_m9331271783C1CE3F86630FE8CC81DD4E8406
 // 0x0000003C System.Collections.IEnumerator Vuforia.VuBarcodeTypeSet::System.Collections.IEnumerable.GetEnumerator()
 extern void VuBarcodeTypeSet_System_Collections_IEnumerable_GetEnumerator_mD8E7151ED6A198D1F6A3FA584A60E2C0DAA4B7DB (void);
 // 0x0000003D System.Void Vuforia.VuBarcodeTypeSet::.cctor()
-extern void VuBarcodeTypeSet__cctor_m159E0360C8967C88DF3710733E340FA2AD08E433 (void);
+extern void VuBarcodeTypeSet__cctor_m6A33E82C8E0BEA9609C73420D2C1C7E753334814 (void);
 // 0x0000003E System.Collections.Generic.HashSet`1<Vuforia.VuBarcodeType> Vuforia.IVuBarcodeObserver::get_ObservedTypes()
 // 0x0000003F Vuforia.VuBarcodeDetectionMode Vuforia.IVuBarcodeObserver::get_DetectionMode()
 // 0x00000040 Vuforia.VuResult Vuforia.VuBarcodeObserver::vuEngineCreateBarcodeObserver(System.IntPtr,System.IntPtr&,Vuforia.VuBarcodeConfig/Internal,Vuforia.VuBarcodeCreationError&)
-extern void VuBarcodeObserver_vuEngineCreateBarcodeObserver_mABE715314BF23EEAF8F8F24846308CF19B147877 (void);
+extern void VuBarcodeObserver_vuEngineCreateBarcodeObserver_mAD56E5EA821F5D810E671725FFB7CF45DBAD2834 (void);
 // 0x00000041 Vuforia.VuResult Vuforia.VuBarcodeObserver::vuBarcodeObserverGetObservedTypes(System.IntPtr,System.IntPtr)
-extern void VuBarcodeObserver_vuBarcodeObserverGetObservedTypes_m609D2B761C7CFF7CCA8D4F4C3ABE0BE55BE249FD (void);
+extern void VuBarcodeObserver_vuBarcodeObserverGetObservedTypes_mD20DF9AABA19D03295E720FE0AC977A4BFBD18DC (void);
 // 0x00000042 System.Collections.Generic.HashSet`1<Vuforia.VuBarcodeType> Vuforia.VuBarcodeObserver::get_ObservedTypes()
 extern void VuBarcodeObserver_get_ObservedTypes_m706CCE63B04E1BFEEF52BAD1B79D8A36DC6B8D09 (void);
 // 0x00000043 Vuforia.VuBarcodeDetectionMode Vuforia.VuBarcodeObserver::get_DetectionMode()
 extern void VuBarcodeObserver_get_DetectionMode_mC3B3BBA7EAE7BFD4D3D10D7BA8F4185B305CB7E9 (void);
 // 0x00000044 Vuforia.VuBarcodeObserver Vuforia.VuBarcodeObserver::Create(Vuforia.VuEngine,Vuforia.VuBarcodeConfig,Vuforia.VuBarcodeCreationError&)
-extern void VuBarcodeObserver_Create_mC23B9C65D93D8A7C9BD28E50453911F683F08221 (void);
+extern void VuBarcodeObserver_Create_mD1883B08C11B1F7D42481FC3E9CEF911B91A8B4C (void);
 // 0x00000045 System.Void Vuforia.VuBarcodeObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuBarcodeObserver__ctor_mB58E601AE45F2F02FFFC97A09B800BD8AE020B0A (void);
 // 0x00000046 Vuforia.VuResult Vuforia.VuBarcodeObservationInstanceInfo::vuBarcodeObservationGetInstanceInfo(System.IntPtr,Vuforia.VuBarcodeObservationInstanceInfo/Internal&)
-extern void VuBarcodeObservationInstanceInfo_vuBarcodeObservationGetInstanceInfo_mF37CFC64E4ACD7552C8AD01DFE18C8EF895F9479 (void);
+extern void VuBarcodeObservationInstanceInfo_vuBarcodeObservationGetInstanceInfo_m00CBE66DDC8EE27A12FFEAECDEE014292DDF8A5D (void);
 // 0x00000047 Vuforia.VuBarcodeObservationInstanceInfo Vuforia.VuBarcodeObservationInstanceInfo::Create(System.IntPtr)
-extern void VuBarcodeObservationInstanceInfo_Create_mA25FBB3E98B497F46D89184B503A6DB94DDDE03F (void);
+extern void VuBarcodeObservationInstanceInfo_Create_m8E0F7A5F2764ED43936C79E1AD4C4CE83221F417 (void);
 // 0x00000048 Vuforia.VuBarcodeObservationInstanceInfo Vuforia.IVuBarcodeObservation::get_InstanceInfo()
 // 0x00000049 Vuforia.VuBarcodeObservationInfo Vuforia.IVuBarcodeObservation::get_Info()
 // 0x0000004A Vuforia.VuResult Vuforia.VuBarcodeObservation::vuBarcodeObservationGetInfo(System.IntPtr,Vuforia.VuBarcodeObservationInfo&)
-extern void VuBarcodeObservation_vuBarcodeObservationGetInfo_m77511064A24D0CC682024E5AC4D07BE1C6782433 (void);
+extern void VuBarcodeObservation_vuBarcodeObservationGetInfo_m4B698DF241531B17A3DBABB03F59D73223653D51 (void);
 // 0x0000004B Vuforia.VuBarcodeObservationInstanceInfo Vuforia.VuBarcodeObservation::get_InstanceInfo()
 extern void VuBarcodeObservation_get_InstanceInfo_m21C2061B4AA911690A77D7817A2AAE9400587CA0 (void);
 // 0x0000004C Vuforia.VuBarcodeObservationInfo Vuforia.VuBarcodeObservation::get_Info()
@@ -155,136 +155,136 @@ extern void VuBarcodeObservation__ctor_m543B22EC73ADE0C66FA4026B278E1483B9590453
 // 0x0000004E System.Void Vuforia.VuBarcodeObservation::UnregisterObservation()
 extern void VuBarcodeObservation_UnregisterObservation_m6725715A6821757A74148D24DEDFA2F285512D89 (void);
 // 0x0000004F Vuforia.CsResult Vuforia.VuCesiumTiles::cs3DTilesCreate(System.IntPtr&,System.IntPtr,Vuforia.CsStorageType,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_cs3DTilesCreate_mF4E6B0B86DECC32BE7C1CD337E7FBB74C0B6F439 (void);
+extern void VuCesiumTiles_cs3DTilesCreate_m84B3F5869B7E971BAD77332808F9D576BC1DEF2C (void);
 // 0x00000050 Vuforia.CsResult Vuforia.VuCesiumTiles::cs3DTilesCreateFromCloudConfig(System.IntPtr&,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_cs3DTilesCreateFromCloudConfig_m9FE777F25ED7D51472DE3F2A8486BC4A3DBEF244 (void);
+extern void VuCesiumTiles_cs3DTilesCreateFromCloudConfig_mEE65E1FCAB28A5DCB5B3026967975F38DCF3C583 (void);
 // 0x00000051 Vuforia.CsBool Vuforia.VuCesiumTiles::cs3DTilesHasTileSet(System.IntPtr)
-extern void VuCesiumTiles_cs3DTilesHasTileSet_mD07D9C2C29FB659C24F41A29E98146657B33A5B1 (void);
+extern void VuCesiumTiles_cs3DTilesHasTileSet_mAF9972AFDCF21B69D0D6C3C2BEE154F03EDB7DF2 (void);
 // 0x00000052 Vuforia.CsResult Vuforia.VuCesiumTiles::cs3DTilesGetTileSet(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_cs3DTilesGetTileSet_mC9090A6028B2079F67F7F30DBBA4399F22272687 (void);
+extern void VuCesiumTiles_cs3DTilesGetTileSet_m12DA880E67053532A55D65EF4884CB14E54F402E (void);
 // 0x00000053 Vuforia.CsResult Vuforia.VuCesiumTiles::cs3DTilesDestroy(System.IntPtr)
-extern void VuCesiumTiles_cs3DTilesDestroy_m869C13BACC670C3D83BA00A174622DBDE61326EF (void);
+extern void VuCesiumTiles_cs3DTilesDestroy_m193B5E2E89B932F5225CF5E53556F0B67FDD9C43 (void);
 // 0x00000054 Vuforia.CsResult Vuforia.VuCesiumTiles::csScenesLoad(System.IntPtr&,System.IntPtr,System.IntPtr,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csScenesLoad_mA7EA5B5C312645B9EEDD215BA4DA546FE9E45F62 (void);
+extern void VuCesiumTiles_csScenesLoad_m85073C955F361DCAF1FBF8926E2223D96D190456 (void);
 // 0x00000055 Vuforia.CsResult Vuforia.VuCesiumTiles::csScenesLoadWithoutMaterials(System.IntPtr&,System.IntPtr,System.IntPtr,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csScenesLoadWithoutMaterials_m32CC9E35C8037EAA58C860B499CBF7C771CB6A02 (void);
+extern void VuCesiumTiles_csScenesLoadWithoutMaterials_mD0E85EB70502DEFF8D76902A62A242EB0EFF20FE (void);
 // 0x00000056 Vuforia.CsResult Vuforia.VuCesiumTiles::csScenesLoadFromRawFile(System.IntPtr&,System.IntPtr,Vuforia.CsStorageType,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csScenesLoadFromRawFile_mF355D8B5FD1C793B2DE04E6B90B1392BABD53E23 (void);
+extern void VuCesiumTiles_csScenesLoadFromRawFile_m897B0D5105ADE348260DFFEEEC085E70C8336B4B (void);
 // 0x00000057 Vuforia.CsResult Vuforia.VuCesiumTiles::csScenesLoadWithoutMaterialsFromRawFile(System.IntPtr&,System.IntPtr,Vuforia.CsStorageType,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csScenesLoadWithoutMaterialsFromRawFile_m7E6BE746C6366EF5E7600DE5B56AF5ABB2860DCC (void);
+extern void VuCesiumTiles_csScenesLoadWithoutMaterialsFromRawFile_mB2ECF5FA00F59E223CB16290EA8D7AB5797B0482 (void);
 // 0x00000058 Vuforia.CsResult Vuforia.VuCesiumTiles::csScenesDestroy(System.IntPtr)
-extern void VuCesiumTiles_csScenesDestroy_mC75D1DEDEFF76AA7E1A77683E02F5AC69BD64D53 (void);
+extern void VuCesiumTiles_csScenesDestroy_m01294EC48F11CEC6DABCCD36F494613B73D2612F (void);
 // 0x00000059 Vuforia.CsResult Vuforia.VuCesiumTiles::csSceneListGetSize(System.IntPtr,System.Int32&)
-extern void VuCesiumTiles_csSceneListGetSize_m57FC0D05B2FF69E69EFB8D7CE6595359FECDE9CF (void);
+extern void VuCesiumTiles_csSceneListGetSize_m8A4F2D12195D9A78B102561CB13B6509B29B9C7E (void);
 // 0x0000005A Vuforia.CsResult Vuforia.VuCesiumTiles::csSceneListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuCesiumTiles_csSceneListGetElement_mA4DC19756A443EFD8E43B96377FB38FAA329B589 (void);
+extern void VuCesiumTiles_csSceneListGetElement_m07B2F2FA9C741CFD78F55861D3532F49419358DF (void);
 // 0x0000005B Vuforia.CsResult Vuforia.VuCesiumTiles::csSceneGetName(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csSceneGetName_mDD8B92AE7D31BFEC9B9C85C13D208A7E36130224 (void);
+extern void VuCesiumTiles_csSceneGetName_m899BB8433023F3C3F9BC66F77FB6099C00357964 (void);
 // 0x0000005C Vuforia.CsResult Vuforia.VuCesiumTiles::csSceneGetNodeList(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csSceneGetNodeList_m5D0D8666623A8135BA20DCE77A99BBBC48D4AC99 (void);
+extern void VuCesiumTiles_csSceneGetNodeList_m559EE4E20400CEE37EBB1C507146AF8B75044306 (void);
 // 0x0000005D Vuforia.CsResult Vuforia.VuCesiumTiles::csNodeListGetSize(System.IntPtr,System.Int32&)
-extern void VuCesiumTiles_csNodeListGetSize_m7A132F71DE5B4AB3DE3F8AED3D21DCE85CE7900E (void);
+extern void VuCesiumTiles_csNodeListGetSize_m0A7CDF3ED79F4B05D4A086AEA5A1F56CC53105F8 (void);
 // 0x0000005E Vuforia.CsResult Vuforia.VuCesiumTiles::csNodeListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuCesiumTiles_csNodeListGetElement_m8F84E144BCD2756EA7D6A4D599633F33783D6830 (void);
+extern void VuCesiumTiles_csNodeListGetElement_m0897F86988ECB9F49BCF7EE28E1CEA90B57A8829 (void);
 // 0x0000005F Vuforia.CsResult Vuforia.VuCesiumTiles::csNodeGetNodeList(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csNodeGetNodeList_m3BC2CE5BC024A3B3D4F568EB2C936EDAAEFEAAF7 (void);
+extern void VuCesiumTiles_csNodeGetNodeList_m792B8E0D5DA83ED2DCD60E3110ED055858F6CD77 (void);
 // 0x00000060 Vuforia.CsResult Vuforia.VuCesiumTiles::csNodeGetMeshList(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csNodeGetMeshList_m739D7548871FD7DA828D0AD443861AD8DE9F42BD (void);
+extern void VuCesiumTiles_csNodeGetMeshList_m2462ADF8EE77FFA2790E9CCD6B3A51260D6AB882 (void);
 // 0x00000061 Vuforia.CsResult Vuforia.VuCesiumTiles::csNodeGetMatrix(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csNodeGetMatrix_m3241B5B392BC687CF04B34A4271E44B336075F86 (void);
+extern void VuCesiumTiles_csNodeGetMatrix_m2F9FF4E0ADDBE9638C2F44336B7FAD6F97C803A7 (void);
 // 0x00000062 Vuforia.CsResult Vuforia.VuCesiumTiles::csNodeGetName(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csNodeGetName_m458924221322866B6D658D30F814998A12C162C6 (void);
+extern void VuCesiumTiles_csNodeGetName_m9D6073C4CF537918D95A7D797F3B40554F90470F (void);
 // 0x00000063 Vuforia.CsResult Vuforia.VuCesiumTiles::csMatrixGetValues(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csMatrixGetValues_m33CD001AB2FD4E85B0E924F9E6C0FEC7F0B37A98 (void);
+extern void VuCesiumTiles_csMatrixGetValues_mA5ED469D05FDBDECCA52F435A29FA5F636BAC847 (void);
 // 0x00000064 Vuforia.CsResult Vuforia.VuCesiumTiles::csPointCloudCreate(System.IntPtr&,System.IntPtr,System.IntPtr,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csPointCloudCreate_m9265FD8241C0B3215EA8EE0D259EB30BCC142784 (void);
+extern void VuCesiumTiles_csPointCloudCreate_mAF683763F678638B8BFDEEB027C5BA18957D7CE7 (void);
 // 0x00000065 Vuforia.CsResult Vuforia.VuCesiumTiles::csPointCloudCreateFromRawFile(System.IntPtr&,System.IntPtr,Vuforia.CsStorageType,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csPointCloudCreateFromRawFile_m8CC4A9773151EFD0D51114ABB00911B612647E78 (void);
+extern void VuCesiumTiles_csPointCloudCreateFromRawFile_m10B363FCF94AA576B957A27952752E2C6603E3B7 (void);
 // 0x00000066 Vuforia.CsResult Vuforia.VuCesiumTiles::csPointCloudGetVertexCount(System.IntPtr,System.Int32&)
-extern void VuCesiumTiles_csPointCloudGetVertexCount_m034FFE56BABFE91D6DF98772427BCE28E5E48249 (void);
+extern void VuCesiumTiles_csPointCloudGetVertexCount_m49B1A6FFBC03F7FBEF3CE4F5CDB4A62F523E18C8 (void);
 // 0x00000067 Vuforia.CsResult Vuforia.VuCesiumTiles::csPointCloudGetAttributeList(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csPointCloudGetAttributeList_mA5A3575F34134790DCA6318FDA33BD34367CA84E (void);
+extern void VuCesiumTiles_csPointCloudGetAttributeList_mA01B36052D2AABD3FD5DA23187DC63D63788FF41 (void);
 // 0x00000068 Vuforia.CsResult Vuforia.VuCesiumTiles::csPointCloudDestroy(System.IntPtr)
-extern void VuCesiumTiles_csPointCloudDestroy_mE3FB85804E1FF5824DF7738ED72DF11C5205C90A (void);
+extern void VuCesiumTiles_csPointCloudDestroy_m039678C01EB32BABD030F7EA753249AE8DBF1725 (void);
 // 0x00000069 Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshListGetSize(System.IntPtr,System.Int32&)
-extern void VuCesiumTiles_csMeshListGetSize_m0380D9959051BBE8BBB6B53A5147E5FE538718DF (void);
+extern void VuCesiumTiles_csMeshListGetSize_mE52CE7B47C56B11ADB9D8AEC676E31490AF8CC26 (void);
 // 0x0000006A Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuCesiumTiles_csMeshListGetElement_mCE4B22C3A4F533E2C948E184413CEE6DDE049011 (void);
+extern void VuCesiumTiles_csMeshListGetElement_m843E394C1003C56251E311E063BB14323B4866DA (void);
 // 0x0000006B Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshCreate(System.IntPtr&,System.IntPtr,System.IntPtr,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csMeshCreate_mC6D886ED5A6AD19166A64D1BE114725B36829BEE (void);
+extern void VuCesiumTiles_csMeshCreate_mE3F9711F69E6E7F824674579679ACE0775E21FC5 (void);
 // 0x0000006C Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshCreateFromRawFile(System.IntPtr&,System.IntPtr,Vuforia.CsStorageType,Vuforia.CsErrorCode&)
-extern void VuCesiumTiles_csMeshCreateFromRawFile_mD03D5364ECEF4F561783975B95CDA0117FA73052 (void);
+extern void VuCesiumTiles_csMeshCreateFromRawFile_m94ABB6EE6CD602874F93C805A92F94467BC9DA4D (void);
 // 0x0000006D Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshGetVertexCount(System.IntPtr,System.Int32&)
-extern void VuCesiumTiles_csMeshGetVertexCount_m456CC0972A7ECCC551FEB9162E8B64DEB9F75A4D (void);
+extern void VuCesiumTiles_csMeshGetVertexCount_m83273074B4C3D2D50CCFC56A981BFE543691FCC8 (void);
 // 0x0000006E Vuforia.CsBool Vuforia.VuCesiumTiles::csMeshHasIndices(System.IntPtr)
-extern void VuCesiumTiles_csMeshHasIndices_mA1EB20220334CC32C47D1ABEEEAA205E1F87E4EA (void);
+extern void VuCesiumTiles_csMeshHasIndices_m50514CFB233F40D4EF7266819ADA5796D9E94DF9 (void);
 // 0x0000006F Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshGetIndexCount(System.IntPtr,System.Int32&)
-extern void VuCesiumTiles_csMeshGetIndexCount_m1EB926551221605B16AEB0350180E188D62FFD81 (void);
+extern void VuCesiumTiles_csMeshGetIndexCount_m9530B65122F55BE9106112847F6B61710B7DE81C (void);
 // 0x00000070 Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshGetIndexType(System.IntPtr,Vuforia.CsAttributeComponentType&)
-extern void VuCesiumTiles_csMeshGetIndexType_m2FD9AE2D069DC0ABB607E654C82C570F64839E57 (void);
+extern void VuCesiumTiles_csMeshGetIndexType_mD6B93BF7268B85E8DAA167402FA00994C6D4B2C7 (void);
 // 0x00000071 Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshCopyIndexData(System.IntPtr,System.IntPtr,System.Int32)
-extern void VuCesiumTiles_csMeshCopyIndexData_m6CD7474340AD529AE5ED3B90D0B08930CE4927C5 (void);
+extern void VuCesiumTiles_csMeshCopyIndexData_m541BBC5C48966E8E04EAE552F290C8A2A042EC94 (void);
 // 0x00000072 Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshGetAttributeList(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csMeshGetAttributeList_m439FF430ECC6F61D381D8BD095BDD0B84E2E7464 (void);
+extern void VuCesiumTiles_csMeshGetAttributeList_mC33BB7B6928F995BBA3BB9BEF7E35271DE9EA3AA (void);
 // 0x00000073 Vuforia.CsBool Vuforia.VuCesiumTiles::csMeshHasMaterial(System.IntPtr)
-extern void VuCesiumTiles_csMeshHasMaterial_m862CB78817DFE8E5032D5AF2EEE1DD1783E6778C (void);
+extern void VuCesiumTiles_csMeshHasMaterial_m8F7C890C0F02A5E67F5C9A680C7B5B030FD6D686 (void);
 // 0x00000074 Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshGetMaterial(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csMeshGetMaterial_mC5A3248A91E729D5D54466C6519DC627EA20DF38 (void);
+extern void VuCesiumTiles_csMeshGetMaterial_m7C84577ADD559C952AF198A2E7A8BB482C7D08A9 (void);
 // 0x00000075 Vuforia.CsResult Vuforia.VuCesiumTiles::csMeshDestroy(System.IntPtr)
-extern void VuCesiumTiles_csMeshDestroy_m63F5A9C5F5B95C96FE8534B735F35FE84453FFBB (void);
+extern void VuCesiumTiles_csMeshDestroy_mA1B5163F88BC5D58262221659AD2714561AF3FCD (void);
 // 0x00000076 Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeListGetSize(System.IntPtr,System.Int32&)
-extern void VuCesiumTiles_csAttributeListGetSize_m9D53DF5E78579ADF315BFFEDF95E89B3C56D49EE (void);
+extern void VuCesiumTiles_csAttributeListGetSize_m4D2736BFF498B6EAD948B4E79A4903438BFED562 (void);
 // 0x00000077 Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuCesiumTiles_csAttributeListGetElement_m1C6D91C0AD0CA7E2ACF3E5689FAD34214A51E532 (void);
+extern void VuCesiumTiles_csAttributeListGetElement_mCCFD097C155A0ED97CFBD9514976C74DC25B8BF6 (void);
 // 0x00000078 Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeListGetElementByName(System.IntPtr,Vuforia.CsAttributeName,System.IntPtr&)
-extern void VuCesiumTiles_csAttributeListGetElementByName_m8367655FEB1432282F0EA17CA016A7A6C011BEB2 (void);
+extern void VuCesiumTiles_csAttributeListGetElementByName_m5B1E34EBD2067503DEB6BFC1AC063DA1A8F2A7E1 (void);
 // 0x00000079 Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeGetName(System.IntPtr,System.Int32)
-extern void VuCesiumTiles_csAttributeGetName_m0B6FB9E0B51FD9DD06BE7BD171432F3AA1699A6E (void);
+extern void VuCesiumTiles_csAttributeGetName_m2C3CB61F8B6ADFFD9225CDDA5E871E4255169595 (void);
 // 0x0000007A Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeGetComponentType(System.IntPtr,Vuforia.CsAttributeComponentType&)
-extern void VuCesiumTiles_csAttributeGetComponentType_m6FB81615A78FC864C90F44BE004B8A2BD1F34C7D (void);
+extern void VuCesiumTiles_csAttributeGetComponentType_m206021CD58DADE510A4EBDDC101BE21EB9BE1BBF (void);
 // 0x0000007B Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeGetDataType(System.IntPtr,Vuforia.CsAttributeDataType&)
-extern void VuCesiumTiles_csAttributeGetDataType_mCAA1A78B46498DE7FCCD7BED269674DA680653D1 (void);
+extern void VuCesiumTiles_csAttributeGetDataType_m06E0C4B917F9C2D310038A88360941F9084A9132 (void);
 // 0x0000007C Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeGetAttributeData(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csAttributeGetAttributeData_m7A6CA104BB3840FFEAD4CF203F6A9F8808DBCA6E (void);
+extern void VuCesiumTiles_csAttributeGetAttributeData_mE5E611D96C704CD060744A633620975AA5583A72 (void);
 // 0x0000007D Vuforia.CsResult Vuforia.VuCesiumTiles::csAttributeDataCopyData(System.IntPtr,System.IntPtr,System.Int32)
-extern void VuCesiumTiles_csAttributeDataCopyData_mBB508D03BD21440B45E346E18572D84B8AE29B5E (void);
+extern void VuCesiumTiles_csAttributeDataCopyData_mC691A05C029111F974500CDC852FC91C348EF220 (void);
 // 0x0000007E Vuforia.CsResult Vuforia.VuCesiumTiles::csMaterialGetBaseColorFactor(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csMaterialGetBaseColorFactor_m2BFFB2D9688EA78250DE66F7AF5E35C304EB3978 (void);
+extern void VuCesiumTiles_csMaterialGetBaseColorFactor_mBA09A6A66E28C2617CFFA160978622C37358DB5D (void);
 // 0x0000007F Vuforia.CsBool Vuforia.VuCesiumTiles::csMaterialHasBaseColorTexture(System.IntPtr)
-extern void VuCesiumTiles_csMaterialHasBaseColorTexture_mA852A3A51DB5CC6990550EA8212C465BA6546E22 (void);
+extern void VuCesiumTiles_csMaterialHasBaseColorTexture_m4CFE10C5ABE280F0660BAA378A540ABD1B4D6403 (void);
 // 0x00000080 Vuforia.CsResult Vuforia.VuCesiumTiles::csMaterialGetBaseColorTexture(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csMaterialGetBaseColorTexture_m115E0773C17A976B1C1CAC2401D163ECACE5338B (void);
+extern void VuCesiumTiles_csMaterialGetBaseColorTexture_mB58A269EC12D6971666352E08D7BCF2D26C5150D (void);
 // 0x00000081 Vuforia.CsResult Vuforia.VuCesiumTiles::csMaterialGetName(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csMaterialGetName_m6AFFD1BEF95FE3D1E75366112C08F53A4CA7203B (void);
+extern void VuCesiumTiles_csMaterialGetName_m89C2830154531FBCA18635BA2EE138810EEB5A8D (void);
 // 0x00000082 Vuforia.CsResult Vuforia.VuCesiumTiles::csTextureGetSource(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csTextureGetSource_m189911666F8F0A4B651853CBC46978ED49856EF9 (void);
+extern void VuCesiumTiles_csTextureGetSource_mAB70C3754CFF7DD74C81C526C1602B0CB1CD8409 (void);
 // 0x00000083 Vuforia.CsResult Vuforia.VuCesiumTiles::csTextureGetSampler(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csTextureGetSampler_m29700F4E203903A965D94C506AB8CB9AEB66EDFB (void);
+extern void VuCesiumTiles_csTextureGetSampler_mB416BEFA5070A9AB50451B873761BB742584990B (void);
 // 0x00000084 Vuforia.CsResult Vuforia.VuCesiumTiles::csTextureGetName(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csTextureGetName_m9A2EC748B869BB81C9A3BA8F193E1244690E607F (void);
+extern void VuCesiumTiles_csTextureGetName_m9CA806329A1844523768C2E40358A21573A10862 (void);
 // 0x00000085 Vuforia.CsResult Vuforia.VuCesiumTiles::csTextureSourceGetImage(System.IntPtr,System.IntPtr&)
-extern void VuCesiumTiles_csTextureSourceGetImage_mAEA0189609BD7C7213FB90A80C71F652E0BBDB15 (void);
+extern void VuCesiumTiles_csTextureSourceGetImage_mD6ECD36F71A105775593E6FC13104FA04AC92625 (void);
 // 0x00000086 Vuforia.CsResult Vuforia.VuCesiumTiles::csSamplerGetMinFilter(System.IntPtr,Vuforia.CsTextureFilterType&)
-extern void VuCesiumTiles_csSamplerGetMinFilter_m19C325E6183278708313A5EBE6F11EDFF73319C3 (void);
+extern void VuCesiumTiles_csSamplerGetMinFilter_mA86EDD12CF8D0302C2DDD8AF604D19CA17D2DB17 (void);
 // 0x00000087 Vuforia.CsResult Vuforia.VuCesiumTiles::csSamplerGetMagFilter(System.IntPtr,Vuforia.CsTextureFilterType&)
-extern void VuCesiumTiles_csSamplerGetMagFilter_m8FF110AB976F2943D4B46B900D235A186095E4E3 (void);
+extern void VuCesiumTiles_csSamplerGetMagFilter_mB5D1EA664EED823CC5C65AE30A5C8530B0A96E35 (void);
 // 0x00000088 Vuforia.CsResult Vuforia.VuCesiumTiles::csSamplerGetWrapS(System.IntPtr,Vuforia.CsTextureWrapType&)
-extern void VuCesiumTiles_csSamplerGetWrapS_mAA9CFB43457E3B520869EFB3DDD50B18DA598B17 (void);
+extern void VuCesiumTiles_csSamplerGetWrapS_m19A40EEE88CCEB86EC8D90BB7A367ADF1B64F533 (void);
 // 0x00000089 Vuforia.CsResult Vuforia.VuCesiumTiles::csSamplerGetWrapT(System.IntPtr,Vuforia.CsTextureWrapType&)
-extern void VuCesiumTiles_csSamplerGetWrapT_mEBC6D4EDD3DB0945F7FBF3A245334FE0E16DB136 (void);
+extern void VuCesiumTiles_csSamplerGetWrapT_m9F3091C1AC34EB5762F4BD4C82010C40B9118E97 (void);
 // 0x0000008A System.Object Vuforia.VuAnchorObserverConfig::Clone()
 extern void VuAnchorObserverConfig_Clone_mF27C1E1BE34B18FD41269734F2094D8508EBB9AE (void);
 // 0x0000008B System.Void Vuforia.VuAnchorObserverConfig::.ctor()
 extern void VuAnchorObserverConfig__ctor_m719C0E528B7F3F99EC3ABEA1C9EE39F07AF9D8A4 (void);
 // 0x0000008C Vuforia.VuAnchorObserverConfig/Internal Vuforia.VuAnchorObserverConfig/Internal::Create(Vuforia.VuAnchorObserverConfig)
-extern void Internal_Create_mC51E856F907FEAD59EC814DAB5239D77C181D0E8 (void);
+extern void Internal_Create_m06F729A4D3943917AB20A8BFB9252B456F3EE839 (void);
 // 0x0000008D System.Void Vuforia.VuHitTestConfig::.ctor()
 extern void VuHitTestConfig__ctor_mCBAC2BC8E372F2CEED42E15143261706F6EA2D97 (void);
 // 0x0000008E System.Void Vuforia.VuHitTestConfig/Internal::.ctor(Vuforia.VuHitTestConfig)
 extern void Internal__ctor_m167484968EBA6F83ECC2AA7927867711C75B5A8B (void);
 // 0x0000008F Vuforia.VuMatrix44F Vuforia.IVuHitTest::get_Pose()
 // 0x00000090 Vuforia.VuResult Vuforia.VuHitTest::vuHitTestGetPose(System.IntPtr,Vuforia.VuMatrix44F&)
-extern void VuHitTest_vuHitTestGetPose_mD340BFE40B09DDE2EDBBA46BE82F5B119862C57A (void);
+extern void VuHitTest_vuHitTestGetPose_m65A68876B62AAD5421CCFF5635471F6596D2C786 (void);
 // 0x00000091 System.IntPtr Vuforia.VuHitTest::get_NativeHandle()
 extern void VuHitTest_get_NativeHandle_m7B2186DD9B76493B4BFDD900927347A6285C83C2 (void);
 // 0x00000092 Vuforia.VuMatrix44F Vuforia.VuHitTest::get_Pose()
@@ -318,23 +318,23 @@ extern void Internal__ctor_m0CA3E92D6C2A9CB7C0A9EEDDBA728ECA9C074691 (void);
 // 0x000000A3 System.Boolean Vuforia.IVuAnchorObserver::DestroyAnchors()
 // 0x000000A4 Vuforia.IVuHitTestResults Vuforia.IVuAnchorObserver::HitTest(Vuforia.VuHitTestConfig)
 // 0x000000A5 Vuforia.VuResult Vuforia.VuAnchorObserver::vuEngineCreateAnchorObserver(System.IntPtr,System.IntPtr&,Vuforia.VuAnchorObserverConfig/Internal&,Vuforia.VuAnchorCreationError&)
-extern void VuAnchorObserver_vuEngineCreateAnchorObserver_mDF21926AA89BAA9E630CEDAE2C3E0BAEE517421B (void);
+extern void VuAnchorObserver_vuEngineCreateAnchorObserver_m4200C0C2DB367A10B787732E5D422ADBC01702E5 (void);
 // 0x000000A6 Vuforia.VuResult Vuforia.VuAnchorObserver::vuAnchorObserverHitTest(System.IntPtr,Vuforia.VuHitTestConfig/Internal&,System.IntPtr)
-extern void VuAnchorObserver_vuAnchorObserverHitTest_m8FFB7DDB23D8DDACD532A336F0A0C94E0EF53325 (void);
+extern void VuAnchorObserver_vuAnchorObserverHitTest_m3F63F2AA09FA7CEA23CFB63FC5399013D104ED19 (void);
 // 0x000000A7 Vuforia.VuResult Vuforia.VuAnchorObserver::vuAnchorObserverCreateAnchor(System.IntPtr,Vuforia.VuAnchorCreationConfig&,System.Int32&)
-extern void VuAnchorObserver_vuAnchorObserverCreateAnchor_mA85F59DE573076D4DEBA824DFDCCC86ED0092D7C (void);
+extern void VuAnchorObserver_vuAnchorObserverCreateAnchor_m203A0F475C1F4573EB72D209423892A46BA8FC0C (void);
 // 0x000000A8 Vuforia.VuResult Vuforia.VuAnchorObserver::vuAnchorObserverCreateAnchorWithHitTest(System.IntPtr,Vuforia.VuAnchorCreationHitTestConfig/Internal&,System.Int32&)
-extern void VuAnchorObserver_vuAnchorObserverCreateAnchorWithHitTest_m449D1075BB963F97F1C91A95307C7B83FE70A2FB (void);
+extern void VuAnchorObserver_vuAnchorObserverCreateAnchorWithHitTest_m5C814CF7A810DC99EE818FD12AB925B49A685B9F (void);
 // 0x000000A9 Vuforia.VuResult Vuforia.VuAnchorObserver::vuAnchorObserverDestroyAnchor(System.IntPtr,System.Int32)
-extern void VuAnchorObserver_vuAnchorObserverDestroyAnchor_m7028EC4DEDCF8763ADC721C1899EB502121401E7 (void);
+extern void VuAnchorObserver_vuAnchorObserverDestroyAnchor_m714294F60CB8299183EACDBA8783E407BDB73449 (void);
 // 0x000000AA Vuforia.VuResult Vuforia.VuAnchorObserver::vuAnchorObserverDestroyAnchors(System.IntPtr)
-extern void VuAnchorObserver_vuAnchorObserverDestroyAnchors_mD1DD9E85B22C747432B078E73E1DDEEF72FDB351 (void);
+extern void VuAnchorObserver_vuAnchorObserverDestroyAnchors_m440172A5AD047068A32EA435175D5CFCBBB579F7 (void);
 // 0x000000AB Vuforia.VuResult Vuforia.VuAnchorObserver::vuAnchorObserverGetAnchors(System.IntPtr,System.IntPtr)
-extern void VuAnchorObserver_vuAnchorObserverGetAnchors_mDC85ECD1649C98ADF1E0FEA5C7FB5367E2636544 (void);
+extern void VuAnchorObserver_vuAnchorObserverGetAnchors_m72CC64E334970329EB6CBF9B2A9217A64E87B3C8 (void);
 // 0x000000AC System.Collections.Generic.IList`1<System.Int32> Vuforia.VuAnchorObserver::get_AnchorIds()
 extern void VuAnchorObserver_get_AnchorIds_mC4505DE725D8CA150B015BB122D7A5D5A37600C1 (void);
 // 0x000000AD Vuforia.VuAnchorObserver Vuforia.VuAnchorObserver::Create(Vuforia.VuEngine,Vuforia.VuAnchorObserverConfig,Vuforia.VuAnchorCreationError&)
-extern void VuAnchorObserver_Create_mA078F2B2BB688E73E58EA0823C32E6092FA7C2EF (void);
+extern void VuAnchorObserver_Create_mEE96F3C82A3207B0CC9B8EFD9A6D9471073360A1 (void);
 // 0x000000AE System.Void Vuforia.VuAnchorObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuAnchorObserver__ctor_m327DA4AD884CCFBE2444BBB27AB975DA8BEBB438 (void);
 // 0x000000AF System.Nullable`1<System.Int32> Vuforia.VuAnchorObserver::CreateAnchor(Vuforia.VuAnchorCreationConfig)
@@ -348,23 +348,23 @@ extern void VuAnchorObserver_DestroyAnchors_m15F8D4306F986735189E66B75AE2DFE6C65
 // 0x000000B3 Vuforia.IVuHitTestResults Vuforia.VuAnchorObserver::HitTest(Vuforia.VuHitTestConfig)
 extern void VuAnchorObserver_HitTest_m17ECACE9E1C4EDCB14855DA6C5800EAA6E586A6D (void);
 // 0x000000B4 Vuforia.VuResult Vuforia.VuAnchorList::vuAnchorListCreate(System.IntPtr&)
-extern void VuAnchorList_vuAnchorListCreate_m1956F3B6AB54078FA6B628EA11B4774A546E9C64 (void);
+extern void VuAnchorList_vuAnchorListCreate_mBE5A0693531D52C8192DDDE598E6D1EE34CFE223 (void);
 // 0x000000B5 Vuforia.VuResult Vuforia.VuAnchorList::vuAnchorListGetSize(System.IntPtr,System.Int32&)
-extern void VuAnchorList_vuAnchorListGetSize_m0008BD0055FF0C5DBDFC1B2D48A3FEF84E181012 (void);
+extern void VuAnchorList_vuAnchorListGetSize_mE3B02C090267C705C943FE474D0CBDC07DC55E31 (void);
 // 0x000000B6 Vuforia.VuResult Vuforia.VuAnchorList::vuAnchorListGetElement(System.IntPtr,System.Int32,System.Int32&)
-extern void VuAnchorList_vuAnchorListGetElement_m90E73DA3B5E13A5D6EC489C8ADCDB077D043200C (void);
+extern void VuAnchorList_vuAnchorListGetElement_mCC4AA18D8B364E8A1FF52841D342D89F897813D3 (void);
 // 0x000000B7 Vuforia.VuResult Vuforia.VuAnchorList::vuAnchorListDestroy(System.IntPtr)
-extern void VuAnchorList_vuAnchorListDestroy_m16BB5D940CFB92D27F6416C1A710DA97336D0DF9 (void);
+extern void VuAnchorList_vuAnchorListDestroy_m21E64E6D7089161F8408AE603CBD8F077C5AAF9E (void);
 // 0x000000B8 System.Void Vuforia.VuAnchorList::.ctor()
 extern void VuAnchorList__ctor_mB52B1F6DE3BFF93716EB260DF93A1744B95E923F (void);
 // 0x000000B9 Vuforia.VuResult Vuforia.VuHitTestList::vuHitTestListCreate(System.IntPtr&)
-extern void VuHitTestList_vuHitTestListCreate_m95B868F564FA7C344B0B38BF50836AF3167F18AB (void);
+extern void VuHitTestList_vuHitTestListCreate_mC0213671D0638E689B5F2B4D1428CF28D3F6EBBD (void);
 // 0x000000BA Vuforia.VuResult Vuforia.VuHitTestList::vuHitTestListGetSize(System.IntPtr,System.Int32&)
-extern void VuHitTestList_vuHitTestListGetSize_m5C02EE166FEA57730F737AE0EAB14A0C9626831A (void);
+extern void VuHitTestList_vuHitTestListGetSize_mF80FE0C494DE51FA462D46B5F7050534E1444B9D (void);
 // 0x000000BB Vuforia.VuResult Vuforia.VuHitTestList::vuHitTestListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuHitTestList_vuHitTestListGetElement_mCC93D060617AC70BF666E94C1214BD7B140EADB9 (void);
+extern void VuHitTestList_vuHitTestListGetElement_m24FF1F7482D04E3A48371DFF87E1620CEA78691D (void);
 // 0x000000BC Vuforia.VuResult Vuforia.VuHitTestList::vuHitTestListDestroy(System.IntPtr)
-extern void VuHitTestList_vuHitTestListDestroy_mDCDD649690ACAE042ACCD340DCBBDD10CE2A4944 (void);
+extern void VuHitTestList_vuHitTestListDestroy_m2647A118A0E9BACF9B64AA151B08A48D6A8DA462 (void);
 // 0x000000BD System.Void Vuforia.VuHitTestList::.ctor()
 extern void VuHitTestList__ctor_mA324DBFC79D2B025E7B75FE843B27CA66B0DCD0F (void);
 // 0x000000BE Vuforia.VuHitTest Vuforia.VuHitTestList::GetElement(System.IntPtr)
@@ -372,11 +372,11 @@ extern void VuHitTestList_GetElement_m603DB877A88E491B0439F92693B89FA5E258EBC0 (
 // 0x000000BF Vuforia.VuAnchorObservationStatusInfo Vuforia.IVuAnchorObservation::get_StatusInfo()
 // 0x000000C0 System.Int32 Vuforia.IVuAnchorObservation::get_AnchorId()
 // 0x000000C1 Vuforia.VuResult Vuforia.VuAnchorObservationInfo::vuAnchorObservationGetInfo(System.IntPtr,Vuforia.VuAnchorObservationInfo&)
-extern void VuAnchorObservationInfo_vuAnchorObservationGetInfo_mB29F0B951590D18A5660583DF60788B0B2A30AB8 (void);
+extern void VuAnchorObservationInfo_vuAnchorObservationGetInfo_m8A6C434957A3DE9C5BD91DD25CD5032918819214 (void);
 // 0x000000C2 Vuforia.VuAnchorObservationInfo Vuforia.VuAnchorObservationInfo::Create(System.IntPtr)
-extern void VuAnchorObservationInfo_Create_m90D7713EF609AFB76250702003C6E11BCF4A8F07 (void);
+extern void VuAnchorObservationInfo_Create_m194673B23D79164CE114B2D0F5987FF70E8EC82E (void);
 // 0x000000C3 Vuforia.VuResult Vuforia.VuAnchorObservation::vuAnchorObservationGetStatusInfo(System.IntPtr,Vuforia.VuAnchorObservationStatusInfo&)
-extern void VuAnchorObservation_vuAnchorObservationGetStatusInfo_mD071243F322B41881B3EF6BDE20FE5F5A7D12230 (void);
+extern void VuAnchorObservation_vuAnchorObservationGetStatusInfo_m3E51ED0BDA08DD8B4F4053425EB2FD66CF35E079 (void);
 // 0x000000C4 Vuforia.VuAnchorObservationStatusInfo Vuforia.VuAnchorObservation::get_StatusInfo()
 extern void VuAnchorObservation_get_StatusInfo_m1949E31E8BFC436F4239F62591C322B587462571 (void);
 // 0x000000C5 System.Int32 Vuforia.VuAnchorObservation::get_AnchorId()
@@ -390,13 +390,13 @@ extern void VuAreaTargetConfig_Clone_mC3E76CB2068E7DF980978494131308F0454FDFE1 (
 // 0x000000C9 System.Void Vuforia.VuAreaTargetConfig::.ctor()
 extern void VuAreaTargetConfig__ctor_mA430E325740398681CEE52561854D1DACDE70A8F (void);
 // 0x000000CA Vuforia.VuAreaTargetConfig/Internal Vuforia.VuAreaTargetConfig/Internal::Create(Vuforia.VuAreaTargetConfig)
-extern void Internal_Create_mD267924B49AD638B2DF1E3F077B634CFF8206285 (void);
+extern void Internal_Create_m943D7F87549D2812099E70325016AB244BFB65C2 (void);
 // 0x000000CB System.Object Vuforia.VuAreaTargetCloudConfig::Clone()
 extern void VuAreaTargetCloudConfig_Clone_m7D215B34C102557E3377E50FDEB15F51C8CCB8E6 (void);
 // 0x000000CC System.Void Vuforia.VuAreaTargetCloudConfig::.ctor()
 extern void VuAreaTargetCloudConfig__ctor_mD52FF3260BBB85000641F71F7F785CBF69624B17 (void);
 // 0x000000CD Vuforia.VuAreaTargetCloudConfig/Internal Vuforia.VuAreaTargetCloudConfig/Internal::Create(Vuforia.VuAreaTargetCloudConfig)
-extern void Internal_Create_m8F7B0BC8BC70165ED40DE3A346CB816217A003F5 (void);
+extern void Internal_Create_mD71C3EBC7FB9E44112118F68C422B36AB71F0E93 (void);
 // 0x000000CE System.String Vuforia.IVuAreaTargetObserver::get_TargetUniqueID()
 // 0x000000CF System.String Vuforia.IVuAreaTargetObserver::get_TargetName()
 // 0x000000D0 Vuforia.VuVector3F Vuforia.IVuAreaTargetObserver::get_TargetSize()
@@ -405,23 +405,23 @@ extern void Internal_Create_m8F7B0BC8BC70165ED40DE3A346CB816217A003F5 (void);
 // 0x000000D3 System.Boolean Vuforia.IVuAreaTargetObserver::SetExternal2DPosition(Vuforia.VuVector2F,System.Single)
 // 0x000000D4 System.Boolean Vuforia.IVuAreaTargetObserver::SetExternal3DPosition(Vuforia.VuVector3F,System.Single,System.Single)
 // 0x000000D5 Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuEngineCreateAreaTargetObserver(System.IntPtr,System.IntPtr&,Vuforia.VuAreaTargetConfig/Internal&,Vuforia.VuAreaTargetCreationError&)
-extern void VuAreaTargetObserver_vuEngineCreateAreaTargetObserver_m29184F8F4FEDEEDAE41B326A507C770FE28946BF (void);
+extern void VuAreaTargetObserver_vuEngineCreateAreaTargetObserver_mDFDA35019896713A5A58A8E601D8B7F4AAC7D022 (void);
 // 0x000000D6 Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuEngineCreateAreaTargetObserverFromCloudConfig(System.IntPtr,System.IntPtr&,Vuforia.VuAreaTargetCloudConfig/Internal&,Vuforia.VuAreaTargetCloudCreationError&)
-extern void VuAreaTargetObserver_vuEngineCreateAreaTargetObserverFromCloudConfig_mD95395A7633874E2A38B1EE2191CA6266D588B9D (void);
+extern void VuAreaTargetObserver_vuEngineCreateAreaTargetObserverFromCloudConfig_m8F5C4BB6D11543476E22B10A2106BDF6C045A900 (void);
 // 0x000000D7 Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuAreaTargetObserverGetTargetUniqueId(System.IntPtr,System.IntPtr&)
-extern void VuAreaTargetObserver_vuAreaTargetObserverGetTargetUniqueId_mE151619E407D2FFBF0DC90F1AA74E83AE012BC1D (void);
+extern void VuAreaTargetObserver_vuAreaTargetObserverGetTargetUniqueId_m1116219F36BC786726322583FE75C16B2F603950 (void);
 // 0x000000D8 Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuAreaTargetObserverGetTargetName(System.IntPtr,System.IntPtr&)
-extern void VuAreaTargetObserver_vuAreaTargetObserverGetTargetName_m202EC61F733D711CF1663DC7D25FE08598541061 (void);
+extern void VuAreaTargetObserver_vuAreaTargetObserverGetTargetName_m9150D36420C607A6245C525E4A5A108236AFEFC4 (void);
 // 0x000000D9 Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuAreaTargetObserverGetTargetSize(System.IntPtr,Vuforia.VuVector3F&)
-extern void VuAreaTargetObserver_vuAreaTargetObserverGetTargetSize_m5A4450FE0B940439B96C242808A8FEFB4A0F9D45 (void);
+extern void VuAreaTargetObserver_vuAreaTargetObserverGetTargetSize_m7CF33844C7955F6B28B0B628D776D55CC6E2048B (void);
 // 0x000000DA Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuAreaTargetObserverGetAABB(System.IntPtr,Vuforia.VuAABB&)
-extern void VuAreaTargetObserver_vuAreaTargetObserverGetAABB_m7E870A55B450CEC78256A6F5395342599C145C1E (void);
+extern void VuAreaTargetObserver_vuAreaTargetObserverGetAABB_mEB469AA7A62F6DFC89F6CF4A3293D0B78436D0C1 (void);
 // 0x000000DB Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuAreaTargetObserverRequiresExternalPositions(System.IntPtr,Vuforia.VuBool&)
-extern void VuAreaTargetObserver_vuAreaTargetObserverRequiresExternalPositions_m6EADD439215DF9212C60F7AD85D15DCEE97E3703 (void);
+extern void VuAreaTargetObserver_vuAreaTargetObserverRequiresExternalPositions_m19A2274C1D55D8C4859322801EDD1BF8E86E9F3F (void);
 // 0x000000DC Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuAreaTargetObserverSetExternalPositionFrom2D(System.IntPtr,Vuforia.VuVector2F,System.Single)
-extern void VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom2D_m2A979A3CFE5C01F7AABBD80BA2330B8DABF75181 (void);
+extern void VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom2D_m02F1784EFF3E882EE7C93C3E924D23E586AC8732 (void);
 // 0x000000DD Vuforia.VuResult Vuforia.VuAreaTargetObserver::vuAreaTargetObserverSetExternalPositionFrom3D(System.IntPtr,Vuforia.VuVector3F,System.Single,System.Single)
-extern void VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom3D_mE3936677F1977B988C3F9123EB880C0D1A470FED (void);
+extern void VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom3D_mE05B078314AB28459E93401D81228C063A71391B (void);
 // 0x000000DE System.String Vuforia.VuAreaTargetObserver::get_TargetUniqueID()
 extern void VuAreaTargetObserver_get_TargetUniqueID_m8464788F8E8E1B62937B68E4F29A8D300FA58C41 (void);
 // 0x000000DF System.String Vuforia.VuAreaTargetObserver::get_TargetName()
@@ -433,9 +433,9 @@ extern void VuAreaTargetObserver_get_BoundingBox_m1D990B3F80FB5615F721F693E50839
 // 0x000000E2 System.Boolean Vuforia.VuAreaTargetObserver::get_RequiresExternalPositions()
 extern void VuAreaTargetObserver_get_RequiresExternalPositions_mF39DBFB3825E42AF15ACA8B4EA6136709A162CCB (void);
 // 0x000000E3 Vuforia.VuAreaTargetObserver Vuforia.VuAreaTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuAreaTargetConfig,Vuforia.VuAreaTargetCreationError&)
-extern void VuAreaTargetObserver_Create_m35775E0E03298E132E4D0E45E9CB90F2C6DD296D (void);
+extern void VuAreaTargetObserver_Create_mFD391EA48990D8744A1D7F9481F72B82B248525A (void);
 // 0x000000E4 Vuforia.VuAreaTargetObserver Vuforia.VuAreaTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuAreaTargetCloudConfig,Vuforia.VuAreaTargetCloudCreationError&)
-extern void VuAreaTargetObserver_Create_mE23CB1A8C19072842FEB8443D8999F2527E36111 (void);
+extern void VuAreaTargetObserver_Create_mEE0609C3F94E00235D8557221152310F4D80180C (void);
 // 0x000000E5 System.Void Vuforia.VuAreaTargetObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuAreaTargetObserver__ctor_m95BB06D33CEA4D396CCBCA38C1CC4C39B8861160 (void);
 // 0x000000E6 System.Boolean Vuforia.VuAreaTargetObserver::SetExternal2DPosition(Vuforia.VuVector2F,System.Single)
@@ -443,13 +443,13 @@ extern void VuAreaTargetObserver_SetExternal2DPosition_mC3454E764982CA9EB22B950C
 // 0x000000E7 System.Boolean Vuforia.VuAreaTargetObserver::SetExternal3DPosition(Vuforia.VuVector3F,System.Single,System.Single)
 extern void VuAreaTargetObserver_SetExternal3DPosition_m02534A880844DC5C5689535F295FD7DFA88B1DCA (void);
 // 0x000000E8 Vuforia.VuResult Vuforia.VuAreaTargetObservationTargetInfo::vuAreaTargetObservationGetTargetInfo(System.IntPtr,Vuforia.VuAreaTargetObservationTargetInfo/Internal&)
-extern void VuAreaTargetObservationTargetInfo_vuAreaTargetObservationGetTargetInfo_mD00C41DF100ACC84974907742EDDC70B7FB79938 (void);
+extern void VuAreaTargetObservationTargetInfo_vuAreaTargetObservationGetTargetInfo_mD82F51EE25C26068C8ED22FD9FFBED8C873287F6 (void);
 // 0x000000E9 Vuforia.VuAreaTargetObservationTargetInfo Vuforia.VuAreaTargetObservationTargetInfo::Create(System.IntPtr)
-extern void VuAreaTargetObservationTargetInfo_Create_m469FFC29D662E9016B951FB51CDE95A69B71C78D (void);
+extern void VuAreaTargetObservationTargetInfo_Create_m9E42F198A8C02A766F3BD4022D156CDC0A18595F (void);
 // 0x000000EA Vuforia.VuAreaTargetObservationStatusInfo Vuforia.IVuAreaTargetObservation::get_StatusInfo()
 // 0x000000EB Vuforia.VuAreaTargetObservationTargetInfo Vuforia.IVuAreaTargetObservation::get_TargetInfo()
 // 0x000000EC Vuforia.VuResult Vuforia.VuAreaTargetObservation::vuAreaTargetObservationGetStatusInfo(System.IntPtr,Vuforia.VuAreaTargetObservationStatusInfo&)
-extern void VuAreaTargetObservation_vuAreaTargetObservationGetStatusInfo_m349945CBEFB8F1356F5A5AE5DD9EDE796C0AE749 (void);
+extern void VuAreaTargetObservation_vuAreaTargetObservationGetStatusInfo_m2D112D7B3B0E24C2BC9DD4A7BC5A011151277F77 (void);
 // 0x000000ED Vuforia.VuAreaTargetObservationStatusInfo Vuforia.VuAreaTargetObservation::get_StatusInfo()
 extern void VuAreaTargetObservation_get_StatusInfo_m3BE649EF68EB416F1CBFACBFE2A62F1200CE6315 (void);
 // 0x000000EE Vuforia.VuAreaTargetObservationTargetInfo Vuforia.VuAreaTargetObservation::get_TargetInfo()
@@ -491,69 +491,69 @@ extern void VuAreaTargetObservation_UnregisterObservation_m6F9CFAC96D553EB339B18
 // 0x0000010F System.Boolean Vuforia.IVuCameraController::GetFieldInt64Range(System.String,System.IntPtr&)
 // 0x00000110 System.Boolean Vuforia.IVuCameraController::SetFieldInt64Range(System.String,System.IntPtr)
 // 0x00000111 Vuforia.VuResult Vuforia.VuCameraController::vuEngineGetCameraController(System.IntPtr,System.IntPtr&)
-extern void VuCameraController_vuEngineGetCameraController_mA615210DC28BC1DFD992493FD3C0474AF8F233FD (void);
+extern void VuCameraController_vuEngineGetCameraController_m1583C78CE05B3B9F4C830D8C3063B59A1E32A03F (void);
 // 0x00000112 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetVideoModes(System.IntPtr,System.IntPtr)
-extern void VuCameraController_vuCameraControllerGetVideoModes_m8524E9012AAC16E9521D033646A89D7F57A339E0 (void);
+extern void VuCameraController_vuCameraControllerGetVideoModes_m3E6E74BEFD59979E31ED615144FF925E8780E9DA (void);
 // 0x00000113 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetActiveVideoMode(System.IntPtr,Vuforia.VuCameraVideoModePreset&)
-extern void VuCameraController_vuCameraControllerGetActiveVideoMode_mAD3B82D13DC57F37A5AC26A060B9527248150C4F (void);
+extern void VuCameraController_vuCameraControllerGetActiveVideoMode_mA2B0EE03FD26E5EFD25591D63C93EC465C2E93FD (void);
 // 0x00000114 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetActiveVideoMode(System.IntPtr,Vuforia.VuCameraVideoModePreset)
-extern void VuCameraController_vuCameraControllerSetActiveVideoMode_m27C1C6224325188FA78A443FCA55CFEC70EB2556 (void);
+extern void VuCameraController_vuCameraControllerSetActiveVideoMode_m8E4A489222AB4853F6696CB94B550428BB5BB340 (void);
 // 0x00000115 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFlashMode(System.IntPtr,Vuforia.VuBool&)
-extern void VuCameraController_vuCameraControllerGetFlashMode_m0F4AD85A32A0C538B109A94EEA849E215804430D (void);
+extern void VuCameraController_vuCameraControllerGetFlashMode_mD8CCB88A2165B845981245F77EC99B7F2A671A7B (void);
 // 0x00000116 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFlashMode(System.IntPtr,Vuforia.VuBool)
-extern void VuCameraController_vuCameraControllerSetFlashMode_m3A9D4CC9F323ACA2EAC93AF5E4BB643866E505B6 (void);
+extern void VuCameraController_vuCameraControllerSetFlashMode_m6A53F8A3AD16B3FBC8471498E6579276580FC737 (void);
 // 0x00000117 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFocusMode(System.IntPtr,Vuforia.VuCameraFocusMode&)
-extern void VuCameraController_vuCameraControllerGetFocusMode_m2B067D8BA86380F9712D0E4712476E90E51172D4 (void);
+extern void VuCameraController_vuCameraControllerGetFocusMode_m41DA375E3EE11049CD5A9AB495606D00EB6A4ED7 (void);
 // 0x00000118 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFocusMode(System.IntPtr,Vuforia.VuCameraFocusMode)
-extern void VuCameraController_vuCameraControllerSetFocusMode_mB6FF5A07BE7C07D55DA8517B8E86E20234CBAF79 (void);
+extern void VuCameraController_vuCameraControllerSetFocusMode_mFAF1AE8781BB0187A0066DC04EBA6DBF75184F39 (void);
 // 0x00000119 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetExposureMode(System.IntPtr,Vuforia.VuCameraExposureMode&)
-extern void VuCameraController_vuCameraControllerGetExposureMode_mCE410568A5AA456A77D818C7481C023C88A7CC0C (void);
+extern void VuCameraController_vuCameraControllerGetExposureMode_m0A89CB09C5DC9BA8E02EDF0A37D204382B6BCF12 (void);
 // 0x0000011A Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetExposureMode(System.IntPtr,Vuforia.VuCameraExposureMode)
-extern void VuCameraController_vuCameraControllerSetExposureMode_mD63AA83A030FC8704D2FA17BAEB266B851813B97 (void);
+extern void VuCameraController_vuCameraControllerSetExposureMode_m29859A9E26047ADAE630B0C4511D6B6DEAB7A50E (void);
 // 0x0000011B Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerIsFocusModeSupported(System.IntPtr,Vuforia.VuCameraFocusMode,Vuforia.VuBool&)
-extern void VuCameraController_vuCameraControllerIsFocusModeSupported_m293E5D14DE5C3D5100047768CDAFC57B36BB924E (void);
+extern void VuCameraController_vuCameraControllerIsFocusModeSupported_mD1302AF80ED172C7711E0E1D1E977A03814F7E51 (void);
 // 0x0000011C Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerIsExposureModeSupported(System.IntPtr,Vuforia.VuCameraExposureMode,Vuforia.VuBool&)
-extern void VuCameraController_vuCameraControllerIsExposureModeSupported_m84E2A1ACB8E4FF61ACF49EA301B638A857D767EA (void);
+extern void VuCameraController_vuCameraControllerIsExposureModeSupported_mB1F756BDBFE56595C800E7E2C8419B073F72003D (void);
 // 0x0000011D Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFocusRegion(System.IntPtr,Vuforia.VuCameraRegionOfInterest&)
-extern void VuCameraController_vuCameraControllerGetFocusRegion_m3810CC712AFBF98B5762A0706501C184E9325D33 (void);
+extern void VuCameraController_vuCameraControllerGetFocusRegion_m083CE8922901EB7FFE693E3C33478958B2635F11 (void);
 // 0x0000011E Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFocusRegion(System.IntPtr,Vuforia.VuCameraRegionOfInterest)
-extern void VuCameraController_vuCameraControllerSetFocusRegion_mEE33FF7F93090AD01AE6A5447EFAD7D29E3EC9F2 (void);
+extern void VuCameraController_vuCameraControllerSetFocusRegion_mDBDBF228D9755116410EB019FF364A82FDF26B2B (void);
 // 0x0000011F Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetExposureRegion(System.IntPtr,Vuforia.VuCameraRegionOfInterest&)
-extern void VuCameraController_vuCameraControllerGetExposureRegion_mE12A3EE85E67FD3E53364A5840586FF9D9D44755 (void);
+extern void VuCameraController_vuCameraControllerGetExposureRegion_m279F3B5752D69EE3254843E2E8250DF1904F76F1 (void);
 // 0x00000120 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetExposureRegion(System.IntPtr,Vuforia.VuCameraRegionOfInterest)
-extern void VuCameraController_vuCameraControllerSetExposureRegion_m26FC31A1B0427EDA5A1D65838448C4253851A3F2 (void);
+extern void VuCameraController_vuCameraControllerSetExposureRegion_mA0CD4CDBBAB64A6B022B1CBFE5016755765E117E (void);
 // 0x00000121 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerIsFocusRegionSupported(System.IntPtr,Vuforia.VuBool&)
-extern void VuCameraController_vuCameraControllerIsFocusRegionSupported_m91B9AD5442F8285ED35C22ECF5732A01164AB312 (void);
+extern void VuCameraController_vuCameraControllerIsFocusRegionSupported_m08BAB79300BC09E88AC5FF441A92DF7AA0C8AB28 (void);
 // 0x00000122 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerIsExposureRegionSupported(System.IntPtr,Vuforia.VuBool&)
-extern void VuCameraController_vuCameraControllerIsExposureRegionSupported_mDDB3256EE16D86D735A5F052D7F2F51C42EA922E (void);
+extern void VuCameraController_vuCameraControllerIsExposureRegionSupported_mE3F1B19F87720B676B1ABF15524EEE75ABA63157 (void);
 // 0x00000123 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetRegisteredImageFormats(System.IntPtr,System.IntPtr)
-extern void VuCameraController_vuCameraControllerGetRegisteredImageFormats_m2C9EAC7A7AF060C59E4DDED30B0447B00585DD92 (void);
+extern void VuCameraController_vuCameraControllerGetRegisteredImageFormats_m0F04C7E3E776714F2F0FA3E37A947889A2E999C6 (void);
 // 0x00000124 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerRegisterImageFormat(System.IntPtr,Vuforia.VuImagePixelFormat)
-extern void VuCameraController_vuCameraControllerRegisterImageFormat_mFB701B773618BCFCD6B20D0936A4164B999CE729 (void);
+extern void VuCameraController_vuCameraControllerRegisterImageFormat_m914ACE9734601AF1150810762D4869ADE54CA5A1 (void);
 // 0x00000125 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerUnregisterImageFormat(System.IntPtr,Vuforia.VuImagePixelFormat)
-extern void VuCameraController_vuCameraControllerUnregisterImageFormat_mBF64AE3AEE396DA818C03A0140FF5C21ADA185E8 (void);
+extern void VuCameraController_vuCameraControllerUnregisterImageFormat_mB986A8240E9F19163ADF937CA03150DC8FBE477C (void);
 // 0x00000126 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetSupportedCameraFields(System.IntPtr,System.IntPtr)
-extern void VuCameraController_vuCameraControllerGetSupportedCameraFields_mBED0E7EA24EDEB9450D2262CDC8E55B69CF82CE4 (void);
+extern void VuCameraController_vuCameraControllerGetSupportedCameraFields_mADD65633D0D3787BA872DEE08250BA037863DE9F (void);
 // 0x00000127 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFieldString(System.IntPtr,System.String,System.IntPtr&,System.Int32)
-extern void VuCameraController_vuCameraControllerGetFieldString_m646D1797B77CC67E429BF890EBB2829CDEED5540 (void);
+extern void VuCameraController_vuCameraControllerGetFieldString_mE926EC2FE7224143476AE53D5FB4D75AB93FBC92 (void);
 // 0x00000128 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFieldString(System.IntPtr,System.String,System.String)
-extern void VuCameraController_vuCameraControllerSetFieldString_m6C1A8DE4D0108CCA7F626A4EA9247B1026861260 (void);
+extern void VuCameraController_vuCameraControllerSetFieldString_mE97F4B3C0376F36C35254B2DB81F9463A9B99A7B (void);
 // 0x00000129 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFieldInt64(System.IntPtr,System.String,System.Int64&)
-extern void VuCameraController_vuCameraControllerGetFieldInt64_m46359E24FFA9A28CB70257932B8593596C6DF212 (void);
+extern void VuCameraController_vuCameraControllerGetFieldInt64_mAD142CB7A0138CECF2CD2646A3E45D48D8107AE2 (void);
 // 0x0000012A Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFieldInt64(System.IntPtr,System.String,System.Int64)
-extern void VuCameraController_vuCameraControllerSetFieldInt64_mC6FD57EB5F294913169B6D89123BCADB19E03B38 (void);
+extern void VuCameraController_vuCameraControllerSetFieldInt64_m17BFB77CC6F04E82DAA76CF593AB2CBBFA0E8949 (void);
 // 0x0000012B Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFieldFloat(System.IntPtr,System.String,System.Single&)
-extern void VuCameraController_vuCameraControllerGetFieldFloat_mE934806D5F679FF0998F6CB3EA0C2A890E4E2C81 (void);
+extern void VuCameraController_vuCameraControllerGetFieldFloat_m8C776A2D6125D57AEFB1CF90F9CF0583437D7C97 (void);
 // 0x0000012C Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFieldFloat(System.IntPtr,System.String,System.Single)
-extern void VuCameraController_vuCameraControllerSetFieldFloat_m5AB166FDA3F11FCC1BEBA5D4090FCBE4666D3C00 (void);
+extern void VuCameraController_vuCameraControllerSetFieldFloat_m9D435A280B9323A2BE4769D9C958A8C40C2993E4 (void);
 // 0x0000012D Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFieldBool(System.IntPtr,System.String,Vuforia.VuBool&)
-extern void VuCameraController_vuCameraControllerGetFieldBool_mD1CB533F33DD67099720F548EFE4E55005CF1E96 (void);
+extern void VuCameraController_vuCameraControllerGetFieldBool_m8C804527050710110F67ACEF54C940CF2A161F8D (void);
 // 0x0000012E Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFieldBool(System.IntPtr,System.String,Vuforia.VuBool)
-extern void VuCameraController_vuCameraControllerSetFieldBool_mA4AE7AF44776535B72278659419E8311CBDB23C3 (void);
+extern void VuCameraController_vuCameraControllerSetFieldBool_m3FCAFED880D3CDDDD0B0838159220993D06E9AED (void);
 // 0x0000012F Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerGetFieldInt64Range(System.IntPtr,System.String,System.IntPtr&)
-extern void VuCameraController_vuCameraControllerGetFieldInt64Range_m171DE1569B417D727F7BB2CEF0A417067C8A4777 (void);
+extern void VuCameraController_vuCameraControllerGetFieldInt64Range_mEE003304C67908830BEE245E733E0FFCC119DD82 (void);
 // 0x00000130 Vuforia.VuResult Vuforia.VuCameraController::vuCameraControllerSetFieldInt64Range(System.IntPtr,System.String,System.IntPtr)
-extern void VuCameraController_vuCameraControllerSetFieldInt64Range_m232013B18ED7F0CEC66FC98753F0A667786C439D (void);
+extern void VuCameraController_vuCameraControllerSetFieldInt64Range_m2985A55DB3D549B32BF06649A70AC800D214D9D6 (void);
 // 0x00000131 Vuforia.VuCameraFocusMode Vuforia.VuCameraController::get_FocusMode()
 extern void VuCameraController_get_FocusMode_m7943AAF5FD26C50A92ED05142FBBAC0E9188DD4D (void);
 // 0x00000132 Vuforia.VuCameraExposureMode Vuforia.VuCameraController::get_ExposureMode()
@@ -569,7 +569,7 @@ extern void VuCameraController_get_ActiveVideoModePreset_m020DFE3872298C8E78464D
 // 0x00000137 System.Collections.Generic.IList`1<Vuforia.VuImagePixelFormat> Vuforia.VuCameraController::get_RegisteredImageFormats()
 extern void VuCameraController_get_RegisteredImageFormats_mF24E2145E19E42CDDBED9D33931443E416C2B41F (void);
 // 0x00000138 Vuforia.VuCameraController Vuforia.VuCameraController::Create(Vuforia.VuEngine)
-extern void VuCameraController_Create_m976F3ED88014E8116900C79D758BBFF6D3A8BF83 (void);
+extern void VuCameraController_Create_mFB506EA7A094E1781BE96D329687B7FF09D63A0A (void);
 // 0x00000139 System.Void Vuforia.VuCameraController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuCameraController__ctor_m222F6462CEEEE479C1898F98C44003F05B7B79EA (void);
 // 0x0000013A System.Boolean Vuforia.VuCameraController::SetFocusMode(Vuforia.VuCameraFocusMode)
@@ -627,33 +627,33 @@ extern void U3CU3Ec__DisplayClass58_0__ctor_m7416A0F724BFABB0965F04EE7F2304E20DB
 // 0x00000154 System.Boolean Vuforia.VuCameraController/<>c__DisplayClass58_0::<GetActiveVideoMode>b__0(Vuforia.VuCameraVideoMode)
 extern void U3CU3Ec__DisplayClass58_0_U3CGetActiveVideoModeU3Eb__0_mC8FC6C1564D3F2D41EFE256F7766CB72FA165776 (void);
 // 0x00000155 Vuforia.VuResult Vuforia.VuCameraVideoModeList::vuCameraVideoModeListCreate(System.IntPtr&)
-extern void VuCameraVideoModeList_vuCameraVideoModeListCreate_mFF929139C7A0577195C32CF853F752539CE8FFD8 (void);
+extern void VuCameraVideoModeList_vuCameraVideoModeListCreate_m2C1A9239CCA745E69CA9BB3190CACD25D8AD9730 (void);
 // 0x00000156 Vuforia.VuResult Vuforia.VuCameraVideoModeList::vuCameraVideoModeListGetSize(System.IntPtr,System.Int32&)
-extern void VuCameraVideoModeList_vuCameraVideoModeListGetSize_mDE376311F0C9DADFCD02300ED8146D593A4BFE17 (void);
+extern void VuCameraVideoModeList_vuCameraVideoModeListGetSize_mC6A43996EFC73036993A0EF77A97A02317DBDB1B (void);
 // 0x00000157 Vuforia.VuResult Vuforia.VuCameraVideoModeList::vuCameraVideoModeListGetElement(System.IntPtr,System.Int32,Vuforia.VuCameraVideoMode&)
-extern void VuCameraVideoModeList_vuCameraVideoModeListGetElement_m8F8F6A64C5B43E7CC019E41F83FFAB39FC00EFC0 (void);
+extern void VuCameraVideoModeList_vuCameraVideoModeListGetElement_m464AB5BF48491D6B6B4D2EEBDDAB05AB7AF50DE4 (void);
 // 0x00000158 Vuforia.VuResult Vuforia.VuCameraVideoModeList::vuCameraVideoModeListDestroy(System.IntPtr)
-extern void VuCameraVideoModeList_vuCameraVideoModeListDestroy_mFADBF44C861191267CFAF7FEA886C5C740D6DEB6 (void);
+extern void VuCameraVideoModeList_vuCameraVideoModeListDestroy_mB6136143836CF93FBFB6FA6F7499F22495CBBFEE (void);
 // 0x00000159 System.Void Vuforia.VuCameraVideoModeList::.ctor()
 extern void VuCameraVideoModeList__ctor_m06A366EEF4A75D692E8C727750536C08DC60DBD9 (void);
 // 0x0000015A Vuforia.VuResult Vuforia.VuCameraFieldList::vuCameraFieldListCreate(System.IntPtr&)
-extern void VuCameraFieldList_vuCameraFieldListCreate_mF0E6D22A76272D9CEE7BC2AFAF0AC58B92CC285F (void);
+extern void VuCameraFieldList_vuCameraFieldListCreate_m22A149A48F65A23D1B2B786DC173A630BA2E016F (void);
 // 0x0000015B Vuforia.VuResult Vuforia.VuCameraFieldList::vuCameraFieldListGetSize(System.IntPtr,System.Int32&)
-extern void VuCameraFieldList_vuCameraFieldListGetSize_mF8C02E2219B742F1CD9BD7FF4F7839736B740DC7 (void);
+extern void VuCameraFieldList_vuCameraFieldListGetSize_m2E1828EB0AF20ABD06DF507685A269F4FA20962C (void);
 // 0x0000015C Vuforia.VuResult Vuforia.VuCameraFieldList::vuCameraFieldListGetElement(System.IntPtr,System.Int32,Vuforia.VuCameraField&)
-extern void VuCameraFieldList_vuCameraFieldListGetElement_m18EF8C0C46AE64D54236C6542BD3EE24E8CDD3C9 (void);
+extern void VuCameraFieldList_vuCameraFieldListGetElement_mF7F21879054BF85AF6E200B9E863DB0C454F49B2 (void);
 // 0x0000015D Vuforia.VuResult Vuforia.VuCameraFieldList::vuCameraFieldListDestroy(System.IntPtr)
-extern void VuCameraFieldList_vuCameraFieldListDestroy_mEB8BD5F2757BB25150DB4910685E3536912CFD05 (void);
+extern void VuCameraFieldList_vuCameraFieldListDestroy_m61C2A4A120B356684531C1ECF6F71BC99CF3988D (void);
 // 0x0000015E System.Void Vuforia.VuCameraFieldList::.ctor()
 extern void VuCameraFieldList__ctor_m0F93626554442BBF51242CDDC43AE01AA116D5A6 (void);
 // 0x0000015F System.Void Vuforia.VuController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuController__ctor_m9BB6F2C48F1832127A346EA1A76B95DF0F2040A2 (void);
 // 0x00000160 System.Boolean Vuforia.ConversionUtils::ToBool(Vuforia.VuBool)
-extern void ConversionUtils_ToBool_m32B15CD0258ADE0FDC0F5ADDFFB3CF15843F123B (void);
+extern void ConversionUtils_ToBool_mA5335FBF730B5196210019545A7C6B6EE71F1377 (void);
 // 0x00000161 System.Boolean Vuforia.ConversionUtils::ToBool(Vuforia.VuResult)
-extern void ConversionUtils_ToBool_mD954A29C09DADEEE54475C570BBA1507FC20BE44 (void);
+extern void ConversionUtils_ToBool_mC3BBA5BC41577FD3E08C7C1BBA65AF38D6CEDEB0 (void);
 // 0x00000162 Vuforia.VuBool Vuforia.ConversionUtils::ToVuBool(System.Boolean)
-extern void ConversionUtils_ToVuBool_m52FF19D48DD34BD5271D0C862707B19D2D6FBFB7 (void);
+extern void ConversionUtils_ToVuBool_m951EAB7D5979F907EA9575BF407A6024E0242D59 (void);
 // 0x00000163 System.Object Vuforia.VuCylinderTargetConfig::Clone()
 extern void VuCylinderTargetConfig_Clone_m83100E8DDA6F61D88A292E3E1707DBDE72C42790 (void);
 // 0x00000164 System.Void Vuforia.VuCylinderTargetConfig::.ctor()
@@ -670,29 +670,29 @@ extern void VuCylinderTargetConfig__ctor_m6515A482D5AFF6DBFA8BDB79879824E95DEE8E
 // 0x0000016E System.Boolean Vuforia.IVuCylinderTargetObserver::SetTargetBottomDiameter(System.Single)
 // 0x0000016F System.Boolean Vuforia.IVuCylinderTargetObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 // 0x00000170 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuEngineCreateCylinderTargetObserver(System.IntPtr,System.IntPtr&,Vuforia.VuCylinderTargetConfig,Vuforia.VuCylinderTargetCreationError&)
-extern void VuCylinderTargetObserver_vuEngineCreateCylinderTargetObserver_mB24F8456D357B4028F6662C9EF10F28C772163C6 (void);
+extern void VuCylinderTargetObserver_vuEngineCreateCylinderTargetObserver_m4D09C573D5C86397583A0E76491E419AEE710CFD (void);
 // 0x00000171 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverGetTargetUniqueId(System.IntPtr,System.IntPtr&)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetUniqueId_m582BC58ACB25537B93EE6CC517A95025332AAC40 (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetUniqueId_m33CB44EFEEF3A1FFC576F15047D37F6A9ABB4D44 (void);
 // 0x00000172 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverGetTargetName(System.IntPtr,System.IntPtr&)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetName_m11A7780824F4259E53EC903FE839CDFB4BE8B879 (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetName_m8E2B60BC89A52B20D02E10AD6DE1910E4CFFED6D (void);
 // 0x00000173 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverSetTargetSideLength(System.IntPtr,System.Single)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetSideLength_m3163283D9BF102A8887466B19A800BB66865FEA1 (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetSideLength_m49ECD6C83D5A91E42A38B198EDABBABB84BF1E1B (void);
 // 0x00000174 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverGetTargetSideLength(System.IntPtr,System.Single&)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetSideLength_m7EA6EA7F2CA6B408D898B10DF029392E20DB774E (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetSideLength_m9D42DC22C8579EAB6CAB22B6156688CCEE0A890B (void);
 // 0x00000175 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverSetTargetTopDiameter(System.IntPtr,System.Single)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetTopDiameter_m5BF60C67ECA26BF32E66F7A6D4588752E82F9103 (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetTopDiameter_m4C2B017FC7DBD86B8DF63B8201AAC069E765E07F (void);
 // 0x00000176 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverGetTargetTopDiameter(System.IntPtr,System.Single&)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetTopDiameter_mE8AE4E2E7DD8375C472E7B71D9AE949F195B30FE (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetTopDiameter_mA87C5D0006A567B3644B6B8AD2D7504B0B4C1FB7 (void);
 // 0x00000177 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverSetTargetBottomDiameter(System.IntPtr,System.Single)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetBottomDiameter_mC069B9C65D3900F545F15D7576460C14AF129C00 (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetBottomDiameter_m0328E6DDC58A544004AA455266777A39221C7241 (void);
 // 0x00000178 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverGetTargetBottomDiameter(System.IntPtr,System.Single&)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetBottomDiameter_mF4F9CE792DA47C59A420603F98190BBACEADCD00 (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetBottomDiameter_m35F0D4E380E12D5EC2B96C4BE18C93FBF852879C (void);
 // 0x00000179 Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverGetAABB(System.IntPtr,Vuforia.VuAABB&)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetAABB_m8E83A55853C81BC70D927EC1AFA3741CC08250F1 (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetAABB_m87C69ED3CCE531589B3ABF6F403ED52EF833CB8B (void);
 // 0x0000017A Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverSetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTrackingOptimization_mC26C9EA1A311DCFF614495775E4E96A37B0CD10D (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverSetTrackingOptimization_m835910F44CE36D7EC699FD843F10BBA31BE4B41D (void);
 // 0x0000017B Vuforia.VuResult Vuforia.VuCylinderTargetObserver::vuCylinderTargetObserverGetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization&)
-extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTrackingOptimization_m10B201A45946A337B9F3055C90D101941DEDEF3C (void);
+extern void VuCylinderTargetObserver_vuCylinderTargetObserverGetTrackingOptimization_m0F3361CB7429A122E8B1FCA84379A6B741E2D1B1 (void);
 // 0x0000017C System.String Vuforia.VuCylinderTargetObserver::get_TargetUniqueID()
 extern void VuCylinderTargetObserver_get_TargetUniqueID_m1D3EA97ED37D0D6D4A49481A643911D8D8CA5214 (void);
 // 0x0000017D System.String Vuforia.VuCylinderTargetObserver::get_TargetName()
@@ -708,7 +708,7 @@ extern void VuCylinderTargetObserver_get_BoundingBox_m091A338C137C4A3C3111DECB8C
 // 0x00000182 Vuforia.VuTrackingOptimization Vuforia.VuCylinderTargetObserver::get_TrackingOptimization()
 extern void VuCylinderTargetObserver_get_TrackingOptimization_m7154080996787E6F8237BA9431BF1AC8C0E237C9 (void);
 // 0x00000183 Vuforia.VuCylinderTargetObserver Vuforia.VuCylinderTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuCylinderTargetConfig,Vuforia.VuCylinderTargetCreationError&)
-extern void VuCylinderTargetObserver_Create_mB34E5092931009F3992B21DBBC21401D05B7479A (void);
+extern void VuCylinderTargetObserver_Create_m3340B26B4C950FADEF382B2BF448C2E42594D8F0 (void);
 // 0x00000184 System.Void Vuforia.VuCylinderTargetObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuCylinderTargetObserver__ctor_m6F5BEA450D95B20AB7F072780AF21E04EA5EC029 (void);
 // 0x00000185 System.Boolean Vuforia.VuCylinderTargetObserver::SetTargetSideLength(System.Single)
@@ -720,13 +720,13 @@ extern void VuCylinderTargetObserver_SetTargetBottomDiameter_m3DE050049D485B828A
 // 0x00000188 System.Boolean Vuforia.VuCylinderTargetObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 extern void VuCylinderTargetObserver_SetTrackingOptimization_m6D651FAC06291FB486F09353F0896F87ED926152 (void);
 // 0x00000189 Vuforia.VuResult Vuforia.VuCylinderTargetObservationTargetInfo::vuCylinderTargetObservationGetTargetInfo(System.IntPtr,Vuforia.VuCylinderTargetObservationTargetInfo/Internal&)
-extern void VuCylinderTargetObservationTargetInfo_vuCylinderTargetObservationGetTargetInfo_m53F35EEF277A0E0C533339FD82A81FE0F5A91788 (void);
+extern void VuCylinderTargetObservationTargetInfo_vuCylinderTargetObservationGetTargetInfo_m3BFA08027F8BF155D5B4585617FE692358B877DC (void);
 // 0x0000018A Vuforia.VuCylinderTargetObservationTargetInfo Vuforia.VuCylinderTargetObservationTargetInfo::Create(System.IntPtr)
-extern void VuCylinderTargetObservationTargetInfo_Create_m2576D93DC2199BD9D4128A8D926316F4E7574924 (void);
+extern void VuCylinderTargetObservationTargetInfo_Create_mC639156312BA88168179D7EED8551BC685A990E5 (void);
 // 0x0000018B Vuforia.VuCylinderTargetObservationStatusInfo Vuforia.IVuCylinderTargetObservation::get_StatusInfo()
 // 0x0000018C Vuforia.VuCylinderTargetObservationTargetInfo Vuforia.IVuCylinderTargetObservation::get_TargetInfo()
 // 0x0000018D Vuforia.VuResult Vuforia.VuCylinderTargetObservation::vuCylinderTargetObservationGetStatusInfo(System.IntPtr,Vuforia.VuCylinderTargetObservationStatusInfo&)
-extern void VuCylinderTargetObservation_vuCylinderTargetObservationGetStatusInfo_m923A9323064D562AABE3CB4838045AA9A3B442C1 (void);
+extern void VuCylinderTargetObservation_vuCylinderTargetObservationGetStatusInfo_m842C9A238D798643B71AB82EA8C4AD95C5626403 (void);
 // 0x0000018E Vuforia.VuCylinderTargetObservationStatusInfo Vuforia.VuCylinderTargetObservation::get_StatusInfo()
 extern void VuCylinderTargetObservation_get_StatusInfo_m6B9396CD1FF7CCA969633747D3956A89383668D3 (void);
 // 0x0000018F Vuforia.VuCylinderTargetObservationTargetInfo Vuforia.VuCylinderTargetObservation::get_TargetInfo()
@@ -736,13 +736,13 @@ extern void VuCylinderTargetObservation__ctor_mEB9C0D20472219471AD132CEB65091C0C
 // 0x00000191 System.Void Vuforia.VuCylinderTargetObservation::UnregisterObservation()
 extern void VuCylinderTargetObservation_UnregisterObservation_m3D196809F17609B9D127777D97EDE85C3BBD9B37 (void);
 // 0x00000192 Vuforia.VuResult Vuforia.VuDatabaseTargetInfoList::vuDatabaseTargetInfoListCreate(System.IntPtr&)
-extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListCreate_m9B8240427A9D3217AB57CC05B3848E574C30E11E (void);
+extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListCreate_m7B8DCBD20DBB3807457E39C81BF7F6038CE7D672 (void);
 // 0x00000193 Vuforia.VuResult Vuforia.VuDatabaseTargetInfoList::vuDatabaseTargetInfoListGetSize(System.IntPtr,System.Int32&)
-extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetSize_m40478D85FC8BE536B14B972807BE4433EDD432BA (void);
+extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetSize_mD2E0B3AE2E72FD21385EEA40B7BE9FCEC57A3D0F (void);
 // 0x00000194 Vuforia.VuResult Vuforia.VuDatabaseTargetInfoList::vuDatabaseTargetInfoListGetElement(System.IntPtr,System.Int32,Vuforia.VuDatabaseTargetInfo/Internal&)
-extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetElement_m826C21B1DD9A1AA97D80B4AE6490C13A93C5B367 (void);
+extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetElement_m5D363D74D30678B5DBA9828C0A3B00BC2F04F92C (void);
 // 0x00000195 Vuforia.VuResult Vuforia.VuDatabaseTargetInfoList::vuDatabaseTargetInfoListDestroy(System.IntPtr)
-extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListDestroy_m15F28B6A7F6D74009B266B5A15F54C77C5E966F0 (void);
+extern void VuDatabaseTargetInfoList_vuDatabaseTargetInfoListDestroy_m948988E3158808B8C81219F581CD320556CD6CAF (void);
 // 0x00000196 System.Void Vuforia.VuDatabaseTargetInfoList::.ctor()
 extern void VuDatabaseTargetInfoList__ctor_mBAC3C11B0732B22D56B9DA0D5BA06369FCF2B849 (void);
 // 0x00000197 Vuforia.VuDatabaseTargetInfo Vuforia.VuDatabaseTargetInfoList::GetElement(Vuforia.VuDatabaseTargetInfo/Internal)
@@ -754,13 +754,13 @@ extern void VuDevicePoseConfig__ctor_m2187CF1EEA0E753E123A40B47188500C2959FDE2 (
 // 0x0000019A System.Boolean Vuforia.IVuDevicePoseObserver::get_StaticMode()
 // 0x0000019B System.Boolean Vuforia.IVuDevicePoseObserver::SetStaticMode(System.Boolean)
 // 0x0000019C Vuforia.VuResult Vuforia.VuDevicePoseObserver::vuEngineCreateDevicePoseObserver(System.IntPtr,System.IntPtr&,Vuforia.VuDevicePoseConfig,Vuforia.VuDevicePoseCreationError&)
-extern void VuDevicePoseObserver_vuEngineCreateDevicePoseObserver_m19DAAF8D3CC05D2F5798E1561FB8B6DE9CCB1BAA (void);
+extern void VuDevicePoseObserver_vuEngineCreateDevicePoseObserver_m74242571F91172FCA6CB0A4A8269CCE9AAE2B142 (void);
 // 0x0000019D Vuforia.VuResult Vuforia.VuDevicePoseObserver::vuDevicePoseObserverSetStaticMode(System.IntPtr,Vuforia.VuBool)
-extern void VuDevicePoseObserver_vuDevicePoseObserverSetStaticMode_m9548332AF0EA01A822803050D73DC3F186F96440 (void);
+extern void VuDevicePoseObserver_vuDevicePoseObserverSetStaticMode_m6E83ED7DA14B8EB5EAA2435D4877936D1AA2EEC3 (void);
 // 0x0000019E Vuforia.VuResult Vuforia.VuDevicePoseObserver::vuDevicePoseObserverGetStaticMode(System.IntPtr,Vuforia.VuBool&)
-extern void VuDevicePoseObserver_vuDevicePoseObserverGetStaticMode_mDBA87DD3B2E2A626C51AF9CA332C4E6D85F18300 (void);
+extern void VuDevicePoseObserver_vuDevicePoseObserverGetStaticMode_mEADD02751617B53C09676DA92C0C4296E996E6CC (void);
 // 0x0000019F Vuforia.VuDevicePoseObserver Vuforia.VuDevicePoseObserver::Create(Vuforia.VuEngine,Vuforia.VuDevicePoseConfig,Vuforia.VuDevicePoseCreationError&)
-extern void VuDevicePoseObserver_Create_m47CD9CD0FB2CD90EA237C21DBFB70A996D546705 (void);
+extern void VuDevicePoseObserver_Create_m1E2D47F62BCC87987723B2290DB0F53DFD5DABF7 (void);
 // 0x000001A0 System.Boolean Vuforia.VuDevicePoseObserver::get_StaticMode()
 extern void VuDevicePoseObserver_get_StaticMode_m8ED2310FD7E7A28977D2C93DD6F0C8821641CF10 (void);
 // 0x000001A1 System.Void Vuforia.VuDevicePoseObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
@@ -769,7 +769,7 @@ extern void VuDevicePoseObserver__ctor_m29EBA46B0F7E42A9A0E18A56AE32DAD63A9C1245
 extern void VuDevicePoseObserver_SetStaticMode_m9EA1732A0ECC80A1677DB49621ACC1CA9F6B72A5 (void);
 // 0x000001A3 Vuforia.VuDevicePoseObservationStatusInfo Vuforia.IVuDevicePoseObservation::get_StatusInfo()
 // 0x000001A4 Vuforia.VuResult Vuforia.VuDevicePoseObservation::vuDevicePoseObservationGetStatusInfo(System.IntPtr,Vuforia.VuDevicePoseObservationStatusInfo&)
-extern void VuDevicePoseObservation_vuDevicePoseObservationGetStatusInfo_m1E9C69BDB0C767236BBAC6DE1112C561E0B4FD96 (void);
+extern void VuDevicePoseObservation_vuDevicePoseObservationGetStatusInfo_m70035D7628717B902B60A0AC04AC4BAEC4CC778A (void);
 // 0x000001A5 Vuforia.VuDevicePoseObservationStatusInfo Vuforia.VuDevicePoseObservation::get_StatusInfo()
 extern void VuDevicePoseObservation_get_StatusInfo_m8127BA7E6F06F7801949D6DD4261C33B30A1F713 (void);
 // 0x000001A6 System.Void Vuforia.VuDevicePoseObservation::.ctor()
@@ -777,7 +777,7 @@ extern void VuDevicePoseObservation__ctor_m5D524092E05262E803840051EC90A495DCA63
 // 0x000001A7 System.Void Vuforia.VuDevicePoseObservation::UnregisterObservation()
 extern void VuDevicePoseObservation_UnregisterObservation_m54E6169F69FB5CD87721CE1F959F8542E122E30F (void);
 // 0x000001A8 System.String Vuforia.VuDriverConfig::get_FileDriverLibName()
-extern void VuDriverConfig_get_FileDriverLibName_m175EBCA0DDD1136A0C37F86C1D8890DBA77F0350 (void);
+extern void VuDriverConfig_get_FileDriverLibName_mF26FEE4373AA40B0B67B80A8979C2F0D89C8124C (void);
 // 0x000001A9 System.Object Vuforia.VuDriverConfig::Clone()
 extern void VuDriverConfig_Clone_mFF3A609B2C33F779F107337F37812578674BC590 (void);
 // 0x000001AA System.Void Vuforia.VuDriverConfig::.ctor()
@@ -838,29 +838,29 @@ extern void VuDeviceCalibrationConfig__ctor_m596622E7AEFC2BD0B1B29258340F30F016D
 // 0x000001C7 System.Boolean Vuforia.IVuEngineConfigSet::AddInternalConfig(Vuforia.VuInternalConfig)
 // 0x000001C8 System.Boolean Vuforia.IVuEngineConfigSet::AddDeviceCalibrationConfig(Vuforia.VuDeviceCalibrationConfig)
 // 0x000001C9 Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetCreate(System.IntPtr&)
-extern void VuEngineConfigSet_vuEngineConfigSetCreate_m2D68967AB1987456CEBA3127B799E060A4D3513C (void);
+extern void VuEngineConfigSet_vuEngineConfigSetCreate_mF0B9FC40306E8F36CB853C37E31359BFDD4ED05F (void);
 // 0x000001CA Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetDestroy(System.IntPtr)
-extern void VuEngineConfigSet_vuEngineConfigSetDestroy_mD86FAAE20381A524A9D449D4F8712C33D0014FA7 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetDestroy_mE232C347E3E6BD83120EDD469F398C63DF86DD94 (void);
 // 0x000001CB Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetGetSize(System.IntPtr,System.Int32&)
-extern void VuEngineConfigSet_vuEngineConfigSetGetSize_m2BB03A352A54B401F582627D99FA8E010911C2A1 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetGetSize_mC59E6959FFA482C3D9DE3618CA4DB77A3855DFE2 (void);
 // 0x000001CC Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddDriverConfig(System.IntPtr,Vuforia.VuDriverConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddDriverConfig_m1627E3E230D2135F2D1A4D899E3D42A086E1C080 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddDriverConfig_mBC23FFD42DD280653F64CD6C9A23D34A7BEDCB4C (void);
 // 0x000001CD Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddErrorHandlerConfig(System.IntPtr,Vuforia.VuErrorHandlerConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddErrorHandlerConfig_mABF3FE80503B4E6BB136758CE279D89DC559D145 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddErrorHandlerConfig_mFBC2043FAEB8F8EFA0BC6D0AFE1284A33DF3448C (void);
 // 0x000001CE Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddFusionProviderConfig(System.IntPtr,Vuforia.VuFusionProviderConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddFusionProviderConfig_m5FCA543B44A5C792D735279784FE4D4A710C8218 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddFusionProviderConfig_m26E96CE8E73102B774EADC312509386D757A5B6E (void);
 // 0x000001CF Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddInternalConfig(System.IntPtr,Vuforia.VuInternalConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddInternalConfig_m74B8246618F5CDA9D4F04143D4B785E40DE80353 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddInternalConfig_m6D6A2E9BA25B0F89CA9184F3E7E5B09D4FB22052 (void);
 // 0x000001D0 Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddLicenseConfig(System.IntPtr,Vuforia.VuLicenseConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddLicenseConfig_mCB9A09A67A80511EBE13C7E403D4196CE57242E5 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddLicenseConfig_m752EC4D0023481E79357E3F2C7486ADA621579DA (void);
 // 0x000001D1 Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddPlatformAndroidConfig(System.IntPtr,Vuforia.VuPlatformAndroidConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddPlatformAndroidConfig_mCB8C6F959BE57F4EF8F899E457CC2DC7E0CA2816 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddPlatformAndroidConfig_mB71CB4C0A59F0CAC9FC86804F289A51F32A452C8 (void);
 // 0x000001D2 Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddPlatformLuminConfig(System.IntPtr,Vuforia.VuPlatformLuminConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddPlatformLuminConfig_mD46B42B66E8B9BC0500DA4691AD255861713E07B (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddPlatformLuminConfig_m0668FD21708D474191615A61496C47E4FCB220F4 (void);
 // 0x000001D3 Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddSoftwareContextConfig(System.IntPtr,Vuforia.VuSoftwareContextConfig/Internal&)
-extern void VuEngineConfigSet_vuEngineConfigSetAddSoftwareContextConfig_mD9D715FE9BBA57E0C4F10B4C0FE53FD029A1C4FB (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddSoftwareContextConfig_mA0DA5C0CAB8296A428490127D5636F437A761CE0 (void);
 // 0x000001D4 Vuforia.VuResult Vuforia.VuEngineConfigSet::vuEngineConfigSetAddDeviceCalibrationConfig(System.IntPtr,Vuforia.VuDeviceCalibrationConfig)
-extern void VuEngineConfigSet_vuEngineConfigSetAddDeviceCalibrationConfig_m4A5BA261BEA4D318CEFA209703DE40C81B941485 (void);
+extern void VuEngineConfigSet_vuEngineConfigSetAddDeviceCalibrationConfig_m6486FFE5CD84F27CF0AB4A523E037823D0CCE1F4 (void);
 // 0x000001D5 System.IntPtr Vuforia.VuEngineConfigSet::get_NativeHandle()
 extern void VuEngineConfigSet_get_NativeHandle_m370E69108C0FB84F94406D63AEA917D839DAD9DA (void);
 // 0x000001D6 System.Int32 Vuforia.VuEngineConfigSet::get_Size()
@@ -868,7 +868,7 @@ extern void VuEngineConfigSet_get_Size_m312644D4722D6EEA5E467DAA0C8923580AB896B2
 // 0x000001D7 System.Collections.Generic.IList`1<Vuforia.IVuEngineConfig> Vuforia.VuEngineConfigSet::get_Configs()
 extern void VuEngineConfigSet_get_Configs_m89293672869ED4CB570917EF140ABAC052AD9474 (void);
 // 0x000001D8 Vuforia.VuEngineConfigSet Vuforia.VuEngineConfigSet::Create()
-extern void VuEngineConfigSet_Create_mE4349F8903785B8FB031163AB740871170E491B1 (void);
+extern void VuEngineConfigSet_Create_m1B6ABBE16E2EC9ECB4D890FEC4CE9C2E2B4C9582 (void);
 // 0x000001D9 System.Void Vuforia.VuEngineConfigSet::.ctor(System.IntPtr)
 extern void VuEngineConfigSet__ctor_mCCA83C2911E47D722149375642B7ACEB6CD532C3 (void);
 // 0x000001DA System.Void Vuforia.VuEngineConfigSet::Finalize()
@@ -899,7 +899,7 @@ extern void VuEngineConfigSet_AddDeviceCalibrationConfig_m19AA3AC08AAC76A7C2993E
 extern void VuEngineConfigSet_AddConfig_m2C11458B92180D820A846067E8642E67524BC540 (void);
 // 0x000001E7 T Vuforia.VuEngineConfigSet::GetConfig()
 // 0x000001E8 Vuforia.VuLibraryVersionInfo Vuforia.VuLibraryVersionInfo::Create(Vuforia.VuLibraryVersionInfo/Internal)
-extern void VuLibraryVersionInfo_Create_m6A6AFAB69EFFAA1DB862A334CBA81E8E1D193C12 (void);
+extern void VuLibraryVersionInfo_Create_m05540E887342B1C9A5A5E7907B927489A82FD97B (void);
 // 0x000001E9 System.Boolean Vuforia.IVuEngine::get_Running()
 // 0x000001EA Vuforia.IVuPlatformController Vuforia.IVuEngine::get_PlatformController()
 // 0x000001EB Vuforia.IVuCameraController Vuforia.IVuEngine::get_CameraController()
@@ -941,39 +941,39 @@ extern void VuLibraryVersionInfo_Create_m6A6AFAB69EFFAA1DB862A334CBA81E8E1D193C1
 // 0x0000020F System.Boolean Vuforia.IVuEngine::SetModelTargetRecoWhileExtendedTracked(System.Boolean)
 // 0x00000210 System.Boolean Vuforia.IVuEngine::ResetWorldTracking()
 // 0x00000211 Vuforia.VuResult Vuforia.VuEngine::vuEngineCreate(System.IntPtr&,System.IntPtr,System.Int32&)
-extern void VuEngine_vuEngineCreate_m5DA62969239A0D4D756E76D310D7F68D2E8B46BB (void);
+extern void VuEngine_vuEngineCreate_m1BDF6F9A888627C1CA2E95B648A66A01783FBEAE (void);
 // 0x00000212 Vuforia.VuResult Vuforia.VuEngine::vuEngineStart(System.IntPtr)
-extern void VuEngine_vuEngineStart_m3513E82A3F8834197D51600DF65F27983D1B5564 (void);
+extern void VuEngine_vuEngineStart_mA0AD34C5E9213AF2F2512ACA9CAFCE9D221C7438 (void);
 // 0x00000213 Vuforia.VuResult Vuforia.VuEngine::vuEngineStop(System.IntPtr)
-extern void VuEngine_vuEngineStop_m528A4802AABC862523F1DCA1AE42796A02F84843 (void);
+extern void VuEngine_vuEngineStop_mA9D40BAD9AD9C32B9E10FCBCBE5B11A4861C2850 (void);
 // 0x00000214 Vuforia.VuResult Vuforia.VuEngine::vuEngineDestroy(System.IntPtr)
-extern void VuEngine_vuEngineDestroy_m2413C7DE2478CD826E08189CF4769816D78E424F (void);
+extern void VuEngine_vuEngineDestroy_m2D905D69721C879797A75C18381CE277A1D9C7E1 (void);
 // 0x00000215 Vuforia.VuBool Vuforia.VuEngine::vuEngineIsRunning(System.IntPtr)
-extern void VuEngine_vuEngineIsRunning_m7FA4CCACC7FE713DA3E7F6E6FA6455E695E8D86C (void);
+extern void VuEngine_vuEngineIsRunning_m669732196A1D16A8B87F3FFC28041116661FC747 (void);
 // 0x00000216 Vuforia.VuResult Vuforia.VuEngine::vuEngineAcquireLatestState(System.IntPtr,System.IntPtr&)
-extern void VuEngine_vuEngineAcquireLatestState_mABE8EF5E000DC769DBF8C0FADE97C1536C0FD78E (void);
+extern void VuEngine_vuEngineAcquireLatestState_mC8F944B9A7CFDCCCA3D505630BF07955633B2AC4 (void);
 // 0x00000217 Vuforia.VuResult Vuforia.VuEngine::vuEngineClearAreaTargetObserverCloudCache(System.IntPtr)
-extern void VuEngine_vuEngineClearAreaTargetObserverCloudCache_m7A97C5EFFCCECB62FE4B44E07D42EE449720BBC7 (void);
+extern void VuEngine_vuEngineClearAreaTargetObserverCloudCache_m65FFF511F6EA0BE32336C338698E3E56715CBF2F (void);
 // 0x00000218 Vuforia.VuLibraryVersionInfo/Internal Vuforia.VuEngine::vuEngineGetLibraryVersionInfo()
-extern void VuEngine_vuEngineGetLibraryVersionInfo_mDF1971DA7691AD225933F68B52C8AA4AB7061A41 (void);
+extern void VuEngine_vuEngineGetLibraryVersionInfo_mFE7ABCBAFC709B28AAA9A43EB92C6D5C8E69B0AB (void);
 // 0x00000219 Vuforia.VuResult Vuforia.VuEngine::vuEngineGetDatabaseTargetInfo(System.IntPtr,System.String,System.IntPtr,Vuforia.VuDatabaseTargetInfoError&)
-extern void VuEngine_vuEngineGetDatabaseTargetInfo_mA7D031402ABA00364AEB6F07488EC526094554B7 (void);
+extern void VuEngine_vuEngineGetDatabaseTargetInfo_mDAC4E1A482E602FA3A71008146D5C12FD3AC4D88 (void);
 // 0x0000021A Vuforia.VuResult Vuforia.VuEngine::vuEngineSetMaximumSimultaneousTrackedImages(System.IntPtr,System.Int32)
-extern void VuEngine_vuEngineSetMaximumSimultaneousTrackedImages_m4E43D1CE0D37E2A3D79831DF727EB56C794F6748 (void);
+extern void VuEngine_vuEngineSetMaximumSimultaneousTrackedImages_mDBFE9ECB941BD36660716D586E0A8ABA5AE1F0DF (void);
 // 0x0000021B Vuforia.VuResult Vuforia.VuEngine::vuEngineGetMaximumSimultaneousTrackedImages(System.IntPtr,System.Int32&)
-extern void VuEngine_vuEngineGetMaximumSimultaneousTrackedImages_m722E727DE9A7FD54473EAE79ACD6651E023FE7FE (void);
+extern void VuEngine_vuEngineGetMaximumSimultaneousTrackedImages_m0668748B7CD9D024F8DE285756E1A72EC62C3BFB (void);
 // 0x0000021C Vuforia.VuResult Vuforia.VuEngine::vuEngineSetModelTargetRecoWhileExtendedTracked(System.IntPtr,Vuforia.VuBool)
-extern void VuEngine_vuEngineSetModelTargetRecoWhileExtendedTracked_mD14CD360248570BDB8FE08CBDD7CC442ED43A590 (void);
+extern void VuEngine_vuEngineSetModelTargetRecoWhileExtendedTracked_m9DAF40610A2B50151F6931EF3E1D977FDA567D52 (void);
 // 0x0000021D Vuforia.VuResult Vuforia.VuEngine::vuEngineGetModelTargetRecoWhileExtendedTracked(System.IntPtr,Vuforia.VuBool&)
-extern void VuEngine_vuEngineGetModelTargetRecoWhileExtendedTracked_mAC53C78DDA4E1BBFEDF4C19BAD703CA9C9CADA33 (void);
+extern void VuEngine_vuEngineGetModelTargetRecoWhileExtendedTracked_m18CD301F923FEE651654BF7F9EC1984706CBF326 (void);
 // 0x0000021E Vuforia.VuResult Vuforia.VuEngine::vuEngineResetWorldTracking(System.IntPtr)
-extern void VuEngine_vuEngineResetWorldTracking_mD3D7156864A2D74CF3EDF88AB4820168B4318F26 (void);
+extern void VuEngine_vuEngineResetWorldTracking_m030D90C1D14294E606323F70A910661716E38D10 (void);
 // 0x0000021F Vuforia.VuResult Vuforia.VuEngine::vuEngineGetBuildPreset(Vuforia.VuEngineBuildPreset&)
-extern void VuEngine_vuEngineGetBuildPreset_m15F428436A941B259100BE51F9178D38A6F36480 (void);
+extern void VuEngine_vuEngineGetBuildPreset_m56123302481FD66B3CB6ADCE88D9FFB825CB3BAB (void);
 // 0x00000220 System.IntPtr Vuforia.VuEngine::get_NativeHandle()
 extern void VuEngine_get_NativeHandle_m627B2FB5C12F7BEDA0A6FEF45800E2536E9BC595 (void);
 // 0x00000221 Vuforia.VuLibraryVersionInfo Vuforia.VuEngine::get_VersionInfo()
-extern void VuEngine_get_VersionInfo_mEAF49F8251EBEB3E0DB3B1D98E3BD2A30AE46784 (void);
+extern void VuEngine_get_VersionInfo_m818006700138BB365DDED9F110A0DF082ADF7F9B (void);
 // 0x00000222 System.Boolean Vuforia.VuEngine::get_Running()
 extern void VuEngine_get_Running_m969B20C900EDA72DEE2F77F95A84492C21AA5353 (void);
 // 0x00000223 Vuforia.IVuPlatformController Vuforia.VuEngine::get_PlatformController()
@@ -997,7 +997,7 @@ extern void VuEngine_get_MaximumSimultaneousTrackedImages_mA4CD17625F53EF3EB7D1F
 // 0x0000022C System.Boolean Vuforia.VuEngine::get_ModelTargetRecoWhileExtendedTracked()
 extern void VuEngine_get_ModelTargetRecoWhileExtendedTracked_m98FC1E11B8C52F111EC7BD5C6A820A5ED00CEB7A (void);
 // 0x0000022D Vuforia.VuEngine Vuforia.VuEngine::Create(Vuforia.VuEngineConfigSet,System.Int32&)
-extern void VuEngine_Create_mD8290625D18062D5E22F34A810BF8B1746761967 (void);
+extern void VuEngine_Create_m97508B54E28CC062A998633C0B5E6EEBFE2E8502 (void);
 // 0x0000022E System.Void Vuforia.VuEngine::.ctor(System.IntPtr)
 extern void VuEngine__ctor_mAE7DB597962D7D90FF9F8134D76B73E954CD01DD (void);
 // 0x0000022F System.Void Vuforia.VuEngine::Finalize()
@@ -1074,7 +1074,7 @@ extern void VuEngine_SetModelTargetRecoWhileExtendedTracked_m64B20740A633D34D5A5
 // 0x00000253 System.Boolean Vuforia.VuEngine::ResetWorldTracking()
 extern void VuEngine_ResetWorldTracking_mD63525C7A429402A6FBEB35A6E9042049ECC95FA (void);
 // 0x00000254 Vuforia.VuEngineBuildPreset Vuforia.VuEngine::GetBuildPreset()
-extern void VuEngine_GetBuildPreset_m2E1D042CB5C0C1749A115528DBF29A1AFEF25FCA (void);
+extern void VuEngine_GetBuildPreset_m9A6DAE4A1B819A5C8D8540068BE97A67A556C40B (void);
 // 0x00000255 System.Void Vuforia.VuEngine/CreateControllerDelegate`1::.ctor(System.Object,System.IntPtr)
 // 0x00000256 T Vuforia.VuEngine/CreateControllerDelegate`1::Invoke(Vuforia.VuEngine)
 // 0x00000257 System.IAsyncResult Vuforia.VuEngine/CreateControllerDelegate`1::BeginInvoke(Vuforia.VuEngine,System.AsyncCallback,System.Object)
@@ -1084,15 +1084,15 @@ extern void VuIlluminationConfig_Clone_m14ED12D89D599059DFB2019635E51BAAAC11F655
 // 0x0000025A System.Void Vuforia.VuIlluminationConfig::.ctor()
 extern void VuIlluminationConfig__ctor_mE52C2BA5F1F9E5D1B9A4B57852116FCB854F266C (void);
 // 0x0000025B Vuforia.VuResult Vuforia.VuIlluminationObserver::vuEngineCreateIlluminationObserver(System.IntPtr,System.IntPtr&,Vuforia.VuIlluminationConfig,Vuforia.VuIlluminationCreationError&)
-extern void VuIlluminationObserver_vuEngineCreateIlluminationObserver_mE6AC7324FC268343980A18AF92E9A4A7851D1503 (void);
+extern void VuIlluminationObserver_vuEngineCreateIlluminationObserver_m171FF799605C1E0BD6299F61B6326C077B2D175B (void);
 // 0x0000025C Vuforia.VuIlluminationObserver Vuforia.VuIlluminationObserver::Create(Vuforia.VuEngine,Vuforia.VuIlluminationConfig,Vuforia.VuIlluminationCreationError&)
-extern void VuIlluminationObserver_Create_mF9182838CD528917727A1AA250882F296BE83A9F (void);
+extern void VuIlluminationObserver_Create_m729B7EAC4FEA9D4F83B56DB635A30C37859EFEE1 (void);
 // 0x0000025D System.Void Vuforia.VuIlluminationObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuIlluminationObserver__ctor_m0641835AF6C7542C871B06860C5D6C2806E2EF91 (void);
 // 0x0000025E Vuforia.VuResult Vuforia.VuIlluminationObservationInfo::vuIlluminationObservationGetInfo(System.IntPtr,Vuforia.VuIlluminationObservationInfo/Internal&)
-extern void VuIlluminationObservationInfo_vuIlluminationObservationGetInfo_m961F3B957417FC5370AC09FF6E68A3FF8FA8975D (void);
+extern void VuIlluminationObservationInfo_vuIlluminationObservationGetInfo_mE86082446926E3C6CB980DCDCD1092E15464727C (void);
 // 0x0000025F Vuforia.VuIlluminationObservationInfo Vuforia.VuIlluminationObservationInfo::Create(System.IntPtr)
-extern void VuIlluminationObservationInfo_Create_m6EF3C081C79160EF1509D08249A97D1F10A33E97 (void);
+extern void VuIlluminationObservationInfo_Create_mCA603E25FFE92C75D483672B683CCB56DA347BFC (void);
 // 0x00000260 Vuforia.VuIlluminationObservationInfo Vuforia.IVuIlluminationObservation::get_Info()
 // 0x00000261 Vuforia.VuIlluminationObservationInfo Vuforia.VuIlluminationObservation::get_Info()
 extern void VuIlluminationObservation_get_Info_m0B4D01933EF19C2C7E22F102720785F6344D6BEF (void);
@@ -1105,11 +1105,11 @@ extern void VuIlluminationObservation_UnregisterObservation_m9868FA6AE4DFF89D781
 // 0x00000266 System.Int32 Vuforia.IVuImage::get_Height()
 // 0x00000267 Vuforia.VuImagePixelFormat Vuforia.IVuImage::get_PixelFormat()
 // 0x00000268 Vuforia.VuResult Vuforia.VuImage::vuImageGetImageInfo(System.IntPtr,Vuforia.VuImageInfo&)
-extern void VuImage_vuImageGetImageInfo_m5975B11FE4B08BAB1BDEDF9074DECBF3F49EE75F (void);
+extern void VuImage_vuImageGetImageInfo_m4D2D0EEE9343FCEEC89FFCB605884CE44385FC5D (void);
 // 0x00000269 Vuforia.VuResult Vuforia.VuImage::vuImageAcquireReference(System.IntPtr,System.IntPtr&)
-extern void VuImage_vuImageAcquireReference_mE8F6F65263489B3873DB970B00B6D9F81F03A75D (void);
+extern void VuImage_vuImageAcquireReference_mC929AB9272872ACDB516422C1B2C339DD7C63B17 (void);
 // 0x0000026A Vuforia.VuResult Vuforia.VuImage::vuImageRelease(System.IntPtr)
-extern void VuImage_vuImageRelease_m3442CB7BD352FEA85F92D4A7EC8466973C0D787B (void);
+extern void VuImage_vuImageRelease_m08D153DCE9C0063CD07F2723DBD3D8027F43FDB9 (void);
 // 0x0000026B Vuforia.VuImageInfo Vuforia.VuImage::get_ImageInfo()
 extern void VuImage_get_ImageInfo_mED51F4EBA6060D07ACB7719D8B83408A389941F9 (void);
 // 0x0000026C System.Int32 Vuforia.VuImage::get_Width()
@@ -1129,23 +1129,23 @@ extern void VuImage_Dispose_m46E95843CE0B558BFCC3F8CC07F28D1DF6059B45 (void);
 // 0x00000273 System.Void Vuforia.VuImage::Dispose(System.Boolean)
 extern void VuImage_Dispose_mE47657396B44CA1960EDB24F7E390970CBFA4B58 (void);
 // 0x00000274 Vuforia.VuResult Vuforia.VuImageList::vuImageListCreate(System.IntPtr&)
-extern void VuImageList_vuImageListCreate_mFD1FBB800C8DE509E567B79799CA3E69C587F009 (void);
+extern void VuImageList_vuImageListCreate_mF60E779A05B0C6E0F404214F4E2DB95164150BCD (void);
 // 0x00000275 Vuforia.VuResult Vuforia.VuImageList::vuImageListGetSize(System.IntPtr,System.Int32&)
-extern void VuImageList_vuImageListGetSize_m5351D7916B0B17D9B9209C83A42633AD379AEC89 (void);
+extern void VuImageList_vuImageListGetSize_m5145BE4DDEC3F144C460CA96B8D4FA112ADE33E7 (void);
 // 0x00000276 Vuforia.VuResult Vuforia.VuImageList::vuImageListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuImageList_vuImageListGetElement_m2EFBAC9E2F02888538E41733F3A117AA2A8BEE81 (void);
+extern void VuImageList_vuImageListGetElement_m45A402DC8AEBBDF4493874470FF21EDD689875D6 (void);
 // 0x00000277 Vuforia.VuResult Vuforia.VuImageList::vuImageListDestroy(System.IntPtr)
-extern void VuImageList_vuImageListDestroy_m0E4B9980ACAD709718F478EA82F6A1049FE5FC01 (void);
+extern void VuImageList_vuImageListDestroy_mF1014F791B7EC13E7F5B1DC188BFDF493B0780E1 (void);
 // 0x00000278 System.Void Vuforia.VuImageList::.ctor()
 extern void VuImageList__ctor_m2273EBC88132823D16870D0656020CB0415A9BAE (void);
 // 0x00000279 Vuforia.VuResult Vuforia.VuImagePixelFormatList::vuImagePixelFormatListCreate(System.IntPtr&)
-extern void VuImagePixelFormatList_vuImagePixelFormatListCreate_mE7F622F1C0A6C090047BA8489FCBD934AE27627D (void);
+extern void VuImagePixelFormatList_vuImagePixelFormatListCreate_m075F6F4697F04FDDB40C7F62197A6D0595E7A059 (void);
 // 0x0000027A Vuforia.VuResult Vuforia.VuImagePixelFormatList::vuImagePixelFormatListGetSize(System.IntPtr,System.Int32&)
-extern void VuImagePixelFormatList_vuImagePixelFormatListGetSize_mA0162C3B0C9E446368CF76EEBFF1FDEC8612AB9B (void);
+extern void VuImagePixelFormatList_vuImagePixelFormatListGetSize_m77A4931C2F21D67B07540BF1853061B907363627 (void);
 // 0x0000027B Vuforia.VuResult Vuforia.VuImagePixelFormatList::vuImagePixelFormatListGetElement(System.IntPtr,System.Int32,Vuforia.VuImagePixelFormat&)
-extern void VuImagePixelFormatList_vuImagePixelFormatListGetElement_m9ACFD329E3DFEED68738E260D5F669E9F1BF454D (void);
+extern void VuImagePixelFormatList_vuImagePixelFormatListGetElement_m229AAC491BFBF3436138F7D85D743251FAD9519B (void);
 // 0x0000027C Vuforia.VuResult Vuforia.VuImagePixelFormatList::vuImagePixelFormatListDestroy(System.IntPtr)
-extern void VuImagePixelFormatList_vuImagePixelFormatListDestroy_m55F25E8F07221B72D93B3503CD54C0D1B169B8FF (void);
+extern void VuImagePixelFormatList_vuImagePixelFormatListDestroy_m6729E591900A7B991FCD9705B5224AE3EF74E052 (void);
 // 0x0000027D System.Void Vuforia.VuImagePixelFormatList::.ctor()
 extern void VuImagePixelFormatList__ctor_m750C5C52E30F297632E0C711989C9FAF706D3479 (void);
 // 0x0000027E System.Object Vuforia.VuImageTargetConfig::Clone()
@@ -1172,27 +1172,27 @@ extern void VuImageTargetCloudObservationConfig__ctor_m8C7848BFE88809734365C102B
 // 0x0000028B System.Boolean Vuforia.IVuImageTargetObserver::SetTargetScale(System.Single)
 // 0x0000028C System.Boolean Vuforia.IVuImageTargetObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 // 0x0000028D Vuforia.VuResult Vuforia.VuImageTargetObserver::vuEngineCreateImageTargetObserver(System.IntPtr,System.IntPtr&,Vuforia.VuImageTargetConfig,Vuforia.VuImageTargetCreationError&)
-extern void VuImageTargetObserver_vuEngineCreateImageTargetObserver_m85DAC762DD09C2757E167D64476DC1E842780933 (void);
+extern void VuImageTargetObserver_vuEngineCreateImageTargetObserver_m1F3F88468BEED2AF8B32F1DAB71D7497C1B4325E (void);
 // 0x0000028E Vuforia.VuResult Vuforia.VuImageTargetObserver::vuEngineCreateImageTargetObserverFromFileConfig(System.IntPtr,System.IntPtr&,Vuforia.VuImageTargetFileConfig,Vuforia.VuImageTargetFileCreationError&)
-extern void VuImageTargetObserver_vuEngineCreateImageTargetObserverFromFileConfig_mC3A2903AE51313D77723AC5FD41D24D56140B125 (void);
+extern void VuImageTargetObserver_vuEngineCreateImageTargetObserverFromFileConfig_mEA154E4D34A8C0EFFF38A4CB991D0FFF9363351A (void);
 // 0x0000028F Vuforia.VuResult Vuforia.VuImageTargetObserver::vuEngineCreateImageTargetObserverFromBufferConfig(System.IntPtr,System.IntPtr&,Vuforia.VuImageTargetBufferConfig,Vuforia.VuImageTargetBufferCreationError&)
-extern void VuImageTargetObserver_vuEngineCreateImageTargetObserverFromBufferConfig_mB79315B7709AA381E297AAC1CD67346F786D1275 (void);
+extern void VuImageTargetObserver_vuEngineCreateImageTargetObserverFromBufferConfig_m618B0CB6814623CE85F8476A5A6F4CE56CB0893E (void);
 // 0x00000290 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuEngineCreateImageTargetObserverFromCloudObservation(System.IntPtr,System.IntPtr&,Vuforia.VuImageTargetCloudObservationConfig/Internal&,Vuforia.VuImageTargetCloudObservationCreationError&)
-extern void VuImageTargetObserver_vuEngineCreateImageTargetObserverFromCloudObservation_m51B09B1C6E8909DEA71C8FE6A776A3AE7B3D4161 (void);
+extern void VuImageTargetObserver_vuEngineCreateImageTargetObserverFromCloudObservation_m7659D82CC425E5BF3CCFD943546FE5229F8FDEBB (void);
 // 0x00000291 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuImageTargetObserverGetTargetUniqueId(System.IntPtr,System.IntPtr&)
-extern void VuImageTargetObserver_vuImageTargetObserverGetTargetUniqueId_mCD810535AC94F46FEFA3796E11513C57EACB429A (void);
+extern void VuImageTargetObserver_vuImageTargetObserverGetTargetUniqueId_mB45A39A91793E3932B60E826B2DEA35BA0221BA7 (void);
 // 0x00000292 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuImageTargetObserverGetTargetName(System.IntPtr,System.IntPtr&)
-extern void VuImageTargetObserver_vuImageTargetObserverGetTargetName_m276D3E8AFAA59DA4643DB1566D7AAC9F79C64613 (void);
+extern void VuImageTargetObserver_vuImageTargetObserverGetTargetName_mB45861F69D1D0BDACB4968CED32C645D0354206F (void);
 // 0x00000293 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuImageTargetObserverSetTargetScale(System.IntPtr,System.Single)
-extern void VuImageTargetObserver_vuImageTargetObserverSetTargetScale_mB89B2D0A4DD1183C1527A4CE691EB9288D3CE9C2 (void);
+extern void VuImageTargetObserver_vuImageTargetObserverSetTargetScale_m3ADCCCE133CA297A3A1DEC59AD5625516A5CA1E3 (void);
 // 0x00000294 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuImageTargetObserverGetTargetSize(System.IntPtr,Vuforia.VuVector2F&)
-extern void VuImageTargetObserver_vuImageTargetObserverGetTargetSize_m67EC81390CE3C31C2433694F65F58517018B8F02 (void);
+extern void VuImageTargetObserver_vuImageTargetObserverGetTargetSize_m34E2A3B393DFEBC8FE903C14AD02723E13984112 (void);
 // 0x00000295 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuImageTargetObserverGetAABB(System.IntPtr,Vuforia.VuAABB&)
-extern void VuImageTargetObserver_vuImageTargetObserverGetAABB_m1B31091C0DA5D3026D6ABBCC3DEBE67EE6DDDDB4 (void);
+extern void VuImageTargetObserver_vuImageTargetObserverGetAABB_mBF5E9E740FFDF181F2FFBDF90C4D36E989E3DC44 (void);
 // 0x00000296 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuImageTargetObserverSetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization)
-extern void VuImageTargetObserver_vuImageTargetObserverSetTrackingOptimization_mD6F493850CD6EA2A8A737779B05689B77F42899A (void);
+extern void VuImageTargetObserver_vuImageTargetObserverSetTrackingOptimization_m8EBF121233598AB7F9F615F3C95D2A5F6D49F691 (void);
 // 0x00000297 Vuforia.VuResult Vuforia.VuImageTargetObserver::vuImageTargetObserverGetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization&)
-extern void VuImageTargetObserver_vuImageTargetObserverGetTrackingOptimization_mDE52C4D604353DEA0D2B12912B6081F11FA5CB7B (void);
+extern void VuImageTargetObserver_vuImageTargetObserverGetTrackingOptimization_mA4C3077BBCA4BD45D07CDBC2B05EF31713DAC145 (void);
 // 0x00000298 System.String Vuforia.VuImageTargetObserver::get_TargetUniqueID()
 extern void VuImageTargetObserver_get_TargetUniqueID_m0B56DFB1A3B63C9D45A3639B2F37B732088E8C21 (void);
 // 0x00000299 System.String Vuforia.VuImageTargetObserver::get_TargetName()
@@ -1204,13 +1204,13 @@ extern void VuImageTargetObserver_get_BoundingBox_m2933E9716E7C1A1B28FBAA798C835
 // 0x0000029C Vuforia.VuTrackingOptimization Vuforia.VuImageTargetObserver::get_TrackingOptimization()
 extern void VuImageTargetObserver_get_TrackingOptimization_m9B6331408B51191166678967A375825649FBC862 (void);
 // 0x0000029D Vuforia.VuImageTargetObserver Vuforia.VuImageTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuImageTargetConfig,Vuforia.VuImageTargetCreationError&)
-extern void VuImageTargetObserver_Create_mF6E1A6199FF9ED32190F41FF7C84A2A84961BD26 (void);
+extern void VuImageTargetObserver_Create_m5D275964C62DC0A0678CAB7C4F0B274E91130DFD (void);
 // 0x0000029E Vuforia.VuImageTargetObserver Vuforia.VuImageTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuImageTargetFileConfig,Vuforia.VuImageTargetFileCreationError&)
-extern void VuImageTargetObserver_Create_m6A414537BE51C42C6C76D15697176E743FF600FF (void);
+extern void VuImageTargetObserver_Create_m270E20A8C35ADF84024EFE6DD6E1493EBF2CF51A (void);
 // 0x0000029F Vuforia.VuImageTargetObserver Vuforia.VuImageTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuImageTargetBufferConfig,Vuforia.VuImageTargetBufferCreationError&)
-extern void VuImageTargetObserver_Create_m38081E23A09ACFE58BACCE83F04410F374839E3A (void);
+extern void VuImageTargetObserver_Create_m5FEDE35345D7D51C241EB791F6BD0B95D039EEEF (void);
 // 0x000002A0 Vuforia.VuImageTargetObserver Vuforia.VuImageTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuImageTargetCloudObservationConfig,Vuforia.VuImageTargetCloudObservationCreationError&)
-extern void VuImageTargetObserver_Create_m1C48752F9DB28113FD1FE7059A080D216B6B6EBF (void);
+extern void VuImageTargetObserver_Create_m6C8B11F61619A152DC192679AE758F77350039A2 (void);
 // 0x000002A1 System.Void Vuforia.VuImageTargetObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuImageTargetObserver__ctor_m61C9F44AC42158D7989790EA9017A571A65DB0F0 (void);
 // 0x000002A2 System.Boolean Vuforia.VuImageTargetObserver::SetTargetScale(System.Single)
@@ -1218,13 +1218,13 @@ extern void VuImageTargetObserver_SetTargetScale_m18B00EF415C50291C84E6E72CFFC72
 // 0x000002A3 System.Boolean Vuforia.VuImageTargetObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 extern void VuImageTargetObserver_SetTrackingOptimization_mD048867C2B991C49B03FE5F49A12980474866B8A (void);
 // 0x000002A4 Vuforia.VuResult Vuforia.VuImageTargetObservationTargetInfo::vuImageTargetObservationGetTargetInfo(System.IntPtr,Vuforia.VuImageTargetObservationTargetInfo/Internal&)
-extern void VuImageTargetObservationTargetInfo_vuImageTargetObservationGetTargetInfo_m04B7FC02646BC9837F0C9FEF3495B4452EC0D693 (void);
+extern void VuImageTargetObservationTargetInfo_vuImageTargetObservationGetTargetInfo_mCD599E660AC318C7D5873ACD8089138751EBCD62 (void);
 // 0x000002A5 Vuforia.VuImageTargetObservationTargetInfo Vuforia.VuImageTargetObservationTargetInfo::Create(System.IntPtr)
-extern void VuImageTargetObservationTargetInfo_Create_m5A18873E281D03C977BD2A831A7BC8BD1B77F1D1 (void);
+extern void VuImageTargetObservationTargetInfo_Create_mDAD1CF376B405857CF64F6E6D57AB610471C9A56 (void);
 // 0x000002A6 Vuforia.VuImageTargetObservationStatusInfo Vuforia.IVuImageTargetObservation::get_StatusInfo()
 // 0x000002A7 Vuforia.VuImageTargetObservationTargetInfo Vuforia.IVuImageTargetObservation::get_TargetInfo()
 // 0x000002A8 Vuforia.VuResult Vuforia.VuImageTargetObservation::vuImageTargetObservationGetStatusInfo(System.IntPtr,Vuforia.VuImageTargetObservationStatusInfo&)
-extern void VuImageTargetObservation_vuImageTargetObservationGetStatusInfo_m00487804A941B6A6AD38520EC01A138916B52725 (void);
+extern void VuImageTargetObservation_vuImageTargetObservationGetStatusInfo_mE52AC0C9B963D443A684780E31E89DD8FF044E1F (void);
 // 0x000002A9 Vuforia.VuImageTargetObservationStatusInfo Vuforia.VuImageTargetObservation::get_StatusInfo()
 extern void VuImageTargetObservation_get_StatusInfo_mD49A70DD0F32906A1D71C27018EFEEC97D5AF02E (void);
 // 0x000002AA Vuforia.VuImageTargetObservationTargetInfo Vuforia.VuImageTargetObservation::get_TargetInfo()
@@ -1256,21 +1256,21 @@ extern void VuCloudImageTargetQueryErrorHandler_EndInvoke_m9AB4EEFA50B01913399AD
 // 0x000002B7 System.Boolean Vuforia.IVuCloudImageTargetObserver::get_Requesting()
 // 0x000002B8 System.Boolean Vuforia.IVuCloudImageTargetObserver::RegisterHandlers(Vuforia.VuCloudImageTargetObservationsHandler,Vuforia.VuCloudImageTargetQueryErrorHandler,System.Object)
 // 0x000002B9 Vuforia.VuResult Vuforia.VuCloudImageTargetObserver::vuEngineCreateCloudImageTargetObserver(System.IntPtr,System.IntPtr&,Vuforia.VuCloudImageTargetConfig,Vuforia.VuCloudImageTargetCreationError&)
-extern void VuCloudImageTargetObserver_vuEngineCreateCloudImageTargetObserver_mE33936E58FDF65A14E9DCCDD1904CFF40A2FBE56 (void);
+extern void VuCloudImageTargetObserver_vuEngineCreateCloudImageTargetObserver_mC3D002B20A79B1F927243A46ACC6C3B2388D29B0 (void);
 // 0x000002BA Vuforia.VuResult Vuforia.VuCloudImageTargetObserver::vuCloudImageTargetObserverRegisterHandlers(System.IntPtr,Vuforia.VuCloudImageTargetObserver/VuCloudImageTargetObservationsHandlerNative,Vuforia.VuCloudImageTargetObserver/VuCloudImageTargetQueryErrorHandlerNative,System.IntPtr)
-extern void VuCloudImageTargetObserver_vuCloudImageTargetObserverRegisterHandlers_m0456AC00A0BE7AEDCCEF219E180D164677CB7D8E (void);
+extern void VuCloudImageTargetObserver_vuCloudImageTargetObserverRegisterHandlers_mBD5E6E141F82996392ABC0F53A4475E9F30CE754 (void);
 // 0x000002BB Vuforia.VuBool Vuforia.VuCloudImageTargetObserver::vuCloudImageTargetObserverIsRequesting(System.IntPtr)
-extern void VuCloudImageTargetObserver_vuCloudImageTargetObserverIsRequesting_mB118E8E75691A49BABB662E2F6FDD56840348FF8 (void);
+extern void VuCloudImageTargetObserver_vuCloudImageTargetObserverIsRequesting_m5A69BA1E2A79A3CEAF877ADD36C38510563B6390 (void);
 // 0x000002BC System.Boolean Vuforia.VuCloudImageTargetObserver::get_Requesting()
 extern void VuCloudImageTargetObserver_get_Requesting_mDF00AD0D5471B11F25CC18BE27886CC9E84488DF (void);
 // 0x000002BD Vuforia.VuCloudImageTargetObserver Vuforia.VuCloudImageTargetObserver::Create(Vuforia.VuEngine,Vuforia.ObservationManager,Vuforia.VuCloudImageTargetConfig,Vuforia.VuCloudImageTargetCreationError&)
-extern void VuCloudImageTargetObserver_Create_mACFC4CBE65ADEBD6B59DDF2E5014589C4E18FB99 (void);
+extern void VuCloudImageTargetObserver_Create_mA87A7DCDC85A811EEEB67640B8357B73D83C44E9 (void);
 // 0x000002BE System.Void Vuforia.VuCloudImageTargetObserver::.ctor(Vuforia.VuEngine,Vuforia.ObservationManager,System.IntPtr)
 extern void VuCloudImageTargetObserver__ctor_mC45389061A2089F63865C25516A13DD7B452B83B (void);
 // 0x000002BF System.Void Vuforia.VuCloudImageTargetObserver::HandleObservations(System.IntPtr,System.IntPtr)
-extern void VuCloudImageTargetObserver_HandleObservations_mFF4D5D104658E28566F34729D345C85F0E3BE84A (void);
+extern void VuCloudImageTargetObserver_HandleObservations_mE49F9F40FAB47D37ACD176A9CD7BFA30BC5B8BE3 (void);
 // 0x000002C0 System.Void Vuforia.VuCloudImageTargetObserver::HandleQueryError(Vuforia.VuCloudImageTargetQueryError,System.IntPtr)
-extern void VuCloudImageTargetObserver_HandleQueryError_m457E52E7A90C36D4BFA825AFBEDE5C48034B84FD (void);
+extern void VuCloudImageTargetObserver_HandleQueryError_mA370AEF5C4D3505500F7360C18520C88E6F74B47 (void);
 // 0x000002C1 System.Void Vuforia.VuCloudImageTargetObserver::Dispose(System.Boolean)
 extern void VuCloudImageTargetObserver_Dispose_m307F7E51DC6A22AC6AEA3D79099483EA44E38A7E (void);
 // 0x000002C2 System.Boolean Vuforia.VuCloudImageTargetObserver::RegisterHandlers(Vuforia.VuCloudImageTargetObservationsHandler,Vuforia.VuCloudImageTargetQueryErrorHandler,System.Object)
@@ -1292,9 +1292,9 @@ extern void VuCloudImageTargetQueryErrorHandlerNative_BeginInvoke_m0FB8F3F94CDEB
 // 0x000002CA System.Void Vuforia.VuCloudImageTargetObserver/VuCloudImageTargetQueryErrorHandlerNative::EndInvoke(System.IAsyncResult)
 extern void VuCloudImageTargetQueryErrorHandlerNative_EndInvoke_mF5C6145D7140CF6A4CDBE439A9B0A84281BD0222 (void);
 // 0x000002CB Vuforia.VuResult Vuforia.VuCloudImageTargetObservationTargetInfo::vuCloudImageTargetObservationGetTargetInfo(System.IntPtr,Vuforia.VuCloudImageTargetObservationTargetInfo/Internal&)
-extern void VuCloudImageTargetObservationTargetInfo_vuCloudImageTargetObservationGetTargetInfo_m7483A59EC84AED3080C2D64762ED8D445796E6F0 (void);
+extern void VuCloudImageTargetObservationTargetInfo_vuCloudImageTargetObservationGetTargetInfo_m55B53FCB1F5DEC8B66147C4D27E0723AEFB6F10E (void);
 // 0x000002CC Vuforia.VuCloudImageTargetObservationTargetInfo Vuforia.VuCloudImageTargetObservationTargetInfo::Create(System.IntPtr)
-extern void VuCloudImageTargetObservationTargetInfo_Create_mE269D970E76C10B9ED724BA0675ED225FC0289D1 (void);
+extern void VuCloudImageTargetObservationTargetInfo_Create_mF52081DC71BDFFDFA3880AA1E378D698E2C63383 (void);
 // 0x000002CD Vuforia.VuCloudImageTargetObservationTargetInfo Vuforia.IVuCloudImageTargetObservation::get_TargetInfo()
 // 0x000002CE Vuforia.VuCloudImageTargetObservationTargetInfo Vuforia.VuCloudImageTargetObservation::get_TargetInfo()
 extern void VuCloudImageTargetObservation_get_TargetInfo_m6CE53A39502F0386D0F0F484C9A9C93B64BBD49A (void);
@@ -1303,103 +1303,103 @@ extern void VuCloudImageTargetObservation__ctor_m02DF9199B19E805CBD19AF99B6FEBAB
 // 0x000002D0 System.Void Vuforia.VuCloudImageTargetObservation::UnregisterObservation()
 extern void VuCloudImageTargetObservation_UnregisterObservation_mD35D4CBBA9F84C8702247EBFBB95D52866581CC6 (void);
 // 0x000002D1 Vuforia.VuVector2F Vuforia.MathUtils::vuZeroVector2F()
-extern void MathUtils_vuZeroVector2F_m08CF61666ADF3D50B3CE7F5DBE7EFCB33A008526 (void);
+extern void MathUtils_vuZeroVector2F_m55F46FFCAFF4531768C6F603690B2C5A6B23E332 (void);
 // 0x000002D2 Vuforia.VuVector2F Vuforia.MathUtils::vuOneVector2F()
-extern void MathUtils_vuOneVector2F_mAA453A998095D8893BDC6585BA85CDE8BD78A85B (void);
+extern void MathUtils_vuOneVector2F_mC698E455DCEC4FEC27C768EA5A32D62037DF4153 (void);
 // 0x000002D3 Vuforia.VuVector3F Vuforia.MathUtils::vuZeroVector3F()
-extern void MathUtils_vuZeroVector3F_mBAB1CE2260F7D04ED11D7D2A51EFAB876403F44A (void);
+extern void MathUtils_vuZeroVector3F_m3482F99307023B51EADE2ADFF79E96877D2AD95E (void);
 // 0x000002D4 Vuforia.VuVector3F Vuforia.MathUtils::vuOneVector3F()
-extern void MathUtils_vuOneVector3F_m0E3270543FD264DB2A44CB514AF32336A9D95A2A (void);
+extern void MathUtils_vuOneVector3F_m1532C94317608FC959141075CAA0C93424D24A26 (void);
 // 0x000002D5 Vuforia.VuVector4F Vuforia.MathUtils::vuZeroVector4F()
-extern void MathUtils_vuZeroVector4F_m197737CB914253A831B82753C14CCC06E961B632 (void);
+extern void MathUtils_vuZeroVector4F_m6B37D82574082E6701209899436E4937373BDEBF (void);
 // 0x000002D6 Vuforia.VuVector4F Vuforia.MathUtils::vuOneVector4F()
-extern void MathUtils_vuOneVector4F_mB40A2F22BFC0CE6508D8E3C7A74CA3A48D0C34D7 (void);
+extern void MathUtils_vuOneVector4F_m28A02EB834E3B311B955143F2849F1DB081342C1 (void);
 // 0x000002D7 Vuforia.VuVector8F Vuforia.MathUtils::vuZeroVector8F()
-extern void MathUtils_vuZeroVector8F_mEFC57C154E83801DA1AA2C07B403051DEDDA9BFF (void);
+extern void MathUtils_vuZeroVector8F_m5EF99E1688CE53120EAB32178BFD6D4AD97D0BC7 (void);
 // 0x000002D8 Vuforia.VuVector8F Vuforia.MathUtils::vuOneVector8F()
-extern void MathUtils_vuOneVector8F_mEE87A7BBBDAA38C331CC51F904F07DD85F9A7CCE (void);
+extern void MathUtils_vuOneVector8F_mBED6CDCA6C46716BE73073CEF3AE8EE3884FA689 (void);
 // 0x000002D9 Vuforia.VuMatrix33F Vuforia.MathUtils::vuZeroMatrix33F()
-extern void MathUtils_vuZeroMatrix33F_m35E4488E428CDEBDF24CD3FE87D470616B2CC8CD (void);
+extern void MathUtils_vuZeroMatrix33F_mA93CA7AFFFB55AC9E52A57072A7C55F362173C2D (void);
 // 0x000002DA Vuforia.VuMatrix33F Vuforia.MathUtils::vuIdentityMatrix33F()
-extern void MathUtils_vuIdentityMatrix33F_m12A93E9327BFFC26656F8499EBDC1FABD4271A6F (void);
+extern void MathUtils_vuIdentityMatrix33F_m1EECE9D7957F9009DBBDD5BC46E9E21CC1DD1D43 (void);
 // 0x000002DB Vuforia.VuMatrix44F Vuforia.MathUtils::vuZeroMatrix44F()
-extern void MathUtils_vuZeroMatrix44F_m9CDCAE97A9E715B4FFB86D2E86F3D49F21058391 (void);
+extern void MathUtils_vuZeroMatrix44F_mDF7384B41C578D774895C0EEA29A4CE4361080BE (void);
 // 0x000002DC Vuforia.VuMatrix44F Vuforia.MathUtils::vuIdentityMatrix44F()
-extern void MathUtils_vuIdentityMatrix44F_mC5CC3E2B50795D6EAEE7D6DF99F08DA716B54D2C (void);
+extern void MathUtils_vuIdentityMatrix44F_m91666F9594E6C63914B63E86F70D0C0C08B17CAA (void);
 // 0x000002DD Vuforia.VuVector2F Vuforia.MathUtils::get_ZeroVector2F()
-extern void MathUtils_get_ZeroVector2F_mAA58F7AF86F691763FF6EECD08944FB83B89A7CE (void);
+extern void MathUtils_get_ZeroVector2F_m7F57BA5479410A93DB3B3DA0DFCD9D6028D887B2 (void);
 // 0x000002DE Vuforia.VuVector2F Vuforia.MathUtils::get_IdentityVector2F()
-extern void MathUtils_get_IdentityVector2F_mE79EB92C76C2D4948D1C3A532D9A2AAB09D244EC (void);
+extern void MathUtils_get_IdentityVector2F_mAE2995D3F9E8EF5236B3552289F86629DA3FDD5B (void);
 // 0x000002DF Vuforia.VuVector3F Vuforia.MathUtils::get_ZeroVector3F()
-extern void MathUtils_get_ZeroVector3F_m6586C8506FF21EA10EF4A53E983327C2250F9B8F (void);
+extern void MathUtils_get_ZeroVector3F_m74308457AFD876F33893EC9E7B976608B325ED63 (void);
 // 0x000002E0 Vuforia.VuVector3F Vuforia.MathUtils::get_IdentityVector3F()
-extern void MathUtils_get_IdentityVector3F_mC77F4C7964516C75B8AD0A38EE08DC2623AC4117 (void);
+extern void MathUtils_get_IdentityVector3F_m41A2CBE48735F3ABE808649059B429F49324E447 (void);
 // 0x000002E1 Vuforia.VuVector4F Vuforia.MathUtils::get_ZeroVector4F()
-extern void MathUtils_get_ZeroVector4F_m546E4B5BD39F0CE89B59AF55A5038B59878D758D (void);
+extern void MathUtils_get_ZeroVector4F_m14C3F23CB413B9035CA20C49748CDA7E5816A84F (void);
 // 0x000002E2 Vuforia.VuVector4F Vuforia.MathUtils::get_IdentityVector4F()
-extern void MathUtils_get_IdentityVector4F_mF59FF0FD0E29E6A104B6E5A88C4E82034DE8D1D4 (void);
+extern void MathUtils_get_IdentityVector4F_m15821609DB880A87353958C6978AAF2A7990DA62 (void);
 // 0x000002E3 Vuforia.VuVector8F Vuforia.MathUtils::get_ZeroVector8F()
-extern void MathUtils_get_ZeroVector8F_m5A4AF0F3A3AB874572246634E967BE30B2D6E494 (void);
+extern void MathUtils_get_ZeroVector8F_m2F7AC98F41DC64DF2C5BD1E635248A5867955FC2 (void);
 // 0x000002E4 Vuforia.VuVector8F Vuforia.MathUtils::get_IdentityVector8F()
-extern void MathUtils_get_IdentityVector8F_m166872F016BAA0601F1345DDE1F2DB367B082972 (void);
+extern void MathUtils_get_IdentityVector8F_mA50B85F56E910FBCD219FCBBC474663C020E809F (void);
 // 0x000002E5 Vuforia.VuMatrix33F Vuforia.MathUtils::get_ZeroMatrix33F()
-extern void MathUtils_get_ZeroMatrix33F_mD6EFDD2AC8272A4B16BD9C8876DE10080FDE2B2B (void);
+extern void MathUtils_get_ZeroMatrix33F_m0FCE4752F9E875AB66922950744AADEA4080247C (void);
 // 0x000002E6 Vuforia.VuMatrix33F Vuforia.MathUtils::get_IdentityMatrix33F()
-extern void MathUtils_get_IdentityMatrix33F_m3963A222499FDADDD1650397D777FAE4B0AA5132 (void);
+extern void MathUtils_get_IdentityMatrix33F_m82D22829F22BF6E1C2088D0AA81145926AA5A8CE (void);
 // 0x000002E7 Vuforia.VuMatrix44F Vuforia.MathUtils::get_ZeroMatrix44F()
-extern void MathUtils_get_ZeroMatrix44F_mFAE6C5B60F40A0F2408C085073F85CD2FDFD80C6 (void);
+extern void MathUtils_get_ZeroMatrix44F_m2DB123B4484EA39042632B73BCFF053D2E8DDC59 (void);
 // 0x000002E8 Vuforia.VuMatrix44F Vuforia.MathUtils::get_IdentityMatrix44F()
-extern void MathUtils_get_IdentityMatrix44F_m5D01555E77977D31B5E4390A06D96F7CA4AB0DC9 (void);
+extern void MathUtils_get_IdentityMatrix44F_m064DFC5A855607F388A48EF8B4A2AE4538DD9581 (void);
 // 0x000002E9 System.Object Vuforia.VuMeshAreaTargetCaptureConfig::Clone()
 extern void VuMeshAreaTargetCaptureConfig_Clone_m0A97B70606B70153F5E1891F01DB3DBAA76BEA10 (void);
 // 0x000002EA System.Void Vuforia.VuMeshAreaTargetCaptureConfig::.ctor()
 extern void VuMeshAreaTargetCaptureConfig__ctor_m6B51439EC9B456EEFD5D4A9B76308D59050B0B48 (void);
 // 0x000002EB Vuforia.VuMeshAreaTargetCaptureConfig/Internal Vuforia.VuMeshAreaTargetCaptureConfig/Internal::Create(Vuforia.VuMeshAreaTargetCaptureConfig)
-extern void Internal_Create_m600F71F836D3343A5A69505B8BEC223142DE0246 (void);
+extern void Internal_Create_mBB8ED43A1C073DB80D3173D639EF83E4F485852E (void);
 // 0x000002EC System.Object Vuforia.VuMeshAreaTargetConfig::Clone()
 extern void VuMeshAreaTargetConfig_Clone_m3D907ADAAFB890A56A817EEC0A6594AFF7D726B3 (void);
 // 0x000002ED System.Void Vuforia.VuMeshAreaTargetConfig::.ctor()
 extern void VuMeshAreaTargetConfig__ctor_m1D325AD055A79237FD6D6022037E5BB86436E28D (void);
 // 0x000002EE Vuforia.VuMeshAreaTargetConfig/Internal Vuforia.VuMeshAreaTargetConfig/Internal::Create(Vuforia.VuMeshAreaTargetConfig)
-extern void Internal_Create_mA5AF15853A3D2D57EB7BE930F2ADFACECC7E179F (void);
+extern void Internal_Create_mA94863D26E4B243D1362D6FBEE756F47A270D5D6 (void);
 // 0x000002EF System.Object Vuforia.VuMeshModelTargetConfig::Clone()
 extern void VuMeshModelTargetConfig_Clone_m4E701A0374CC3A5BE526F9AA55C334210D1AB310 (void);
 // 0x000002F0 System.Void Vuforia.VuMeshModelTargetConfig::.ctor()
 extern void VuMeshModelTargetConfig__ctor_m4CDD0F5815A38455B2572E6CB91D48ED35486267 (void);
 // 0x000002F1 Vuforia.VuMeshModelTargetConfig/Internal Vuforia.VuMeshModelTargetConfig/Internal::Create(Vuforia.VuMeshModelTargetConfig)
-extern void Internal_Create_m0110ED44F8401FF1B162CC922F7F0E8F80AEAB39 (void);
+extern void Internal_Create_m3B505CBD1318F051F7CE8071924D503DCEE9CFF8 (void);
 // 0x000002F2 Vuforia.VuResult Vuforia.VuMeshObserver::vuEngineCreateMeshObserverFromAreaTargetCaptureConfig(System.IntPtr,System.IntPtr&,Vuforia.VuMeshAreaTargetCaptureConfig/Internal&,Vuforia.VuMeshAreaTargetCaptureCreationError&)
-extern void VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetCaptureConfig_mD05C916E679D1AA7E160A6AC4757A7739BCFBCBE (void);
+extern void VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetCaptureConfig_m24431CE33CADD18F54C96187D1F8B0A2C07F2B49 (void);
 // 0x000002F3 Vuforia.VuResult Vuforia.VuMeshObserver::vuEngineCreateMeshObserverFromAreaTargetConfig(System.IntPtr,System.IntPtr&,Vuforia.VuMeshAreaTargetConfig/Internal&,Vuforia.VuMeshAreaTargetCreationError&)
-extern void VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetConfig_m4ECEBEA28B321995C2A826324A4A2DE59A07613A (void);
+extern void VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetConfig_m2117177DAC04DBC57E1862B40CF638831284D6C2 (void);
 // 0x000002F4 Vuforia.VuResult Vuforia.VuMeshObserver::vuEngineCreateMeshObserverFromModelTargetConfig(System.IntPtr,System.IntPtr&,Vuforia.VuMeshModelTargetConfig/Internal&,Vuforia.VuMeshModelTargetCreationError&)
-extern void VuMeshObserver_vuEngineCreateMeshObserverFromModelTargetConfig_mB4D0231D2F0D329041CF7478C2853FA8B1E28615 (void);
+extern void VuMeshObserver_vuEngineCreateMeshObserverFromModelTargetConfig_mE8E134752CE14DE0B0B39081FE0487D056AA51B3 (void);
 // 0x000002F5 Vuforia.VuResult Vuforia.VuMeshObserver::vuEngineGetMeshObservers(System.IntPtr,System.IntPtr)
-extern void VuMeshObserver_vuEngineGetMeshObservers_m88E7ED8C2294E9BD41D308E0D11A9B1D294CD8B0 (void);
+extern void VuMeshObserver_vuEngineGetMeshObservers_m0AE24E5460B0B9178483724E47D8A33D445AC1A7 (void);
 // 0x000002F6 System.Void Vuforia.VuMeshObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuMeshObserver__ctor_mEFA2F3851A2271672683701965AA14CFB00EF159 (void);
 // 0x000002F7 Vuforia.VuMeshObserver Vuforia.VuMeshObserver::Create(Vuforia.VuEngine,Vuforia.VuMeshAreaTargetCaptureConfig,Vuforia.VuMeshAreaTargetCaptureCreationError&)
-extern void VuMeshObserver_Create_mCA1B212D1389FF931FB568E7B1B98CB1833872CB (void);
+extern void VuMeshObserver_Create_m6B8C3863D5FA762A0446E612427189EE4930F63B (void);
 // 0x000002F8 Vuforia.VuMeshObserver Vuforia.VuMeshObserver::Create(Vuforia.VuEngine,Vuforia.VuMeshAreaTargetConfig,Vuforia.VuMeshAreaTargetCreationError&)
-extern void VuMeshObserver_Create_mC6C1F27693F01C31BCE5BD4C26D18EDB3411E50A (void);
+extern void VuMeshObserver_Create_m0BD32FB2C17D20B6906D1B1BF3DB5F9AC92E801B (void);
 // 0x000002F9 Vuforia.VuMeshObserver Vuforia.VuMeshObserver::Create(Vuforia.VuEngine,Vuforia.VuMeshModelTargetConfig,Vuforia.VuMeshModelTargetCreationError&)
-extern void VuMeshObserver_Create_mDDBCDF9479EFD5B65A3258CD9C1B84312F9D1AE9 (void);
+extern void VuMeshObserver_Create_mDBB0C78ABE693D85FFD24CB1BFE5318039E98D85 (void);
 // 0x000002FA Vuforia.VuMeshObservationBlock Vuforia.VuMeshObservationBlock/Internal::ToVuMeshObservationBlock()
 extern void Internal_ToVuMeshObservationBlock_m10BE20355A6D990CFDF25906BA7F13EE33F05CF1 (void);
 // 0x000002FB Vuforia.VuResult Vuforia.VuMeshObservationBlockList::vuMeshObservationBlockListGetSize(System.IntPtr,System.Int32&)
-extern void VuMeshObservationBlockList_vuMeshObservationBlockListGetSize_m56D73D26A440EAE6FD29B8826060368576408D77 (void);
+extern void VuMeshObservationBlockList_vuMeshObservationBlockListGetSize_m02A69A824AFF6673AC49CD8851FCF941A069694E (void);
 // 0x000002FC Vuforia.VuResult Vuforia.VuMeshObservationBlockList::vuMeshObservationBlockListGetElement(System.IntPtr,System.Int32,Vuforia.VuMeshObservationBlock/Internal&)
-extern void VuMeshObservationBlockList_vuMeshObservationBlockListGetElement_m62D0706C7B503A3480A09B50A668E29CFB22516A (void);
+extern void VuMeshObservationBlockList_vuMeshObservationBlockListGetElement_mB0BA17FB1BFB5149F6F269A844D967B94F050082 (void);
 // 0x000002FD System.Void Vuforia.VuMeshObservationBlockList::.ctor(System.IntPtr)
 extern void VuMeshObservationBlockList__ctor_m061E23B2FBAA4F2A7F90772A2E74ABEFC6BE7A76 (void);
 // 0x000002FE Vuforia.VuResult Vuforia.VuMeshObservationInfo::vuMeshObservationGetInfo(System.IntPtr,Vuforia.VuMeshObservationInfo/Internal&)
-extern void VuMeshObservationInfo_vuMeshObservationGetInfo_m00CC99A328FC1C2C1128939527D56910B7C6DD2A (void);
+extern void VuMeshObservationInfo_vuMeshObservationGetInfo_m10EACBDF093D7CA7D8D6D114EF54EAB1B6C19199 (void);
 // 0x000002FF Vuforia.VuMeshObservationInfo Vuforia.VuMeshObservationInfo::Create(System.IntPtr)
-extern void VuMeshObservationInfo_Create_mF6DC6BD79EB825275655BA31CAE7877F86D3A070 (void);
+extern void VuMeshObservationInfo_Create_mF2BE1F31807978E01677976D9B216994FBFE513B (void);
 // 0x00000300 Vuforia.VuMeshObservationStatusInfo Vuforia.IVuMeshObservation::get_StatusInfo()
 // 0x00000301 Vuforia.VuMeshObservationInfo Vuforia.IVuMeshObservation::get_Info()
 // 0x00000302 Vuforia.VuResult Vuforia.VuMeshObservation::vuMeshObservationGetStatusInfo(System.IntPtr,Vuforia.VuMeshObservationStatusInfo&)
-extern void VuMeshObservation_vuMeshObservationGetStatusInfo_m5FD7E4197C30539C57BE1A43BA666C55FF6AAED4 (void);
+extern void VuMeshObservation_vuMeshObservationGetStatusInfo_m74A93552280B7CA9CB959C8A156F5715DDD10DF2 (void);
 // 0x00000303 Vuforia.VuMeshObservationStatusInfo Vuforia.VuMeshObservation::get_StatusInfo()
 extern void VuMeshObservation_get_StatusInfo_mCCD5757192EE44326A8CB2D06544B099BD79968B (void);
 // 0x00000304 Vuforia.VuMeshObservationInfo Vuforia.VuMeshObservation::get_Info()
@@ -1428,37 +1428,37 @@ extern void VuModelTargetConfig__ctor_m523C6761733C02FFFCAED50A389896E2ADC91945 
 // 0x00000316 System.Boolean Vuforia.IVuModelTargetObserver::SetActiveStateName(System.String)
 // 0x00000317 System.Boolean Vuforia.IVuModelTargetObserver::Reset()
 // 0x00000318 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuEngineCreateModelTargetObserver(System.IntPtr,System.IntPtr&,Vuforia.VuModelTargetConfig,Vuforia.VuModelTargetCreationError&)
-extern void VuModelTargetObserver_vuEngineCreateModelTargetObserver_m8EBA94328D9BF6E7EFB2261A8C45419B0DBF3E66 (void);
+extern void VuModelTargetObserver_vuEngineCreateModelTargetObserver_m91218D61313589C1544E8728B1A3F3C1EE60176A (void);
 // 0x00000319 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetTargetUniqueId(System.IntPtr,System.IntPtr&)
-extern void VuModelTargetObserver_vuModelTargetObserverGetTargetUniqueId_m8BF741149B59CAFCF730944022074346DBFEEE6E (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetTargetUniqueId_mB120F77FAE6A6F6C9AAD18AB1851F503A4A9DCAE (void);
 // 0x0000031A Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetTargetName(System.IntPtr,System.IntPtr&)
-extern void VuModelTargetObserver_vuModelTargetObserverGetTargetName_m8BB456E5BD2FF8E4D01E2D6E010FABE6ADDB4083 (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetTargetName_m9F98F5CE75194309AD45231B2E8D0FB8C772AD71 (void);
 // 0x0000031B Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverSetTargetScale(System.IntPtr,System.Single)
-extern void VuModelTargetObserver_vuModelTargetObserverSetTargetScale_mA2BECBCC8DA95E26019D3D14C8B6BE9442D4F78A (void);
+extern void VuModelTargetObserver_vuModelTargetObserverSetTargetScale_m67091F14C03D47168D178615397C5B29FE7FD6D2 (void);
 // 0x0000031C Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetTargetSize(System.IntPtr,Vuforia.VuVector3F&)
-extern void VuModelTargetObserver_vuModelTargetObserverGetTargetSize_m4B6DFEDBD2EEA9843CD728E42388BCA549ED22AC (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetTargetSize_m4580DB4ED88D4DF83B36721D7E2E465E436ADE8B (void);
 // 0x0000031D Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetGuideViews(System.IntPtr,System.IntPtr)
-extern void VuModelTargetObserver_vuModelTargetObserverGetGuideViews_mB30000A99C470F427BC6DB2E330434317C02E496 (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetGuideViews_mF63652E39EC682E74F0BEB7D7785295243FD1EE3 (void);
 // 0x0000031E Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverSetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization)
-extern void VuModelTargetObserver_vuModelTargetObserverSetTrackingOptimization_m6EBCAFEBB3889A5F2D562F28456B6B7C177FC54A (void);
+extern void VuModelTargetObserver_vuModelTargetObserverSetTrackingOptimization_m2859AE70E623B03E84275141E85410B4939E7D9D (void);
 // 0x0000031F Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization&)
-extern void VuModelTargetObserver_vuModelTargetObserverGetTrackingOptimization_mEB3C04E838B6C38D18D682399582573E2925EA19 (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetTrackingOptimization_m44F5DEA29D2E2DDF23867A5D43C4BD19DED228C9 (void);
 // 0x00000320 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetAABB(System.IntPtr,Vuforia.VuAABB&)
-extern void VuModelTargetObserver_vuModelTargetObserverGetAABB_mA90F03B2C5E72C017E8F1CF46305DA00A46CA027 (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetAABB_m67B8C28150D7FDAEE014739F968D8C4B3A5D319A (void);
 // 0x00000321 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverSetActiveGuideViewName(System.IntPtr,System.IntPtr)
-extern void VuModelTargetObserver_vuModelTargetObserverSetActiveGuideViewName_mE72BC7DC5660B31EB4D6B8674C27D7BBC7A2870D (void);
+extern void VuModelTargetObserver_vuModelTargetObserverSetActiveGuideViewName_m9D995122C2166F92632FC1E52592B20CD6A42E1B (void);
 // 0x00000322 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetActiveGuideViewName(System.IntPtr,System.IntPtr&)
-extern void VuModelTargetObserver_vuModelTargetObserverGetActiveGuideViewName_m5E590568D966F8DAEEB0A79F299AA70DF107786A (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetActiveGuideViewName_m8535413B8B23093A75969D92EB2AA14798CB264E (void);
 // 0x00000323 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetAvailableStates(System.IntPtr,System.IntPtr)
-extern void VuModelTargetObserver_vuModelTargetObserverGetAvailableStates_m44F80DAAD1C8B57BDCEB2363AB0E47A3FE02DBC3 (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetAvailableStates_m28DD5C4FF80F6A6181FA426FDC2AF5607FF60E0F (void);
 // 0x00000324 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverSetActiveStateName(System.IntPtr,System.IntPtr)
-extern void VuModelTargetObserver_vuModelTargetObserverSetActiveStateName_mB5F70A5961181556D4FD39EC131DAD6D94A35E5E (void);
+extern void VuModelTargetObserver_vuModelTargetObserverSetActiveStateName_mFBE4B76C8C25828AF6BD85D09F1781EEE8C573E0 (void);
 // 0x00000325 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverGetActiveStateName(System.IntPtr,System.IntPtr&)
-extern void VuModelTargetObserver_vuModelTargetObserverGetActiveStateName_m40D52AFF42E575E05B673C0CC5D81D4BBD74CADA (void);
+extern void VuModelTargetObserver_vuModelTargetObserverGetActiveStateName_mEC8E734D2D4748224BEF634543BBEC746BD55B22 (void);
 // 0x00000326 Vuforia.VuResult Vuforia.VuModelTargetObserver::vuModelTargetObserverReset(System.IntPtr)
-extern void VuModelTargetObserver_vuModelTargetObserverReset_mCD7501FABD3884A1E9CCF5E68D3610B503908E22 (void);
+extern void VuModelTargetObserver_vuModelTargetObserverReset_m45881CDB0CB453266500E835D4B6B51F849CBFAA (void);
 // 0x00000327 Vuforia.VuBool Vuforia.VuModelTargetObserver::vuModelTargetObserverIsAdvanced(System.IntPtr)
-extern void VuModelTargetObserver_vuModelTargetObserverIsAdvanced_mE10673BDE7EC2101B9776163D45099DB44514825 (void);
+extern void VuModelTargetObserver_vuModelTargetObserverIsAdvanced_m5637148132E114AD67C052E482A40B9E70DEF73E (void);
 // 0x00000328 System.String Vuforia.VuModelTargetObserver::get_TargetUniqueID()
 extern void VuModelTargetObserver_get_TargetUniqueID_mCBBB25B1FBC0CFA15B497A0F19C078848B4C446E (void);
 // 0x00000329 System.String Vuforia.VuModelTargetObserver::get_TargetName()
@@ -1482,7 +1482,7 @@ extern void VuModelTargetObserver_get_IsAdvanced_mFE76EE47416B23FC2F9D1E65F4583D
 // 0x00000332 System.Boolean Vuforia.VuModelTargetObserver::Reset()
 extern void VuModelTargetObserver_Reset_m889F137CB10D70F14D84C28331B7E3A972D65A2A (void);
 // 0x00000333 Vuforia.VuModelTargetObserver Vuforia.VuModelTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuModelTargetConfig,Vuforia.VuModelTargetCreationError&)
-extern void VuModelTargetObserver_Create_m3D502BABB5EDA887E29F11BA42E727980B578F50 (void);
+extern void VuModelTargetObserver_Create_m4951B3888E44CADBBCFE58D025B2884705750B7F (void);
 // 0x00000334 System.Void Vuforia.VuModelTargetObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuModelTargetObserver__ctor_m887357AECA03A4E9CD840E28FD02A6B05C034D47 (void);
 // 0x00000335 System.Void Vuforia.VuModelTargetObserver::Dispose(System.Boolean)
@@ -1502,17 +1502,17 @@ extern void VuModelTargetObserver_SetActiveStateName_m5A1B489530F640C57168C68625
 // 0x0000033E System.Boolean Vuforia.IVuGuideView::get_IsImageOutdated()
 // 0x0000033F System.Boolean Vuforia.IVuGuideView::SetPose(Vuforia.VuMatrix44F)
 // 0x00000340 Vuforia.VuResult Vuforia.VuGuideView::vuGuideViewGetName(System.IntPtr,System.IntPtr&)
-extern void VuGuideView_vuGuideViewGetName_m43EBFE7CC913B5A06D1D8943258EA20F4DCA58B3 (void);
+extern void VuGuideView_vuGuideViewGetName_mAA617CC28B9720048BA0D5C625C44B1BCA13B7EF (void);
 // 0x00000341 Vuforia.VuResult Vuforia.VuGuideView::vuGuideViewGetIntrinsics(System.IntPtr,Vuforia.VuCameraIntrinsics/Internal&)
-extern void VuGuideView_vuGuideViewGetIntrinsics_m3531378B57AF4D714A71B38A163500C5385DD1DE (void);
+extern void VuGuideView_vuGuideViewGetIntrinsics_mE0C17DFA684EC4078A5098DE3C3D68E4D1318C70 (void);
 // 0x00000342 Vuforia.VuResult Vuforia.VuGuideView::vuGuideViewGetPose(System.IntPtr,Vuforia.VuMatrix44F&)
-extern void VuGuideView_vuGuideViewGetPose_m122C67F2547FDE47DEA60B78BAF0E0C8D3377EBE (void);
+extern void VuGuideView_vuGuideViewGetPose_m4F50B66772EB54A60EA2EF70A057058B2408F987 (void);
 // 0x00000343 Vuforia.VuResult Vuforia.VuGuideView::vuGuideViewSetPose(System.IntPtr,Vuforia.VuMatrix44F&)
-extern void VuGuideView_vuGuideViewSetPose_m49A07801F6033B242531891C44676D5B8664655B (void);
+extern void VuGuideView_vuGuideViewSetPose_m4D90707B27E4943D5ABA9A83D624E827EA9B2068 (void);
 // 0x00000344 Vuforia.VuResult Vuforia.VuGuideView::vuGuideViewGetImage(System.IntPtr,System.IntPtr&)
-extern void VuGuideView_vuGuideViewGetImage_m5DA799BA164CC73AF53263341D66D13019C94D01 (void);
+extern void VuGuideView_vuGuideViewGetImage_m516F742EA0CA19AFAB803DC0F3CAB23C11E480B0 (void);
 // 0x00000345 Vuforia.VuResult Vuforia.VuGuideView::vuGuideViewIsImageOutdated(System.IntPtr,Vuforia.VuBool&)
-extern void VuGuideView_vuGuideViewIsImageOutdated_m17094EB2AC936153A252C36BED29B2948B0AC553 (void);
+extern void VuGuideView_vuGuideViewIsImageOutdated_m6B9586FB79AEFC86DE0614503B45C2313FD4027A (void);
 // 0x00000346 System.IntPtr Vuforia.VuGuideView::get_NativeHandle()
 extern void VuGuideView_get_NativeHandle_m0D5E9C894650B38FC31E76BE5E2D07BD795684BE (void);
 // 0x00000347 System.String Vuforia.VuGuideView::get_Name()
@@ -1526,7 +1526,7 @@ extern void VuGuideView_get_Image_m0E553E4B1AC2CAC6138F69E4D1DE788768194130 (voi
 // 0x0000034B System.Boolean Vuforia.VuGuideView::get_IsImageOutdated()
 extern void VuGuideView_get_IsImageOutdated_m277AA6568E77B3B3C45703F9E7D58246312E6AD3 (void);
 // 0x0000034C Vuforia.VuGuideView Vuforia.VuGuideView::Create(System.IntPtr)
-extern void VuGuideView_Create_m884F1DBEAB0F939B4E7226625D3DD27D67ED52B3 (void);
+extern void VuGuideView_Create_mDC23485812D893C0D073E9782EAD84C95A477F51 (void);
 // 0x0000034D System.Void Vuforia.VuGuideView::.ctor(System.IntPtr)
 extern void VuGuideView__ctor_mE1C61E4DD985A2418CA0C95403CD6EBA39D39670 (void);
 // 0x0000034E System.Void Vuforia.VuGuideView::Finalize()
@@ -1538,51 +1538,51 @@ extern void VuGuideView_Dispose_mFA778281D6A2363901A2D2878850C5E473D9519E (void)
 // 0x00000351 System.Boolean Vuforia.VuGuideView::SetPose(Vuforia.VuMatrix44F)
 extern void VuGuideView_SetPose_m8B01F359798F2AC67311E2D59C4C53064C97C613 (void);
 // 0x00000352 Vuforia.VuResult Vuforia.VuGuideViewList::vuGuideViewListCreate(System.IntPtr&)
-extern void VuGuideViewList_vuGuideViewListCreate_mFAC22025E331787AA29DA937CD361D79EAFB4F36 (void);
+extern void VuGuideViewList_vuGuideViewListCreate_m6CE28F06A03B1AB187F0A48DD2A623A8A3227B16 (void);
 // 0x00000353 Vuforia.VuResult Vuforia.VuGuideViewList::vuGuideViewListGetSize(System.IntPtr,System.Int32&)
-extern void VuGuideViewList_vuGuideViewListGetSize_m9BC24058C7F14CE1DF912F212B9B1E4B99FE9330 (void);
+extern void VuGuideViewList_vuGuideViewListGetSize_mEF55ADA926934E27616F7ACACF74717D1DDB72AE (void);
 // 0x00000354 Vuforia.VuResult Vuforia.VuGuideViewList::vuGuideViewListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuGuideViewList_vuGuideViewListGetElement_m123158C0D05F03C49E4492A882D93DD57B18C8F9 (void);
+extern void VuGuideViewList_vuGuideViewListGetElement_mC4F1001BDEBE061CB2A2B2A787ADFBBDC3727FED (void);
 // 0x00000355 Vuforia.VuResult Vuforia.VuGuideViewList::vuGuideViewListDestroy(System.IntPtr)
-extern void VuGuideViewList_vuGuideViewListDestroy_m36C2FDF8D45F3CD6D4E86C4BC95961DEBCA090EE (void);
+extern void VuGuideViewList_vuGuideViewListDestroy_m636F6AE840AC33B9755DA81388A50DFBBF94CD3F (void);
 // 0x00000356 System.Void Vuforia.VuGuideViewList::.ctor()
 extern void VuGuideViewList__ctor_mEC6B4C7616B0B1A65B1206739CCB10972564D994 (void);
 // 0x00000357 Vuforia.VuGuideView Vuforia.VuGuideViewList::GetElement(System.IntPtr)
 extern void VuGuideViewList_GetElement_mFBF569C408A89D9B3BC0FF4C43CEC24D0B8EBBCD (void);
 // 0x00000358 System.String Vuforia.IVuModelTargetState::get_Name()
 // 0x00000359 Vuforia.VuResult Vuforia.VuModelTargetState::vuModelTargetStateGetName(System.IntPtr,System.IntPtr&)
-extern void VuModelTargetState_vuModelTargetStateGetName_mF94BFCCB6736015F2AE3FA660B1E5B74EC022936 (void);
+extern void VuModelTargetState_vuModelTargetStateGetName_m29E479DE3A078298ED9BDC9C4F1B63015EFF090C (void);
 // 0x0000035A System.String Vuforia.VuModelTargetState::get_Name()
 extern void VuModelTargetState_get_Name_mA9AFF16C2C1DB4724EAABA78E52F206F5E498F74 (void);
 // 0x0000035B Vuforia.VuModelTargetState Vuforia.VuModelTargetState::Create(System.IntPtr)
-extern void VuModelTargetState_Create_mCF81AF02700ADAE2018F5CFC99373B4F2333EF9F (void);
+extern void VuModelTargetState_Create_mC260C4C3133262A7E508583D0D2992E7DBFF08B9 (void);
 // 0x0000035C System.Void Vuforia.VuModelTargetState::.ctor(System.IntPtr)
 extern void VuModelTargetState__ctor_m82E515AA37A8D026FFEAEC63F8331EDCCD61DDCB (void);
 // 0x0000035D Vuforia.VuResult Vuforia.VuModelTargetStateList::vuModelTargetStateListCreate(System.IntPtr&)
-extern void VuModelTargetStateList_vuModelTargetStateListCreate_m63AE792A9D80283E9C3BD105B3FFF7242157E0CC (void);
+extern void VuModelTargetStateList_vuModelTargetStateListCreate_mAF4EBF0B4F7EAE8E18EAC6C33B6DDE01A26898F8 (void);
 // 0x0000035E Vuforia.VuResult Vuforia.VuModelTargetStateList::vuModelTargetStateListGetSize(System.IntPtr,System.Int32&)
-extern void VuModelTargetStateList_vuModelTargetStateListGetSize_mC9D33BC65668579575A254FEABF5275DD8FB36C2 (void);
+extern void VuModelTargetStateList_vuModelTargetStateListGetSize_m59ACE34F6575C294CE1A6B4535F43946EBED6824 (void);
 // 0x0000035F Vuforia.VuResult Vuforia.VuModelTargetStateList::vuModelTargetStateListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuModelTargetStateList_vuModelTargetStateListGetElement_mF06DBC51A0FD98BA7EFB507BF90EBE1AFF0ACB7B (void);
+extern void VuModelTargetStateList_vuModelTargetStateListGetElement_mF72DCF5F97B6E5ABCC9F7ABD33834C8B5B783450 (void);
 // 0x00000360 Vuforia.VuResult Vuforia.VuModelTargetStateList::vuModelTargetStateListDestroy(System.IntPtr)
-extern void VuModelTargetStateList_vuModelTargetStateListDestroy_mCB574DD30EC5BD6C889C55027ADA446E42473976 (void);
+extern void VuModelTargetStateList_vuModelTargetStateListDestroy_m4EA77E8A0158DA1943998EB9FC4020CEB8310E30 (void);
 // 0x00000361 System.Void Vuforia.VuModelTargetStateList::.ctor()
 extern void VuModelTargetStateList__ctor_m13BAF8C4E2AB44C576D3C7A8964F366608779BF0 (void);
 // 0x00000362 Vuforia.VuModelTargetState Vuforia.VuModelTargetStateList::GetElement(System.IntPtr)
 extern void VuModelTargetStateList_GetElement_m0788E73743DDB8B36218A528815BBCA75384E61E (void);
 // 0x00000363 Vuforia.VuResult Vuforia.VuModelTargetObservationTargetInfo::vuModelTargetObservationGetTargetInfo(System.IntPtr,Vuforia.VuModelTargetObservationTargetInfo/Internal&)
-extern void VuModelTargetObservationTargetInfo_vuModelTargetObservationGetTargetInfo_m06CAD0C6BD2CBFEAF06B4D52613832F5CC8EADD9 (void);
+extern void VuModelTargetObservationTargetInfo_vuModelTargetObservationGetTargetInfo_m8CBA3165E3D88F728B7A81D0BFE81538DABA7B4D (void);
 // 0x00000364 Vuforia.VuModelTargetObservationTargetInfo Vuforia.VuModelTargetObservationTargetInfo::Create(System.IntPtr)
-extern void VuModelTargetObservationTargetInfo_Create_mFF799573198F588BCE42018AE4938AF41421E29B (void);
+extern void VuModelTargetObservationTargetInfo_Create_mA5A42573F37167EDB2DC3A18492806B375E33EA9 (void);
 // 0x00000365 Vuforia.VuResult Vuforia.VuModelTargetObservationStateInfo::vuModelTargetObservationGetStateInfo(System.IntPtr,Vuforia.VuModelTargetObservationStateInfo/Internal&)
-extern void VuModelTargetObservationStateInfo_vuModelTargetObservationGetStateInfo_mA98DE4B67FCD4168CE69B2906F1D533BB713C6F5 (void);
+extern void VuModelTargetObservationStateInfo_vuModelTargetObservationGetStateInfo_m9E196A11DA0146A7B74E374A6FCCF82D2D0CFE26 (void);
 // 0x00000366 Vuforia.VuModelTargetObservationStateInfo Vuforia.VuModelTargetObservationStateInfo::Create(System.IntPtr)
-extern void VuModelTargetObservationStateInfo_Create_m1D9EF598B1E5A18EE3FEA965DB66136E829D5E07 (void);
+extern void VuModelTargetObservationStateInfo_Create_m2E92C3CF4EB9ECE672ED3656A89E45DAB7E7AA16 (void);
 // 0x00000367 Vuforia.VuModelTargetObservationStatusInfo Vuforia.IVuModelTargetObservation::get_StatusInfo()
 // 0x00000368 Vuforia.VuModelTargetObservationTargetInfo Vuforia.IVuModelTargetObservation::get_TargetInfo()
 // 0x00000369 Vuforia.VuModelTargetObservationStateInfo Vuforia.IVuModelTargetObservation::get_StateInfo()
 // 0x0000036A Vuforia.VuResult Vuforia.VuModelTargetObservation::vuModelTargetObservationGetStatusInfo(System.IntPtr,Vuforia.VuModelTargetObservationStatusInfo&)
-extern void VuModelTargetObservation_vuModelTargetObservationGetStatusInfo_mEBA4EEF838D28182A4DDDE85AEA38D82765C4FDD (void);
+extern void VuModelTargetObservation_vuModelTargetObservationGetStatusInfo_m67AE74DA9CA1ED1529F9627FC204999060F8114F (void);
 // 0x0000036B Vuforia.VuModelTargetObservationStatusInfo Vuforia.VuModelTargetObservation::get_StatusInfo()
 extern void VuModelTargetObservation_get_StatusInfo_mA07F0A86FFF954E8A25D20D1937D7035612037C5 (void);
 // 0x0000036C Vuforia.VuModelTargetObservationTargetInfo Vuforia.VuModelTargetObservation::get_TargetInfo()
@@ -1606,19 +1606,19 @@ extern void VuMultiTargetConfig__ctor_m0B9E782ACF01E9A846763F8B6061FDFB2AD2F281 
 // 0x00000377 Vuforia.VuTrackingOptimization Vuforia.IVuMultiTargetObserver::get_TrackingOptimization()
 // 0x00000378 System.Boolean Vuforia.IVuMultiTargetObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 // 0x00000379 Vuforia.VuResult Vuforia.VuMultiTargetObserver::vuEngineCreateMultiTargetObserver(System.IntPtr,System.IntPtr&,Vuforia.VuMultiTargetConfig,Vuforia.VuMultiTargetCreationError&)
-extern void VuMultiTargetObserver_vuEngineCreateMultiTargetObserver_m5D2EB1E5D7BAEE2D70352812B953D1E3D9FC00C8 (void);
+extern void VuMultiTargetObserver_vuEngineCreateMultiTargetObserver_mA15CCB24BA8A7DB214B96D05F2A0B82980C98F35 (void);
 // 0x0000037A Vuforia.VuResult Vuforia.VuMultiTargetObserver::vuMultiTargetObserverGetTargetUniqueId(System.IntPtr,System.IntPtr&)
-extern void VuMultiTargetObserver_vuMultiTargetObserverGetTargetUniqueId_m8FBDB4A339C3F7B316122B14D5681A81BEB3ED0A (void);
+extern void VuMultiTargetObserver_vuMultiTargetObserverGetTargetUniqueId_m31319EEDBE6DA03264D98B0BBEEE1EE30E53A835 (void);
 // 0x0000037B Vuforia.VuResult Vuforia.VuMultiTargetObserver::vuMultiTargetObserverGetTargetName(System.IntPtr,System.IntPtr&)
-extern void VuMultiTargetObserver_vuMultiTargetObserverGetTargetName_m348F73F7B35155CE7E94406C07C93936D4286889 (void);
+extern void VuMultiTargetObserver_vuMultiTargetObserverGetTargetName_m7C42F451BD7E423B92354DB854DF64E95F56D029 (void);
 // 0x0000037C Vuforia.VuResult Vuforia.VuMultiTargetObserver::vuMultiTargetObserverGetTargetSize(System.IntPtr,Vuforia.VuVector3F&)
-extern void VuMultiTargetObserver_vuMultiTargetObserverGetTargetSize_mDB917A090D2A882F51CE8ABE42D5C64DC50093F1 (void);
+extern void VuMultiTargetObserver_vuMultiTargetObserverGetTargetSize_m9916FF533B948599F83A7226E0D5697725DD17AC (void);
 // 0x0000037D Vuforia.VuResult Vuforia.VuMultiTargetObserver::vuMultiTargetObserverGetAABB(System.IntPtr,Vuforia.VuAABB&)
-extern void VuMultiTargetObserver_vuMultiTargetObserverGetAABB_mB4CF9D99212B2F75F9918E6E8A05A078905086DF (void);
+extern void VuMultiTargetObserver_vuMultiTargetObserverGetAABB_mD1EA7E42993676991AC5B69B5204AD4430D6A5EE (void);
 // 0x0000037E Vuforia.VuResult Vuforia.VuMultiTargetObserver::vuMultiTargetObserverSetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization)
-extern void VuMultiTargetObserver_vuMultiTargetObserverSetTrackingOptimization_m059DCFB13C93BE56569DCDCC44A2847478765E18 (void);
+extern void VuMultiTargetObserver_vuMultiTargetObserverSetTrackingOptimization_mEBCCAACC80B531DF7B5674D4CBD6C29863C2EBC6 (void);
 // 0x0000037F Vuforia.VuResult Vuforia.VuMultiTargetObserver::vuMultiTargetObserverGetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization&)
-extern void VuMultiTargetObserver_vuMultiTargetObserverGetTrackingOptimization_m1F9BA35655F36C56ABE4DCA67526070353F41290 (void);
+extern void VuMultiTargetObserver_vuMultiTargetObserverGetTrackingOptimization_m6B6CF22E5614B68490477EFCF3F1D182EF7D1E43 (void);
 // 0x00000380 System.String Vuforia.VuMultiTargetObserver::get_TargetUniqueID()
 extern void VuMultiTargetObserver_get_TargetUniqueID_m3E622FA8519E6C3E7CA31F760393F1E6197C236A (void);
 // 0x00000381 System.String Vuforia.VuMultiTargetObserver::get_TargetName()
@@ -1630,19 +1630,19 @@ extern void VuMultiTargetObserver_get_BoundingBox_m823D1C29B1B796EC68D5C2A162396
 // 0x00000384 Vuforia.VuTrackingOptimization Vuforia.VuMultiTargetObserver::get_TrackingOptimization()
 extern void VuMultiTargetObserver_get_TrackingOptimization_m935019665D585D63955CF2A99239ABF914B2822B (void);
 // 0x00000385 Vuforia.VuMultiTargetObserver Vuforia.VuMultiTargetObserver::Create(Vuforia.VuEngine,Vuforia.VuMultiTargetConfig,Vuforia.VuMultiTargetCreationError&)
-extern void VuMultiTargetObserver_Create_mCB4667335ADFB761C84E4664DDC095A51B2F2E6A (void);
+extern void VuMultiTargetObserver_Create_m61A4274B7746E3A9A819D6609B07BDC4ABBD17CB (void);
 // 0x00000386 System.Void Vuforia.VuMultiTargetObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuMultiTargetObserver__ctor_mF483E1DEF69F602B8A7A76ED4858A3170DAC14AC (void);
 // 0x00000387 System.Boolean Vuforia.VuMultiTargetObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 extern void VuMultiTargetObserver_SetTrackingOptimization_m89FF7D2E1F139BFA0CE8E0093297FE43FF901DE1 (void);
 // 0x00000388 Vuforia.VuResult Vuforia.VuMultiTargetObservationTargetInfo::vuMultiTargetObservationGetTargetInfo(System.IntPtr,Vuforia.VuMultiTargetObservationTargetInfo/Internal&)
-extern void VuMultiTargetObservationTargetInfo_vuMultiTargetObservationGetTargetInfo_m05EA85E26AFDF3CAFED1A2D086DC49A18C8DB40A (void);
+extern void VuMultiTargetObservationTargetInfo_vuMultiTargetObservationGetTargetInfo_m7AAC9B1B8513C933E3355FCCBAEE3808B36B15A8 (void);
 // 0x00000389 Vuforia.VuMultiTargetObservationTargetInfo Vuforia.VuMultiTargetObservationTargetInfo::Create(System.IntPtr)
-extern void VuMultiTargetObservationTargetInfo_Create_mDA7884F7422C0BB873970F0331718F8BD5BFC993 (void);
+extern void VuMultiTargetObservationTargetInfo_Create_m973FD74AB4E2765EB1F3AE500FCFC06A31B0676E (void);
 // 0x0000038A Vuforia.VuMultiTargetObservationStatusInfo Vuforia.IVuMultiTargetObservation::get_StatusInfo()
 // 0x0000038B Vuforia.VuMultiTargetObservationTargetInfo Vuforia.IVuMultiTargetObservation::get_TargetInfo()
 // 0x0000038C Vuforia.VuResult Vuforia.VuMultiTargetObservation::vuMultiTargetObservationGetStatusInfo(System.IntPtr,Vuforia.VuMultiTargetObservationStatusInfo&)
-extern void VuMultiTargetObservation_vuMultiTargetObservationGetStatusInfo_mDB596B36209F582E9D580807A860AB045C836789 (void);
+extern void VuMultiTargetObservation_vuMultiTargetObservationGetStatusInfo_mD6726E359B74F3BE1D382F182F2EC94DB622F90A (void);
 // 0x0000038D Vuforia.VuMultiTargetObservationStatusInfo Vuforia.VuMultiTargetObservation::get_StatusInfo()
 extern void VuMultiTargetObservation_get_StatusInfo_mCF2F14E80298258A4CB4F34D65812C4D5F3B4ED5 (void);
 // 0x0000038E Vuforia.VuMultiTargetObservationTargetInfo Vuforia.VuMultiTargetObservation::get_TargetInfo()
@@ -1685,7 +1685,7 @@ extern void ObservationManager_UnregisterObservation_mC99FFA546CC509AB650587CAF0
 // 0x000003AC System.Void Vuforia.ObservationManager/NativeObservationPool`1/<>c::.ctor()
 // 0x000003AD System.Void Vuforia.ObservationManager/NativeObservationPool`1/<>c::<.ctor>b__0_0(T)
 // 0x000003AE System.Void Vuforia.ObservationManager/<>c::.cctor()
-extern void U3CU3Ec__cctor_mECDD2B57C1F1130BAB5F40EBF7500409E84228BF (void);
+extern void U3CU3Ec__cctor_mEDE465B40322EB11AB9A884A79D1C0DF1471E8B7 (void);
 // 0x000003AF System.Void Vuforia.ObservationManager/<>c::.ctor()
 extern void U3CU3Ec__ctor_mEC08503B50954E0AC851000920170BF9A950F96E (void);
 // 0x000003B0 Vuforia.VuImageTargetObservation Vuforia.ObservationManager/<>c::<.ctor>b__3_0()
@@ -1722,17 +1722,17 @@ extern void U3CU3Ec_U3C_ctorU3Eb__3_13_m7190F49EF8FBA810CBA016AECDBC6219D7836E52
 // 0x000003C1 System.Boolean Vuforia.IVuObserver::Activate()
 // 0x000003C2 System.Boolean Vuforia.IVuObserver::Deactivate()
 // 0x000003C3 System.Int32 Vuforia.VuObserver::vuObserverGetId(System.IntPtr)
-extern void VuObserver_vuObserverGetId_mC289123933F84503B433BDCD1811B9772CFD0D84 (void);
+extern void VuObserver_vuObserverGetId_mE76B18F825D3842DCDADBC6EFC02BE3B2FBA2944 (void);
 // 0x000003C4 Vuforia.VuResult Vuforia.VuObserver::vuObserverGetType(System.IntPtr,Vuforia.VuObserverType&)
-extern void VuObserver_vuObserverGetType_m323F855E6BD1824944A0ABDADB974ECFD8FBF346 (void);
+extern void VuObserver_vuObserverGetType_mA488EAD9C5B785290884481B3F673A3DEC0528B3 (void);
 // 0x000003C5 Vuforia.VuBool Vuforia.VuObserver::vuObserverIsActivated(System.IntPtr)
-extern void VuObserver_vuObserverIsActivated_m0D4EC3A23973F240256FD9B13ACFF8F4E450804D (void);
+extern void VuObserver_vuObserverIsActivated_m189C631B44B3E2E5EDFFFB542B7B239DC4D9BF5F (void);
 // 0x000003C6 Vuforia.VuResult Vuforia.VuObserver::vuObserverActivate(System.IntPtr)
-extern void VuObserver_vuObserverActivate_mA56112A5AB98924CE9132A25B4A4F4BFDD57F1D6 (void);
+extern void VuObserver_vuObserverActivate_mFD449988D5B85CB4ECED5DBF4D8A3696DC0F6F58 (void);
 // 0x000003C7 Vuforia.VuResult Vuforia.VuObserver::vuObserverDeactivate(System.IntPtr)
-extern void VuObserver_vuObserverDeactivate_mCC7FF226E94693DA57740552CA5F68515ACCDB70 (void);
+extern void VuObserver_vuObserverDeactivate_mE186ED7DCB16E45E5F208BBEA4EBAF3025966EEC (void);
 // 0x000003C8 Vuforia.VuResult Vuforia.VuObserver::vuObserverDestroy(System.IntPtr)
-extern void VuObserver_vuObserverDestroy_mF7364EB9BFE1314E26BD8C4C1AA6356C4D207D91 (void);
+extern void VuObserver_vuObserverDestroy_mD9955770CDE706C990EB7D996D160BFA5C066D99 (void);
 // 0x000003C9 System.IntPtr Vuforia.VuObserver::get_NativeHandle()
 extern void VuObserver_get_NativeHandle_m0DF9843ED5DCA1A40CD3A38E73C34795D6B68642 (void);
 // 0x000003CA System.Int32 Vuforia.VuObserver::get_Id()
@@ -1757,9 +1757,9 @@ extern void VuObserver_Deactivate_mA5D6645A5F85F372E2FBA435857C65449F20C8B9 (voi
 // 0x000003D4 Vuforia.VuObservationType Vuforia.IVuObservation::get_ObservationType()
 // 0x000003D5 Vuforia.VuPoseInfo Vuforia.IVuObservationWithPose::get_PoseInfo()
 // 0x000003D6 Vuforia.VuResult Vuforia.VuObservation::vuObservationGetType(System.IntPtr,Vuforia.VuObservationType&)
-extern void VuObservation_vuObservationGetType_mC1E8FDE337C36E926A59B6D03DC07D5AC71EC6C5 (void);
+extern void VuObservation_vuObservationGetType_m1B3AE3F1105DE026496FFD942E673263552096C9 (void);
 // 0x000003D7 System.Int32 Vuforia.VuObservation::vuObservationGetObserverId(System.IntPtr)
-extern void VuObservation_vuObservationGetObserverId_m48FAE9DA084B90778A73D0AAE35A54B8AF30513C (void);
+extern void VuObservation_vuObservationGetObserverId_mE3D9AA130109E8659F9CD1FFB9C83182CC99A615 (void);
 // 0x000003D8 System.IntPtr Vuforia.VuObservation::get_NativeHandle()
 extern void VuObservation_get_NativeHandle_m2D08BF2A7AEA86F35765D87E4AF46542C0AA541F (void);
 // 0x000003D9 System.Int32 Vuforia.VuObservation::get_ObserverId()
@@ -1767,7 +1767,7 @@ extern void VuObservation_get_ObserverId_m3B012578A6260B048E2F6D2FD71EEF8736AFEF
 // 0x000003DA Vuforia.VuObservationType Vuforia.VuObservation::get_ObservationType()
 extern void VuObservation_get_ObservationType_m58DC771B5E963526D9FD48B27C764DE505FC2E63 (void);
 // 0x000003DB Vuforia.VuObservationType Vuforia.VuObservation::GetObservationType(System.IntPtr)
-extern void VuObservation_GetObservationType_m4770228627CDF25E2E443656101EBA80518FBF13 (void);
+extern void VuObservation_GetObservationType_mAF20715FAF74EF1C12E75D86AD592DFD93F574C7 (void);
 // 0x000003DC System.Void Vuforia.VuObservation::.ctor()
 extern void VuObservation__ctor_m81F1087E180A9B41AFAD882FCC0445D76E7E4B8C (void);
 // 0x000003DD System.Void Vuforia.VuObservation::RegisterObservation(System.IntPtr)
@@ -1783,7 +1783,7 @@ extern void VuObservation_Dispose_m7CBDC10CA0AAC412266D5C044F6B0027E9BA400E (voi
 // 0x000003E4 System.IAsyncResult Vuforia.VuObservation/CreateStructDelegate`1::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
 // 0x000003E5 T Vuforia.VuObservation/CreateStructDelegate`1::EndInvoke(System.IAsyncResult)
 // 0x000003E6 Vuforia.VuResult Vuforia.VuObservationWithPose::vuObservationGetPoseInfo(System.IntPtr,Vuforia.VuPoseInfo&)
-extern void VuObservationWithPose_vuObservationGetPoseInfo_mAFB4982C2A96507379924D798B8BC26D34ABE58F (void);
+extern void VuObservationWithPose_vuObservationGetPoseInfo_m6EB04AC8908E64FA8732C5BA3935B570BD2A6153 (void);
 // 0x000003E7 Vuforia.VuPoseInfo Vuforia.VuObservationWithPose::get_PoseInfo()
 extern void VuObservationWithPose_get_PoseInfo_mF34D1567C7B7AE099E16406AA4E3ABE8F4099598 (void);
 // 0x000003E8 System.Void Vuforia.VuObservationWithPose::.ctor()
@@ -1791,13 +1791,13 @@ extern void VuObservationWithPose__ctor_m17EC32281AF1EE6DCFF47420E850FD7321B2971
 // 0x000003E9 System.Void Vuforia.VuObservationWithPose::UnregisterObservation()
 extern void VuObservationWithPose_UnregisterObservation_mB0A5D31E2887F0F108B728AFDF83C3C043C716D8 (void);
 // 0x000003EA Vuforia.VuResult Vuforia.VuObservationList::vuObservationListCreate(System.IntPtr&)
-extern void VuObservationList_vuObservationListCreate_m3D28C1A2953213E460565E87E8076D5E9520E035 (void);
+extern void VuObservationList_vuObservationListCreate_mE34820FA00E41576A2B4C164C72F6305906982B3 (void);
 // 0x000003EB Vuforia.VuResult Vuforia.VuObservationList::vuObservationListGetSize(System.IntPtr,System.Int32&)
-extern void VuObservationList_vuObservationListGetSize_m7B812968E3B8C18B59EC8733E604350F2F54B8C4 (void);
+extern void VuObservationList_vuObservationListGetSize_m24E80CF75F0CE8B01916EB13ABB0E7BA90BB5CCA (void);
 // 0x000003EC Vuforia.VuResult Vuforia.VuObservationList::vuObservationListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuObservationList_vuObservationListGetElement_mA321C04C1534B24A60FC0D28118003E5D8C8C41C (void);
+extern void VuObservationList_vuObservationListGetElement_m017EB60D8CD4661EBBCBF521856B9495EABE9785 (void);
 // 0x000003ED Vuforia.VuResult Vuforia.VuObservationList::vuObservationListDestroy(System.IntPtr)
-extern void VuObservationList_vuObservationListDestroy_mBA25200EB9F8BAA66A29D7841D263299EE32DD11 (void);
+extern void VuObservationList_vuObservationListDestroy_mCFC0464757063191693D77E994CC8817A92DC854 (void);
 // 0x000003EE System.Void Vuforia.VuObservationList::.ctor()
 extern void VuObservationList__ctor_m845690DD73824E13318D7EF674558AAA728A6454 (void);
 // 0x000003EF System.Void Vuforia.VuObservationList::.ctor(System.IntPtr)
@@ -1806,19 +1806,19 @@ extern void VuObservationList__ctor_m6C9FF1799253B96A6DE90EE5C572E9256433301B (v
 // 0x000003F1 System.Nullable`1<Vuforia.VuFusionProviderPlatformType> Vuforia.IVuPlatformController::get_FusionProviderPlatformType()
 // 0x000003F2 System.Boolean Vuforia.IVuPlatformController::SetViewOrientation(Vuforia.VuViewOrientation)
 // 0x000003F3 Vuforia.VuResult Vuforia.VuPlatformController::vuPlatformControllerSetViewOrientation(System.IntPtr,Vuforia.VuViewOrientation)
-extern void VuPlatformController_vuPlatformControllerSetViewOrientation_m54EF8BDBB54BE5C8CA71CF9088E34B6B1C18A409 (void);
+extern void VuPlatformController_vuPlatformControllerSetViewOrientation_mE507B157F9DA89BB8D206BCAB9114625834210D6 (void);
 // 0x000003F4 Vuforia.VuResult Vuforia.VuPlatformController::vuEngineGetPlatformController(System.IntPtr,System.IntPtr&)
-extern void VuPlatformController_vuEngineGetPlatformController_mEF57F57AE85E05097778EFA6E781AF08680ECA98 (void);
+extern void VuPlatformController_vuEngineGetPlatformController_m978C38A528CB7B6049AF031C412F8DDD5241CFCA (void);
 // 0x000003F5 Vuforia.VuResult Vuforia.VuPlatformController::vuPlatformControllerGetFusionProviderType(System.IntPtr,Vuforia.VuFusionProviderType&)
-extern void VuPlatformController_vuPlatformControllerGetFusionProviderType_m575A7D61B0005A7B0EBB441CA5DD311EAD6DBA7C (void);
+extern void VuPlatformController_vuPlatformControllerGetFusionProviderType_mB2E4544EF2FEAA18178A32F1189BF51F62821922 (void);
 // 0x000003F6 Vuforia.VuResult Vuforia.VuPlatformController::vuPlatformControllerGetFusionProviderPlatformType(System.IntPtr,Vuforia.VuFusionProviderPlatformType&)
-extern void VuPlatformController_vuPlatformControllerGetFusionProviderPlatformType_m7628AF2F296200258A01C4BD67A3F6FD68323977 (void);
+extern void VuPlatformController_vuPlatformControllerGetFusionProviderPlatformType_mAFD7DDEF4966DAD82F443EFF0834927814B388A0 (void);
 // 0x000003F7 Vuforia.VuFusionProviderType Vuforia.VuPlatformController::get_FusionProviderType()
 extern void VuPlatformController_get_FusionProviderType_mEA3B2280BE22352654A27363994847B095D0EAB7 (void);
 // 0x000003F8 System.Nullable`1<Vuforia.VuFusionProviderPlatformType> Vuforia.VuPlatformController::get_FusionProviderPlatformType()
 extern void VuPlatformController_get_FusionProviderPlatformType_m242FDCEEB998DDF86A4A6314C5697E4281D47FA8 (void);
 // 0x000003F9 Vuforia.VuPlatformController Vuforia.VuPlatformController::Create(Vuforia.VuEngine)
-extern void VuPlatformController_Create_mBCF8089BC4DA9B3C820FA54DDCDBB2A093C10C63 (void);
+extern void VuPlatformController_Create_m8C103887F098294013EE13C23CF0E6F2887C3605 (void);
 // 0x000003FA System.Void Vuforia.VuPlatformController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuPlatformController__ctor_m8C49EC70D8483BEB417951414CD7E5102826F34C (void);
 // 0x000003FB System.Boolean Vuforia.VuPlatformController::SetViewOrientation(Vuforia.VuViewOrientation)
@@ -1830,25 +1830,25 @@ extern void VuPlatformController_SetViewOrientation_m81C0860C0A34D986D7DD8D7FB4D
 // 0x00000400 System.Boolean Vuforia.IVuRenderController::SetProjectionMatrixNearFar(System.Tuple`2<System.Single,System.Single>)
 // 0x00000401 System.Boolean Vuforia.IVuRenderController::SetVideoBackgroundViewportMode(Vuforia.VuVideoBackgroundViewportMode)
 // 0x00000402 Vuforia.VuResult Vuforia.VuRenderController::vuEngineGetRenderController(System.IntPtr,System.IntPtr&)
-extern void VuRenderController_vuEngineGetRenderController_m4E71991F2CCD2B94CB6AAECD629C78412A3A3D16 (void);
+extern void VuRenderController_vuEngineGetRenderController_m75364B4A526046D605A9633111BF7B4A3D778DD7 (void);
 // 0x00000403 Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerSetRenderViewConfig(System.IntPtr,Vuforia.VuRenderViewConfig&)
-extern void VuRenderController_vuRenderControllerSetRenderViewConfig_m54D079237EB9E48BC5A2A8D800DBD7A5116DCDBE (void);
+extern void VuRenderController_vuRenderControllerSetRenderViewConfig_m24FD6CB80BC6F8DA9640CB418B6F31582F1E2AC7 (void);
 // 0x00000404 Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerGetRenderViewConfig(System.IntPtr,Vuforia.VuRenderViewConfig&)
-extern void VuRenderController_vuRenderControllerGetRenderViewConfig_m1D1EB6843E10966AAFBE7FEF0CBAFC2B6430E082 (void);
+extern void VuRenderController_vuRenderControllerGetRenderViewConfig_mCFC2A0925DD511FB30A928827C68696F5736B7FA (void);
 // 0x00000405 Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerGetVideoBackgroundViewport(System.IntPtr,Vuforia.VuVector4I&)
-extern void VuRenderController_vuRenderControllerGetVideoBackgroundViewport_m06364CD80513E96527622509588D9139F4E61A4A (void);
+extern void VuRenderController_vuRenderControllerGetVideoBackgroundViewport_mDE7EC72A6FB2BC30B6E8998DBE2714FF99F65C8A (void);
 // 0x00000406 Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerSetVideoBackgroundViewport(System.IntPtr,Vuforia.VuVector4I&)
-extern void VuRenderController_vuRenderControllerSetVideoBackgroundViewport_m54A25983195FBC2088B36B7ADB28A817460ACAEC (void);
+extern void VuRenderController_vuRenderControllerSetVideoBackgroundViewport_m623B67684BB2BEF0D865C8299832DD2E9BA900D4 (void);
 // 0x00000407 Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerSetVideoBackgroundViewportMode(System.IntPtr,Vuforia.VuVideoBackgroundViewportMode)
-extern void VuRenderController_vuRenderControllerSetVideoBackgroundViewportMode_m31BAE9E6432655D2724EA1CFE26C55526BBE13B2 (void);
+extern void VuRenderController_vuRenderControllerSetVideoBackgroundViewportMode_mEB74EAD72A0C25BBC7A3A54D088D72E5C9161128 (void);
 // 0x00000408 Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerGetVideoBackgroundViewInfo(System.IntPtr,Vuforia.VuVideoBackgroundViewInfo&)
-extern void VuRenderController_vuRenderControllerGetVideoBackgroundViewInfo_m1CA72889A68ABC5C9BEC5F7D37DFAD4CF9BE6370 (void);
+extern void VuRenderController_vuRenderControllerGetVideoBackgroundViewInfo_m7099454669CEAA1019176821EEB60B48E51B2FFC (void);
 // 0x00000409 Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerUpdateVideoBackgroundTexture(System.IntPtr,System.IntPtr,Vuforia.VuRenderVideoBackgroundData&)
-extern void VuRenderController_vuRenderControllerUpdateVideoBackgroundTexture_m4170AF031C75DD6A47F8BC87BD0514379FF3091D (void);
+extern void VuRenderController_vuRenderControllerUpdateVideoBackgroundTexture_m6A3C7AAE5DDC0E7138274D03E8D1C80D0CABD11A (void);
 // 0x0000040A Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerSetProjectionMatrixNearFar(System.IntPtr,System.Single,System.Single)
-extern void VuRenderController_vuRenderControllerSetProjectionMatrixNearFar_m63A043B7AE452B1C922E38DB3676D74DC166092C (void);
+extern void VuRenderController_vuRenderControllerSetProjectionMatrixNearFar_mF7DA8929108E91EC28F16822FC83DE6C916C36CD (void);
 // 0x0000040B Vuforia.VuResult Vuforia.VuRenderController::vuRenderControllerGetProjectionMatrixNearFar(System.IntPtr,System.Single&,System.Single&)
-extern void VuRenderController_vuRenderControllerGetProjectionMatrixNearFar_m4543C03AD5E3FBC1E65BFB0A223A33CD1962EEE6 (void);
+extern void VuRenderController_vuRenderControllerGetProjectionMatrixNearFar_m67001237BDDD264950DD96ABD50FE4AEAAE8CA77 (void);
 // 0x0000040C Vuforia.VuRenderViewConfig Vuforia.VuRenderController::get_RenderViewConfig()
 extern void VuRenderController_get_RenderViewConfig_m0C8D1C55BC2E662662A80BC22A687ACA1D233B08 (void);
 // 0x0000040D Vuforia.VuVideoBackgroundViewInfo Vuforia.VuRenderController::get_VideoBackgroundViewInfo()
@@ -1856,7 +1856,7 @@ extern void VuRenderController_get_VideoBackgroundViewInfo_mF1EE1AE5172679F98CFB
 // 0x0000040E System.Tuple`2<System.Single,System.Single> Vuforia.VuRenderController::get_ProjectionMatrixNearFar()
 extern void VuRenderController_get_ProjectionMatrixNearFar_mED96257642EB011D1A2DA83ED5FD000D51711CD5 (void);
 // 0x0000040F Vuforia.VuRenderController Vuforia.VuRenderController::Create(Vuforia.VuEngine)
-extern void VuRenderController_Create_m86F5C1CF681E6F1FCB8A17EA9F483A9AB64AF096 (void);
+extern void VuRenderController_Create_m71769C33F1FADFBCA137F9D7E8255D5A0DB96A0D (void);
 // 0x00000410 System.Void Vuforia.VuRenderController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuRenderController__ctor_m85D414D4FAC3287B310216F3AEDA3AFD3DA1A044 (void);
 // 0x00000411 System.Boolean Vuforia.VuRenderController::SetRenderViewConfig(Vuforia.VuRenderViewConfig)
@@ -1878,23 +1878,23 @@ extern void VuRecordingConfig__ctor_m809C046AC987A30EAE2A2B370DE7317593E6A463 (v
 // 0x0000041C System.Boolean Vuforia.IVuSessionRecorderController::DestroyRecordings(System.Boolean)
 // 0x0000041D System.Boolean Vuforia.IVuSessionRecorderController::CleanRecordedData()
 // 0x0000041E Vuforia.VuResult Vuforia.VuSessionRecorderController::vuEngineGetSessionRecorderController(System.IntPtr,System.IntPtr&)
-extern void VuSessionRecorderController_vuEngineGetSessionRecorderController_m186190BF1CF88603F2B0F961911F1244DC3C91EA (void);
+extern void VuSessionRecorderController_vuEngineGetSessionRecorderController_mAA9C44E676844E76241783C91CA044AE4AF6D45E (void);
 // 0x0000041F Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerGetDefaultRecordingDataFlags(System.IntPtr,Vuforia.VuRecordingDataFlags&)
-extern void VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingDataFlags_m1BBD0A22F2937BDD9DAC8405803D902349558D40 (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingDataFlags_m78ACDC38596991C8233842374D0356400ABC7B11 (void);
 // 0x00000420 Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerGetSupportedRecordingDataFlags(System.IntPtr,Vuforia.VuRecordingDataFlags&)
-extern void VuSessionRecorderController_vuSessionRecorderControllerGetSupportedRecordingDataFlags_mE146CB1A0F095C5ED2C19020E29417A06D5F6F35 (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerGetSupportedRecordingDataFlags_m8F502248F1FC1DB1CFF9BB3A911D44643A0F5C0B (void);
 // 0x00000421 Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerGetDefaultRecordingFrameRate(System.IntPtr,Vuforia.VuRecordingFrameRate&)
-extern void VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingFrameRate_m114BE0EA0236D556F16FADA2167100AD2960D5EE (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingFrameRate_mE1AC56513217F8BFB7EAE15765241FC16E497323 (void);
 // 0x00000422 Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerGetDefaultRecordingImageScale(System.IntPtr,Vuforia.VuRecordingImageScale&)
-extern void VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingImageScale_m6C42D43E6C24610C92D96615AA6CE92CDD3E25C3 (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingImageScale_m64EBC1AD4776484020E3CA7836D30E0E613042AE (void);
 // 0x00000423 Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerCreateRecording(System.IntPtr,Vuforia.VuRecordingConfig,System.IntPtr&,Vuforia.VuRecordingCreationError&)
-extern void VuSessionRecorderController_vuSessionRecorderControllerCreateRecording_mCEE6A191671C4D11E08CAEC0CBC572CB0945DB5E (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerCreateRecording_m760C1AB068DE050364918C5DB46BA468A902F819 (void);
 // 0x00000424 Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerGetRecordings(System.IntPtr,System.IntPtr)
-extern void VuSessionRecorderController_vuSessionRecorderControllerGetRecordings_m72F31F987C701E6CD24EB6411169C0BF7BF2EE44 (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerGetRecordings_mBD1ED3E3109E02425E7E45AA3713739B9352B509 (void);
 // 0x00000425 Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerDestroyRecordings(System.IntPtr,Vuforia.VuBool)
-extern void VuSessionRecorderController_vuSessionRecorderControllerDestroyRecordings_mE2322CCEC3291367E024C663AAAB4275AA0B8E22 (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerDestroyRecordings_m9BCDDC013EE0EB2EDED05F61B4FA2D23B1ABE9B1 (void);
 // 0x00000426 Vuforia.VuResult Vuforia.VuSessionRecorderController::vuSessionRecorderControllerCleanRecordedData(System.IntPtr)
-extern void VuSessionRecorderController_vuSessionRecorderControllerCleanRecordedData_mA4FBE99B7D3B2C77AB4A1D2BFA31281C4C300E2B (void);
+extern void VuSessionRecorderController_vuSessionRecorderControllerCleanRecordedData_mBD3DA3AEC4B770E9E9F3059EDCDC0B021A34F907 (void);
 // 0x00000427 Vuforia.VuRecordingDataFlags Vuforia.VuSessionRecorderController::get_DefaultDataFlags()
 extern void VuSessionRecorderController_get_DefaultDataFlags_m9C2E45E52BC8EF492161B1B3E3FE46A4B5161A9E (void);
 // 0x00000428 Vuforia.VuRecordingDataFlags Vuforia.VuSessionRecorderController::get_SupportedDataFlags()
@@ -1904,7 +1904,7 @@ extern void VuSessionRecorderController_get_DefaultFrameRate_m624470B194B2409843
 // 0x0000042A Vuforia.VuRecordingImageScale Vuforia.VuSessionRecorderController::get_DefaultImageScale()
 extern void VuSessionRecorderController_get_DefaultImageScale_mCA071295A5243DC8CAE4C0A3FB7FCFE3623EDAF5 (void);
 // 0x0000042B Vuforia.VuSessionRecorderController Vuforia.VuSessionRecorderController::Create(Vuforia.VuEngine)
-extern void VuSessionRecorderController_Create_m2A8915ECAE714A0FE9B286F9AE0B54D1844F60A1 (void);
+extern void VuSessionRecorderController_Create_m1D301D19F3D27838C55D961E173333C4AB04A679 (void);
 // 0x0000042C System.Void Vuforia.VuSessionRecorderController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuSessionRecorderController__ctor_mA0C6AA8BA3A2130966D78C09C61EE14D50A8BAF4 (void);
 // 0x0000042D Vuforia.IVuRecording Vuforia.VuSessionRecorderController::CreateRecording(Vuforia.VuRecordingConfig,Vuforia.VuRecordingCreationError&)
@@ -1922,17 +1922,17 @@ extern void VuSessionRecorderController_CleanRecordedData_m139DC648E2A701D4CBE63
 // 0x00000435 System.Boolean Vuforia.IVuRecording::Stop()
 // 0x00000436 System.Boolean Vuforia.IVuRecording::Destroy(System.Boolean)
 // 0x00000437 Vuforia.VuResult Vuforia.VuRecording::vuRecordingStart(System.IntPtr,Vuforia.VuRecordingStartError&)
-extern void VuRecording_vuRecordingStart_m707AFB1493BEDC7C98C680AFB0DD3B3F70FF0A66 (void);
+extern void VuRecording_vuRecordingStart_mFE06F858553E35647472EDE5FB645C975E7C3AFB (void);
 // 0x00000438 Vuforia.VuResult Vuforia.VuRecording::vuRecordingStop(System.IntPtr)
-extern void VuRecording_vuRecordingStop_m712E07AC06CEC385CD5A589BCF1B72DECB94A168 (void);
+extern void VuRecording_vuRecordingStop_mD6654A225E0DF048066DB8331854B32A4BE367BF (void);
 // 0x00000439 Vuforia.VuResult Vuforia.VuRecording::vuRecordingGetPath(System.IntPtr,System.IntPtr&)
-extern void VuRecording_vuRecordingGetPath_m305540FFA1A04E5F895FEBFB3882FE2F4B31B332 (void);
+extern void VuRecording_vuRecordingGetPath_mDA99A93E4AA2525F9767EE2B03A32FBD9724210D (void);
 // 0x0000043A Vuforia.VuResult Vuforia.VuRecording::vuRecordingGetStatus(System.IntPtr,Vuforia.VuRecordingStatus&)
-extern void VuRecording_vuRecordingGetStatus_mDAB321E23486DF7BFD0E72044A908E4C17D23B08 (void);
+extern void VuRecording_vuRecordingGetStatus_mFF10C3CC2196AD80CF7DB4484E771D1FA4282EAE (void);
 // 0x0000043B Vuforia.VuResult Vuforia.VuRecording::vuRecordingGetStatusInfo(System.IntPtr,Vuforia.VuRecordingStatusInfo&)
-extern void VuRecording_vuRecordingGetStatusInfo_mDABD0C27E91B99A905F9D6A8920CD0E04274560E (void);
+extern void VuRecording_vuRecordingGetStatusInfo_mC61A3FC7F5FF472F174EA685E820C86DFFD858F6 (void);
 // 0x0000043C Vuforia.VuResult Vuforia.VuRecording::vuRecordingDestroy(System.IntPtr,Vuforia.VuBool)
-extern void VuRecording_vuRecordingDestroy_m543621BD783B913C9342D0E476E4166FCD3F5498 (void);
+extern void VuRecording_vuRecordingDestroy_mD180C0CE4911FE24D26E3C194273977B05FA5659 (void);
 // 0x0000043D System.String Vuforia.VuRecording::get_Path()
 extern void VuRecording_get_Path_m8A980EF27D3797E700EBD485016AB1C46EA9F133 (void);
 // 0x0000043E Vuforia.VuRecordingStatus Vuforia.VuRecording::get_Status()
@@ -1948,13 +1948,13 @@ extern void VuRecording_Stop_m8F38454E1D109130F02CB17B362E784D8578BD4F (void);
 // 0x00000443 System.Boolean Vuforia.VuRecording::Destroy(System.Boolean)
 extern void VuRecording_Destroy_m6C93C89FA80BB421B395984B729DE5FD71DFEEEB (void);
 // 0x00000444 Vuforia.VuResult Vuforia.VuRecordingList::vuRecordingListCreate(System.IntPtr&)
-extern void VuRecordingList_vuRecordingListCreate_m9CE0EE4C8A9D388285B3B8C497C4E092E85CFF96 (void);
+extern void VuRecordingList_vuRecordingListCreate_m386241783BE425CB814697B005EA2EB4F7E17C89 (void);
 // 0x00000445 Vuforia.VuResult Vuforia.VuRecordingList::vuRecordingListGetSize(System.IntPtr,System.Int32&)
-extern void VuRecordingList_vuRecordingListGetSize_m13D1279CB29AD0475C812C047CE6729E57AF2BAB (void);
+extern void VuRecordingList_vuRecordingListGetSize_m7EC7750FF07756D00C8FAAEC22EB4876495BE305 (void);
 // 0x00000446 Vuforia.VuResult Vuforia.VuRecordingList::vuRecordingListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuRecordingList_vuRecordingListGetElement_m0EA1053E12EFE394F0F78E98E06D291C17E55857 (void);
+extern void VuRecordingList_vuRecordingListGetElement_mBE538AEDA28599AC264D97ACC48624BEC8D4EEC8 (void);
 // 0x00000447 Vuforia.VuResult Vuforia.VuRecordingList::vuRecordingListDestroy(System.IntPtr)
-extern void VuRecordingList_vuRecordingListDestroy_m1D177B5DC2B47CCF66DE8CF05B6D656D6B9DEC27 (void);
+extern void VuRecordingList_vuRecordingListDestroy_m631CE3582AB34C013D1DFA50CB65FBEBC5B2984C (void);
 // 0x00000448 System.Void Vuforia.VuRecordingList::.ctor()
 extern void VuRecordingList__ctor_m60C6115325921C8F6357EE59A97B0F6614F5724C (void);
 // 0x00000449 Vuforia.VuRecording Vuforia.VuRecordingList::GetElement(System.IntPtr)
@@ -1967,9 +1967,9 @@ extern void VuRecordingList_GetElement_mFD54384F9CEE1702527989B3FE926E0852333C39
 // 0x0000044F Vuforia.VuMatrix44F Vuforia.IVuCameraIntrinsics::GetProjectionMatrix(System.Tuple`2<System.Single,System.Single>,Vuforia.VuRotation)
 // 0x00000450 Vuforia.VuVector2F Vuforia.IVuCameraIntrinsics::GetCameraIntrinsicsGetFov()
 // 0x00000451 Vuforia.VuMatrix44F Vuforia.VuCameraIntrinsics::vuCameraIntrinsicsGetProjectionMatrix(Vuforia.VuCameraIntrinsics/Internal&,System.Single,System.Single,Vuforia.VuRotation)
-extern void VuCameraIntrinsics_vuCameraIntrinsicsGetProjectionMatrix_m0AEA88C9ABA429C18F7DBD282223ED76CD40CEB3 (void);
+extern void VuCameraIntrinsics_vuCameraIntrinsicsGetProjectionMatrix_m8853A78DF40F72F19EE914889A658B9D0094DC34 (void);
 // 0x00000452 Vuforia.VuVector2F Vuforia.VuCameraIntrinsics::vuCameraIntrinsicsGetFov(Vuforia.VuCameraIntrinsics/Internal&)
-extern void VuCameraIntrinsics_vuCameraIntrinsicsGetFov_m5CC8EF065CA0B4882EC8FB31DBE4C8AE8ACCEE01 (void);
+extern void VuCameraIntrinsics_vuCameraIntrinsicsGetFov_m568AE5C6E107D65952DA0E981D7C2C3072857248 (void);
 // 0x00000453 Vuforia.VuVector2F Vuforia.VuCameraIntrinsics::get_Size()
 extern void VuCameraIntrinsics_get_Size_mB130F199D1F41A70D6F1A4F0545EDA3ECF557244 (void);
 // 0x00000454 System.Void Vuforia.VuCameraIntrinsics::set_Size(Vuforia.VuVector2F)
@@ -2002,7 +2002,7 @@ extern void VuCameraIntrinsics_GetCameraIntrinsicsGetFov_m0EF4A4AD02F350BB789D40
 // 0x00000463 Vuforia.VuMatrix44F Vuforia.IVuRenderState::get_ViewMatrix()
 // 0x00000464 Vuforia.VuMatrix44F Vuforia.IVuRenderState::get_ProjectionMatrix()
 // 0x00000465 Vuforia.VuResult Vuforia.VuRenderState::vuStateGetRenderState(System.IntPtr,Vuforia.VuRenderState/Internal&)
-extern void VuRenderState_vuStateGetRenderState_m3C823651D492717D707813CCED0948C1CC347D80 (void);
+extern void VuRenderState_vuStateGetRenderState_m6C1D9CD3D3D909AF7274F69DD5489E1C3712D3E7 (void);
 // 0x00000466 Vuforia.VuVector4I Vuforia.VuRenderState::get_Viewport()
 extern void VuRenderState_get_Viewport_mCF53A87F2E6E2BE5B35797428D1E1A6FEF292D51 (void);
 // 0x00000467 Vuforia.VuMatrix44F Vuforia.VuRenderState::get_VBProjectionMatrix()
@@ -2019,11 +2019,11 @@ extern void VuRenderState__ctor_m95C437A49CE6EB8A179B9157925FA7ADC2D60A07 (void)
 // 0x0000046D System.Int64 Vuforia.IVuCameraFrame::get_Timestamp()
 // 0x0000046E System.Collections.Generic.IList`1<Vuforia.IVuImage> Vuforia.IVuCameraFrame::get_Images()
 // 0x0000046F Vuforia.VuResult Vuforia.VuCameraFrame::vuCameraFrameGetIndex(System.IntPtr,System.Int64&)
-extern void VuCameraFrame_vuCameraFrameGetIndex_m54795244311470570956575BC274A185F00B7778 (void);
+extern void VuCameraFrame_vuCameraFrameGetIndex_mA361BB9DBB7D05204040118F43E3DFA7717523B0 (void);
 // 0x00000470 Vuforia.VuResult Vuforia.VuCameraFrame::vuCameraFrameGetTimestamp(System.IntPtr,System.Int64&)
-extern void VuCameraFrame_vuCameraFrameGetTimestamp_m7EF622F0218D4AD5FFC32F871DE10A82BA6F5665 (void);
+extern void VuCameraFrame_vuCameraFrameGetTimestamp_m56F8B968A77FE423A2933774801B84DA501234B7 (void);
 // 0x00000471 Vuforia.VuResult Vuforia.VuCameraFrame::vuCameraFrameGetImages(System.IntPtr,System.IntPtr)
-extern void VuCameraFrame_vuCameraFrameGetImages_m1C9E14121FC85F4CF6E5B5E4B09E29D3B06BF8A7 (void);
+extern void VuCameraFrame_vuCameraFrameGetImages_m7319C19A238D4D2F11A340248D8709D4388F170E (void);
 // 0x00000472 System.IntPtr Vuforia.VuCameraFrame::get_NativeHandle()
 extern void VuCameraFrame_get_NativeHandle_m4E18E7EF7C58BAE1F467066D298918236D944929 (void);
 // 0x00000473 System.Int64 Vuforia.VuCameraFrame::get_Index()
@@ -2046,17 +2046,17 @@ extern void VuCameraFrame_Dispose_m5CF653AB2C2FCBDE39DC12D2D674D08317AF273A (voi
 // 0x0000047D Vuforia.IVuCameraIntrinsics Vuforia.IVuState::get_CameraIntrinsics()
 // 0x0000047E Vuforia.IVuRenderState Vuforia.IVuState::get_RenderState()
 // 0x0000047F Vuforia.VuBool Vuforia.VuState::vuStateHasCameraFrame(System.IntPtr)
-extern void VuState_vuStateHasCameraFrame_m8B7DF41C2852CF880B9236653C2D3E0734356A70 (void);
+extern void VuState_vuStateHasCameraFrame_mE3BB3C1217D40147D359A81CC453F0DD012B7082 (void);
 // 0x00000480 Vuforia.VuResult Vuforia.VuState::vuStateGetObservations(System.IntPtr,System.IntPtr)
-extern void VuState_vuStateGetObservations_m0D02DB054212376A0CE4453B52359D0A72904724 (void);
+extern void VuState_vuStateGetObservations_m3BF217D38B713E516013052B71A29B9A8DAC7393 (void);
 // 0x00000481 Vuforia.VuResult Vuforia.VuState::vuStateGetImageTargetObservations(System.IntPtr,System.IntPtr)
-extern void VuState_vuStateGetImageTargetObservations_m9E5F0F2F45C07901DEBC8DE647C51E76B4A92BF1 (void);
+extern void VuState_vuStateGetImageTargetObservations_m0C533EB3632B30A51030005C074083396E4B6FB0 (void);
 // 0x00000482 Vuforia.VuResult Vuforia.VuState::vuStateGetCameraFrame(System.IntPtr,System.IntPtr&)
-extern void VuState_vuStateGetCameraFrame_m86848748666E39E82CC2AD534F13BA751EA64A3D (void);
+extern void VuState_vuStateGetCameraFrame_mCA81262F07C6E6B90F588318E2C00A8483286F05 (void);
 // 0x00000483 Vuforia.VuResult Vuforia.VuState::vuStateGetCameraIntrinsics(System.IntPtr,Vuforia.VuCameraIntrinsics/Internal&)
-extern void VuState_vuStateGetCameraIntrinsics_mAB44AFA610DF0DFAED0D9284F528D241B4AC2D6B (void);
+extern void VuState_vuStateGetCameraIntrinsics_mF81643044116C6002C897B30E4997488EFAA34BC (void);
 // 0x00000484 Vuforia.VuResult Vuforia.VuState::vuStateRelease(System.IntPtr)
-extern void VuState_vuStateRelease_mAFA05EAF5310285FD16CE63DF77AD7E522E5EE57 (void);
+extern void VuState_vuStateRelease_m2BC7B01DF60786604C90AE6270B2CAB6E641B779 (void);
 // 0x00000485 Vuforia.VuEngine Vuforia.VuState::get_Engine()
 extern void VuState_get_Engine_m6DED02ADE1776484572550FD662971F81B8F6F01 (void);
 // 0x00000486 System.IntPtr Vuforia.VuState::get_NativeHandle()
@@ -2084,24 +2084,24 @@ extern void VuVirtualButtonConfig_Clone_mC9F29E9C8BE8B58792D538A432D58249A96098F
 // 0x00000491 System.Void Vuforia.VuVirtualButtonConfig::.ctor()
 extern void VuVirtualButtonConfig__ctor_m2928CC48A065AE0C2492C9DCF75CD68035DF03FB (void);
 // 0x00000492 Vuforia.VuVirtualButtonConfig/Internal Vuforia.VuVirtualButtonConfig/Internal::Create(Vuforia.VuVirtualButtonConfig)
-extern void Internal_Create_m3506B7B5FEC09FD3C56C55696F56B7AA1F5E9146 (void);
+extern void Internal_Create_mE93F1B632F0BC0A03FE5A086E08A47A57F3111A7 (void);
 // 0x00000493 Vuforia.VuVirtualButtonSensitivity Vuforia.IVuVirtualButtonObserver::get_Sensitivity()
 // 0x00000494 Vuforia.VuRectangle Vuforia.IVuVirtualButtonObserver::get_Area()
 // 0x00000495 System.IntPtr Vuforia.IVuVirtualButtonObserver::get_AssociatedObserver()
 // 0x00000496 System.Boolean Vuforia.IVuVirtualButtonObserver::SetSensitivity(Vuforia.VuVirtualButtonSensitivity)
 // 0x00000497 System.Boolean Vuforia.IVuVirtualButtonObserver::SetArea(Vuforia.VuRectangle)
 // 0x00000498 Vuforia.VuResult Vuforia.VuVirtualButtonObserver::vuEngineCreateVirtualButtonObserver(System.IntPtr,System.IntPtr&,Vuforia.VuVirtualButtonConfig/Internal&,Vuforia.VuVirtualButtonCreationError&)
-extern void VuVirtualButtonObserver_vuEngineCreateVirtualButtonObserver_mE2B852D380AAC04D72F1B391242588F400BBD2FD (void);
+extern void VuVirtualButtonObserver_vuEngineCreateVirtualButtonObserver_mBA05884A25D74FC4C1FE5020289FA53868D37FD6 (void);
 // 0x00000499 Vuforia.VuResult Vuforia.VuVirtualButtonObserver::vuVirtualButtonObserverGetSensitivity(System.IntPtr,Vuforia.VuVirtualButtonSensitivity&)
-extern void VuVirtualButtonObserver_vuVirtualButtonObserverGetSensitivity_mB0F7BDCEB8ADC2AF7449E78E13434858DC70ED42 (void);
+extern void VuVirtualButtonObserver_vuVirtualButtonObserverGetSensitivity_mF363CB8963731BEBEDE5501370B026AAF7B3B8A6 (void);
 // 0x0000049A Vuforia.VuResult Vuforia.VuVirtualButtonObserver::vuVirtualButtonObserverSetSensitivity(System.IntPtr,Vuforia.VuVirtualButtonSensitivity)
-extern void VuVirtualButtonObserver_vuVirtualButtonObserverSetSensitivity_mE64A98034DBE26F03C68E2302AFBD1E29C60BEF1 (void);
+extern void VuVirtualButtonObserver_vuVirtualButtonObserverSetSensitivity_m6646C710AD871644A584DACA852E785484884271 (void);
 // 0x0000049B Vuforia.VuResult Vuforia.VuVirtualButtonObserver::vuVirtualButtonObserverGetArea(System.IntPtr,Vuforia.VuRectangle&)
-extern void VuVirtualButtonObserver_vuVirtualButtonObserverGetArea_mCD709C635628AA2D2BEDCE8CC8997532A743CB54 (void);
+extern void VuVirtualButtonObserver_vuVirtualButtonObserverGetArea_m91E398451D4CD4802AE482A7F17968418B6F02ED (void);
 // 0x0000049C Vuforia.VuResult Vuforia.VuVirtualButtonObserver::vuVirtualButtonObserverSetArea(System.IntPtr,Vuforia.VuRectangle&)
-extern void VuVirtualButtonObserver_vuVirtualButtonObserverSetArea_m8A6E05144CEA385000F7AA0C7F445F6AB1B9BA1D (void);
+extern void VuVirtualButtonObserver_vuVirtualButtonObserverSetArea_mF86288609290305C433CA306F0EF4A9F690011DA (void);
 // 0x0000049D Vuforia.VuResult Vuforia.VuVirtualButtonObserver::vuVirtualButtonObserverGetAssociatedObserver(System.IntPtr,System.IntPtr&)
-extern void VuVirtualButtonObserver_vuVirtualButtonObserverGetAssociatedObserver_m7FA56A8D9B137DF60C1946D47882E3410B37255A (void);
+extern void VuVirtualButtonObserver_vuVirtualButtonObserverGetAssociatedObserver_m30C80BB9CC3DD81587812B4CCBFF164CF99F260C (void);
 // 0x0000049E Vuforia.VuVirtualButtonSensitivity Vuforia.VuVirtualButtonObserver::get_Sensitivity()
 extern void VuVirtualButtonObserver_get_Sensitivity_m33FB12EF1A746BD635A3DA86A9CADC44BEC478C5 (void);
 // 0x0000049F Vuforia.VuRectangle Vuforia.VuVirtualButtonObserver::get_Area()
@@ -2109,7 +2109,7 @@ extern void VuVirtualButtonObserver_get_Area_mDFEC5F7C90BEBE1C30F1453FF4704B446B
 // 0x000004A0 System.IntPtr Vuforia.VuVirtualButtonObserver::get_AssociatedObserver()
 extern void VuVirtualButtonObserver_get_AssociatedObserver_m1082A003666C7FE99EA00BA2D765181CBE098402 (void);
 // 0x000004A1 Vuforia.VuVirtualButtonObserver Vuforia.VuVirtualButtonObserver::Create(Vuforia.VuEngine,Vuforia.VuVirtualButtonConfig,Vuforia.VuVirtualButtonCreationError&)
-extern void VuVirtualButtonObserver_Create_mEE4A9F2F40717E59B61E4CA9D73DFA2D05AD8BFE (void);
+extern void VuVirtualButtonObserver_Create_m5DD45F221C4EADB8FD3D762591065124A511EDED (void);
 // 0x000004A2 System.Void Vuforia.VuVirtualButtonObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuVirtualButtonObserver__ctor_mE464D04793FA99CEFB8F3B0F216ADD41CBFF13BB (void);
 // 0x000004A3 System.Boolean Vuforia.VuVirtualButtonObserver::SetSensitivity(Vuforia.VuVirtualButtonSensitivity)
@@ -2117,9 +2117,9 @@ extern void VuVirtualButtonObserver_SetSensitivity_m2E82AD30592D65D22019532EA850
 // 0x000004A4 System.Boolean Vuforia.VuVirtualButtonObserver::SetArea(Vuforia.VuRectangle)
 extern void VuVirtualButtonObserver_SetArea_mEBC8268F49682D9402C37FAE665C1EDD1417FC54 (void);
 // 0x000004A5 Vuforia.VuResult Vuforia.VuVirtualButtonObservationInfo::vuVirtualButtonObservationGetInfo(System.IntPtr,Vuforia.VuVirtualButtonObservationInfo/Internal&)
-extern void VuVirtualButtonObservationInfo_vuVirtualButtonObservationGetInfo_m428101C86AB86739D187E4C4EBB5009D424C0245 (void);
+extern void VuVirtualButtonObservationInfo_vuVirtualButtonObservationGetInfo_mA19E256EC648FBEC0EC95B54479394C7BB3D8ACD (void);
 // 0x000004A6 Vuforia.VuVirtualButtonObservationInfo Vuforia.VuVirtualButtonObservationInfo::Create(System.IntPtr)
-extern void VuVirtualButtonObservationInfo_Create_m1F72AC16EE4C87199FBE3831A42A7E031FCF6532 (void);
+extern void VuVirtualButtonObservationInfo_Create_m2C8DC6FDD8D80F0382C9B63BA4BB2D2E774C8ECB (void);
 // 0x000004A7 Vuforia.VuVirtualButtonObservationInfo Vuforia.IVuVirtualButtonObservation::get_Info()
 // 0x000004A8 Vuforia.VuVirtualButtonObservationInfo Vuforia.VuVirtualButtonObservation::get_Info()
 extern void VuVirtualButtonObservation_get_Info_mB0DB070F097BD056800719354649C0E8B882E5FA (void);
@@ -2172,29 +2172,29 @@ extern void VuVuMarkConfig__ctor_mBD14FC1557DE0218EA2D077C2D88321662339F29 (void
 // 0x000004D3 System.Boolean Vuforia.IVuMarkObserver::SetTrackingFromRuntimeAppearance(System.Boolean)
 // 0x000004D4 System.Boolean Vuforia.IVuMarkObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 // 0x000004D5 Vuforia.VuResult Vuforia.VuVuMarkObserver::vuEngineCreateVuMarkObserver(System.IntPtr,System.IntPtr&,Vuforia.VuVuMarkConfig,Vuforia.VuVuMarkCreationError&)
-extern void VuVuMarkObserver_vuEngineCreateVuMarkObserver_mBCFA07F373352E3DAD2E743AD77FCE73FA138384 (void);
+extern void VuVuMarkObserver_vuEngineCreateVuMarkObserver_mA18C8A278628C4A4C845341F51215C66C064542D (void);
 // 0x000004D6 Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetTargetUniqueId(System.IntPtr,System.IntPtr&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetTargetUniqueId_m12636C23768CC7F73E277521C96556D748EA4DBD (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetTargetUniqueId_mF236C694D7BAA90D66CDB0CEEC967DB04B3B5E83 (void);
 // 0x000004D7 Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetTemplateName(System.IntPtr,System.IntPtr&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetTemplateName_mA6876C701821F1E720467B08F204D2BFD7B475F8 (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetTemplateName_mD92405D587A4EB81B0CB4DFAB5905EB5CF1DBE4F (void);
 // 0x000004D8 Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverSetTemplateScale(System.IntPtr,System.Single)
-extern void VuVuMarkObserver_vuVuMarkObserverSetTemplateScale_m64EDF0F013177EF567FD433C46F388DC8D8287F4 (void);
+extern void VuVuMarkObserver_vuVuMarkObserverSetTemplateScale_m847207B60BA80E82620D78B9751533B0C9D644A9 (void);
 // 0x000004D9 Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetTemplateSize(System.IntPtr,Vuforia.VuVector2F&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetTemplateSize_mC4E4DE328BE7F79961964836A67459B40A6189CB (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetTemplateSize_m75858092A1CB32B33C009C28321E83EAD4498444 (void);
 // 0x000004DA Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetTemplateAABB(System.IntPtr,Vuforia.VuAABB&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetTemplateAABB_mE17C317A8DA06229451F00D07E0D3A8BEAF43D3A (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetTemplateAABB_mF13B7CF20CE3BAEB17E19D77BD70070AFD9ED018 (void);
 // 0x000004DB Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetUserData(System.IntPtr,System.IntPtr&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetUserData_mCFCD2EFFC323C3F7C6F1E0C05D5DC1BA2D2D2C15 (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetUserData_m202EE43B5B16A72174FF6840E9C6827165F5C961 (void);
 // 0x000004DC Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetOrigin(System.IntPtr,Vuforia.VuVector2F&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetOrigin_mFBDCFE4A4B66F90E2C02CE4E82A1134A9506D053 (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetOrigin_mA6115DB0046E1E85DDE26753466CC2DEDA30D044 (void);
 // 0x000004DD Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetTrackingFromRuntimeAppearance(System.IntPtr,Vuforia.VuBool&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetTrackingFromRuntimeAppearance_m78172A0441818B625163B102931D7700D8CE63B1 (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetTrackingFromRuntimeAppearance_m527E0A7D02C1CC868DC13844D21425AC8F0E43AD (void);
 // 0x000004DE Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverSetTrackingFromRuntimeAppearance(System.IntPtr,Vuforia.VuBool)
-extern void VuVuMarkObserver_vuVuMarkObserverSetTrackingFromRuntimeAppearance_m95094E267FDFC6C87618CA53F2EFB709240C2191 (void);
+extern void VuVuMarkObserver_vuVuMarkObserverSetTrackingFromRuntimeAppearance_mA3F94ECC88DE48C651A280144A1C5265BA3CA44C (void);
 // 0x000004DF Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverSetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization)
-extern void VuVuMarkObserver_vuVuMarkObserverSetTrackingOptimization_m7129A6C6A6230153A90B34AC03E7CD4B7ABE3BEA (void);
+extern void VuVuMarkObserver_vuVuMarkObserverSetTrackingOptimization_m3E6F57899F792D5868D8624EBC09F708CD119C65 (void);
 // 0x000004E0 Vuforia.VuResult Vuforia.VuVuMarkObserver::vuVuMarkObserverGetTrackingOptimization(System.IntPtr,Vuforia.VuTrackingOptimization&)
-extern void VuVuMarkObserver_vuVuMarkObserverGetTrackingOptimization_mC213CCB5CBE95DA348A4AE1FD309283919B5F0E2 (void);
+extern void VuVuMarkObserver_vuVuMarkObserverGetTrackingOptimization_m05DADFBD2A8CADE6F1621FAF7BC1639BD19E3260 (void);
 // 0x000004E1 System.String Vuforia.VuVuMarkObserver::get_TemplateUniqueID()
 extern void VuVuMarkObserver_get_TemplateUniqueID_m8D932A2650A7449244A1E88078D20F16B6D3BF07 (void);
 // 0x000004E2 System.String Vuforia.VuVuMarkObserver::get_TemplateName()
@@ -2212,7 +2212,7 @@ extern void VuVuMarkObserver_get_TrackingFromRuntimeAppearance_m9B1575762468E380
 // 0x000004E8 Vuforia.VuTrackingOptimization Vuforia.VuVuMarkObserver::get_TrackingOptimization()
 extern void VuVuMarkObserver_get_TrackingOptimization_mC6E4D7193B958B80F9038CC2E48A439A848D290A (void);
 // 0x000004E9 Vuforia.VuVuMarkObserver Vuforia.VuVuMarkObserver::Create(Vuforia.VuEngine,Vuforia.VuVuMarkConfig,Vuforia.VuVuMarkCreationError&)
-extern void VuVuMarkObserver_Create_m06F1E0BE53565572A644F674824510F9D11652F4 (void);
+extern void VuVuMarkObserver_Create_mB0792CE12E822D35C5FA4CDC45C3C06FF5203AFA (void);
 // 0x000004EA System.Void Vuforia.VuVuMarkObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuVuMarkObserver__ctor_mE750EA3DCF8F1D046F28E9966795F1B5551D21B7 (void);
 // 0x000004EB System.Boolean Vuforia.VuVuMarkObserver::SetTemplateScale(System.Single)
@@ -2222,26 +2222,26 @@ extern void VuVuMarkObserver_SetTrackingFromRuntimeAppearance_mC2C2D23053D89983C
 // 0x000004ED System.Boolean Vuforia.VuVuMarkObserver::SetTrackingOptimization(Vuforia.VuTrackingOptimization)
 extern void VuVuMarkObserver_SetTrackingOptimization_m399DACDFE58572CF101386992A8EAD10695C72F9 (void);
 // 0x000004EE Vuforia.VuResult Vuforia.VuVuMarkObservationTemplateInfo::vuVuMarkObservationGetTemplateInfo(System.IntPtr,Vuforia.VuVuMarkObservationTemplateInfo/Internal&)
-extern void VuVuMarkObservationTemplateInfo_vuVuMarkObservationGetTemplateInfo_m0034E2B0F8247A6487DE409BAF01022A2043121D (void);
+extern void VuVuMarkObservationTemplateInfo_vuVuMarkObservationGetTemplateInfo_m779714873746E6E2DEB4BA45D8BB941F577C009D (void);
 // 0x000004EF Vuforia.VuVuMarkObservationTemplateInfo Vuforia.VuVuMarkObservationTemplateInfo::Create(System.IntPtr)
-extern void VuVuMarkObservationTemplateInfo_Create_mCF299CADADBFB235A65EFAFAF8D85BECA3B48393 (void);
+extern void VuVuMarkObservationTemplateInfo_Create_m3DC7D152FCE30D4D9B744377D45B7E8D54B0DE10 (void);
 // 0x000004F0 Vuforia.VuResult Vuforia.VuVuMarkObservationInstanceInfo::vuVuMarkObservationGetInstanceInfo(System.IntPtr,Vuforia.VuVuMarkObservationInstanceInfo/Internal&)
-extern void VuVuMarkObservationInstanceInfo_vuVuMarkObservationGetInstanceInfo_m3CB7898258F4E304AA7ECD962BABFDC95D6FCB58 (void);
+extern void VuVuMarkObservationInstanceInfo_vuVuMarkObservationGetInstanceInfo_m7A419DD9304AE9C96A34D6405B5B5513F6B3FCCB (void);
 // 0x000004F1 Vuforia.VuVuMarkObservationInstanceInfo Vuforia.VuVuMarkObservationInstanceInfo::Create(System.IntPtr)
-extern void VuVuMarkObservationInstanceInfo_Create_m194A3E29D91695A739826AD3DCE5D72D8D2A5500 (void);
+extern void VuVuMarkObservationInstanceInfo_Create_m03E1D38E5A4DB624DFA8D6C15EEA8D1024EA7901 (void);
 // 0x000004F2 Vuforia.VuVuMarkObservationStatusInfo Vuforia.IVuMarkObservation::get_StatusInfo()
 // 0x000004F3 Vuforia.VuVuMarkObservationTemplateInfo Vuforia.IVuMarkObservation::get_TemplateInfo()
 // 0x000004F4 Vuforia.VuVuMarkObservationInstanceInfo Vuforia.IVuMarkObservation::get_InstanceInfo()
 // 0x000004F5 Vuforia.IVuImage Vuforia.IVuMarkObservation::get_InstanceImage()
 // 0x000004F6 System.Int32 Vuforia.IVuMarkObservation::get_RuntimeId()
 // 0x000004F7 Vuforia.VuResult Vuforia.VuVuMarkObservationInfo::vuVuMarkObservationGetInfo(System.IntPtr,Vuforia.VuVuMarkObservationInfo&)
-extern void VuVuMarkObservationInfo_vuVuMarkObservationGetInfo_m9CB839163023CF1072FAAB58D22474CD82145E26 (void);
+extern void VuVuMarkObservationInfo_vuVuMarkObservationGetInfo_mC4298C0C07C5666301A91C4E93A192275AA4B87F (void);
 // 0x000004F8 Vuforia.VuVuMarkObservationInfo Vuforia.VuVuMarkObservationInfo::Create(System.IntPtr)
-extern void VuVuMarkObservationInfo_Create_m5F3C1CBD908DA1435906F581E0902DE19CDBFCF8 (void);
+extern void VuVuMarkObservationInfo_Create_m6FC50CF0C22746151B912767C0B1FD6560B59400 (void);
 // 0x000004F9 Vuforia.VuResult Vuforia.VuMarkObservation::vuVuMarkObservationGetStatusInfo(System.IntPtr,Vuforia.VuVuMarkObservationStatusInfo&)
-extern void VuMarkObservation_vuVuMarkObservationGetStatusInfo_m21E4CFC38E38AE1A2E2D175D10D7DCA3CB95E893 (void);
+extern void VuMarkObservation_vuVuMarkObservationGetStatusInfo_m5BB41C7821792DF8055E8CA3DB07F560E2D3C794 (void);
 // 0x000004FA Vuforia.VuResult Vuforia.VuMarkObservation::vuVuMarkObservationGetInstanceImage(System.IntPtr,System.IntPtr&)
-extern void VuMarkObservation_vuVuMarkObservationGetInstanceImage_m717FABD7323C8D3F378E1E6B17733D71B0456F6B (void);
+extern void VuMarkObservation_vuVuMarkObservationGetInstanceImage_m0D82F8DE81BAE132FB4178C86721BE7B51B93EB9 (void);
 // 0x000004FB Vuforia.VuVuMarkObservationStatusInfo Vuforia.VuMarkObservation::get_StatusInfo()
 extern void VuMarkObservation_get_StatusInfo_m41927F757A768AD98932D36158E762F28E1B518A (void);
 // 0x000004FC Vuforia.VuVuMarkObservationTemplateInfo Vuforia.VuMarkObservation::get_TemplateInfo()
@@ -2276,13 +2276,13 @@ extern void VuVector2I__ctor_mC863BEC3CA75633C33F8C80C550BD5249976605D (void);
 // 0x0000050B System.Void Vuforia.VuVector2I::.ctor(System.Int32[])
 extern void VuVector2I__ctor_m84CEFDEA432FEEC8B37FC46B725447DA1AE49F40 (void);
 // 0x0000050C Vuforia.VuVector2I Vuforia.VuVector2I::get_Zero()
-extern void VuVector2I_get_Zero_m5D2F9F5A9C5923CC7C3B59B95CA81FC0C2CC78E8 (void);
+extern void VuVector2I_get_Zero_mEFF00A162B2C3D09B4692B1280704676A9EDA534 (void);
 // 0x0000050D Vuforia.VuVector2I Vuforia.VuVector2I::get_Identity()
-extern void VuVector2I_get_Identity_m41587F1822026EF0969DF4C37DB6E26BAE527E90 (void);
+extern void VuVector2I_get_Identity_mDF704EAC224E3D1291620ED1C09815B7C017806B (void);
 // 0x0000050E System.Boolean Vuforia.VuVector2I::op_Equality(Vuforia.VuVector2I,Vuforia.VuVector2I)
-extern void VuVector2I_op_Equality_mB72424CD8291C03765E425304ACFD60BB6601B3B (void);
+extern void VuVector2I_op_Equality_mB1DC02576E9EFA987E52A0C530B6FE9F5C25F3A6 (void);
 // 0x0000050F System.Boolean Vuforia.VuVector2I::op_Inequality(Vuforia.VuVector2I,Vuforia.VuVector2I)
-extern void VuVector2I_op_Inequality_m6CDF83DCF38D1F401E05981C01EB9C0021407A3E (void);
+extern void VuVector2I_op_Inequality_m32168EF3A16FA1136E3E8BC120797EEEF3221108 (void);
 // 0x00000510 System.Boolean Vuforia.VuVector2I::Equals(System.Object)
 extern void VuVector2I_Equals_mEB5893346E834E2DDE7CF37986257248EC5CE07A (void);
 // 0x00000511 System.Int32 Vuforia.VuVector2I::GetHashCode()
@@ -2292,13 +2292,13 @@ extern void VuVector3I__ctor_m2FFD3F223C41E184FE5EBD415E94C12DDC7E210A (void);
 // 0x00000513 System.Void Vuforia.VuVector3I::.ctor(System.Int32[])
 extern void VuVector3I__ctor_mE709F461BC5832B578C6FFA14EEB99BA312892F2 (void);
 // 0x00000514 Vuforia.VuVector3I Vuforia.VuVector3I::get_Zero()
-extern void VuVector3I_get_Zero_m74527758A012D8D88666C3BA36761B7A31401130 (void);
+extern void VuVector3I_get_Zero_m199601D548C9FE8F8D6E91FCE6B1F6C9210F5E30 (void);
 // 0x00000515 Vuforia.VuVector3I Vuforia.VuVector3I::get_Identity()
-extern void VuVector3I_get_Identity_m45299E788D29F4800826DFCA11DB2C297C3BBE55 (void);
+extern void VuVector3I_get_Identity_m7AE5665013C24ABDE95518A2007C1F59071A7ADD (void);
 // 0x00000516 System.Boolean Vuforia.VuVector3I::op_Equality(Vuforia.VuVector3I,Vuforia.VuVector3I)
-extern void VuVector3I_op_Equality_mFBE878C02BAC0F1FEEF616409B093EE49EAF1295 (void);
+extern void VuVector3I_op_Equality_m67643066D332421A1ACBEBAA87ED4316F7084CDE (void);
 // 0x00000517 System.Boolean Vuforia.VuVector3I::op_Inequality(Vuforia.VuVector3I,Vuforia.VuVector3I)
-extern void VuVector3I_op_Inequality_m6328E11DEECA8C6E2082AD42A33066ADA3318563 (void);
+extern void VuVector3I_op_Inequality_m6E4AD85B58FB957563DED0D4A0C88510B38D16C1 (void);
 // 0x00000518 System.Boolean Vuforia.VuVector3I::Equals(System.Object)
 extern void VuVector3I_Equals_m6603F5BF259F4AD737A46483A3B47F3FBEA9A193 (void);
 // 0x00000519 System.Int32 Vuforia.VuVector3I::GetHashCode()
@@ -2308,13 +2308,13 @@ extern void VuVector4I__ctor_mB3949012EE3E276E3A96944EBB9D21C9F76E54D5 (void);
 // 0x0000051B System.Void Vuforia.VuVector4I::.ctor(System.Int32[])
 extern void VuVector4I__ctor_m1707D19E856D72F52225506E0D4A362203326449 (void);
 // 0x0000051C Vuforia.VuVector4I Vuforia.VuVector4I::get_Zero()
-extern void VuVector4I_get_Zero_m119E544AEFAAF9A53BC95462D8EC6F20A82A0675 (void);
+extern void VuVector4I_get_Zero_mA83A4DD40AA84E6B2A60AA42A7CB43D309087385 (void);
 // 0x0000051D Vuforia.VuVector4I Vuforia.VuVector4I::get_Identity()
-extern void VuVector4I_get_Identity_mF0B2ECCE4DD43C6FE9AF2F7EF160B1CAF1132BA6 (void);
+extern void VuVector4I_get_Identity_m019353824B1A874A3DA7E493EB068029158EEC2D (void);
 // 0x0000051E System.Boolean Vuforia.VuVector4I::op_Equality(Vuforia.VuVector4I,Vuforia.VuVector4I)
-extern void VuVector4I_op_Equality_mE4FF63AAB81B6CFEF4F4B6A231700C600459C70E (void);
+extern void VuVector4I_op_Equality_m8DCDDEE7ADFB2812C0ADB106B742995BF3587E29 (void);
 // 0x0000051F System.Boolean Vuforia.VuVector4I::op_Inequality(Vuforia.VuVector4I,Vuforia.VuVector4I)
-extern void VuVector4I_op_Inequality_mDF8C8400D2E1295750B49371CC573DDE4C7F9B09 (void);
+extern void VuVector4I_op_Inequality_mC3941FABF7467399375AB9C9F2A681F97F087273 (void);
 // 0x00000520 System.Boolean Vuforia.VuVector4I::Equals(System.Object)
 extern void VuVector4I_Equals_mB59E301B2EEA726B849BAF1A18CB8C9A18A69C8E (void);
 // 0x00000521 System.Int32 Vuforia.VuVector4I::GetHashCode()
@@ -2324,13 +2324,13 @@ extern void VuVector2F__ctor_mA50F69888B9CB7BEA0C729A98274D80D1046C66B (void);
 // 0x00000523 System.Void Vuforia.VuVector2F::.ctor(System.Single[])
 extern void VuVector2F__ctor_mD1920E1C1C392CD6738E0E1DF5C03D467431A1D9 (void);
 // 0x00000524 Vuforia.VuVector2F Vuforia.VuVector2F::get_Zero()
-extern void VuVector2F_get_Zero_mCD106EC58A33E43DEAEE3D770FEEFF861FED19C4 (void);
+extern void VuVector2F_get_Zero_m49BE8AC3AAC73F476B61304E5DD589D220AF1BBD (void);
 // 0x00000525 Vuforia.VuVector2F Vuforia.VuVector2F::get_Identity()
-extern void VuVector2F_get_Identity_m0B05137534DB7CABE6ED21F7FB43F49C54CB64CA (void);
+extern void VuVector2F_get_Identity_m2E35F475F5CCC1C3E00F3D8D7AF8BD0053B0C2DC (void);
 // 0x00000526 System.Boolean Vuforia.VuVector2F::op_Equality(Vuforia.VuVector2F,Vuforia.VuVector2F)
-extern void VuVector2F_op_Equality_m2AC42F9254656A4B9298BF56DA1AD1B6276A62AC (void);
+extern void VuVector2F_op_Equality_m433BCFBF834C5244355933540A9E9E4F9CABFCE7 (void);
 // 0x00000527 System.Boolean Vuforia.VuVector2F::op_Inequality(Vuforia.VuVector2F,Vuforia.VuVector2F)
-extern void VuVector2F_op_Inequality_m62A6B52B9222E6C4FF0DFF260A2FAD1AED5A440B (void);
+extern void VuVector2F_op_Inequality_mF13EEEEE788E22F5C0FFCBEC7F281E61A5ACE3AB (void);
 // 0x00000528 System.Boolean Vuforia.VuVector2F::Equals(System.Object)
 extern void VuVector2F_Equals_m3E4FFA3C29081BE998AE21649889CCAF9999C16C (void);
 // 0x00000529 System.Int32 Vuforia.VuVector2F::GetHashCode()
@@ -2340,13 +2340,13 @@ extern void VuVector3F__ctor_m6536390E25B53B7EE4F7FBC958E4A73935DED807 (void);
 // 0x0000052B System.Void Vuforia.VuVector3F::.ctor(System.Single[])
 extern void VuVector3F__ctor_m38F164E71990B30C8C0C95FCF56ADEA1E9217E7C (void);
 // 0x0000052C Vuforia.VuVector3F Vuforia.VuVector3F::get_Zero()
-extern void VuVector3F_get_Zero_m07B6C856CFD57564727066C5046EB913869473E0 (void);
+extern void VuVector3F_get_Zero_m7DAFEC204137C3F24E67536BABB7AFF2B0C7B268 (void);
 // 0x0000052D Vuforia.VuVector3F Vuforia.VuVector3F::get_Identity()
-extern void VuVector3F_get_Identity_m643C5F8F92AAA513AA87F695EF49AE8F0834659B (void);
+extern void VuVector3F_get_Identity_m9AA699CA4E93B4C83304BBEBBF0F45CC89AEAB23 (void);
 // 0x0000052E System.Boolean Vuforia.VuVector3F::op_Equality(Vuforia.VuVector3F,Vuforia.VuVector3F)
-extern void VuVector3F_op_Equality_m6974DD05A879FCD7D7AA44ABAC2416E8A07904B5 (void);
+extern void VuVector3F_op_Equality_m463D4B24E8BB823AEA3D24DC11F7A9133FF778A2 (void);
 // 0x0000052F System.Boolean Vuforia.VuVector3F::op_Inequality(Vuforia.VuVector3F,Vuforia.VuVector3F)
-extern void VuVector3F_op_Inequality_m5F24C0F7FC270D38DE737623D2FB4CD3868488E6 (void);
+extern void VuVector3F_op_Inequality_m1A03FDE34276ECF4A3B53DDF9354F48D1A27352C (void);
 // 0x00000530 System.Boolean Vuforia.VuVector3F::Equals(System.Object)
 extern void VuVector3F_Equals_mA6B642264A2FBA9B0EE45FE2DCA42A6A073AE8FC (void);
 // 0x00000531 System.Int32 Vuforia.VuVector3F::GetHashCode()
@@ -2356,13 +2356,13 @@ extern void VuVector4F__ctor_m848782FE5D521A3F39CDA3752538515D425B201C (void);
 // 0x00000533 System.Void Vuforia.VuVector4F::.ctor(System.Single[])
 extern void VuVector4F__ctor_m3A07ACFD2E6BA1760B72C9686B19EC57BE63FBF7 (void);
 // 0x00000534 Vuforia.VuVector4F Vuforia.VuVector4F::get_Zero()
-extern void VuVector4F_get_Zero_m59CDAECE6059C7050587E9E5CB3783D11D00AEC5 (void);
+extern void VuVector4F_get_Zero_mD23C24248D411B8C6752BF2686F552B8DFA4B95C (void);
 // 0x00000535 Vuforia.VuVector4F Vuforia.VuVector4F::get_Identity()
-extern void VuVector4F_get_Identity_mF9A47E1244022DCCE0A9D474B747369FFFDC9F66 (void);
+extern void VuVector4F_get_Identity_m5517485D6A94124FC8C83EBD78D865C620D90114 (void);
 // 0x00000536 System.Boolean Vuforia.VuVector4F::op_Equality(Vuforia.VuVector4F,Vuforia.VuVector4F)
-extern void VuVector4F_op_Equality_m567D7A666C5ADB2871B4A4D02C87B09A72698841 (void);
+extern void VuVector4F_op_Equality_m88BD231707C683777CB95B2C9ECF1861E65692D1 (void);
 // 0x00000537 System.Boolean Vuforia.VuVector4F::op_Inequality(Vuforia.VuVector4F,Vuforia.VuVector4F)
-extern void VuVector4F_op_Inequality_mEF0F7B1CFFB7702D1D02196212151559889E57D9 (void);
+extern void VuVector4F_op_Inequality_mDC2FE2C1584189ED13A709582A5781E10B9AB974 (void);
 // 0x00000538 System.Boolean Vuforia.VuVector4F::Equals(System.Object)
 extern void VuVector4F_Equals_m605536B1F3C5B1B78BDE6ACF258A1EB77213ADFB (void);
 // 0x00000539 System.Int32 Vuforia.VuVector4F::GetHashCode()
@@ -2372,13 +2372,13 @@ extern void VuVector8F__ctor_m2C54CAFDFF1078CBE63F4EA3FA01826F2E4B7AC4 (void);
 // 0x0000053B System.Void Vuforia.VuVector8F::.ctor(System.Single[])
 extern void VuVector8F__ctor_mDF1F9CAC8810F3ACAA8A5953B403FC18CBF32C94 (void);
 // 0x0000053C Vuforia.VuVector8F Vuforia.VuVector8F::get_Zero()
-extern void VuVector8F_get_Zero_mCB2BB9208E8DF57470FA2B529F578341FA47F6FE (void);
+extern void VuVector8F_get_Zero_m32632535AECD45CB88B42F84AC10C999CF122FF8 (void);
 // 0x0000053D Vuforia.VuVector8F Vuforia.VuVector8F::get_Identity()
-extern void VuVector8F_get_Identity_m8F94DDB9A33ADCD1963B0B5A35C28555144A5627 (void);
+extern void VuVector8F_get_Identity_m43923F9539F19A0CC30CB481696185CCEA685F11 (void);
 // 0x0000053E System.Boolean Vuforia.VuVector8F::op_Equality(Vuforia.VuVector8F,Vuforia.VuVector8F)
-extern void VuVector8F_op_Equality_m96E1DC18E225438E936A24033F28F8669992D03D (void);
+extern void VuVector8F_op_Equality_m8224F7B01BCCD3F43D06A0F3D764DC7953D3FEC0 (void);
 // 0x0000053F System.Boolean Vuforia.VuVector8F::op_Inequality(Vuforia.VuVector8F,Vuforia.VuVector8F)
-extern void VuVector8F_op_Inequality_m39370F2D380CF59812CCFAE23A0CB7B5D07623AC (void);
+extern void VuVector8F_op_Inequality_mC08FE9F47F7767334820DEE4C03ABBB8B7275825 (void);
 // 0x00000540 System.Boolean Vuforia.VuVector8F::Equals(System.Object)
 extern void VuVector8F_Equals_m0C3D97C81F6D16700488BB216F637AEA65B0025E (void);
 // 0x00000541 System.Int32 Vuforia.VuVector8F::GetHashCode()
@@ -2386,13 +2386,13 @@ extern void VuVector8F_GetHashCode_m5885649ABF1F6DB86EADEBDC3B9D74E4BF1CC2D7 (vo
 // 0x00000542 System.Void Vuforia.VuMatrix33F::.ctor(System.Single[])
 extern void VuMatrix33F__ctor_m25A039E83FFDFF3C12B07DD85C354BC29BB29EBB (void);
 // 0x00000543 Vuforia.VuMatrix33F Vuforia.VuMatrix33F::get_Zero()
-extern void VuMatrix33F_get_Zero_m79DF198669ACE931D15016D2CD6BC91BC64360AF (void);
+extern void VuMatrix33F_get_Zero_mCF39F024F8737B5E11F166C704E0F198445BFF97 (void);
 // 0x00000544 Vuforia.VuMatrix33F Vuforia.VuMatrix33F::get_Identity()
-extern void VuMatrix33F_get_Identity_m0DC5B8927D5EFE6CE7724A3FC92BE42B91B5E0DC (void);
+extern void VuMatrix33F_get_Identity_m5D2493DBD5219E5031C0F8A09664E19B56D9B5A1 (void);
 // 0x00000545 System.Boolean Vuforia.VuMatrix33F::op_Equality(Vuforia.VuMatrix33F,Vuforia.VuMatrix33F)
-extern void VuMatrix33F_op_Equality_m88D2B9CA36523F8AC5C0DBF60FED76DBB5CB922F (void);
+extern void VuMatrix33F_op_Equality_mF9CC962A8D9E43E944708669556B4C351347E59B (void);
 // 0x00000546 System.Boolean Vuforia.VuMatrix33F::op_Inequality(Vuforia.VuMatrix33F,Vuforia.VuMatrix33F)
-extern void VuMatrix33F_op_Inequality_mA7BF5D962E62C8BC9247A2AF5637E6850EEC2C51 (void);
+extern void VuMatrix33F_op_Inequality_m70711C6301A101EA46EEF20AA7AA815ED0DC8605 (void);
 // 0x00000547 System.Boolean Vuforia.VuMatrix33F::Equals(System.Object)
 extern void VuMatrix33F_Equals_mDAA0FC6CAE06EB3975AB060D82627FD6A4FD3421 (void);
 // 0x00000548 System.Int32 Vuforia.VuMatrix33F::GetHashCode()
@@ -2400,13 +2400,13 @@ extern void VuMatrix33F_GetHashCode_m28A0F04A46A0B473F6F52343E060277B79085A14 (v
 // 0x00000549 System.Void Vuforia.VuMatrix44F::.ctor(System.Single[])
 extern void VuMatrix44F__ctor_m9EB36FF091105F033F834B59FE051465DF6FE61E (void);
 // 0x0000054A Vuforia.VuMatrix44F Vuforia.VuMatrix44F::get_Zero()
-extern void VuMatrix44F_get_Zero_mDFE7457F1A836108B261278DB63A8EB14515E748 (void);
+extern void VuMatrix44F_get_Zero_m3A37541F82005ACDEA1A2CFD150F1937C5159D89 (void);
 // 0x0000054B Vuforia.VuMatrix44F Vuforia.VuMatrix44F::get_Identity()
-extern void VuMatrix44F_get_Identity_mC274BF6C8D7FBEE1CDA3CA222AC7B086EAB59F8F (void);
+extern void VuMatrix44F_get_Identity_mC6761C455C18FE7A9B1AF026FC6D54B9D3C29627 (void);
 // 0x0000054C System.Boolean Vuforia.VuMatrix44F::op_Equality(Vuforia.VuMatrix44F,Vuforia.VuMatrix44F)
-extern void VuMatrix44F_op_Equality_m0242A2CA65A8A7953B7386FE145743E40EBB690E (void);
+extern void VuMatrix44F_op_Equality_mE0F278E2D96B76BB04B9E56520C7B5AA9DDE3C83 (void);
 // 0x0000054D System.Boolean Vuforia.VuMatrix44F::op_Inequality(Vuforia.VuMatrix44F,Vuforia.VuMatrix44F)
-extern void VuMatrix44F_op_Inequality_mF77CDDDE6757F3AD7A71BB17FA1C8DB6AEFA958E (void);
+extern void VuMatrix44F_op_Inequality_mC5BDBF23C9818E1957573CC6EF4D3A6E24FB3317 (void);
 // 0x0000054E System.Boolean Vuforia.VuMatrix44F::Equals(System.Object)
 extern void VuMatrix44F_Equals_m5FEA274551E330BE6DE3748ADA2FAE2C57EFAF16 (void);
 // 0x0000054F System.Int32 Vuforia.VuMatrix44F::GetHashCode()
@@ -2442,10 +2442,10 @@ extern void VuAABB__ctor_m21FBF1271283B64F79E38CB18F32032DDC48FA43 (void);
 // 0x0000056B System.Void Vuforia.VuGenericTypedList`2::.ctor(System.IntPtr,Vuforia.VuGenericList`1/GetListSizeDelegate<TNative>,Vuforia.VuGenericList`1/GetListElementDelegate<TNative>)
 // 0x0000056C TElement Vuforia.VuGenericTypedList`2::GetElement(TNative)
 // 0x0000056D System.String Vuforia.ValueAccessUtils::GetStringValue(System.IntPtr,Vuforia.ValueAccessUtils/GetStringValueDelegate)
-extern void ValueAccessUtils_GetStringValue_m2BAAE1DC3B1B41D15DADC8AD489D85245A3E53A3 (void);
+extern void ValueAccessUtils_GetStringValue_m58ABB08F1DB179681D518DD29000425DC07872CB (void);
 // 0x0000056E T Vuforia.ValueAccessUtils::GetPrimitiveValue(System.IntPtr,Vuforia.ValueAccessUtils/GetPrimitiveValueDelegate`1<T>)
 // 0x0000056F System.Boolean Vuforia.ValueAccessUtils::GetBoolValue(System.IntPtr,Vuforia.ValueAccessUtils/GetBoolValueDelegate)
-extern void ValueAccessUtils_GetBoolValue_m15133468B5BDE58EB95EBF60681B69DEBE44ED54 (void);
+extern void ValueAccessUtils_GetBoolValue_m898D997EB4E80F1EA994A65A3C74CD18B96BE7A2 (void);
 // 0x00000570 T Vuforia.ValueAccessUtils::GetStructValue(System.IntPtr,Vuforia.ValueAccessUtils/GetStructValueDelegate`1<T>)
 // 0x00000571 T Vuforia.ValueAccessUtils::GetEnumValue(System.IntPtr,Vuforia.ValueAccessUtils/GetEnumValueDelegate`1<T>)
 // 0x00000572 System.Void Vuforia.ValueAccessUtils/GetStringValueDelegate::.ctor(System.Object,System.IntPtr)
@@ -2494,39 +2494,39 @@ extern void VuRepresentativeImageInfo__ctor_mCC12A35A5A6ACC9552F23DAA6C5419474E9
 // 0x00000592 System.Boolean Vuforia.IVuValidationAreaObserver::RemoveAssociatedObserver()
 // 0x00000593 System.Collections.Generic.IList`1<Vuforia.VuRepresentativeImageInfo> Vuforia.IVuValidationAreaObserver::get_RepresentativeImageInfos()
 // 0x00000594 Vuforia.VuResult Vuforia.VuValidationAreaLabel::vuValidationAreaLabelGetName(System.IntPtr,System.IntPtr&)
-extern void VuValidationAreaLabel_vuValidationAreaLabelGetName_m2837156FC467F45306440E293AA17F89E4FEB7BB (void);
+extern void VuValidationAreaLabel_vuValidationAreaLabelGetName_m0EDD99B5C7E14ABBB1366E2FD9884F29863D7B9A (void);
 // 0x00000595 System.String Vuforia.VuValidationAreaLabel::get_Name()
 extern void VuValidationAreaLabel_get_Name_m615C3283FB09B6512C6F106D0868B6C650B8DF7A (void);
 // 0x00000596 System.Void Vuforia.VuValidationAreaLabel::set_Name(System.String)
 extern void VuValidationAreaLabel_set_Name_m96D85B5687F984B0A26280B882434D1A82496D72 (void);
 // 0x00000597 Vuforia.VuValidationAreaLabel Vuforia.VuValidationAreaLabel::Create(System.IntPtr)
-extern void VuValidationAreaLabel_Create_m45AB94E39B03E58EB66E454CC9D68B9DB9127EB9 (void);
+extern void VuValidationAreaLabel_Create_m4AF34F9CF802F659A1032D77D2AADB6D17EFB668 (void);
 // 0x00000598 System.Void Vuforia.VuValidationAreaLabel::.ctor(System.IntPtr)
 extern void VuValidationAreaLabel__ctor_mDF175CCA8EB781D808A16F733F790DA58D9EECD9 (void);
 // 0x00000599 Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuEngineCreateValidationAreaObserver(System.IntPtr,System.IntPtr&,Vuforia.VuValidationAreaConfig,Vuforia.VuValidationAreaCreationError&)
-extern void VuValidationAreaObserver_vuEngineCreateValidationAreaObserver_m4A06984DC8DADBFBC76B439A884A062C455E4133 (void);
+extern void VuValidationAreaObserver_vuEngineCreateValidationAreaObserver_m96D0163F1785554C54321409A4AEDE6537DC25A9 (void);
 // 0x0000059A Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverGetUniqueId(System.IntPtr,System.IntPtr&)
-extern void VuValidationAreaObserver_vuValidationAreaObserverGetUniqueId_mF0EBA16B941AC7D743807228BE85160969D1B683 (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverGetUniqueId_m45ECD2CB872B1F2D3FADF98FB350BDD9719AB97A (void);
 // 0x0000059B Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverGetAreaName(System.IntPtr,System.IntPtr&)
-extern void VuValidationAreaObserver_vuValidationAreaObserverGetAreaName_m36B002D9D216FC87A3AF16B4FE547147BA5FBC47 (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverGetAreaName_m8C76473511DC19C7810D2BAEA904B10FBE77A231 (void);
 // 0x0000059C Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverGetSize(System.IntPtr,Vuforia.VuVector3F&)
-extern void VuValidationAreaObserver_vuValidationAreaObserverGetSize_m7FA877E2F42742A1252F20AEE260061985F854A4 (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverGetSize_m1812812B123648A2141E5ACD12F5098DD31A65FA (void);
 // 0x0000059D Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverGetPoseOffset(System.IntPtr,Vuforia.VuMatrix44F&)
-extern void VuValidationAreaObserver_vuValidationAreaObserverGetPoseOffset_m75A1CA7C8A73C4A08267E279D8088686849928AE (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverGetPoseOffset_m123612F7CFB32FC7D85B243E82D9FFA248FFFAA1 (void);
 // 0x0000059E Vuforia.VuBool Vuforia.VuValidationAreaObserver::vuValidationAreaObserverIsClassifierTrained(System.IntPtr)
-extern void VuValidationAreaObserver_vuValidationAreaObserverIsClassifierTrained_m9BE07A8D54E7A79829AF848FBD8B0DBBB6F55AF7 (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverIsClassifierTrained_mB1F2AF11374457458311992CCF09C550D3D5E423 (void);
 // 0x0000059F Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverGetAvailableLabels(System.IntPtr,System.IntPtr)
-extern void VuValidationAreaObserver_vuValidationAreaObserverGetAvailableLabels_mA728AAEA073A1320B098272DE1922B2C17DA32FC (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverGetAvailableLabels_m36E7FEAF609C598C9466BD0D26A084127F21786C (void);
 // 0x000005A0 Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverGetRepresentativeImageInfos(System.IntPtr,System.IntPtr)
-extern void VuValidationAreaObserver_vuValidationAreaObserverGetRepresentativeImageInfos_m38A81DB06249E13093679128EC4BF8C89AED7CDC (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverGetRepresentativeImageInfos_m2DA50EB7993F9C07D9783A506453C8CF05F95975 (void);
 // 0x000005A1 Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverSetAssociatedObserver(System.IntPtr,System.IntPtr)
-extern void VuValidationAreaObserver_vuValidationAreaObserverSetAssociatedObserver_mB5EC573E6A19BCBE97A3BB27500BD412D2C07479 (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverSetAssociatedObserver_m837C9CE8FECDCC79FBD022649776ABE47696637E (void);
 // 0x000005A2 Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverGetAssociatedObserver(System.IntPtr,System.IntPtr&)
-extern void VuValidationAreaObserver_vuValidationAreaObserverGetAssociatedObserver_m9C9D1F60ACE5924E220B9A25E7D89BDC3A177082 (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverGetAssociatedObserver_m37463DE31A07F0224C8209B4F2C34C522E18A218 (void);
 // 0x000005A3 Vuforia.VuResult Vuforia.VuValidationAreaObserver::vuValidationAreaObserverRemoveAssociatedObserver(System.IntPtr)
-extern void VuValidationAreaObserver_vuValidationAreaObserverRemoveAssociatedObserver_m93FCF44E8A271F3FADC549B21B0EE20595860133 (void);
+extern void VuValidationAreaObserver_vuValidationAreaObserverRemoveAssociatedObserver_m8BC53C1190FB27EE222FF1FF2D7ED8E053C28F77 (void);
 // 0x000005A4 System.Int32 Vuforia.VuValidationAreaObserver::vuObserverGetId(System.IntPtr)
-extern void VuValidationAreaObserver_vuObserverGetId_m0282C0E70918BC66FE65DB85C7670CA8084924B2 (void);
+extern void VuValidationAreaObserver_vuObserverGetId_mAA886DBBDD4F9F1B560EB9F52115369D93AFA720 (void);
 // 0x000005A5 System.String Vuforia.VuValidationAreaObserver::get_UniqueID()
 extern void VuValidationAreaObserver_get_UniqueID_m3B6546157C1B7C0C8174C230D4B02A33196A542E (void);
 // 0x000005A6 System.String Vuforia.VuValidationAreaObserver::get_AreaName()
@@ -2542,7 +2542,7 @@ extern void VuValidationAreaObserver_get_AvailableLabels_mBB56F67F301AC27E4AE540
 // 0x000005AB System.Collections.Generic.IList`1<Vuforia.VuRepresentativeImageInfo> Vuforia.VuValidationAreaObserver::get_RepresentativeImageInfos()
 extern void VuValidationAreaObserver_get_RepresentativeImageInfos_m2532927D92534F0B5F2E0FB6689663FAE5F03911 (void);
 // 0x000005AC Vuforia.VuValidationAreaObserver Vuforia.VuValidationAreaObserver::Create(Vuforia.VuEngine,Vuforia.VuValidationAreaConfig,Vuforia.VuValidationAreaCreationError&)
-extern void VuValidationAreaObserver_Create_mEC98ECF1275FBB740C518A671579C1BA4DFEA333 (void);
+extern void VuValidationAreaObserver_Create_m1BC0A9B7C449685BB72551A2C351CC0C5B6C6A6A (void);
 // 0x000005AD System.Void Vuforia.VuValidationAreaObserver::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuValidationAreaObserver__ctor_m2F0EDB3E5498EABE618AE98B647E22FD9527DCA3 (void);
 // 0x000005AE System.Boolean Vuforia.VuValidationAreaObserver::SetAssociatedObserver(Vuforia.IVuObserver)
@@ -2552,42 +2552,42 @@ extern void VuValidationAreaObserver_GetAssociatedObserver_mF5BAAE9329654D3E19DE
 // 0x000005B0 System.Boolean Vuforia.VuValidationAreaObserver::RemoveAssociatedObserver()
 extern void VuValidationAreaObserver_RemoveAssociatedObserver_m80EC2A569AE0DD25115F95547989429156DE4D2C (void);
 // 0x000005B1 Vuforia.VuResult Vuforia.VuValidationAreaLabelList::vuValidationAreaLabelListCreate(System.IntPtr&)
-extern void VuValidationAreaLabelList_vuValidationAreaLabelListCreate_m306944F72E8FAC0A12749A9AC1D125E0BDE6683A (void);
+extern void VuValidationAreaLabelList_vuValidationAreaLabelListCreate_mB47C37CF01FC37E2A8B9667C5E7C3ED939DA63B8 (void);
 // 0x000005B2 Vuforia.VuResult Vuforia.VuValidationAreaLabelList::vuValidationAreaLabelListGetSize(System.IntPtr,System.Int32&)
-extern void VuValidationAreaLabelList_vuValidationAreaLabelListGetSize_mEAE0D2D5D3C4E7A255C3D6F86ACDC520375FC4BE (void);
+extern void VuValidationAreaLabelList_vuValidationAreaLabelListGetSize_m12BFFA7B8DB179FE444D53344328099F3BF1967E (void);
 // 0x000005B3 Vuforia.VuResult Vuforia.VuValidationAreaLabelList::vuValidationAreaLabelListGetElement(System.IntPtr,System.Int32,System.IntPtr&)
-extern void VuValidationAreaLabelList_vuValidationAreaLabelListGetElement_m259ECF478AD5F4EEA21A99D4DD705821BAA98F81 (void);
+extern void VuValidationAreaLabelList_vuValidationAreaLabelListGetElement_m06E9989F42BE2B29D602CC8348C522AEA6ADBA19 (void);
 // 0x000005B4 Vuforia.VuResult Vuforia.VuValidationAreaLabelList::vuValidationAreaLabelListDestroy(System.IntPtr)
-extern void VuValidationAreaLabelList_vuValidationAreaLabelListDestroy_m51C75C85CA9E63B0C145CAC2CD38692700B57CEB (void);
+extern void VuValidationAreaLabelList_vuValidationAreaLabelListDestroy_mCEB8FD48E91E1A81BD5159C04EA077F15BF9A94E (void);
 // 0x000005B5 System.Void Vuforia.VuValidationAreaLabelList::.ctor()
 extern void VuValidationAreaLabelList__ctor_m591EE27D3BA58E9EFF06A66DC6FABD505365769A (void);
 // 0x000005B6 Vuforia.VuValidationAreaLabel Vuforia.VuValidationAreaLabelList::GetElement(System.IntPtr)
 extern void VuValidationAreaLabelList_GetElement_m642C78C36391F864FDB12DF7720C542B06AF4B50 (void);
 // 0x000005B7 Vuforia.VuResult Vuforia.VuRepresentativeImageInfoList::vuRepresentativeImageInfoListCreate(System.IntPtr&)
-extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListCreate_mFD33265233A9A158095EE8F22B7D6F363B491AB4 (void);
+extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListCreate_mF2B845BB945964202DCFE4BFA03AA574EB1C9C9B (void);
 // 0x000005B8 Vuforia.VuResult Vuforia.VuRepresentativeImageInfoList::vuRepresentativeImageInfoListGetSize(System.IntPtr,System.Int32&)
-extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetSize_m3AFEA9E4989923C7254DDC92E5CCFCFDCD32ADF7 (void);
+extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetSize_mE51E1B585D67E2AD5A439A90D5BCA8EBBAA5D058 (void);
 // 0x000005B9 Vuforia.VuResult Vuforia.VuRepresentativeImageInfoList::vuRepresentativeImageInfoListGetElement(System.IntPtr,System.Int32,Vuforia.VuRepresentativeImageInfo/Internal&)
-extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetElement_mAA614FECED4382A278D1AB2A2788BB3C0CA04387 (void);
+extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetElement_mA32A5C2A4FF2ED1D0EA537DE357C9FDE5D2726F0 (void);
 // 0x000005BA Vuforia.VuResult Vuforia.VuRepresentativeImageInfoList::vuRepresentativeImageInfoListDestroy(System.IntPtr)
-extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListDestroy_m5814C3E71E3830D8DA65D650BE25B506BE3AB03F (void);
+extern void VuRepresentativeImageInfoList_vuRepresentativeImageInfoListDestroy_mF8E618899CE2A93F3A8100F4FA1C33281B50D0D1 (void);
 // 0x000005BB System.Void Vuforia.VuRepresentativeImageInfoList::.ctor()
 extern void VuRepresentativeImageInfoList__ctor_m0D661EB2A1815A0B276ED1B0C81C58A182034ADB (void);
 // 0x000005BC Vuforia.VuRepresentativeImageInfo Vuforia.VuRepresentativeImageInfoList::GetElement(Vuforia.VuRepresentativeImageInfo/Internal)
 extern void VuRepresentativeImageInfoList_GetElement_m93A87468DE55B2E21CC5FB86B7BDC3C09F9039B3 (void);
 // 0x000005BD Vuforia.VuResult Vuforia.VuValidationAreaObservationTargetInfo::vuValidationAreaObservationGetTargetInfo(System.IntPtr,Vuforia.VuValidationAreaObservationTargetInfo/Internal&)
-extern void VuValidationAreaObservationTargetInfo_vuValidationAreaObservationGetTargetInfo_mBE2EFEAE5290FADAF10DCBCDFEFF10EA00D1F560 (void);
+extern void VuValidationAreaObservationTargetInfo_vuValidationAreaObservationGetTargetInfo_m9196FEEE89EB63D0920E7E2BDCE414F983E536D3 (void);
 // 0x000005BE Vuforia.VuValidationAreaObservationTargetInfo Vuforia.VuValidationAreaObservationTargetInfo::Create(System.IntPtr)
-extern void VuValidationAreaObservationTargetInfo_Create_m10E8E4BBEC20676342577A3A705897ED37817FFE (void);
+extern void VuValidationAreaObservationTargetInfo_Create_m25A8A2E3C5490DE06473723AD74D8EB29BFA9353 (void);
 // 0x000005BF Vuforia.VuResult Vuforia.VuValidationAreaObservationValidationInfo::vuValidationAreaObservationGetValidationInfo(System.IntPtr,Vuforia.VuValidationAreaObservationValidationInfo/Internal&)
-extern void VuValidationAreaObservationValidationInfo_vuValidationAreaObservationGetValidationInfo_m732B842452593DA59181D4E5076E12418C71521D (void);
+extern void VuValidationAreaObservationValidationInfo_vuValidationAreaObservationGetValidationInfo_m757EDB809877CF04BC1515B7C70AC9DF2646E07E (void);
 // 0x000005C0 Vuforia.VuValidationAreaObservationValidationInfo Vuforia.VuValidationAreaObservationValidationInfo::Create(System.IntPtr)
-extern void VuValidationAreaObservationValidationInfo_Create_mDE5BE368484A42166FE7E9965B1C02FC1AFDC35C (void);
+extern void VuValidationAreaObservationValidationInfo_Create_m084A04452258A613798DFF436E1EC3D5ABBA09B9 (void);
 // 0x000005C1 Vuforia.VuValidationAreaObservationStatusInfo Vuforia.IVuValidationAreaObservation::get_StatusInfo()
 // 0x000005C2 Vuforia.VuValidationAreaObservationTargetInfo Vuforia.IVuValidationAreaObservation::get_TargetInfo()
 // 0x000005C3 Vuforia.VuValidationAreaObservationValidationInfo Vuforia.IVuValidationAreaObservation::get_ValidationInfo()
 // 0x000005C4 Vuforia.VuResult Vuforia.VuValidationAreaObservation::vuValidationAreaObservationGetStatusInfo(System.IntPtr,Vuforia.VuValidationAreaObservationStatusInfo&)
-extern void VuValidationAreaObservation_vuValidationAreaObservationGetStatusInfo_m42305AE7328ADBF79A901A08A0EAFF72A6A488C6 (void);
+extern void VuValidationAreaObservation_vuValidationAreaObservationGetStatusInfo_m3ACE3D2B94917FB93E4ECF8D58007ABDD6EAD810 (void);
 // 0x000005C5 Vuforia.VuValidationAreaObservationStatusInfo Vuforia.VuValidationAreaObservation::get_StatusInfo()
 extern void VuValidationAreaObservation_get_StatusInfo_m9255703BB2872425D5331EBDE86B7E1A66023C10 (void);
 // 0x000005C6 Vuforia.VuValidationAreaObservationTargetInfo Vuforia.VuValidationAreaObservation::get_TargetInfo()
@@ -2603,16 +2603,16 @@ extern void VuValidationAreaCaptureConfig_Clone_m8E9FBE2AA260B2C5462F2DD4FC1C3A2
 // 0x000005CB System.Void Vuforia.VuValidationAreaCaptureConfig::.ctor()
 extern void VuValidationAreaCaptureConfig__ctor_m99A67A8DFFB52D3A80A564551867047E53B32476 (void);
 // 0x000005CC Vuforia.VuValidationAreaCaptureConfig/Internal Vuforia.VuValidationAreaCaptureConfig/Internal::Create(Vuforia.VuValidationAreaCaptureConfig)
-extern void Internal_Create_m86D464746F5D1808A83008C7C320A75A9ADE5D22 (void);
+extern void Internal_Create_m400E61F1F49AAEC5948272620724FD48810F8605 (void);
 // 0x000005CD System.Object Vuforia.VuValidationAreaCaptureConfig/Internal::Clone()
 extern void Internal_Clone_m2AB04196F6137F4D1F24B673E54B6C11973CA878 (void);
 // 0x000005CE Vuforia.IVuValidationAreaCapture Vuforia.IVuValidationAreaCaptureController::CreateValidationAreaCapture(Vuforia.VuValidationAreaCaptureConfig,Vuforia.VuValidationAreaCaptureCreationError&)
 // 0x000005CF Vuforia.VuResult Vuforia.VuValidationAreaCaptureController::vuEngineGetValidationAreaCaptureController(System.IntPtr,System.IntPtr&)
-extern void VuValidationAreaCaptureController_vuEngineGetValidationAreaCaptureController_mAA0858AE185307ACE49898B4F5CC6A8C90EC8BB8 (void);
+extern void VuValidationAreaCaptureController_vuEngineGetValidationAreaCaptureController_m37DCAF6C9C0DB24D92C018C32656EAF1CAD5A5D8 (void);
 // 0x000005D0 Vuforia.VuResult Vuforia.VuValidationAreaCaptureController::vuValidationAreaCaptureControllerCreateValidationAreaCapture(System.IntPtr,Vuforia.VuValidationAreaCaptureConfig/Internal&,System.IntPtr&,Vuforia.VuValidationAreaCaptureCreationError&)
-extern void VuValidationAreaCaptureController_vuValidationAreaCaptureControllerCreateValidationAreaCapture_m9B0621AAB8E6B8C0D6C9A15E6529917FD4269A73 (void);
+extern void VuValidationAreaCaptureController_vuValidationAreaCaptureControllerCreateValidationAreaCapture_m8CC0BE91C5645F59112F707CA0CF33575504563F (void);
 // 0x000005D1 Vuforia.VuValidationAreaCaptureController Vuforia.VuValidationAreaCaptureController::Create(Vuforia.VuEngine)
-extern void VuValidationAreaCaptureController_Create_m6743EE20376EB477F5D688BF61E1508005C3871B (void);
+extern void VuValidationAreaCaptureController_Create_mB8D62DA04FDBCE66EDC3C37767219EE2DBA62AF4 (void);
 // 0x000005D2 System.Void Vuforia.VuValidationAreaCaptureController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuValidationAreaCaptureController__ctor_mD54D00B9EB014C11F2A83D2BF634D373855C3D94 (void);
 // 0x000005D3 Vuforia.IVuValidationAreaCapture Vuforia.VuValidationAreaCaptureController::CreateValidationAreaCapture(Vuforia.VuValidationAreaCaptureConfig,Vuforia.VuValidationAreaCaptureCreationError&)
@@ -2628,25 +2628,25 @@ extern void VuValidationAreaCaptureController_CreateValidationAreaCapture_m5A77C
 // 0x000005DC System.String Vuforia.IVuValidationAreaCapture::get_CaptureDirectory()
 // 0x000005DD System.String Vuforia.IVuValidationAreaCapture::get_SessionId()
 // 0x000005DE Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureStart(System.IntPtr)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureStart_m00218145BC0EC9F178A6A31C89F6EB1C588F263B (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureStart_m46DFF6F78635A579F463A3AC3689F58817277F31 (void);
 // 0x000005DF Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureStop(System.IntPtr,System.IntPtr,Vuforia.VuValidationAreaCaptureStatus&)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureStop_mC509E271F8B5D24B44273DEB8DED828C8CBC6F60 (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureStop_mB57D973F89E6873840DA24B3C9F44DF9B775CC91 (void);
 // 0x000005E0 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCapturePause(System.IntPtr)
-extern void VuValidationAreaCapture_vuValidationAreaCapturePause_m007D9DC31F0D681C443680B45CA52B4AA1DD5C06 (void);
+extern void VuValidationAreaCapture_vuValidationAreaCapturePause_mECCEA24C62DA2C2C2F1DADD5625BA5D577C1FA90 (void);
 // 0x000005E1 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureResume(System.IntPtr)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureResume_m4599829F0D22580278D5E05AB3D2F3C954DE3F07 (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureResume_m502B727A5700400391CF1C79A833ED98E82C7551 (void);
 // 0x000005E2 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureGetCaptureDirectory(System.IntPtr,System.IntPtr&)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureGetCaptureDirectory_m309AFF46AEB3AF1D9DC3C50BD2420F2EE18140DA (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureGetCaptureDirectory_mB0F2C81DF14B1C45B9A7D21F5E3A97BAB5F2E20B (void);
 // 0x000005E3 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureGetSessionId(System.IntPtr,System.IntPtr&)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureGetSessionId_mAE720A2789AF7BBE4C59A8F79AD86527B9C54F2E (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureGetSessionId_mC888D77870B0A4BC3994AAB87AEC9FEBDDAC16E8 (void);
 // 0x000005E4 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureGetStatus(System.IntPtr,Vuforia.VuValidationAreaCaptureStatus&)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureGetStatus_mA8B45DFA6E6EA907632DAC563453E486105A1A24 (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureGetStatus_mFFC74F8044983E1574428CEE6858EE99BB895F1A (void);
 // 0x000005E5 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureGetStatusInfo(System.IntPtr,Vuforia.VuValidationAreaCaptureStatusInfo&)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureGetStatusInfo_m0B16ABEBA8BCFFBAA1560AD77624F97BEF24C492 (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureGetStatusInfo_m2C1E174108BEFE843BD13540F6084624375BCCC1 (void);
 // 0x000005E6 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureGetProgress(System.IntPtr,Vuforia.VuValidationAreaCaptureProgressInfo&)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureGetProgress_mAF3FDBB6CD7082AFEC19575BF37A8D0D7AC5A091 (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureGetProgress_mE404AB1ECC1271268DC8C48F07284E59DF96AE94 (void);
 // 0x000005E7 Vuforia.VuResult Vuforia.VuValidationAreaCapture::vuValidationAreaCaptureDestroy(System.IntPtr,Vuforia.VuBool)
-extern void VuValidationAreaCapture_vuValidationAreaCaptureDestroy_m4D8D69164C42C0A527D746A35B6271E7E4BDFAEC (void);
+extern void VuValidationAreaCapture_vuValidationAreaCaptureDestroy_m8D4F346974104B91616C5E82ED0C2E625BE66CA6 (void);
 // 0x000005E8 System.IntPtr Vuforia.VuValidationAreaCapture::get_NativeHandle()
 extern void VuValidationAreaCapture_get_NativeHandle_mD2E84261566E1D941CAF04B2E8C4B8344F481957 (void);
 // 0x000005E9 Vuforia.VuValidationAreaCaptureStatus Vuforia.VuValidationAreaCapture::get_Status()
@@ -2677,11 +2677,11 @@ extern void VuValidationAreaCaptureUploadConfig_Clone_m56D24CBC584FFACE350E107BB
 extern void VuValidationAreaCaptureUploadConfig__ctor_m3149C1E4E1A422B198FB75B45793E001465041B6 (void);
 // 0x000005F6 Vuforia.IVuValidationAreaCaptureUpload Vuforia.IVuUploadController::CreateValidationAreaCaptureUpload(Vuforia.VuValidationAreaCaptureUploadConfig,Vuforia.VuValidationAreaCaptureUploadCreationError&)
 // 0x000005F7 Vuforia.VuResult Vuforia.VuUploadController::vuEngineGetUploadController(System.IntPtr,System.IntPtr&)
-extern void VuUploadController_vuEngineGetUploadController_m61C02E969C19FBA1FCFBBFC8E1F403E70B9B184E (void);
+extern void VuUploadController_vuEngineGetUploadController_m93D24D5274C2B3559AF4353D7F979A3E56948A01 (void);
 // 0x000005F8 Vuforia.VuResult Vuforia.VuUploadController::vuUploadControllerCreateValidationAreaCaptureUpload(System.IntPtr,Vuforia.VuValidationAreaCaptureUploadConfig,System.IntPtr&,Vuforia.VuValidationAreaCaptureUploadCreationError&)
-extern void VuUploadController_vuUploadControllerCreateValidationAreaCaptureUpload_m652E4EC452908E709FF93BC808993327B015628F (void);
+extern void VuUploadController_vuUploadControllerCreateValidationAreaCaptureUpload_mDA96AC0034F852F6CBF8184FAD67DF11C57118C0 (void);
 // 0x000005F9 Vuforia.VuUploadController Vuforia.VuUploadController::Create(Vuforia.VuEngine)
-extern void VuUploadController_Create_m4E53E0FE0CB9D683C2B96BD7D2ED5FB3F9C897B2 (void);
+extern void VuUploadController_Create_m2F85A259302234C7A70B0CDF0A2AB400D82B367A (void);
 // 0x000005FA System.Void Vuforia.VuUploadController::.ctor(Vuforia.VuEngine,System.IntPtr)
 extern void VuUploadController__ctor_m853DE6D43CCFBBAD0298A6C49CF9E4DAA9CEA7CF (void);
 // 0x000005FB Vuforia.IVuValidationAreaCaptureUpload Vuforia.VuUploadController::CreateValidationAreaCaptureUpload(Vuforia.VuValidationAreaCaptureUploadConfig,Vuforia.VuValidationAreaCaptureUploadCreationError&)
@@ -2693,17 +2693,17 @@ extern void VuUploadController_CreateValidationAreaCaptureUpload_mF4D400F6A9EA11
 // 0x00000600 Vuforia.VuValidationAreaCaptureUploadStatusInfo Vuforia.IVuValidationAreaCaptureUpload::get_StatusInfo()
 // 0x00000601 Vuforia.VuValidationAreaCaptureUploadProgressInfo Vuforia.IVuValidationAreaCaptureUpload::get_ProgressInfo()
 // 0x00000602 Vuforia.VuResult Vuforia.VuValidationAreaCaptureUpload::vuValidationAreaCaptureUploadStart(System.IntPtr)
-extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadStart_m1074010D8C5175B31339F862785DB84EE4B4E19E (void);
+extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadStart_m10CEAFA4133ABAB83189CE088FDEBAD29598FC59 (void);
 // 0x00000603 Vuforia.VuResult Vuforia.VuValidationAreaCaptureUpload::vuValidationAreaCaptureUploadCancel(System.IntPtr)
-extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadCancel_m18B985096AC301D7F6C49C2AC9DDA806F649DEC6 (void);
+extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadCancel_m2024881257A66A5424A5A4A6223BD01EF4C5D3A9 (void);
 // 0x00000604 Vuforia.VuResult Vuforia.VuValidationAreaCaptureUpload::vuValidationAreaCaptureUploadGetStatus(System.IntPtr,Vuforia.VuValidationAreaCaptureUploadStatus&)
-extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatus_mDC1C00534B0EB9A24DDAF7C5E4B928C26F005EAE (void);
+extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatus_m05507159F949BCCB6C845725F78BBB9ADA859AFA (void);
 // 0x00000605 Vuforia.VuResult Vuforia.VuValidationAreaCaptureUpload::vuValidationAreaCaptureUploadGetStatusInfo(System.IntPtr,Vuforia.VuValidationAreaCaptureUploadStatusInfo&)
-extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatusInfo_m40600801C8C4F0C04A69E58B2AE1FEE7BF5E9AD2 (void);
+extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatusInfo_mE8E916B69420AE11D987904CF01B6D652834F548 (void);
 // 0x00000606 Vuforia.VuResult Vuforia.VuValidationAreaCaptureUpload::vuValidationAreaCaptureUploadGetProgress(System.IntPtr,Vuforia.VuValidationAreaCaptureUploadProgressInfo&)
-extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetProgress_m7A298A7D53D95377D4003862CEC131EFA9910BC8 (void);
+extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetProgress_m6C7CE1A21CB1603C9012A3A2E08652D467501243 (void);
 // 0x00000607 Vuforia.VuResult Vuforia.VuValidationAreaCaptureUpload::vuValidationAreaCaptureUploadDestroy(System.IntPtr)
-extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadDestroy_m3E7C7FA6266E9A9AA645F4C9A2D88D88678D6BB9 (void);
+extern void VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadDestroy_m4B99FEB19633E9CC85E4757C8B17719525BCF765 (void);
 // 0x00000608 System.IntPtr Vuforia.VuValidationAreaCaptureUpload::get_NativeHandle()
 extern void VuValidationAreaCaptureUpload_get_NativeHandle_m458E7F769ADEC803C0D4BD9BA9048F73E0AE8691 (void);
 // 0x00000609 Vuforia.VuValidationAreaCaptureUploadStatus Vuforia.VuValidationAreaCaptureUpload::get_Status()
@@ -2723,15 +2723,15 @@ extern void VuValidationAreaCaptureUpload_Destroy_mDE7EA21F85A3393173A74214540C4
 static Il2CppMethodPointer s_methodPointers[1551] = 
 {
 	VuAreaTargetCaptureConfig__ctor_m13B8167B0A048EB4CB0A28FE3D03E6B07CBC75E6,
-	Internal_Create_mAA34F3D618533492A9711782FA8BD0891E0FFC03,
+	Internal_Create_mA1A4A839D042B189F0C8FE11E28211EDFCCC31C7,
 	Internal_Clone_m5D650994C4749269AAE9E368D21F59274483D79D,
 	VuAreaTargetCaptureGenerationConfig__ctor_m9A280BCC69C31E4330B4B2F8767FCF6C3719AB70,
-	Internal_Create_mDBB3833B7B7C558E240346396A2A3052DB00DDD9,
+	Internal_Create_m4E484356BED87035783AEE7A11F93BEB223B15AF,
 	Internal_Clone_m8CC1C502A9233B8D95E824DA4EF6EFC5E7BA6CF1,
 	NULL,
-	VuAreaTargetCaptureController_vuEngineGetAreaTargetCaptureController_mC7FCD9F27D4DF8671963BAE3316CFA5798F369EA,
-	VuAreaTargetCaptureController_vuAreaTargetCaptureControllerCreateAreaTargetCapture_m06F511C91BF47BE8B661BE1D6B39646D259A23D0,
-	VuAreaTargetCaptureController_Create_m95CE9D642A52E714524EC96B064FF3B1DA9DEF87,
+	VuAreaTargetCaptureController_vuEngineGetAreaTargetCaptureController_mDC6CA123284BBE43BA9453332E2DAC7A930524EB,
+	VuAreaTargetCaptureController_vuAreaTargetCaptureControllerCreateAreaTargetCapture_m3CBF57C53C2F89C70DD5E5EDD9DEA081C378FCDB,
+	VuAreaTargetCaptureController_Create_mFC678A87CB92C86B2FD2C39ADD756339E0223C51,
 	VuAreaTargetCaptureController__ctor_m684BCAD8248039FF6C062654EC29C08AA3ED6B83,
 	VuAreaTargetCaptureController_CreateAreaTargetCapture_m702852AEC47A1525FB76D2669770500ECE1F0766,
 	NULL,
@@ -2745,17 +2745,17 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuAreaTargetCapture_vuAreaTargetCaptureStart_mDDFBB649BE01FE54370E467B1DDCBB1DAA1AF61B,
-	VuAreaTargetCapture_vuAreaTargetCaptureStop_mDBAC0532CCE89FA1B2DDEF5EEDAAC657E847356B,
-	VuAreaTargetCapture_vuAreaTargetCapturePause_m9119AFB8BB685EEA62FFE3AE07A6F93330B8BBE3,
-	VuAreaTargetCapture_vuAreaTargetCaptureResume_m6FAE3CF7FCFCE518D0F047B8E6F08736719F64CA,
-	VuAreaTargetCapture_vuAreaTargetCaptureGenerate_m45936C0C99D96FB8706FE4CFD00809EAD0FBFF6B,
-	VuAreaTargetCapture_vuAreaTargetCaptureGetStatus_m75BDE9DEB0C4568EAD6C8AF227C77E25487FF7FF,
-	VuAreaTargetCapture_vuAreaTargetCaptureGetStatusInfo_m0C9575AE21EE3532D3450B827C1CA156BF7FC92E,
-	VuAreaTargetCapture_vuAreaTargetCaptureCancelGeneration_m2112B0CDC94147BB64441B57E79A91CB049780BB,
-	VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationProgress_m8249E9C71222A6426F105BBBD731495B848CEC05,
-	VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationTimeEstimate_m6C58E458903E885AAD85EB6FFF82A182E8D0B0B0,
-	VuAreaTargetCapture_vuAreaTargetCaptureDestroy_mCB89D975B41B664E61408E603B09FFF1A70E9D82,
+	VuAreaTargetCapture_vuAreaTargetCaptureStart_m1DEF448497A21FDBE9FBE03ADE0031699CD789F2,
+	VuAreaTargetCapture_vuAreaTargetCaptureStop_mAE9166C2FD3B416438038AFC3B5652108F4249EB,
+	VuAreaTargetCapture_vuAreaTargetCapturePause_mC7E50DFA4C5429F103B5658FB1669E55740E67E5,
+	VuAreaTargetCapture_vuAreaTargetCaptureResume_mDD48502849E3F7C069901A9CE1046DB21A2CDB10,
+	VuAreaTargetCapture_vuAreaTargetCaptureGenerate_m259BAA78F35120C8CB78DFBD3E1D187499D0B5C3,
+	VuAreaTargetCapture_vuAreaTargetCaptureGetStatus_mCE3A2E6E45BB345364F0DF281E5B2C603D32A78F,
+	VuAreaTargetCapture_vuAreaTargetCaptureGetStatusInfo_m7B612D6070C6B162220A9DFA082364E0CD674BAA,
+	VuAreaTargetCapture_vuAreaTargetCaptureCancelGeneration_m2BF952E3422FCE41A9266A537FDD7F8716854EAE,
+	VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationProgress_m2CB78324F4117D1D99A7CEE0DF72E0EFAB827739,
+	VuAreaTargetCapture_vuAreaTargetCaptureGetGenerationTimeEstimate_m29C29337B64C2E73A3E851FA85F264BBADECCB53,
+	VuAreaTargetCapture_vuAreaTargetCaptureDestroy_mDD70E5A583E102A16D950B23ED6234164BA945D0,
 	VuAreaTargetCapture_get_NativeHandle_mBD757A158BD2918C664DB5B03F6EFC82E2846130,
 	VuAreaTargetCapture_get_Status_m8F39104C8EFEB6E9A2CD9AAFA29E358C0C4BCFAC,
 	VuAreaTargetCapture_get_StatusInfo_mCC2EE224A764EAE9DEC8760DCDB5D7973BE4C975,
@@ -2771,101 +2771,101 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuAreaTargetCapture_Destroy_m5B298E43FEE3959033AA772FABEA8AEB40DB244D,
 	VuBarcodeConfig_Clone_mD1D7CB7F1FAEAE797BD417FF46653566D3A3CD1D,
 	VuBarcodeConfig__ctor_mE36283E714D11CFA7D4FC10F5E43D52B2FAB8684,
-	Internal_Create_mBEEE88FC48546850B0989F22F104F28DE41F1B8A,
+	Internal_Create_m1A3A807287C6FCF56FCA86307E4345BFF9852067,
 	Internal__ctor_m109379E7A215FB1CF25ECC46C9068BEF7561FD20,
-	VuBarcodeTypeSet_vuBarcodeTypeSetCreate_mD1DFFF82061EA427D880FA5DA3EE8CED1EBCBC40,
-	VuBarcodeTypeSet_vuBarcodeTypeSetGetSize_m8FF1AE2E90A5E386DA85C4A2ADB86A979329BE84,
-	VuBarcodeTypeSet_vuBarcodeTypeSetHasElement_mFBA635292EF674F96E41FC984923908397023D4E,
-	VuBarcodeTypeSet_vuBarcodeTypeSetAddElement_mD026EF45D89B45C1A7D00865B6FF905042BA0E60,
-	VuBarcodeTypeSet_vuBarcodeTypeSetDestroy_m0CBDA47E44E21E126EE40A4BBB30F02312B2818E,
+	VuBarcodeTypeSet_vuBarcodeTypeSetCreate_mCF678BC91CB574DE4B12C73E6CE2169583ADB91C,
+	VuBarcodeTypeSet_vuBarcodeTypeSetGetSize_mF5512E4F9A2CAD2540E948F63D3736EDB37AEE33,
+	VuBarcodeTypeSet_vuBarcodeTypeSetHasElement_mA72452A1437EEFD29DA4746B61BBC63F5B2AA7AF,
+	VuBarcodeTypeSet_vuBarcodeTypeSetAddElement_m5B760686C567C5E01BE267F76CCB48D5BFDF5953,
+	VuBarcodeTypeSet_vuBarcodeTypeSetDestroy_m17BC88CB9DFD7BA89A1F1E5351714AECD342A625,
 	VuBarcodeTypeSet__ctor_mDF4F56C3DA8717D4F00D6CD80099E807DC7BB85E,
 	VuBarcodeTypeSet__ctor_mB3A00818E0E30FD396A84CD4F90C63B44DDA8D44,
 	VuBarcodeTypeSet_GetEnumerator_m9331271783C1CE3F86630FE8CC81DD4E84064388,
 	VuBarcodeTypeSet_System_Collections_IEnumerable_GetEnumerator_mD8E7151ED6A198D1F6A3FA584A60E2C0DAA4B7DB,
-	VuBarcodeTypeSet__cctor_m159E0360C8967C88DF3710733E340FA2AD08E433,
+	VuBarcodeTypeSet__cctor_m6A33E82C8E0BEA9609C73420D2C1C7E753334814,
 	NULL,
 	NULL,
-	VuBarcodeObserver_vuEngineCreateBarcodeObserver_mABE715314BF23EEAF8F8F24846308CF19B147877,
-	VuBarcodeObserver_vuBarcodeObserverGetObservedTypes_m609D2B761C7CFF7CCA8D4F4C3ABE0BE55BE249FD,
+	VuBarcodeObserver_vuEngineCreateBarcodeObserver_mAD56E5EA821F5D810E671725FFB7CF45DBAD2834,
+	VuBarcodeObserver_vuBarcodeObserverGetObservedTypes_mD20DF9AABA19D03295E720FE0AC977A4BFBD18DC,
 	VuBarcodeObserver_get_ObservedTypes_m706CCE63B04E1BFEEF52BAD1B79D8A36DC6B8D09,
 	VuBarcodeObserver_get_DetectionMode_mC3B3BBA7EAE7BFD4D3D10D7BA8F4185B305CB7E9,
-	VuBarcodeObserver_Create_mC23B9C65D93D8A7C9BD28E50453911F683F08221,
+	VuBarcodeObserver_Create_mD1883B08C11B1F7D42481FC3E9CEF911B91A8B4C,
 	VuBarcodeObserver__ctor_mB58E601AE45F2F02FFFC97A09B800BD8AE020B0A,
-	VuBarcodeObservationInstanceInfo_vuBarcodeObservationGetInstanceInfo_mF37CFC64E4ACD7552C8AD01DFE18C8EF895F9479,
-	VuBarcodeObservationInstanceInfo_Create_mA25FBB3E98B497F46D89184B503A6DB94DDDE03F,
+	VuBarcodeObservationInstanceInfo_vuBarcodeObservationGetInstanceInfo_m00CBE66DDC8EE27A12FFEAECDEE014292DDF8A5D,
+	VuBarcodeObservationInstanceInfo_Create_m8E0F7A5F2764ED43936C79E1AD4C4CE83221F417,
 	NULL,
 	NULL,
-	VuBarcodeObservation_vuBarcodeObservationGetInfo_m77511064A24D0CC682024E5AC4D07BE1C6782433,
+	VuBarcodeObservation_vuBarcodeObservationGetInfo_m4B698DF241531B17A3DBABB03F59D73223653D51,
 	VuBarcodeObservation_get_InstanceInfo_m21C2061B4AA911690A77D7817A2AAE9400587CA0,
 	VuBarcodeObservation_get_Info_mAC7A1C80E0A97AE9ED8A844C87EAE0EA06FAADF7,
 	VuBarcodeObservation__ctor_m543B22EC73ADE0C66FA4026B278E1483B9590453,
 	VuBarcodeObservation_UnregisterObservation_m6725715A6821757A74148D24DEDFA2F285512D89,
-	VuCesiumTiles_cs3DTilesCreate_mF4E6B0B86DECC32BE7C1CD337E7FBB74C0B6F439,
-	VuCesiumTiles_cs3DTilesCreateFromCloudConfig_m9FE777F25ED7D51472DE3F2A8486BC4A3DBEF244,
-	VuCesiumTiles_cs3DTilesHasTileSet_mD07D9C2C29FB659C24F41A29E98146657B33A5B1,
-	VuCesiumTiles_cs3DTilesGetTileSet_mC9090A6028B2079F67F7F30DBBA4399F22272687,
-	VuCesiumTiles_cs3DTilesDestroy_m869C13BACC670C3D83BA00A174622DBDE61326EF,
-	VuCesiumTiles_csScenesLoad_mA7EA5B5C312645B9EEDD215BA4DA546FE9E45F62,
-	VuCesiumTiles_csScenesLoadWithoutMaterials_m32CC9E35C8037EAA58C860B499CBF7C771CB6A02,
-	VuCesiumTiles_csScenesLoadFromRawFile_mF355D8B5FD1C793B2DE04E6B90B1392BABD53E23,
-	VuCesiumTiles_csScenesLoadWithoutMaterialsFromRawFile_m7E6BE746C6366EF5E7600DE5B56AF5ABB2860DCC,
-	VuCesiumTiles_csScenesDestroy_mC75D1DEDEFF76AA7E1A77683E02F5AC69BD64D53,
-	VuCesiumTiles_csSceneListGetSize_m57FC0D05B2FF69E69EFB8D7CE6595359FECDE9CF,
-	VuCesiumTiles_csSceneListGetElement_mA4DC19756A443EFD8E43B96377FB38FAA329B589,
-	VuCesiumTiles_csSceneGetName_mDD8B92AE7D31BFEC9B9C85C13D208A7E36130224,
-	VuCesiumTiles_csSceneGetNodeList_m5D0D8666623A8135BA20DCE77A99BBBC48D4AC99,
-	VuCesiumTiles_csNodeListGetSize_m7A132F71DE5B4AB3DE3F8AED3D21DCE85CE7900E,
-	VuCesiumTiles_csNodeListGetElement_m8F84E144BCD2756EA7D6A4D599633F33783D6830,
-	VuCesiumTiles_csNodeGetNodeList_m3BC2CE5BC024A3B3D4F568EB2C936EDAAEFEAAF7,
-	VuCesiumTiles_csNodeGetMeshList_m739D7548871FD7DA828D0AD443861AD8DE9F42BD,
-	VuCesiumTiles_csNodeGetMatrix_m3241B5B392BC687CF04B34A4271E44B336075F86,
-	VuCesiumTiles_csNodeGetName_m458924221322866B6D658D30F814998A12C162C6,
-	VuCesiumTiles_csMatrixGetValues_m33CD001AB2FD4E85B0E924F9E6C0FEC7F0B37A98,
-	VuCesiumTiles_csPointCloudCreate_m9265FD8241C0B3215EA8EE0D259EB30BCC142784,
-	VuCesiumTiles_csPointCloudCreateFromRawFile_m8CC4A9773151EFD0D51114ABB00911B612647E78,
-	VuCesiumTiles_csPointCloudGetVertexCount_m034FFE56BABFE91D6DF98772427BCE28E5E48249,
-	VuCesiumTiles_csPointCloudGetAttributeList_mA5A3575F34134790DCA6318FDA33BD34367CA84E,
-	VuCesiumTiles_csPointCloudDestroy_mE3FB85804E1FF5824DF7738ED72DF11C5205C90A,
-	VuCesiumTiles_csMeshListGetSize_m0380D9959051BBE8BBB6B53A5147E5FE538718DF,
-	VuCesiumTiles_csMeshListGetElement_mCE4B22C3A4F533E2C948E184413CEE6DDE049011,
-	VuCesiumTiles_csMeshCreate_mC6D886ED5A6AD19166A64D1BE114725B36829BEE,
-	VuCesiumTiles_csMeshCreateFromRawFile_mD03D5364ECEF4F561783975B95CDA0117FA73052,
-	VuCesiumTiles_csMeshGetVertexCount_m456CC0972A7ECCC551FEB9162E8B64DEB9F75A4D,
-	VuCesiumTiles_csMeshHasIndices_mA1EB20220334CC32C47D1ABEEEAA205E1F87E4EA,
-	VuCesiumTiles_csMeshGetIndexCount_m1EB926551221605B16AEB0350180E188D62FFD81,
-	VuCesiumTiles_csMeshGetIndexType_m2FD9AE2D069DC0ABB607E654C82C570F64839E57,
-	VuCesiumTiles_csMeshCopyIndexData_m6CD7474340AD529AE5ED3B90D0B08930CE4927C5,
-	VuCesiumTiles_csMeshGetAttributeList_m439FF430ECC6F61D381D8BD095BDD0B84E2E7464,
-	VuCesiumTiles_csMeshHasMaterial_m862CB78817DFE8E5032D5AF2EEE1DD1783E6778C,
-	VuCesiumTiles_csMeshGetMaterial_mC5A3248A91E729D5D54466C6519DC627EA20DF38,
-	VuCesiumTiles_csMeshDestroy_m63F5A9C5F5B95C96FE8534B735F35FE84453FFBB,
-	VuCesiumTiles_csAttributeListGetSize_m9D53DF5E78579ADF315BFFEDF95E89B3C56D49EE,
-	VuCesiumTiles_csAttributeListGetElement_m1C6D91C0AD0CA7E2ACF3E5689FAD34214A51E532,
-	VuCesiumTiles_csAttributeListGetElementByName_m8367655FEB1432282F0EA17CA016A7A6C011BEB2,
-	VuCesiumTiles_csAttributeGetName_m0B6FB9E0B51FD9DD06BE7BD171432F3AA1699A6E,
-	VuCesiumTiles_csAttributeGetComponentType_m6FB81615A78FC864C90F44BE004B8A2BD1F34C7D,
-	VuCesiumTiles_csAttributeGetDataType_mCAA1A78B46498DE7FCCD7BED269674DA680653D1,
-	VuCesiumTiles_csAttributeGetAttributeData_m7A6CA104BB3840FFEAD4CF203F6A9F8808DBCA6E,
-	VuCesiumTiles_csAttributeDataCopyData_mBB508D03BD21440B45E346E18572D84B8AE29B5E,
-	VuCesiumTiles_csMaterialGetBaseColorFactor_m2BFFB2D9688EA78250DE66F7AF5E35C304EB3978,
-	VuCesiumTiles_csMaterialHasBaseColorTexture_mA852A3A51DB5CC6990550EA8212C465BA6546E22,
-	VuCesiumTiles_csMaterialGetBaseColorTexture_m115E0773C17A976B1C1CAC2401D163ECACE5338B,
-	VuCesiumTiles_csMaterialGetName_m6AFFD1BEF95FE3D1E75366112C08F53A4CA7203B,
-	VuCesiumTiles_csTextureGetSource_m189911666F8F0A4B651853CBC46978ED49856EF9,
-	VuCesiumTiles_csTextureGetSampler_m29700F4E203903A965D94C506AB8CB9AEB66EDFB,
-	VuCesiumTiles_csTextureGetName_m9A2EC748B869BB81C9A3BA8F193E1244690E607F,
-	VuCesiumTiles_csTextureSourceGetImage_mAEA0189609BD7C7213FB90A80C71F652E0BBDB15,
-	VuCesiumTiles_csSamplerGetMinFilter_m19C325E6183278708313A5EBE6F11EDFF73319C3,
-	VuCesiumTiles_csSamplerGetMagFilter_m8FF110AB976F2943D4B46B900D235A186095E4E3,
-	VuCesiumTiles_csSamplerGetWrapS_mAA9CFB43457E3B520869EFB3DDD50B18DA598B17,
-	VuCesiumTiles_csSamplerGetWrapT_mEBC6D4EDD3DB0945F7FBF3A245334FE0E16DB136,
+	VuCesiumTiles_cs3DTilesCreate_m84B3F5869B7E971BAD77332808F9D576BC1DEF2C,
+	VuCesiumTiles_cs3DTilesCreateFromCloudConfig_mEE65E1FCAB28A5DCB5B3026967975F38DCF3C583,
+	VuCesiumTiles_cs3DTilesHasTileSet_mAF9972AFDCF21B69D0D6C3C2BEE154F03EDB7DF2,
+	VuCesiumTiles_cs3DTilesGetTileSet_m12DA880E67053532A55D65EF4884CB14E54F402E,
+	VuCesiumTiles_cs3DTilesDestroy_m193B5E2E89B932F5225CF5E53556F0B67FDD9C43,
+	VuCesiumTiles_csScenesLoad_m85073C955F361DCAF1FBF8926E2223D96D190456,
+	VuCesiumTiles_csScenesLoadWithoutMaterials_mD0E85EB70502DEFF8D76902A62A242EB0EFF20FE,
+	VuCesiumTiles_csScenesLoadFromRawFile_m897B0D5105ADE348260DFFEEEC085E70C8336B4B,
+	VuCesiumTiles_csScenesLoadWithoutMaterialsFromRawFile_mB2ECF5FA00F59E223CB16290EA8D7AB5797B0482,
+	VuCesiumTiles_csScenesDestroy_m01294EC48F11CEC6DABCCD36F494613B73D2612F,
+	VuCesiumTiles_csSceneListGetSize_m8A4F2D12195D9A78B102561CB13B6509B29B9C7E,
+	VuCesiumTiles_csSceneListGetElement_m07B2F2FA9C741CFD78F55861D3532F49419358DF,
+	VuCesiumTiles_csSceneGetName_m899BB8433023F3C3F9BC66F77FB6099C00357964,
+	VuCesiumTiles_csSceneGetNodeList_m559EE4E20400CEE37EBB1C507146AF8B75044306,
+	VuCesiumTiles_csNodeListGetSize_m0A7CDF3ED79F4B05D4A086AEA5A1F56CC53105F8,
+	VuCesiumTiles_csNodeListGetElement_m0897F86988ECB9F49BCF7EE28E1CEA90B57A8829,
+	VuCesiumTiles_csNodeGetNodeList_m792B8E0D5DA83ED2DCD60E3110ED055858F6CD77,
+	VuCesiumTiles_csNodeGetMeshList_m2462ADF8EE77FFA2790E9CCD6B3A51260D6AB882,
+	VuCesiumTiles_csNodeGetMatrix_m2F9FF4E0ADDBE9638C2F44336B7FAD6F97C803A7,
+	VuCesiumTiles_csNodeGetName_m9D6073C4CF537918D95A7D797F3B40554F90470F,
+	VuCesiumTiles_csMatrixGetValues_mA5ED469D05FDBDECCA52F435A29FA5F636BAC847,
+	VuCesiumTiles_csPointCloudCreate_mAF683763F678638B8BFDEEB027C5BA18957D7CE7,
+	VuCesiumTiles_csPointCloudCreateFromRawFile_m10B363FCF94AA576B957A27952752E2C6603E3B7,
+	VuCesiumTiles_csPointCloudGetVertexCount_m49B1A6FFBC03F7FBEF3CE4F5CDB4A62F523E18C8,
+	VuCesiumTiles_csPointCloudGetAttributeList_mA01B36052D2AABD3FD5DA23187DC63D63788FF41,
+	VuCesiumTiles_csPointCloudDestroy_m039678C01EB32BABD030F7EA753249AE8DBF1725,
+	VuCesiumTiles_csMeshListGetSize_mE52CE7B47C56B11ADB9D8AEC676E31490AF8CC26,
+	VuCesiumTiles_csMeshListGetElement_m843E394C1003C56251E311E063BB14323B4866DA,
+	VuCesiumTiles_csMeshCreate_mE3F9711F69E6E7F824674579679ACE0775E21FC5,
+	VuCesiumTiles_csMeshCreateFromRawFile_m94ABB6EE6CD602874F93C805A92F94467BC9DA4D,
+	VuCesiumTiles_csMeshGetVertexCount_m83273074B4C3D2D50CCFC56A981BFE543691FCC8,
+	VuCesiumTiles_csMeshHasIndices_m50514CFB233F40D4EF7266819ADA5796D9E94DF9,
+	VuCesiumTiles_csMeshGetIndexCount_m9530B65122F55BE9106112847F6B61710B7DE81C,
+	VuCesiumTiles_csMeshGetIndexType_mD6B93BF7268B85E8DAA167402FA00994C6D4B2C7,
+	VuCesiumTiles_csMeshCopyIndexData_m541BBC5C48966E8E04EAE552F290C8A2A042EC94,
+	VuCesiumTiles_csMeshGetAttributeList_mC33BB7B6928F995BBA3BB9BEF7E35271DE9EA3AA,
+	VuCesiumTiles_csMeshHasMaterial_m8F7C890C0F02A5E67F5C9A680C7B5B030FD6D686,
+	VuCesiumTiles_csMeshGetMaterial_m7C84577ADD559C952AF198A2E7A8BB482C7D08A9,
+	VuCesiumTiles_csMeshDestroy_mA1B5163F88BC5D58262221659AD2714561AF3FCD,
+	VuCesiumTiles_csAttributeListGetSize_m4D2736BFF498B6EAD948B4E79A4903438BFED562,
+	VuCesiumTiles_csAttributeListGetElement_mCCFD097C155A0ED97CFBD9514976C74DC25B8BF6,
+	VuCesiumTiles_csAttributeListGetElementByName_m5B1E34EBD2067503DEB6BFC1AC063DA1A8F2A7E1,
+	VuCesiumTiles_csAttributeGetName_m2C3CB61F8B6ADFFD9225CDDA5E871E4255169595,
+	VuCesiumTiles_csAttributeGetComponentType_m206021CD58DADE510A4EBDDC101BE21EB9BE1BBF,
+	VuCesiumTiles_csAttributeGetDataType_m06E0C4B917F9C2D310038A88360941F9084A9132,
+	VuCesiumTiles_csAttributeGetAttributeData_mE5E611D96C704CD060744A633620975AA5583A72,
+	VuCesiumTiles_csAttributeDataCopyData_mC691A05C029111F974500CDC852FC91C348EF220,
+	VuCesiumTiles_csMaterialGetBaseColorFactor_mBA09A6A66E28C2617CFFA160978622C37358DB5D,
+	VuCesiumTiles_csMaterialHasBaseColorTexture_m4CFE10C5ABE280F0660BAA378A540ABD1B4D6403,
+	VuCesiumTiles_csMaterialGetBaseColorTexture_mB58A269EC12D6971666352E08D7BCF2D26C5150D,
+	VuCesiumTiles_csMaterialGetName_m89C2830154531FBCA18635BA2EE138810EEB5A8D,
+	VuCesiumTiles_csTextureGetSource_mAB70C3754CFF7DD74C81C526C1602B0CB1CD8409,
+	VuCesiumTiles_csTextureGetSampler_mB416BEFA5070A9AB50451B873761BB742584990B,
+	VuCesiumTiles_csTextureGetName_m9CA806329A1844523768C2E40358A21573A10862,
+	VuCesiumTiles_csTextureSourceGetImage_mD6ECD36F71A105775593E6FC13104FA04AC92625,
+	VuCesiumTiles_csSamplerGetMinFilter_mA86EDD12CF8D0302C2DDD8AF604D19CA17D2DB17,
+	VuCesiumTiles_csSamplerGetMagFilter_mB5D1EA664EED823CC5C65AE30A5C8530B0A96E35,
+	VuCesiumTiles_csSamplerGetWrapS_m19A40EEE88CCEB86EC8D90BB7A367ADF1B64F533,
+	VuCesiumTiles_csSamplerGetWrapT_m9F3091C1AC34EB5762F4BD4C82010C40B9118E97,
 	VuAnchorObserverConfig_Clone_mF27C1E1BE34B18FD41269734F2094D8508EBB9AE,
 	VuAnchorObserverConfig__ctor_m719C0E528B7F3F99EC3ABEA1C9EE39F07AF9D8A4,
-	Internal_Create_mC51E856F907FEAD59EC814DAB5239D77C181D0E8,
+	Internal_Create_m06F729A4D3943917AB20A8BFB9252B456F3EE839,
 	VuHitTestConfig__ctor_mCBAC2BC8E372F2CEED42E15143261706F6EA2D97,
 	Internal__ctor_m167484968EBA6F83ECC2AA7927867711C75B5A8B,
 	NULL,
-	VuHitTest_vuHitTestGetPose_mD340BFE40B09DDE2EDBBA46BE82F5B119862C57A,
+	VuHitTest_vuHitTestGetPose_m65A68876B62AAD5421CCFF5635471F6596D2C786,
 	VuHitTest_get_NativeHandle_m7B2186DD9B76493B4BFDD900927347A6285C83C2,
 	VuHitTest_get_Pose_m195A2786FCB823CA1708FBDE3DA6398EFF2E5CFF,
 	VuHitTest__ctor_mAA2EDD0CCA941D3E66D8C191B9CE42922363FD6C,
@@ -2886,47 +2886,47 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuAnchorObserver_vuEngineCreateAnchorObserver_mDF21926AA89BAA9E630CEDAE2C3E0BAEE517421B,
-	VuAnchorObserver_vuAnchorObserverHitTest_m8FFB7DDB23D8DDACD532A336F0A0C94E0EF53325,
-	VuAnchorObserver_vuAnchorObserverCreateAnchor_mA85F59DE573076D4DEBA824DFDCCC86ED0092D7C,
-	VuAnchorObserver_vuAnchorObserverCreateAnchorWithHitTest_m449D1075BB963F97F1C91A95307C7B83FE70A2FB,
-	VuAnchorObserver_vuAnchorObserverDestroyAnchor_m7028EC4DEDCF8763ADC721C1899EB502121401E7,
-	VuAnchorObserver_vuAnchorObserverDestroyAnchors_mD1DD9E85B22C747432B078E73E1DDEEF72FDB351,
-	VuAnchorObserver_vuAnchorObserverGetAnchors_mDC85ECD1649C98ADF1E0FEA5C7FB5367E2636544,
+	VuAnchorObserver_vuEngineCreateAnchorObserver_m4200C0C2DB367A10B787732E5D422ADBC01702E5,
+	VuAnchorObserver_vuAnchorObserverHitTest_m3F63F2AA09FA7CEA23CFB63FC5399013D104ED19,
+	VuAnchorObserver_vuAnchorObserverCreateAnchor_m203A0F475C1F4573EB72D209423892A46BA8FC0C,
+	VuAnchorObserver_vuAnchorObserverCreateAnchorWithHitTest_m5C814CF7A810DC99EE818FD12AB925B49A685B9F,
+	VuAnchorObserver_vuAnchorObserverDestroyAnchor_m714294F60CB8299183EACDBA8783E407BDB73449,
+	VuAnchorObserver_vuAnchorObserverDestroyAnchors_m440172A5AD047068A32EA435175D5CFCBBB579F7,
+	VuAnchorObserver_vuAnchorObserverGetAnchors_m72CC64E334970329EB6CBF9B2A9217A64E87B3C8,
 	VuAnchorObserver_get_AnchorIds_mC4505DE725D8CA150B015BB122D7A5D5A37600C1,
-	VuAnchorObserver_Create_mA078F2B2BB688E73E58EA0823C32E6092FA7C2EF,
+	VuAnchorObserver_Create_mEE96F3C82A3207B0CC9B8EFD9A6D9471073360A1,
 	VuAnchorObserver__ctor_m327DA4AD884CCFBE2444BBB27AB975DA8BEBB438,
 	VuAnchorObserver_CreateAnchor_mC6C7205AEBD52346028D98EEA8F100483B4ECB50,
 	VuAnchorObserver_CreateAnchorWithHitTest_m2BF61283636C70D4150D7DC29EA80315CFEE7399,
 	VuAnchorObserver_DestroyAnchor_m6E943079224C5D6A6BF9709B27B2DF9D760EB86B,
 	VuAnchorObserver_DestroyAnchors_m15F8D4306F986735189E66B75AE2DFE6C657C7CB,
 	VuAnchorObserver_HitTest_m17ECACE9E1C4EDCB14855DA6C5800EAA6E586A6D,
-	VuAnchorList_vuAnchorListCreate_m1956F3B6AB54078FA6B628EA11B4774A546E9C64,
-	VuAnchorList_vuAnchorListGetSize_m0008BD0055FF0C5DBDFC1B2D48A3FEF84E181012,
-	VuAnchorList_vuAnchorListGetElement_m90E73DA3B5E13A5D6EC489C8ADCDB077D043200C,
-	VuAnchorList_vuAnchorListDestroy_m16BB5D940CFB92D27F6416C1A710DA97336D0DF9,
+	VuAnchorList_vuAnchorListCreate_mBE5A0693531D52C8192DDDE598E6D1EE34CFE223,
+	VuAnchorList_vuAnchorListGetSize_mE3B02C090267C705C943FE474D0CBDC07DC55E31,
+	VuAnchorList_vuAnchorListGetElement_mCC4AA18D8B364E8A1FF52841D342D89F897813D3,
+	VuAnchorList_vuAnchorListDestroy_m21E64E6D7089161F8408AE603CBD8F077C5AAF9E,
 	VuAnchorList__ctor_mB52B1F6DE3BFF93716EB260DF93A1744B95E923F,
-	VuHitTestList_vuHitTestListCreate_m95B868F564FA7C344B0B38BF50836AF3167F18AB,
-	VuHitTestList_vuHitTestListGetSize_m5C02EE166FEA57730F737AE0EAB14A0C9626831A,
-	VuHitTestList_vuHitTestListGetElement_mCC93D060617AC70BF666E94C1214BD7B140EADB9,
-	VuHitTestList_vuHitTestListDestroy_mDCDD649690ACAE042ACCD340DCBBDD10CE2A4944,
+	VuHitTestList_vuHitTestListCreate_mC0213671D0638E689B5F2B4D1428CF28D3F6EBBD,
+	VuHitTestList_vuHitTestListGetSize_mF80FE0C494DE51FA462D46B5F7050534E1444B9D,
+	VuHitTestList_vuHitTestListGetElement_m24FF1F7482D04E3A48371DFF87E1620CEA78691D,
+	VuHitTestList_vuHitTestListDestroy_m2647A118A0E9BACF9B64AA151B08A48D6A8DA462,
 	VuHitTestList__ctor_mA324DBFC79D2B025E7B75FE843B27CA66B0DCD0F,
 	VuHitTestList_GetElement_m603DB877A88E491B0439F92693B89FA5E258EBC0,
 	NULL,
 	NULL,
-	VuAnchorObservationInfo_vuAnchorObservationGetInfo_mB29F0B951590D18A5660583DF60788B0B2A30AB8,
-	VuAnchorObservationInfo_Create_m90D7713EF609AFB76250702003C6E11BCF4A8F07,
-	VuAnchorObservation_vuAnchorObservationGetStatusInfo_mD071243F322B41881B3EF6BDE20FE5F5A7D12230,
+	VuAnchorObservationInfo_vuAnchorObservationGetInfo_m8A6C434957A3DE9C5BD91DD25CD5032918819214,
+	VuAnchorObservationInfo_Create_m194673B23D79164CE114B2D0F5987FF70E8EC82E,
+	VuAnchorObservation_vuAnchorObservationGetStatusInfo_m3E51ED0BDA08DD8B4F4053425EB2FD66CF35E079,
 	VuAnchorObservation_get_StatusInfo_m1949E31E8BFC436F4239F62591C322B587462571,
 	VuAnchorObservation_get_AnchorId_mC4E4E58174E4174EC0BA09F7251FC7143A278528,
 	VuAnchorObservation__ctor_m761918368D3C2F1B5D164EF690DC9BCBC3D33AF8,
 	VuAnchorObservation_UnregisterObservation_m016526A456E6AE735DCB3CF557B0EB342B639918,
 	VuAreaTargetConfig_Clone_mC3E76CB2068E7DF980978494131308F0454FDFE1,
 	VuAreaTargetConfig__ctor_mA430E325740398681CEE52561854D1DACDE70A8F,
-	Internal_Create_mD267924B49AD638B2DF1E3F077B634CFF8206285,
+	Internal_Create_m943D7F87549D2812099E70325016AB244BFB65C2,
 	VuAreaTargetCloudConfig_Clone_m7D215B34C102557E3377E50FDEB15F51C8CCB8E6,
 	VuAreaTargetCloudConfig__ctor_mD52FF3260BBB85000641F71F7F785CBF69624B17,
-	Internal_Create_m8F7B0BC8BC70165ED40DE3A346CB816217A003F5,
+	Internal_Create_mD71C3EBC7FB9E44112118F68C422B36AB71F0E93,
 	NULL,
 	NULL,
 	NULL,
@@ -2934,30 +2934,30 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuAreaTargetObserver_vuEngineCreateAreaTargetObserver_m29184F8F4FEDEEDAE41B326A507C770FE28946BF,
-	VuAreaTargetObserver_vuEngineCreateAreaTargetObserverFromCloudConfig_mD95395A7633874E2A38B1EE2191CA6266D588B9D,
-	VuAreaTargetObserver_vuAreaTargetObserverGetTargetUniqueId_mE151619E407D2FFBF0DC90F1AA74E83AE012BC1D,
-	VuAreaTargetObserver_vuAreaTargetObserverGetTargetName_m202EC61F733D711CF1663DC7D25FE08598541061,
-	VuAreaTargetObserver_vuAreaTargetObserverGetTargetSize_m5A4450FE0B940439B96C242808A8FEFB4A0F9D45,
-	VuAreaTargetObserver_vuAreaTargetObserverGetAABB_m7E870A55B450CEC78256A6F5395342599C145C1E,
-	VuAreaTargetObserver_vuAreaTargetObserverRequiresExternalPositions_m6EADD439215DF9212C60F7AD85D15DCEE97E3703,
-	VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom2D_m2A979A3CFE5C01F7AABBD80BA2330B8DABF75181,
-	VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom3D_mE3936677F1977B988C3F9123EB880C0D1A470FED,
+	VuAreaTargetObserver_vuEngineCreateAreaTargetObserver_mDFDA35019896713A5A58A8E601D8B7F4AAC7D022,
+	VuAreaTargetObserver_vuEngineCreateAreaTargetObserverFromCloudConfig_m8F5C4BB6D11543476E22B10A2106BDF6C045A900,
+	VuAreaTargetObserver_vuAreaTargetObserverGetTargetUniqueId_m1116219F36BC786726322583FE75C16B2F603950,
+	VuAreaTargetObserver_vuAreaTargetObserverGetTargetName_m9150D36420C607A6245C525E4A5A108236AFEFC4,
+	VuAreaTargetObserver_vuAreaTargetObserverGetTargetSize_m7CF33844C7955F6B28B0B628D776D55CC6E2048B,
+	VuAreaTargetObserver_vuAreaTargetObserverGetAABB_mEB469AA7A62F6DFC89F6CF4A3293D0B78436D0C1,
+	VuAreaTargetObserver_vuAreaTargetObserverRequiresExternalPositions_m19A2274C1D55D8C4859322801EDD1BF8E86E9F3F,
+	VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom2D_m02F1784EFF3E882EE7C93C3E924D23E586AC8732,
+	VuAreaTargetObserver_vuAreaTargetObserverSetExternalPositionFrom3D_mE05B078314AB28459E93401D81228C063A71391B,
 	VuAreaTargetObserver_get_TargetUniqueID_m8464788F8E8E1B62937B68E4F29A8D300FA58C41,
 	VuAreaTargetObserver_get_TargetName_mF01B26BFCC03C17BE190D8DF0D7D210D82F4EB33,
 	VuAreaTargetObserver_get_TargetSize_m769BD6497DE36FBFE5FB300BBF50A1C284DC519A,
 	VuAreaTargetObserver_get_BoundingBox_m1D990B3F80FB5615F721F693E50839B9F2929703,
 	VuAreaTargetObserver_get_RequiresExternalPositions_mF39DBFB3825E42AF15ACA8B4EA6136709A162CCB,
-	VuAreaTargetObserver_Create_m35775E0E03298E132E4D0E45E9CB90F2C6DD296D,
-	VuAreaTargetObserver_Create_mE23CB1A8C19072842FEB8443D8999F2527E36111,
+	VuAreaTargetObserver_Create_mFD391EA48990D8744A1D7F9481F72B82B248525A,
+	VuAreaTargetObserver_Create_mEE0609C3F94E00235D8557221152310F4D80180C,
 	VuAreaTargetObserver__ctor_m95BB06D33CEA4D396CCBCA38C1CC4C39B8861160,
 	VuAreaTargetObserver_SetExternal2DPosition_mC3454E764982CA9EB22B950C608204708A57E482,
 	VuAreaTargetObserver_SetExternal3DPosition_m02534A880844DC5C5689535F295FD7DFA88B1DCA,
-	VuAreaTargetObservationTargetInfo_vuAreaTargetObservationGetTargetInfo_mD00C41DF100ACC84974907742EDDC70B7FB79938,
-	VuAreaTargetObservationTargetInfo_Create_m469FFC29D662E9016B951FB51CDE95A69B71C78D,
+	VuAreaTargetObservationTargetInfo_vuAreaTargetObservationGetTargetInfo_mD82F51EE25C26068C8ED22FD9FFBED8C873287F6,
+	VuAreaTargetObservationTargetInfo_Create_m9E42F198A8C02A766F3BD4022D156CDC0A18595F,
 	NULL,
 	NULL,
-	VuAreaTargetObservation_vuAreaTargetObservationGetStatusInfo_m349945CBEFB8F1356F5A5AE5DD9EDE796C0AE749,
+	VuAreaTargetObservation_vuAreaTargetObservationGetStatusInfo_m2D112D7B3B0E24C2BC9DD4A7BC5A011151277F77,
 	VuAreaTargetObservation_get_StatusInfo_m3BE649EF68EB416F1CBFACBFE2A62F1200CE6315,
 	VuAreaTargetObservation_get_TargetInfo_m1640C231FA762A220473AAE310B94DD1C9C11356,
 	VuAreaTargetObservation__ctor_m5277405D88DF952DEB1336A88347B75EFA1FBE30,
@@ -2994,38 +2994,38 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuCameraController_vuEngineGetCameraController_mA615210DC28BC1DFD992493FD3C0474AF8F233FD,
-	VuCameraController_vuCameraControllerGetVideoModes_m8524E9012AAC16E9521D033646A89D7F57A339E0,
-	VuCameraController_vuCameraControllerGetActiveVideoMode_mAD3B82D13DC57F37A5AC26A060B9527248150C4F,
-	VuCameraController_vuCameraControllerSetActiveVideoMode_m27C1C6224325188FA78A443FCA55CFEC70EB2556,
-	VuCameraController_vuCameraControllerGetFlashMode_m0F4AD85A32A0C538B109A94EEA849E215804430D,
-	VuCameraController_vuCameraControllerSetFlashMode_m3A9D4CC9F323ACA2EAC93AF5E4BB643866E505B6,
-	VuCameraController_vuCameraControllerGetFocusMode_m2B067D8BA86380F9712D0E4712476E90E51172D4,
-	VuCameraController_vuCameraControllerSetFocusMode_mB6FF5A07BE7C07D55DA8517B8E86E20234CBAF79,
-	VuCameraController_vuCameraControllerGetExposureMode_mCE410568A5AA456A77D818C7481C023C88A7CC0C,
-	VuCameraController_vuCameraControllerSetExposureMode_mD63AA83A030FC8704D2FA17BAEB266B851813B97,
-	VuCameraController_vuCameraControllerIsFocusModeSupported_m293E5D14DE5C3D5100047768CDAFC57B36BB924E,
-	VuCameraController_vuCameraControllerIsExposureModeSupported_m84E2A1ACB8E4FF61ACF49EA301B638A857D767EA,
-	VuCameraController_vuCameraControllerGetFocusRegion_m3810CC712AFBF98B5762A0706501C184E9325D33,
-	VuCameraController_vuCameraControllerSetFocusRegion_mEE33FF7F93090AD01AE6A5447EFAD7D29E3EC9F2,
-	VuCameraController_vuCameraControllerGetExposureRegion_mE12A3EE85E67FD3E53364A5840586FF9D9D44755,
-	VuCameraController_vuCameraControllerSetExposureRegion_m26FC31A1B0427EDA5A1D65838448C4253851A3F2,
-	VuCameraController_vuCameraControllerIsFocusRegionSupported_m91B9AD5442F8285ED35C22ECF5732A01164AB312,
-	VuCameraController_vuCameraControllerIsExposureRegionSupported_mDDB3256EE16D86D735A5F052D7F2F51C42EA922E,
-	VuCameraController_vuCameraControllerGetRegisteredImageFormats_m2C9EAC7A7AF060C59E4DDED30B0447B00585DD92,
-	VuCameraController_vuCameraControllerRegisterImageFormat_mFB701B773618BCFCD6B20D0936A4164B999CE729,
-	VuCameraController_vuCameraControllerUnregisterImageFormat_mBF64AE3AEE396DA818C03A0140FF5C21ADA185E8,
-	VuCameraController_vuCameraControllerGetSupportedCameraFields_mBED0E7EA24EDEB9450D2262CDC8E55B69CF82CE4,
-	VuCameraController_vuCameraControllerGetFieldString_m646D1797B77CC67E429BF890EBB2829CDEED5540,
-	VuCameraController_vuCameraControllerSetFieldString_m6C1A8DE4D0108CCA7F626A4EA9247B1026861260,
-	VuCameraController_vuCameraControllerGetFieldInt64_m46359E24FFA9A28CB70257932B8593596C6DF212,
-	VuCameraController_vuCameraControllerSetFieldInt64_mC6FD57EB5F294913169B6D89123BCADB19E03B38,
-	VuCameraController_vuCameraControllerGetFieldFloat_mE934806D5F679FF0998F6CB3EA0C2A890E4E2C81,
-	VuCameraController_vuCameraControllerSetFieldFloat_m5AB166FDA3F11FCC1BEBA5D4090FCBE4666D3C00,
-	VuCameraController_vuCameraControllerGetFieldBool_mD1CB533F33DD67099720F548EFE4E55005CF1E96,
-	VuCameraController_vuCameraControllerSetFieldBool_mA4AE7AF44776535B72278659419E8311CBDB23C3,
-	VuCameraController_vuCameraControllerGetFieldInt64Range_m171DE1569B417D727F7BB2CEF0A417067C8A4777,
-	VuCameraController_vuCameraControllerSetFieldInt64Range_m232013B18ED7F0CEC66FC98753F0A667786C439D,
+	VuCameraController_vuEngineGetCameraController_m1583C78CE05B3B9F4C830D8C3063B59A1E32A03F,
+	VuCameraController_vuCameraControllerGetVideoModes_m3E6E74BEFD59979E31ED615144FF925E8780E9DA,
+	VuCameraController_vuCameraControllerGetActiveVideoMode_mA2B0EE03FD26E5EFD25591D63C93EC465C2E93FD,
+	VuCameraController_vuCameraControllerSetActiveVideoMode_m8E4A489222AB4853F6696CB94B550428BB5BB340,
+	VuCameraController_vuCameraControllerGetFlashMode_mD8CCB88A2165B845981245F77EC99B7F2A671A7B,
+	VuCameraController_vuCameraControllerSetFlashMode_m6A53F8A3AD16B3FBC8471498E6579276580FC737,
+	VuCameraController_vuCameraControllerGetFocusMode_m41DA375E3EE11049CD5A9AB495606D00EB6A4ED7,
+	VuCameraController_vuCameraControllerSetFocusMode_mFAF1AE8781BB0187A0066DC04EBA6DBF75184F39,
+	VuCameraController_vuCameraControllerGetExposureMode_m0A89CB09C5DC9BA8E02EDF0A37D204382B6BCF12,
+	VuCameraController_vuCameraControllerSetExposureMode_m29859A9E26047ADAE630B0C4511D6B6DEAB7A50E,
+	VuCameraController_vuCameraControllerIsFocusModeSupported_mD1302AF80ED172C7711E0E1D1E977A03814F7E51,
+	VuCameraController_vuCameraControllerIsExposureModeSupported_mB1F756BDBFE56595C800E7E2C8419B073F72003D,
+	VuCameraController_vuCameraControllerGetFocusRegion_m083CE8922901EB7FFE693E3C33478958B2635F11,
+	VuCameraController_vuCameraControllerSetFocusRegion_mDBDBF228D9755116410EB019FF364A82FDF26B2B,
+	VuCameraController_vuCameraControllerGetExposureRegion_m279F3B5752D69EE3254843E2E8250DF1904F76F1,
+	VuCameraController_vuCameraControllerSetExposureRegion_mA0CD4CDBBAB64A6B022B1CBFE5016755765E117E,
+	VuCameraController_vuCameraControllerIsFocusRegionSupported_m08BAB79300BC09E88AC5FF441A92DF7AA0C8AB28,
+	VuCameraController_vuCameraControllerIsExposureRegionSupported_mE3F1B19F87720B676B1ABF15524EEE75ABA63157,
+	VuCameraController_vuCameraControllerGetRegisteredImageFormats_m0F04C7E3E776714F2F0FA3E37A947889A2E999C6,
+	VuCameraController_vuCameraControllerRegisterImageFormat_m914ACE9734601AF1150810762D4869ADE54CA5A1,
+	VuCameraController_vuCameraControllerUnregisterImageFormat_mB986A8240E9F19163ADF937CA03150DC8FBE477C,
+	VuCameraController_vuCameraControllerGetSupportedCameraFields_mADD65633D0D3787BA872DEE08250BA037863DE9F,
+	VuCameraController_vuCameraControllerGetFieldString_mE926EC2FE7224143476AE53D5FB4D75AB93FBC92,
+	VuCameraController_vuCameraControllerSetFieldString_mE97F4B3C0376F36C35254B2DB81F9463A9B99A7B,
+	VuCameraController_vuCameraControllerGetFieldInt64_mAD142CB7A0138CECF2CD2646A3E45D48D8107AE2,
+	VuCameraController_vuCameraControllerSetFieldInt64_m17BFB77CC6F04E82DAA76CF593AB2CBBFA0E8949,
+	VuCameraController_vuCameraControllerGetFieldFloat_m8C776A2D6125D57AEFB1CF90F9CF0583437D7C97,
+	VuCameraController_vuCameraControllerSetFieldFloat_m9D435A280B9323A2BE4769D9C958A8C40C2993E4,
+	VuCameraController_vuCameraControllerGetFieldBool_m8C804527050710110F67ACEF54C940CF2A161F8D,
+	VuCameraController_vuCameraControllerSetFieldBool_m3FCAFED880D3CDDDD0B0838159220993D06E9AED,
+	VuCameraController_vuCameraControllerGetFieldInt64Range_mEE003304C67908830BEE245E733E0FFCC119DD82,
+	VuCameraController_vuCameraControllerSetFieldInt64Range_m2985A55DB3D549B32BF06649A70AC800D214D9D6,
 	VuCameraController_get_FocusMode_m7943AAF5FD26C50A92ED05142FBBAC0E9188DD4D,
 	VuCameraController_get_ExposureMode_mF5677192F8BEFB934071287320E15273138328FA,
 	VuCameraController_get_Flash_m530F11B5EA4240E98A8659E53A5E636C80B91537,
@@ -3033,7 +3033,7 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuCameraController_get_ExposureRegionSupported_mBE6F4F8E9362B5DAF829AA15B558587E42AC68C6,
 	VuCameraController_get_ActiveVideoModePreset_m020DFE3872298C8E78464D1C3708D3A085B96A15,
 	VuCameraController_get_RegisteredImageFormats_mF24E2145E19E42CDDBED9D33931443E416C2B41F,
-	VuCameraController_Create_m976F3ED88014E8116900C79D758BBFF6D3A8BF83,
+	VuCameraController_Create_mFB506EA7A094E1781BE96D329687B7FF09D63A0A,
 	VuCameraController__ctor_m222F6462CEEEE479C1898F98C44003F05B7B79EA,
 	VuCameraController_SetFocusMode_mD872D5BB436C08EDCF0B36A474C6F8A3AE4471F0,
 	VuCameraController_SetExposureMode_m1164E46A56F15C1EA95F764651F65DC126ED2C52,
@@ -3062,20 +3062,20 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuCameraController_SetFieldInt64Range_m4E2647C4DB568D67B4F6DB070733819691E04E63,
 	U3CU3Ec__DisplayClass58_0__ctor_m7416A0F724BFABB0965F04EE7F2304E20DB7098D,
 	U3CU3Ec__DisplayClass58_0_U3CGetActiveVideoModeU3Eb__0_mC8FC6C1564D3F2D41EFE256F7766CB72FA165776,
-	VuCameraVideoModeList_vuCameraVideoModeListCreate_mFF929139C7A0577195C32CF853F752539CE8FFD8,
-	VuCameraVideoModeList_vuCameraVideoModeListGetSize_mDE376311F0C9DADFCD02300ED8146D593A4BFE17,
-	VuCameraVideoModeList_vuCameraVideoModeListGetElement_m8F8F6A64C5B43E7CC019E41F83FFAB39FC00EFC0,
-	VuCameraVideoModeList_vuCameraVideoModeListDestroy_mFADBF44C861191267CFAF7FEA886C5C740D6DEB6,
+	VuCameraVideoModeList_vuCameraVideoModeListCreate_m2C1A9239CCA745E69CA9BB3190CACD25D8AD9730,
+	VuCameraVideoModeList_vuCameraVideoModeListGetSize_mC6A43996EFC73036993A0EF77A97A02317DBDB1B,
+	VuCameraVideoModeList_vuCameraVideoModeListGetElement_m464AB5BF48491D6B6B4D2EEBDDAB05AB7AF50DE4,
+	VuCameraVideoModeList_vuCameraVideoModeListDestroy_mB6136143836CF93FBFB6FA6F7499F22495CBBFEE,
 	VuCameraVideoModeList__ctor_m06A366EEF4A75D692E8C727750536C08DC60DBD9,
-	VuCameraFieldList_vuCameraFieldListCreate_mF0E6D22A76272D9CEE7BC2AFAF0AC58B92CC285F,
-	VuCameraFieldList_vuCameraFieldListGetSize_mF8C02E2219B742F1CD9BD7FF4F7839736B740DC7,
-	VuCameraFieldList_vuCameraFieldListGetElement_m18EF8C0C46AE64D54236C6542BD3EE24E8CDD3C9,
-	VuCameraFieldList_vuCameraFieldListDestroy_mEB8BD5F2757BB25150DB4910685E3536912CFD05,
+	VuCameraFieldList_vuCameraFieldListCreate_m22A149A48F65A23D1B2B786DC173A630BA2E016F,
+	VuCameraFieldList_vuCameraFieldListGetSize_m2E1828EB0AF20ABD06DF507685A269F4FA20962C,
+	VuCameraFieldList_vuCameraFieldListGetElement_mF7F21879054BF85AF6E200B9E863DB0C454F49B2,
+	VuCameraFieldList_vuCameraFieldListDestroy_m61C2A4A120B356684531C1ECF6F71BC99CF3988D,
 	VuCameraFieldList__ctor_m0F93626554442BBF51242CDDC43AE01AA116D5A6,
 	VuController__ctor_m9BB6F2C48F1832127A346EA1A76B95DF0F2040A2,
-	ConversionUtils_ToBool_m32B15CD0258ADE0FDC0F5ADDFFB3CF15843F123B,
-	ConversionUtils_ToBool_mD954A29C09DADEEE54475C570BBA1507FC20BE44,
-	ConversionUtils_ToVuBool_m52FF19D48DD34BD5271D0C862707B19D2D6FBFB7,
+	ConversionUtils_ToBool_mA5335FBF730B5196210019545A7C6B6EE71F1377,
+	ConversionUtils_ToBool_mC3BBA5BC41577FD3E08C7C1BBA65AF38D6CEDEB0,
+	ConversionUtils_ToVuBool_m951EAB7D5979F907EA9575BF407A6024E0242D59,
 	VuCylinderTargetConfig_Clone_m83100E8DDA6F61D88A292E3E1707DBDE72C42790,
 	VuCylinderTargetConfig__ctor_m6515A482D5AFF6DBFA8BDB79879824E95DEE8E30,
 	NULL,
@@ -3089,18 +3089,18 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuCylinderTargetObserver_vuEngineCreateCylinderTargetObserver_mB24F8456D357B4028F6662C9EF10F28C772163C6,
-	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetUniqueId_m582BC58ACB25537B93EE6CC517A95025332AAC40,
-	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetName_m11A7780824F4259E53EC903FE839CDFB4BE8B879,
-	VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetSideLength_m3163283D9BF102A8887466B19A800BB66865FEA1,
-	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetSideLength_m7EA6EA7F2CA6B408D898B10DF029392E20DB774E,
-	VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetTopDiameter_m5BF60C67ECA26BF32E66F7A6D4588752E82F9103,
-	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetTopDiameter_mE8AE4E2E7DD8375C472E7B71D9AE949F195B30FE,
-	VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetBottomDiameter_mC069B9C65D3900F545F15D7576460C14AF129C00,
-	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetBottomDiameter_mF4F9CE792DA47C59A420603F98190BBACEADCD00,
-	VuCylinderTargetObserver_vuCylinderTargetObserverGetAABB_m8E83A55853C81BC70D927EC1AFA3741CC08250F1,
-	VuCylinderTargetObserver_vuCylinderTargetObserverSetTrackingOptimization_mC26C9EA1A311DCFF614495775E4E96A37B0CD10D,
-	VuCylinderTargetObserver_vuCylinderTargetObserverGetTrackingOptimization_m10B201A45946A337B9F3055C90D101941DEDEF3C,
+	VuCylinderTargetObserver_vuEngineCreateCylinderTargetObserver_m4D09C573D5C86397583A0E76491E419AEE710CFD,
+	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetUniqueId_m33CB44EFEEF3A1FFC576F15047D37F6A9ABB4D44,
+	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetName_m8E2B60BC89A52B20D02E10AD6DE1910E4CFFED6D,
+	VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetSideLength_m49ECD6C83D5A91E42A38B198EDABBABB84BF1E1B,
+	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetSideLength_m9D42DC22C8579EAB6CAB22B6156688CCEE0A890B,
+	VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetTopDiameter_m4C2B017FC7DBD86B8DF63B8201AAC069E765E07F,
+	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetTopDiameter_mA87C5D0006A567B3644B6B8AD2D7504B0B4C1FB7,
+	VuCylinderTargetObserver_vuCylinderTargetObserverSetTargetBottomDiameter_m0328E6DDC58A544004AA455266777A39221C7241,
+	VuCylinderTargetObserver_vuCylinderTargetObserverGetTargetBottomDiameter_m35F0D4E380E12D5EC2B96C4BE18C93FBF852879C,
+	VuCylinderTargetObserver_vuCylinderTargetObserverGetAABB_m87C69ED3CCE531589B3ABF6F403ED52EF833CB8B,
+	VuCylinderTargetObserver_vuCylinderTargetObserverSetTrackingOptimization_m835910F44CE36D7EC699FD843F10BBA31BE4B41D,
+	VuCylinderTargetObserver_vuCylinderTargetObserverGetTrackingOptimization_m0F3361CB7429A122E8B1FCA84379A6B741E2D1B1,
 	VuCylinderTargetObserver_get_TargetUniqueID_m1D3EA97ED37D0D6D4A49481A643911D8D8CA5214,
 	VuCylinderTargetObserver_get_TargetName_m166BEFAFA22FEC5A620467CD38FD2D1A4B746D32,
 	VuCylinderTargetObserver_get_TargetSideLength_m47B78F1B01C1BFAB49F4F36EF54E4AA2E1E48355,
@@ -3108,44 +3108,44 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuCylinderTargetObserver_get_TargetBottomDiameter_mE6AD6DD6AA083FBDC28DED9EB0D28F956E910871,
 	VuCylinderTargetObserver_get_BoundingBox_m091A338C137C4A3C3111DECB8C68E5F00FAD6BA4,
 	VuCylinderTargetObserver_get_TrackingOptimization_m7154080996787E6F8237BA9431BF1AC8C0E237C9,
-	VuCylinderTargetObserver_Create_mB34E5092931009F3992B21DBBC21401D05B7479A,
+	VuCylinderTargetObserver_Create_m3340B26B4C950FADEF382B2BF448C2E42594D8F0,
 	VuCylinderTargetObserver__ctor_m6F5BEA450D95B20AB7F072780AF21E04EA5EC029,
 	VuCylinderTargetObserver_SetTargetSideLength_mA5FA378E6E9E7592DA7426AE6E617132042D47FF,
 	VuCylinderTargetObserver_SetTargetTopDiameter_mC9874A1AFBFF770CCA7FE68D69B5BBF1114A319E,
 	VuCylinderTargetObserver_SetTargetBottomDiameter_m3DE050049D485B828A3EE10212AF5CAC926C40EE,
 	VuCylinderTargetObserver_SetTrackingOptimization_m6D651FAC06291FB486F09353F0896F87ED926152,
-	VuCylinderTargetObservationTargetInfo_vuCylinderTargetObservationGetTargetInfo_m53F35EEF277A0E0C533339FD82A81FE0F5A91788,
-	VuCylinderTargetObservationTargetInfo_Create_m2576D93DC2199BD9D4128A8D926316F4E7574924,
+	VuCylinderTargetObservationTargetInfo_vuCylinderTargetObservationGetTargetInfo_m3BFA08027F8BF155D5B4585617FE692358B877DC,
+	VuCylinderTargetObservationTargetInfo_Create_mC639156312BA88168179D7EED8551BC685A990E5,
 	NULL,
 	NULL,
-	VuCylinderTargetObservation_vuCylinderTargetObservationGetStatusInfo_m923A9323064D562AABE3CB4838045AA9A3B442C1,
+	VuCylinderTargetObservation_vuCylinderTargetObservationGetStatusInfo_m842C9A238D798643B71AB82EA8C4AD95C5626403,
 	VuCylinderTargetObservation_get_StatusInfo_m6B9396CD1FF7CCA969633747D3956A89383668D3,
 	VuCylinderTargetObservation_get_TargetInfo_m0849F0B7601B676714C0754AC374A234DC558E37,
 	VuCylinderTargetObservation__ctor_mEB9C0D20472219471AD132CEB65091C0C5B3907C,
 	VuCylinderTargetObservation_UnregisterObservation_m3D196809F17609B9D127777D97EDE85C3BBD9B37,
-	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListCreate_m9B8240427A9D3217AB57CC05B3848E574C30E11E,
-	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetSize_m40478D85FC8BE536B14B972807BE4433EDD432BA,
-	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetElement_m826C21B1DD9A1AA97D80B4AE6490C13A93C5B367,
-	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListDestroy_m15F28B6A7F6D74009B266B5A15F54C77C5E966F0,
+	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListCreate_m7B8DCBD20DBB3807457E39C81BF7F6038CE7D672,
+	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetSize_mD2E0B3AE2E72FD21385EEA40B7BE9FCEC57A3D0F,
+	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListGetElement_m5D363D74D30678B5DBA9828C0A3B00BC2F04F92C,
+	VuDatabaseTargetInfoList_vuDatabaseTargetInfoListDestroy_m948988E3158808B8C81219F581CD320556CD6CAF,
 	VuDatabaseTargetInfoList__ctor_mBAC3C11B0732B22D56B9DA0D5BA06369FCF2B849,
 	VuDatabaseTargetInfoList_GetElement_m274D8D6301ED7B70D4BB66327C7159C1ABC5B385,
 	VuDevicePoseConfig_Clone_m8E3A166C907EA213FA666FFB8E0F0114EFA3E7C2,
 	VuDevicePoseConfig__ctor_m2187CF1EEA0E753E123A40B47188500C2959FDE2,
 	NULL,
 	NULL,
-	VuDevicePoseObserver_vuEngineCreateDevicePoseObserver_m19DAAF8D3CC05D2F5798E1561FB8B6DE9CCB1BAA,
-	VuDevicePoseObserver_vuDevicePoseObserverSetStaticMode_m9548332AF0EA01A822803050D73DC3F186F96440,
-	VuDevicePoseObserver_vuDevicePoseObserverGetStaticMode_mDBA87DD3B2E2A626C51AF9CA332C4E6D85F18300,
-	VuDevicePoseObserver_Create_m47CD9CD0FB2CD90EA237C21DBFB70A996D546705,
+	VuDevicePoseObserver_vuEngineCreateDevicePoseObserver_m74242571F91172FCA6CB0A4A8269CCE9AAE2B142,
+	VuDevicePoseObserver_vuDevicePoseObserverSetStaticMode_m6E83ED7DA14B8EB5EAA2435D4877936D1AA2EEC3,
+	VuDevicePoseObserver_vuDevicePoseObserverGetStaticMode_mEADD02751617B53C09676DA92C0C4296E996E6CC,
+	VuDevicePoseObserver_Create_m1E2D47F62BCC87987723B2290DB0F53DFD5DABF7,
 	VuDevicePoseObserver_get_StaticMode_m8ED2310FD7E7A28977D2C93DD6F0C8821641CF10,
 	VuDevicePoseObserver__ctor_m29EBA46B0F7E42A9A0E18A56AE32DAD63A9C1245,
 	VuDevicePoseObserver_SetStaticMode_m9EA1732A0ECC80A1677DB49621ACC1CA9F6B72A5,
 	NULL,
-	VuDevicePoseObservation_vuDevicePoseObservationGetStatusInfo_m1E9C69BDB0C767236BBAC6DE1112C561E0B4FD96,
+	VuDevicePoseObservation_vuDevicePoseObservationGetStatusInfo_m70035D7628717B902B60A0AC04AC4BAEC4CC778A,
 	VuDevicePoseObservation_get_StatusInfo_m8127BA7E6F06F7801949D6DD4261C33B30A1F713,
 	VuDevicePoseObservation__ctor_m5D524092E05262E803840051EC90A495DCA63487,
 	VuDevicePoseObservation_UnregisterObservation_m54E6169F69FB5CD87721CE1F959F8542E122E30F,
-	VuDriverConfig_get_FileDriverLibName_m175EBCA0DDD1136A0C37F86C1D8890DBA77F0350,
+	VuDriverConfig_get_FileDriverLibName_mF26FEE4373AA40B0B67B80A8979C2F0D89C8124C,
 	VuDriverConfig_Clone_mFF3A609B2C33F779F107337F37812578674BC590,
 	VuDriverConfig__ctor_mA18CCBA203E2B5C18E647083FD41F051837C59FC,
 	VuErrorHandlerNative__ctor_mCFA4331EA4F6978F9DA74D87B568BAFBE5F41F4A,
@@ -3178,22 +3178,22 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuEngineConfigSet_vuEngineConfigSetCreate_m2D68967AB1987456CEBA3127B799E060A4D3513C,
-	VuEngineConfigSet_vuEngineConfigSetDestroy_mD86FAAE20381A524A9D449D4F8712C33D0014FA7,
-	VuEngineConfigSet_vuEngineConfigSetGetSize_m2BB03A352A54B401F582627D99FA8E010911C2A1,
-	VuEngineConfigSet_vuEngineConfigSetAddDriverConfig_m1627E3E230D2135F2D1A4D899E3D42A086E1C080,
-	VuEngineConfigSet_vuEngineConfigSetAddErrorHandlerConfig_mABF3FE80503B4E6BB136758CE279D89DC559D145,
-	VuEngineConfigSet_vuEngineConfigSetAddFusionProviderConfig_m5FCA543B44A5C792D735279784FE4D4A710C8218,
-	VuEngineConfigSet_vuEngineConfigSetAddInternalConfig_m74B8246618F5CDA9D4F04143D4B785E40DE80353,
-	VuEngineConfigSet_vuEngineConfigSetAddLicenseConfig_mCB9A09A67A80511EBE13C7E403D4196CE57242E5,
-	VuEngineConfigSet_vuEngineConfigSetAddPlatformAndroidConfig_mCB8C6F959BE57F4EF8F899E457CC2DC7E0CA2816,
-	VuEngineConfigSet_vuEngineConfigSetAddPlatformLuminConfig_mD46B42B66E8B9BC0500DA4691AD255861713E07B,
-	VuEngineConfigSet_vuEngineConfigSetAddSoftwareContextConfig_mD9D715FE9BBA57E0C4F10B4C0FE53FD029A1C4FB,
-	VuEngineConfigSet_vuEngineConfigSetAddDeviceCalibrationConfig_m4A5BA261BEA4D318CEFA209703DE40C81B941485,
+	VuEngineConfigSet_vuEngineConfigSetCreate_mF0B9FC40306E8F36CB853C37E31359BFDD4ED05F,
+	VuEngineConfigSet_vuEngineConfigSetDestroy_mE232C347E3E6BD83120EDD469F398C63DF86DD94,
+	VuEngineConfigSet_vuEngineConfigSetGetSize_mC59E6959FFA482C3D9DE3618CA4DB77A3855DFE2,
+	VuEngineConfigSet_vuEngineConfigSetAddDriverConfig_mBC23FFD42DD280653F64CD6C9A23D34A7BEDCB4C,
+	VuEngineConfigSet_vuEngineConfigSetAddErrorHandlerConfig_mFBC2043FAEB8F8EFA0BC6D0AFE1284A33DF3448C,
+	VuEngineConfigSet_vuEngineConfigSetAddFusionProviderConfig_m26E96CE8E73102B774EADC312509386D757A5B6E,
+	VuEngineConfigSet_vuEngineConfigSetAddInternalConfig_m6D6A2E9BA25B0F89CA9184F3E7E5B09D4FB22052,
+	VuEngineConfigSet_vuEngineConfigSetAddLicenseConfig_m752EC4D0023481E79357E3F2C7486ADA621579DA,
+	VuEngineConfigSet_vuEngineConfigSetAddPlatformAndroidConfig_mB71CB4C0A59F0CAC9FC86804F289A51F32A452C8,
+	VuEngineConfigSet_vuEngineConfigSetAddPlatformLuminConfig_m0668FD21708D474191615A61496C47E4FCB220F4,
+	VuEngineConfigSet_vuEngineConfigSetAddSoftwareContextConfig_mA0DA5C0CAB8296A428490127D5636F437A761CE0,
+	VuEngineConfigSet_vuEngineConfigSetAddDeviceCalibrationConfig_m6486FFE5CD84F27CF0AB4A523E037823D0CCE1F4,
 	VuEngineConfigSet_get_NativeHandle_m370E69108C0FB84F94406D63AEA917D839DAD9DA,
 	VuEngineConfigSet_get_Size_m312644D4722D6EEA5E467DAA0C8923580AB896B2,
 	VuEngineConfigSet_get_Configs_m89293672869ED4CB570917EF140ABAC052AD9474,
-	VuEngineConfigSet_Create_mE4349F8903785B8FB031163AB740871170E491B1,
+	VuEngineConfigSet_Create_m1B6ABBE16E2EC9ECB4D890FEC4CE9C2E2B4C9582,
 	VuEngineConfigSet__ctor_mCCA83C2911E47D722149375642B7ACEB6CD532C3,
 	VuEngineConfigSet_Finalize_mBE4798B20EBEF30040693E08F1BA0302DC338955,
 	VuEngineConfigSet_Dispose_mFB6729DF95C6967C2E91E89E499CF6674FA9E2E2,
@@ -3209,7 +3209,7 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuEngineConfigSet_AddDeviceCalibrationConfig_m19AA3AC08AAC76A7C2993EA3DE4317EEC119151D,
 	VuEngineConfigSet_AddConfig_m2C11458B92180D820A846067E8642E67524BC540,
 	NULL,
-	VuLibraryVersionInfo_Create_m6A6AFAB69EFFAA1DB862A334CBA81E8E1D193C12,
+	VuLibraryVersionInfo_Create_m05540E887342B1C9A5A5E7907B927489A82FD97B,
 	NULL,
 	NULL,
 	NULL,
@@ -3250,23 +3250,23 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuEngine_vuEngineCreate_m5DA62969239A0D4D756E76D310D7F68D2E8B46BB,
-	VuEngine_vuEngineStart_m3513E82A3F8834197D51600DF65F27983D1B5564,
-	VuEngine_vuEngineStop_m528A4802AABC862523F1DCA1AE42796A02F84843,
-	VuEngine_vuEngineDestroy_m2413C7DE2478CD826E08189CF4769816D78E424F,
-	VuEngine_vuEngineIsRunning_m7FA4CCACC7FE713DA3E7F6E6FA6455E695E8D86C,
-	VuEngine_vuEngineAcquireLatestState_mABE8EF5E000DC769DBF8C0FADE97C1536C0FD78E,
-	VuEngine_vuEngineClearAreaTargetObserverCloudCache_m7A97C5EFFCCECB62FE4B44E07D42EE449720BBC7,
-	VuEngine_vuEngineGetLibraryVersionInfo_mDF1971DA7691AD225933F68B52C8AA4AB7061A41,
-	VuEngine_vuEngineGetDatabaseTargetInfo_mA7D031402ABA00364AEB6F07488EC526094554B7,
-	VuEngine_vuEngineSetMaximumSimultaneousTrackedImages_m4E43D1CE0D37E2A3D79831DF727EB56C794F6748,
-	VuEngine_vuEngineGetMaximumSimultaneousTrackedImages_m722E727DE9A7FD54473EAE79ACD6651E023FE7FE,
-	VuEngine_vuEngineSetModelTargetRecoWhileExtendedTracked_mD14CD360248570BDB8FE08CBDD7CC442ED43A590,
-	VuEngine_vuEngineGetModelTargetRecoWhileExtendedTracked_mAC53C78DDA4E1BBFEDF4C19BAD703CA9C9CADA33,
-	VuEngine_vuEngineResetWorldTracking_mD3D7156864A2D74CF3EDF88AB4820168B4318F26,
-	VuEngine_vuEngineGetBuildPreset_m15F428436A941B259100BE51F9178D38A6F36480,
+	VuEngine_vuEngineCreate_m1BDF6F9A888627C1CA2E95B648A66A01783FBEAE,
+	VuEngine_vuEngineStart_mA0AD34C5E9213AF2F2512ACA9CAFCE9D221C7438,
+	VuEngine_vuEngineStop_mA9D40BAD9AD9C32B9E10FCBCBE5B11A4861C2850,
+	VuEngine_vuEngineDestroy_m2D905D69721C879797A75C18381CE277A1D9C7E1,
+	VuEngine_vuEngineIsRunning_m669732196A1D16A8B87F3FFC28041116661FC747,
+	VuEngine_vuEngineAcquireLatestState_mC8F944B9A7CFDCCCA3D505630BF07955633B2AC4,
+	VuEngine_vuEngineClearAreaTargetObserverCloudCache_m65FFF511F6EA0BE32336C338698E3E56715CBF2F,
+	VuEngine_vuEngineGetLibraryVersionInfo_mFE7ABCBAFC709B28AAA9A43EB92C6D5C8E69B0AB,
+	VuEngine_vuEngineGetDatabaseTargetInfo_mDAC4E1A482E602FA3A71008146D5C12FD3AC4D88,
+	VuEngine_vuEngineSetMaximumSimultaneousTrackedImages_mDBFE9ECB941BD36660716D586E0A8ABA5AE1F0DF,
+	VuEngine_vuEngineGetMaximumSimultaneousTrackedImages_m0668748B7CD9D024F8DE285756E1A72EC62C3BFB,
+	VuEngine_vuEngineSetModelTargetRecoWhileExtendedTracked_m9DAF40610A2B50151F6931EF3E1D977FDA567D52,
+	VuEngine_vuEngineGetModelTargetRecoWhileExtendedTracked_m18CD301F923FEE651654BF7F9EC1984706CBF326,
+	VuEngine_vuEngineResetWorldTracking_m030D90C1D14294E606323F70A910661716E38D10,
+	VuEngine_vuEngineGetBuildPreset_m56123302481FD66B3CB6ADCE88D9FFB825CB3BAB,
 	VuEngine_get_NativeHandle_m627B2FB5C12F7BEDA0A6FEF45800E2536E9BC595,
-	VuEngine_get_VersionInfo_mEAF49F8251EBEB3E0DB3B1D98E3BD2A30AE46784,
+	VuEngine_get_VersionInfo_m818006700138BB365DDED9F110A0DF082ADF7F9B,
 	VuEngine_get_Running_m969B20C900EDA72DEE2F77F95A84492C21AA5353,
 	VuEngine_get_PlatformController_m01A2A2C12F47EC37F1917AC74D2504235103B6AA,
 	VuEngine_get_CameraController_mFB8483FFAAFCCB6926A13486ED4AD8DC30F78D3A,
@@ -3278,7 +3278,7 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuEngine_get_Observers_mCC29F68AE50D9B5100F47098E2B01D311A6F4E2C,
 	VuEngine_get_MaximumSimultaneousTrackedImages_mA4CD17625F53EF3EB7D1F6CEC9307BFDF257C0B8,
 	VuEngine_get_ModelTargetRecoWhileExtendedTracked_m98FC1E11B8C52F111EC7BD5C6A820A5ED00CEB7A,
-	VuEngine_Create_mD8290625D18062D5E22F34A810BF8B1746761967,
+	VuEngine_Create_m97508B54E28CC062A998633C0B5E6EEBFE2E8502,
 	VuEngine__ctor_mAE7DB597962D7D90FF9F8134D76B73E954CD01DD,
 	VuEngine_Finalize_m2D2B5303FF79BAD83755CCDBBDDCA09E385248BE,
 	VuEngine_Dispose_mE4754DE8D65EB72AA1B82E055E823EE4BA57DC52,
@@ -3317,18 +3317,18 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuEngine_SetMaximumSimultaneousTrackedImages_mF3E5C6E57DDE7DECBF3CCBB9D81B7A44D4265F96,
 	VuEngine_SetModelTargetRecoWhileExtendedTracked_m64B20740A633D34D5A571B3B47474FAB9A39228C,
 	VuEngine_ResetWorldTracking_mD63525C7A429402A6FBEB35A6E9042049ECC95FA,
-	VuEngine_GetBuildPreset_m2E1D042CB5C0C1749A115528DBF29A1AFEF25FCA,
+	VuEngine_GetBuildPreset_m9A6DAE4A1B819A5C8D8540068BE97A67A556C40B,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	VuIlluminationConfig_Clone_m14ED12D89D599059DFB2019635E51BAAAC11F655,
 	VuIlluminationConfig__ctor_mE52C2BA5F1F9E5D1B9A4B57852116FCB854F266C,
-	VuIlluminationObserver_vuEngineCreateIlluminationObserver_mE6AC7324FC268343980A18AF92E9A4A7851D1503,
-	VuIlluminationObserver_Create_mF9182838CD528917727A1AA250882F296BE83A9F,
+	VuIlluminationObserver_vuEngineCreateIlluminationObserver_m171FF799605C1E0BD6299F61B6326C077B2D175B,
+	VuIlluminationObserver_Create_m729B7EAC4FEA9D4F83B56DB635A30C37859EFEE1,
 	VuIlluminationObserver__ctor_m0641835AF6C7542C871B06860C5D6C2806E2EF91,
-	VuIlluminationObservationInfo_vuIlluminationObservationGetInfo_m961F3B957417FC5370AC09FF6E68A3FF8FA8975D,
-	VuIlluminationObservationInfo_Create_m6EF3C081C79160EF1509D08249A97D1F10A33E97,
+	VuIlluminationObservationInfo_vuIlluminationObservationGetInfo_mE86082446926E3C6CB980DCDCD1092E15464727C,
+	VuIlluminationObservationInfo_Create_mCA603E25FFE92C75D483672B683CCB56DA347BFC,
 	NULL,
 	VuIlluminationObservation_get_Info_m0B4D01933EF19C2C7E22F102720785F6344D6BEF,
 	VuIlluminationObservation__ctor_mF8DA5FD17485DAE95777FB3E237E22091C7D2194,
@@ -3337,9 +3337,9 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuImage_vuImageGetImageInfo_m5975B11FE4B08BAB1BDEDF9074DECBF3F49EE75F,
-	VuImage_vuImageAcquireReference_mE8F6F65263489B3873DB970B00B6D9F81F03A75D,
-	VuImage_vuImageRelease_m3442CB7BD352FEA85F92D4A7EC8466973C0D787B,
+	VuImage_vuImageGetImageInfo_m4D2D0EEE9343FCEEC89FFCB605884CE44385FC5D,
+	VuImage_vuImageAcquireReference_mC929AB9272872ACDB516422C1B2C339DD7C63B17,
+	VuImage_vuImageRelease_m08D153DCE9C0063CD07F2723DBD3D8027F43FDB9,
 	VuImage_get_ImageInfo_mED51F4EBA6060D07ACB7719D8B83408A389941F9,
 	VuImage_get_Width_mB20D68AAE4D3980EA1B413737D7B0F73A9116099,
 	VuImage_get_Height_mF8E8116CE123FEDEC739E70F8C61C9672D31C51D,
@@ -3349,15 +3349,15 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuImage_Finalize_m908A2DEBB63D76B90C33590D8A2D5D3F82F14001,
 	VuImage_Dispose_m46E95843CE0B558BFCC3F8CC07F28D1DF6059B45,
 	VuImage_Dispose_mE47657396B44CA1960EDB24F7E390970CBFA4B58,
-	VuImageList_vuImageListCreate_mFD1FBB800C8DE509E567B79799CA3E69C587F009,
-	VuImageList_vuImageListGetSize_m5351D7916B0B17D9B9209C83A42633AD379AEC89,
-	VuImageList_vuImageListGetElement_m2EFBAC9E2F02888538E41733F3A117AA2A8BEE81,
-	VuImageList_vuImageListDestroy_m0E4B9980ACAD709718F478EA82F6A1049FE5FC01,
+	VuImageList_vuImageListCreate_mF60E779A05B0C6E0F404214F4E2DB95164150BCD,
+	VuImageList_vuImageListGetSize_m5145BE4DDEC3F144C460CA96B8D4FA112ADE33E7,
+	VuImageList_vuImageListGetElement_m45A402DC8AEBBDF4493874470FF21EDD689875D6,
+	VuImageList_vuImageListDestroy_mF1014F791B7EC13E7F5B1DC188BFDF493B0780E1,
 	VuImageList__ctor_m2273EBC88132823D16870D0656020CB0415A9BAE,
-	VuImagePixelFormatList_vuImagePixelFormatListCreate_mE7F622F1C0A6C090047BA8489FCBD934AE27627D,
-	VuImagePixelFormatList_vuImagePixelFormatListGetSize_mA0162C3B0C9E446368CF76EEBFF1FDEC8612AB9B,
-	VuImagePixelFormatList_vuImagePixelFormatListGetElement_m9ACFD329E3DFEED68738E260D5F669E9F1BF454D,
-	VuImagePixelFormatList_vuImagePixelFormatListDestroy_m55F25E8F07221B72D93B3503CD54C0D1B169B8FF,
+	VuImagePixelFormatList_vuImagePixelFormatListCreate_m075F6F4697F04FDDB40C7F62197A6D0595E7A059,
+	VuImagePixelFormatList_vuImagePixelFormatListGetSize_m77A4931C2F21D67B07540BF1853061B907363627,
+	VuImagePixelFormatList_vuImagePixelFormatListGetElement_m229AAC491BFBF3436138F7D85D743251FAD9519B,
+	VuImagePixelFormatList_vuImagePixelFormatListDestroy_m6729E591900A7B991FCD9705B5224AE3EF74E052,
 	VuImagePixelFormatList__ctor_m750C5C52E30F297632E0C711989C9FAF706D3479,
 	VuImageTargetConfig_Clone_mD114C0ECBDDACD2732CB1D2BDD79573F12E3DA79,
 	VuImageTargetConfig__ctor_m18626EDA08BB6541AB1A7E7F2DC8E9AC6519DC10,
@@ -3374,34 +3374,34 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuImageTargetObserver_vuEngineCreateImageTargetObserver_m85DAC762DD09C2757E167D64476DC1E842780933,
-	VuImageTargetObserver_vuEngineCreateImageTargetObserverFromFileConfig_mC3A2903AE51313D77723AC5FD41D24D56140B125,
-	VuImageTargetObserver_vuEngineCreateImageTargetObserverFromBufferConfig_mB79315B7709AA381E297AAC1CD67346F786D1275,
-	VuImageTargetObserver_vuEngineCreateImageTargetObserverFromCloudObservation_m51B09B1C6E8909DEA71C8FE6A776A3AE7B3D4161,
-	VuImageTargetObserver_vuImageTargetObserverGetTargetUniqueId_mCD810535AC94F46FEFA3796E11513C57EACB429A,
-	VuImageTargetObserver_vuImageTargetObserverGetTargetName_m276D3E8AFAA59DA4643DB1566D7AAC9F79C64613,
-	VuImageTargetObserver_vuImageTargetObserverSetTargetScale_mB89B2D0A4DD1183C1527A4CE691EB9288D3CE9C2,
-	VuImageTargetObserver_vuImageTargetObserverGetTargetSize_m67EC81390CE3C31C2433694F65F58517018B8F02,
-	VuImageTargetObserver_vuImageTargetObserverGetAABB_m1B31091C0DA5D3026D6ABBCC3DEBE67EE6DDDDB4,
-	VuImageTargetObserver_vuImageTargetObserverSetTrackingOptimization_mD6F493850CD6EA2A8A737779B05689B77F42899A,
-	VuImageTargetObserver_vuImageTargetObserverGetTrackingOptimization_mDE52C4D604353DEA0D2B12912B6081F11FA5CB7B,
+	VuImageTargetObserver_vuEngineCreateImageTargetObserver_m1F3F88468BEED2AF8B32F1DAB71D7497C1B4325E,
+	VuImageTargetObserver_vuEngineCreateImageTargetObserverFromFileConfig_mEA154E4D34A8C0EFFF38A4CB991D0FFF9363351A,
+	VuImageTargetObserver_vuEngineCreateImageTargetObserverFromBufferConfig_m618B0CB6814623CE85F8476A5A6F4CE56CB0893E,
+	VuImageTargetObserver_vuEngineCreateImageTargetObserverFromCloudObservation_m7659D82CC425E5BF3CCFD943546FE5229F8FDEBB,
+	VuImageTargetObserver_vuImageTargetObserverGetTargetUniqueId_mB45A39A91793E3932B60E826B2DEA35BA0221BA7,
+	VuImageTargetObserver_vuImageTargetObserverGetTargetName_mB45861F69D1D0BDACB4968CED32C645D0354206F,
+	VuImageTargetObserver_vuImageTargetObserverSetTargetScale_m3ADCCCE133CA297A3A1DEC59AD5625516A5CA1E3,
+	VuImageTargetObserver_vuImageTargetObserverGetTargetSize_m34E2A3B393DFEBC8FE903C14AD02723E13984112,
+	VuImageTargetObserver_vuImageTargetObserverGetAABB_mBF5E9E740FFDF181F2FFBDF90C4D36E989E3DC44,
+	VuImageTargetObserver_vuImageTargetObserverSetTrackingOptimization_m8EBF121233598AB7F9F615F3C95D2A5F6D49F691,
+	VuImageTargetObserver_vuImageTargetObserverGetTrackingOptimization_mA4C3077BBCA4BD45D07CDBC2B05EF31713DAC145,
 	VuImageTargetObserver_get_TargetUniqueID_m0B56DFB1A3B63C9D45A3639B2F37B732088E8C21,
 	VuImageTargetObserver_get_TargetName_mDBF31FD55F9CBDC13CB1A6324C2D6E18D4AFAA36,
 	VuImageTargetObserver_get_TargetSize_m701126CDCC5B47C3B0A4ED4410139A6ABF5444DA,
 	VuImageTargetObserver_get_BoundingBox_m2933E9716E7C1A1B28FBAA798C8354DB22FC80B0,
 	VuImageTargetObserver_get_TrackingOptimization_m9B6331408B51191166678967A375825649FBC862,
-	VuImageTargetObserver_Create_mF6E1A6199FF9ED32190F41FF7C84A2A84961BD26,
-	VuImageTargetObserver_Create_m6A414537BE51C42C6C76D15697176E743FF600FF,
-	VuImageTargetObserver_Create_m38081E23A09ACFE58BACCE83F04410F374839E3A,
-	VuImageTargetObserver_Create_m1C48752F9DB28113FD1FE7059A080D216B6B6EBF,
+	VuImageTargetObserver_Create_m5D275964C62DC0A0678CAB7C4F0B274E91130DFD,
+	VuImageTargetObserver_Create_m270E20A8C35ADF84024EFE6DD6E1493EBF2CF51A,
+	VuImageTargetObserver_Create_m5FEDE35345D7D51C241EB791F6BD0B95D039EEEF,
+	VuImageTargetObserver_Create_m6C8B11F61619A152DC192679AE758F77350039A2,
 	VuImageTargetObserver__ctor_m61C9F44AC42158D7989790EA9017A571A65DB0F0,
 	VuImageTargetObserver_SetTargetScale_m18B00EF415C50291C84E6E72CFFC72F2AFC2B137,
 	VuImageTargetObserver_SetTrackingOptimization_mD048867C2B991C49B03FE5F49A12980474866B8A,
-	VuImageTargetObservationTargetInfo_vuImageTargetObservationGetTargetInfo_m04B7FC02646BC9837F0C9FEF3495B4452EC0D693,
-	VuImageTargetObservationTargetInfo_Create_m5A18873E281D03C977BD2A831A7BC8BD1B77F1D1,
+	VuImageTargetObservationTargetInfo_vuImageTargetObservationGetTargetInfo_mCD599E660AC318C7D5873ACD8089138751EBCD62,
+	VuImageTargetObservationTargetInfo_Create_mDAD1CF376B405857CF64F6E6D57AB610471C9A56,
 	NULL,
 	NULL,
-	VuImageTargetObservation_vuImageTargetObservationGetStatusInfo_m00487804A941B6A6AD38520EC01A138916B52725,
+	VuImageTargetObservation_vuImageTargetObservationGetStatusInfo_mE52AC0C9B963D443A684780E31E89DD8FF044E1F,
 	VuImageTargetObservation_get_StatusInfo_mD49A70DD0F32906A1D71C27018EFEEC97D5AF02E,
 	VuImageTargetObservation_get_TargetInfo_mCB883FEA8D38DC673963B9F59F35925AD1C12719,
 	VuImageTargetObservation__ctor_mA2CF56D0EE105919EE8E453D71D63DC740F29199,
@@ -3418,14 +3418,14 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuCloudImageTargetQueryErrorHandler_EndInvoke_m9AB4EEFA50B01913399ADCB9C5B3942B620BDEAC,
 	NULL,
 	NULL,
-	VuCloudImageTargetObserver_vuEngineCreateCloudImageTargetObserver_mE33936E58FDF65A14E9DCCDD1904CFF40A2FBE56,
-	VuCloudImageTargetObserver_vuCloudImageTargetObserverRegisterHandlers_m0456AC00A0BE7AEDCCEF219E180D164677CB7D8E,
-	VuCloudImageTargetObserver_vuCloudImageTargetObserverIsRequesting_mB118E8E75691A49BABB662E2F6FDD56840348FF8,
+	VuCloudImageTargetObserver_vuEngineCreateCloudImageTargetObserver_mC3D002B20A79B1F927243A46ACC6C3B2388D29B0,
+	VuCloudImageTargetObserver_vuCloudImageTargetObserverRegisterHandlers_mBD5E6E141F82996392ABC0F53A4475E9F30CE754,
+	VuCloudImageTargetObserver_vuCloudImageTargetObserverIsRequesting_m5A69BA1E2A79A3CEAF877ADD36C38510563B6390,
 	VuCloudImageTargetObserver_get_Requesting_mDF00AD0D5471B11F25CC18BE27886CC9E84488DF,
-	VuCloudImageTargetObserver_Create_mACFC4CBE65ADEBD6B59DDF2E5014589C4E18FB99,
+	VuCloudImageTargetObserver_Create_mA87A7DCDC85A811EEEB67640B8357B73D83C44E9,
 	VuCloudImageTargetObserver__ctor_mC45389061A2089F63865C25516A13DD7B452B83B,
-	VuCloudImageTargetObserver_HandleObservations_mFF4D5D104658E28566F34729D345C85F0E3BE84A,
-	VuCloudImageTargetObserver_HandleQueryError_m457E52E7A90C36D4BFA825AFBEDE5C48034B84FD,
+	VuCloudImageTargetObserver_HandleObservations_mE49F9F40FAB47D37ACD176A9CD7BFA30BC5B8BE3,
+	VuCloudImageTargetObserver_HandleQueryError_mA370AEF5C4D3505500F7360C18520C88E6F74B47,
 	VuCloudImageTargetObserver_Dispose_m307F7E51DC6A22AC6AEA3D79099483EA44E38A7E,
 	VuCloudImageTargetObserver_RegisterHandlers_mED8B1E92ECD42691AC97FAC2085B1C80DB79F572,
 	VuCloudImageTargetObservationsHandlerNative__ctor_m97D8FF77EB2AF291760B1896C3A637B7AF9444DF,
@@ -3436,62 +3436,62 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuCloudImageTargetQueryErrorHandlerNative_Invoke_mF0B14317468649B5943CBB9727CF19C5306E413A,
 	VuCloudImageTargetQueryErrorHandlerNative_BeginInvoke_m0FB8F3F94CDEB3AA4FC73B9D0186DE0E05918296,
 	VuCloudImageTargetQueryErrorHandlerNative_EndInvoke_mF5C6145D7140CF6A4CDBE439A9B0A84281BD0222,
-	VuCloudImageTargetObservationTargetInfo_vuCloudImageTargetObservationGetTargetInfo_m7483A59EC84AED3080C2D64762ED8D445796E6F0,
-	VuCloudImageTargetObservationTargetInfo_Create_mE269D970E76C10B9ED724BA0675ED225FC0289D1,
+	VuCloudImageTargetObservationTargetInfo_vuCloudImageTargetObservationGetTargetInfo_m55B53FCB1F5DEC8B66147C4D27E0723AEFB6F10E,
+	VuCloudImageTargetObservationTargetInfo_Create_mF52081DC71BDFFDFA3880AA1E378D698E2C63383,
 	NULL,
 	VuCloudImageTargetObservation_get_TargetInfo_m6CE53A39502F0386D0F0F484C9A9C93B64BBD49A,
 	VuCloudImageTargetObservation__ctor_m02DF9199B19E805CBD19AF99B6FEBAB8CDA6CA8F,
 	VuCloudImageTargetObservation_UnregisterObservation_mD35D4CBBA9F84C8702247EBFBB95D52866581CC6,
-	MathUtils_vuZeroVector2F_m08CF61666ADF3D50B3CE7F5DBE7EFCB33A008526,
-	MathUtils_vuOneVector2F_mAA453A998095D8893BDC6585BA85CDE8BD78A85B,
-	MathUtils_vuZeroVector3F_mBAB1CE2260F7D04ED11D7D2A51EFAB876403F44A,
-	MathUtils_vuOneVector3F_m0E3270543FD264DB2A44CB514AF32336A9D95A2A,
-	MathUtils_vuZeroVector4F_m197737CB914253A831B82753C14CCC06E961B632,
-	MathUtils_vuOneVector4F_mB40A2F22BFC0CE6508D8E3C7A74CA3A48D0C34D7,
-	MathUtils_vuZeroVector8F_mEFC57C154E83801DA1AA2C07B403051DEDDA9BFF,
-	MathUtils_vuOneVector8F_mEE87A7BBBDAA38C331CC51F904F07DD85F9A7CCE,
-	MathUtils_vuZeroMatrix33F_m35E4488E428CDEBDF24CD3FE87D470616B2CC8CD,
-	MathUtils_vuIdentityMatrix33F_m12A93E9327BFFC26656F8499EBDC1FABD4271A6F,
-	MathUtils_vuZeroMatrix44F_m9CDCAE97A9E715B4FFB86D2E86F3D49F21058391,
-	MathUtils_vuIdentityMatrix44F_mC5CC3E2B50795D6EAEE7D6DF99F08DA716B54D2C,
-	MathUtils_get_ZeroVector2F_mAA58F7AF86F691763FF6EECD08944FB83B89A7CE,
-	MathUtils_get_IdentityVector2F_mE79EB92C76C2D4948D1C3A532D9A2AAB09D244EC,
-	MathUtils_get_ZeroVector3F_m6586C8506FF21EA10EF4A53E983327C2250F9B8F,
-	MathUtils_get_IdentityVector3F_mC77F4C7964516C75B8AD0A38EE08DC2623AC4117,
-	MathUtils_get_ZeroVector4F_m546E4B5BD39F0CE89B59AF55A5038B59878D758D,
-	MathUtils_get_IdentityVector4F_mF59FF0FD0E29E6A104B6E5A88C4E82034DE8D1D4,
-	MathUtils_get_ZeroVector8F_m5A4AF0F3A3AB874572246634E967BE30B2D6E494,
-	MathUtils_get_IdentityVector8F_m166872F016BAA0601F1345DDE1F2DB367B082972,
-	MathUtils_get_ZeroMatrix33F_mD6EFDD2AC8272A4B16BD9C8876DE10080FDE2B2B,
-	MathUtils_get_IdentityMatrix33F_m3963A222499FDADDD1650397D777FAE4B0AA5132,
-	MathUtils_get_ZeroMatrix44F_mFAE6C5B60F40A0F2408C085073F85CD2FDFD80C6,
-	MathUtils_get_IdentityMatrix44F_m5D01555E77977D31B5E4390A06D96F7CA4AB0DC9,
+	MathUtils_vuZeroVector2F_m55F46FFCAFF4531768C6F603690B2C5A6B23E332,
+	MathUtils_vuOneVector2F_mC698E455DCEC4FEC27C768EA5A32D62037DF4153,
+	MathUtils_vuZeroVector3F_m3482F99307023B51EADE2ADFF79E96877D2AD95E,
+	MathUtils_vuOneVector3F_m1532C94317608FC959141075CAA0C93424D24A26,
+	MathUtils_vuZeroVector4F_m6B37D82574082E6701209899436E4937373BDEBF,
+	MathUtils_vuOneVector4F_m28A02EB834E3B311B955143F2849F1DB081342C1,
+	MathUtils_vuZeroVector8F_m5EF99E1688CE53120EAB32178BFD6D4AD97D0BC7,
+	MathUtils_vuOneVector8F_mBED6CDCA6C46716BE73073CEF3AE8EE3884FA689,
+	MathUtils_vuZeroMatrix33F_mA93CA7AFFFB55AC9E52A57072A7C55F362173C2D,
+	MathUtils_vuIdentityMatrix33F_m1EECE9D7957F9009DBBDD5BC46E9E21CC1DD1D43,
+	MathUtils_vuZeroMatrix44F_mDF7384B41C578D774895C0EEA29A4CE4361080BE,
+	MathUtils_vuIdentityMatrix44F_m91666F9594E6C63914B63E86F70D0C0C08B17CAA,
+	MathUtils_get_ZeroVector2F_m7F57BA5479410A93DB3B3DA0DFCD9D6028D887B2,
+	MathUtils_get_IdentityVector2F_mAE2995D3F9E8EF5236B3552289F86629DA3FDD5B,
+	MathUtils_get_ZeroVector3F_m74308457AFD876F33893EC9E7B976608B325ED63,
+	MathUtils_get_IdentityVector3F_m41A2CBE48735F3ABE808649059B429F49324E447,
+	MathUtils_get_ZeroVector4F_m14C3F23CB413B9035CA20C49748CDA7E5816A84F,
+	MathUtils_get_IdentityVector4F_m15821609DB880A87353958C6978AAF2A7990DA62,
+	MathUtils_get_ZeroVector8F_m2F7AC98F41DC64DF2C5BD1E635248A5867955FC2,
+	MathUtils_get_IdentityVector8F_mA50B85F56E910FBCD219FCBBC474663C020E809F,
+	MathUtils_get_ZeroMatrix33F_m0FCE4752F9E875AB66922950744AADEA4080247C,
+	MathUtils_get_IdentityMatrix33F_m82D22829F22BF6E1C2088D0AA81145926AA5A8CE,
+	MathUtils_get_ZeroMatrix44F_m2DB123B4484EA39042632B73BCFF053D2E8DDC59,
+	MathUtils_get_IdentityMatrix44F_m064DFC5A855607F388A48EF8B4A2AE4538DD9581,
 	VuMeshAreaTargetCaptureConfig_Clone_m0A97B70606B70153F5E1891F01DB3DBAA76BEA10,
 	VuMeshAreaTargetCaptureConfig__ctor_m6B51439EC9B456EEFD5D4A9B76308D59050B0B48,
-	Internal_Create_m600F71F836D3343A5A69505B8BEC223142DE0246,
+	Internal_Create_mBB8ED43A1C073DB80D3173D639EF83E4F485852E,
 	VuMeshAreaTargetConfig_Clone_m3D907ADAAFB890A56A817EEC0A6594AFF7D726B3,
 	VuMeshAreaTargetConfig__ctor_m1D325AD055A79237FD6D6022037E5BB86436E28D,
-	Internal_Create_mA5AF15853A3D2D57EB7BE930F2ADFACECC7E179F,
+	Internal_Create_mA94863D26E4B243D1362D6FBEE756F47A270D5D6,
 	VuMeshModelTargetConfig_Clone_m4E701A0374CC3A5BE526F9AA55C334210D1AB310,
 	VuMeshModelTargetConfig__ctor_m4CDD0F5815A38455B2572E6CB91D48ED35486267,
-	Internal_Create_m0110ED44F8401FF1B162CC922F7F0E8F80AEAB39,
-	VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetCaptureConfig_mD05C916E679D1AA7E160A6AC4757A7739BCFBCBE,
-	VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetConfig_m4ECEBEA28B321995C2A826324A4A2DE59A07613A,
-	VuMeshObserver_vuEngineCreateMeshObserverFromModelTargetConfig_mB4D0231D2F0D329041CF7478C2853FA8B1E28615,
-	VuMeshObserver_vuEngineGetMeshObservers_m88E7ED8C2294E9BD41D308E0D11A9B1D294CD8B0,
+	Internal_Create_m3B505CBD1318F051F7CE8071924D503DCEE9CFF8,
+	VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetCaptureConfig_m24431CE33CADD18F54C96187D1F8B0A2C07F2B49,
+	VuMeshObserver_vuEngineCreateMeshObserverFromAreaTargetConfig_m2117177DAC04DBC57E1862B40CF638831284D6C2,
+	VuMeshObserver_vuEngineCreateMeshObserverFromModelTargetConfig_mE8E134752CE14DE0B0B39081FE0487D056AA51B3,
+	VuMeshObserver_vuEngineGetMeshObservers_m0AE24E5460B0B9178483724E47D8A33D445AC1A7,
 	VuMeshObserver__ctor_mEFA2F3851A2271672683701965AA14CFB00EF159,
-	VuMeshObserver_Create_mCA1B212D1389FF931FB568E7B1B98CB1833872CB,
-	VuMeshObserver_Create_mC6C1F27693F01C31BCE5BD4C26D18EDB3411E50A,
-	VuMeshObserver_Create_mDDBCDF9479EFD5B65A3258CD9C1B84312F9D1AE9,
+	VuMeshObserver_Create_m6B8C3863D5FA762A0446E612427189EE4930F63B,
+	VuMeshObserver_Create_m0BD32FB2C17D20B6906D1B1BF3DB5F9AC92E801B,
+	VuMeshObserver_Create_mDBB0C78ABE693D85FFD24CB1BFE5318039E98D85,
 	Internal_ToVuMeshObservationBlock_m10BE20355A6D990CFDF25906BA7F13EE33F05CF1,
-	VuMeshObservationBlockList_vuMeshObservationBlockListGetSize_m56D73D26A440EAE6FD29B8826060368576408D77,
-	VuMeshObservationBlockList_vuMeshObservationBlockListGetElement_m62D0706C7B503A3480A09B50A668E29CFB22516A,
+	VuMeshObservationBlockList_vuMeshObservationBlockListGetSize_m02A69A824AFF6673AC49CD8851FCF941A069694E,
+	VuMeshObservationBlockList_vuMeshObservationBlockListGetElement_mB0BA17FB1BFB5149F6F269A844D967B94F050082,
 	VuMeshObservationBlockList__ctor_m061E23B2FBAA4F2A7F90772A2E74ABEFC6BE7A76,
-	VuMeshObservationInfo_vuMeshObservationGetInfo_m00CC99A328FC1C2C1128939527D56910B7C6DD2A,
-	VuMeshObservationInfo_Create_mF6DC6BD79EB825275655BA31CAE7877F86D3A070,
+	VuMeshObservationInfo_vuMeshObservationGetInfo_m10EACBDF093D7CA7D8D6D114EF54EAB1B6C19199,
+	VuMeshObservationInfo_Create_mF2BE1F31807978E01677976D9B216994FBFE513B,
 	NULL,
 	NULL,
-	VuMeshObservation_vuMeshObservationGetStatusInfo_m5FD7E4197C30539C57BE1A43BA666C55FF6AAED4,
+	VuMeshObservation_vuMeshObservationGetStatusInfo_m74A93552280B7CA9CB959C8A156F5715DDD10DF2,
 	VuMeshObservation_get_StatusInfo_mCCD5757192EE44326A8CB2D06544B099BD79968B,
 	VuMeshObservation_get_Info_m59796346D6D973BEEA8054BC15CC6A04783413DC,
 	VuMeshObservation__ctor_m6DA6914E526A2FDF219F317D5AB69EBE91C658B8,
@@ -3513,22 +3513,22 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuModelTargetObserver_vuEngineCreateModelTargetObserver_m8EBA94328D9BF6E7EFB2261A8C45419B0DBF3E66,
-	VuModelTargetObserver_vuModelTargetObserverGetTargetUniqueId_m8BF741149B59CAFCF730944022074346DBFEEE6E,
-	VuModelTargetObserver_vuModelTargetObserverGetTargetName_m8BB456E5BD2FF8E4D01E2D6E010FABE6ADDB4083,
-	VuModelTargetObserver_vuModelTargetObserverSetTargetScale_mA2BECBCC8DA95E26019D3D14C8B6BE9442D4F78A,
-	VuModelTargetObserver_vuModelTargetObserverGetTargetSize_m4B6DFEDBD2EEA9843CD728E42388BCA549ED22AC,
-	VuModelTargetObserver_vuModelTargetObserverGetGuideViews_mB30000A99C470F427BC6DB2E330434317C02E496,
-	VuModelTargetObserver_vuModelTargetObserverSetTrackingOptimization_m6EBCAFEBB3889A5F2D562F28456B6B7C177FC54A,
-	VuModelTargetObserver_vuModelTargetObserverGetTrackingOptimization_mEB3C04E838B6C38D18D682399582573E2925EA19,
-	VuModelTargetObserver_vuModelTargetObserverGetAABB_mA90F03B2C5E72C017E8F1CF46305DA00A46CA027,
-	VuModelTargetObserver_vuModelTargetObserverSetActiveGuideViewName_mE72BC7DC5660B31EB4D6B8674C27D7BBC7A2870D,
-	VuModelTargetObserver_vuModelTargetObserverGetActiveGuideViewName_m5E590568D966F8DAEEB0A79F299AA70DF107786A,
-	VuModelTargetObserver_vuModelTargetObserverGetAvailableStates_m44F80DAAD1C8B57BDCEB2363AB0E47A3FE02DBC3,
-	VuModelTargetObserver_vuModelTargetObserverSetActiveStateName_mB5F70A5961181556D4FD39EC131DAD6D94A35E5E,
-	VuModelTargetObserver_vuModelTargetObserverGetActiveStateName_m40D52AFF42E575E05B673C0CC5D81D4BBD74CADA,
-	VuModelTargetObserver_vuModelTargetObserverReset_mCD7501FABD3884A1E9CCF5E68D3610B503908E22,
-	VuModelTargetObserver_vuModelTargetObserverIsAdvanced_mE10673BDE7EC2101B9776163D45099DB44514825,
+	VuModelTargetObserver_vuEngineCreateModelTargetObserver_m91218D61313589C1544E8728B1A3F3C1EE60176A,
+	VuModelTargetObserver_vuModelTargetObserverGetTargetUniqueId_mB120F77FAE6A6F6C9AAD18AB1851F503A4A9DCAE,
+	VuModelTargetObserver_vuModelTargetObserverGetTargetName_m9F98F5CE75194309AD45231B2E8D0FB8C772AD71,
+	VuModelTargetObserver_vuModelTargetObserverSetTargetScale_m67091F14C03D47168D178615397C5B29FE7FD6D2,
+	VuModelTargetObserver_vuModelTargetObserverGetTargetSize_m4580DB4ED88D4DF83B36721D7E2E465E436ADE8B,
+	VuModelTargetObserver_vuModelTargetObserverGetGuideViews_mF63652E39EC682E74F0BEB7D7785295243FD1EE3,
+	VuModelTargetObserver_vuModelTargetObserverSetTrackingOptimization_m2859AE70E623B03E84275141E85410B4939E7D9D,
+	VuModelTargetObserver_vuModelTargetObserverGetTrackingOptimization_m44F5DEA29D2E2DDF23867A5D43C4BD19DED228C9,
+	VuModelTargetObserver_vuModelTargetObserverGetAABB_m67B8C28150D7FDAEE014739F968D8C4B3A5D319A,
+	VuModelTargetObserver_vuModelTargetObserverSetActiveGuideViewName_m9D995122C2166F92632FC1E52592B20CD6A42E1B,
+	VuModelTargetObserver_vuModelTargetObserverGetActiveGuideViewName_m8535413B8B23093A75969D92EB2AA14798CB264E,
+	VuModelTargetObserver_vuModelTargetObserverGetAvailableStates_m28DD5C4FF80F6A6181FA426FDC2AF5607FF60E0F,
+	VuModelTargetObserver_vuModelTargetObserverSetActiveStateName_mFBE4B76C8C25828AF6BD85D09F1781EEE8C573E0,
+	VuModelTargetObserver_vuModelTargetObserverGetActiveStateName_mEC8E734D2D4748224BEF634543BBEC746BD55B22,
+	VuModelTargetObserver_vuModelTargetObserverReset_m45881CDB0CB453266500E835D4B6B51F849CBFAA,
+	VuModelTargetObserver_vuModelTargetObserverIsAdvanced_m5637148132E114AD67C052E482A40B9E70DEF73E,
 	VuModelTargetObserver_get_TargetUniqueID_mCBBB25B1FBC0CFA15B497A0F19C078848B4C446E,
 	VuModelTargetObserver_get_TargetName_m1EB742BDEF3918A556D1365B57176075F340F61A,
 	VuModelTargetObserver_get_TargetSize_m8C7B2547137D7E3A650C5D2E7288F639500C23AB,
@@ -3540,7 +3540,7 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuModelTargetObserver_get_ActiveStateName_m0EAA3C3A12F6F6FAB6535ABF8ABD43206E47137B,
 	VuModelTargetObserver_get_IsAdvanced_mFE76EE47416B23FC2F9D1E65F4583D3A80FF80BF,
 	VuModelTargetObserver_Reset_m889F137CB10D70F14D84C28331B7E3A972D65A2A,
-	VuModelTargetObserver_Create_m3D502BABB5EDA887E29F11BA42E727980B578F50,
+	VuModelTargetObserver_Create_m4951B3888E44CADBBCFE58D025B2884705750B7F,
 	VuModelTargetObserver__ctor_m887357AECA03A4E9CD840E28FD02A6B05C034D47,
 	VuModelTargetObserver_Dispose_m2B0E8B54F3A4E57890D3BA57DEE3D89A3557F814,
 	VuModelTargetObserver_SetTargetScale_m74A8D85538C9B4FEA83A162D13D6757F5EF6DF8C,
@@ -3553,49 +3553,49 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuGuideView_vuGuideViewGetName_m43EBFE7CC913B5A06D1D8943258EA20F4DCA58B3,
-	VuGuideView_vuGuideViewGetIntrinsics_m3531378B57AF4D714A71B38A163500C5385DD1DE,
-	VuGuideView_vuGuideViewGetPose_m122C67F2547FDE47DEA60B78BAF0E0C8D3377EBE,
-	VuGuideView_vuGuideViewSetPose_m49A07801F6033B242531891C44676D5B8664655B,
-	VuGuideView_vuGuideViewGetImage_m5DA799BA164CC73AF53263341D66D13019C94D01,
-	VuGuideView_vuGuideViewIsImageOutdated_m17094EB2AC936153A252C36BED29B2948B0AC553,
+	VuGuideView_vuGuideViewGetName_mAA617CC28B9720048BA0D5C625C44B1BCA13B7EF,
+	VuGuideView_vuGuideViewGetIntrinsics_mE0C17DFA684EC4078A5098DE3C3D68E4D1318C70,
+	VuGuideView_vuGuideViewGetPose_m4F50B66772EB54A60EA2EF70A057058B2408F987,
+	VuGuideView_vuGuideViewSetPose_m4D90707B27E4943D5ABA9A83D624E827EA9B2068,
+	VuGuideView_vuGuideViewGetImage_m516F742EA0CA19AFAB803DC0F3CAB23C11E480B0,
+	VuGuideView_vuGuideViewIsImageOutdated_m6B9586FB79AEFC86DE0614503B45C2313FD4027A,
 	VuGuideView_get_NativeHandle_m0D5E9C894650B38FC31E76BE5E2D07BD795684BE,
 	VuGuideView_get_Name_m7EE5DB7113D72F0C5EFA9C6006311E8ED9465E22,
 	VuGuideView_get_CameraIntrinsics_mDB12D24D1FDB7EEF70644DAB9DF73CC51C86A835,
 	VuGuideView_get_Pose_m93A9DDFD3F191B6690322F6239454F24C0D78C3F,
 	VuGuideView_get_Image_m0E553E4B1AC2CAC6138F69E4D1DE788768194130,
 	VuGuideView_get_IsImageOutdated_m277AA6568E77B3B3C45703F9E7D58246312E6AD3,
-	VuGuideView_Create_m884F1DBEAB0F939B4E7226625D3DD27D67ED52B3,
+	VuGuideView_Create_mDC23485812D893C0D073E9782EAD84C95A477F51,
 	VuGuideView__ctor_mE1C61E4DD985A2418CA0C95403CD6EBA39D39670,
 	VuGuideView_Finalize_m91178B1817AB14E525012875F68AF0E9715DC2CD,
 	VuGuideView_Dispose_mE929B8E0FD4A7EEA338A3281FAF6F47E6968D24C,
 	VuGuideView_Dispose_mFA778281D6A2363901A2D2878850C5E473D9519E,
 	VuGuideView_SetPose_m8B01F359798F2AC67311E2D59C4C53064C97C613,
-	VuGuideViewList_vuGuideViewListCreate_mFAC22025E331787AA29DA937CD361D79EAFB4F36,
-	VuGuideViewList_vuGuideViewListGetSize_m9BC24058C7F14CE1DF912F212B9B1E4B99FE9330,
-	VuGuideViewList_vuGuideViewListGetElement_m123158C0D05F03C49E4492A882D93DD57B18C8F9,
-	VuGuideViewList_vuGuideViewListDestroy_m36C2FDF8D45F3CD6D4E86C4BC95961DEBCA090EE,
+	VuGuideViewList_vuGuideViewListCreate_m6CE28F06A03B1AB187F0A48DD2A623A8A3227B16,
+	VuGuideViewList_vuGuideViewListGetSize_mEF55ADA926934E27616F7ACACF74717D1DDB72AE,
+	VuGuideViewList_vuGuideViewListGetElement_mC4F1001BDEBE061CB2A2B2A787ADFBBDC3727FED,
+	VuGuideViewList_vuGuideViewListDestroy_m636F6AE840AC33B9755DA81388A50DFBBF94CD3F,
 	VuGuideViewList__ctor_mEC6B4C7616B0B1A65B1206739CCB10972564D994,
 	VuGuideViewList_GetElement_mFBF569C408A89D9B3BC0FF4C43CEC24D0B8EBBCD,
 	NULL,
-	VuModelTargetState_vuModelTargetStateGetName_mF94BFCCB6736015F2AE3FA660B1E5B74EC022936,
+	VuModelTargetState_vuModelTargetStateGetName_m29E479DE3A078298ED9BDC9C4F1B63015EFF090C,
 	VuModelTargetState_get_Name_mA9AFF16C2C1DB4724EAABA78E52F206F5E498F74,
-	VuModelTargetState_Create_mCF81AF02700ADAE2018F5CFC99373B4F2333EF9F,
+	VuModelTargetState_Create_mC260C4C3133262A7E508583D0D2992E7DBFF08B9,
 	VuModelTargetState__ctor_m82E515AA37A8D026FFEAEC63F8331EDCCD61DDCB,
-	VuModelTargetStateList_vuModelTargetStateListCreate_m63AE792A9D80283E9C3BD105B3FFF7242157E0CC,
-	VuModelTargetStateList_vuModelTargetStateListGetSize_mC9D33BC65668579575A254FEABF5275DD8FB36C2,
-	VuModelTargetStateList_vuModelTargetStateListGetElement_mF06DBC51A0FD98BA7EFB507BF90EBE1AFF0ACB7B,
-	VuModelTargetStateList_vuModelTargetStateListDestroy_mCB574DD30EC5BD6C889C55027ADA446E42473976,
+	VuModelTargetStateList_vuModelTargetStateListCreate_mAF4EBF0B4F7EAE8E18EAC6C33B6DDE01A26898F8,
+	VuModelTargetStateList_vuModelTargetStateListGetSize_m59ACE34F6575C294CE1A6B4535F43946EBED6824,
+	VuModelTargetStateList_vuModelTargetStateListGetElement_mF72DCF5F97B6E5ABCC9F7ABD33834C8B5B783450,
+	VuModelTargetStateList_vuModelTargetStateListDestroy_m4EA77E8A0158DA1943998EB9FC4020CEB8310E30,
 	VuModelTargetStateList__ctor_m13BAF8C4E2AB44C576D3C7A8964F366608779BF0,
 	VuModelTargetStateList_GetElement_m0788E73743DDB8B36218A528815BBCA75384E61E,
-	VuModelTargetObservationTargetInfo_vuModelTargetObservationGetTargetInfo_m06CAD0C6BD2CBFEAF06B4D52613832F5CC8EADD9,
-	VuModelTargetObservationTargetInfo_Create_mFF799573198F588BCE42018AE4938AF41421E29B,
-	VuModelTargetObservationStateInfo_vuModelTargetObservationGetStateInfo_mA98DE4B67FCD4168CE69B2906F1D533BB713C6F5,
-	VuModelTargetObservationStateInfo_Create_m1D9EF598B1E5A18EE3FEA965DB66136E829D5E07,
+	VuModelTargetObservationTargetInfo_vuModelTargetObservationGetTargetInfo_m8CBA3165E3D88F728B7A81D0BFE81538DABA7B4D,
+	VuModelTargetObservationTargetInfo_Create_mA5A42573F37167EDB2DC3A18492806B375E33EA9,
+	VuModelTargetObservationStateInfo_vuModelTargetObservationGetStateInfo_m9E196A11DA0146A7B74E374A6FCCF82D2D0CFE26,
+	VuModelTargetObservationStateInfo_Create_m2E92C3CF4EB9ECE672ED3656A89E45DAB7E7AA16,
 	NULL,
 	NULL,
 	NULL,
-	VuModelTargetObservation_vuModelTargetObservationGetStatusInfo_mEBA4EEF838D28182A4DDDE85AEA38D82765C4FDD,
+	VuModelTargetObservation_vuModelTargetObservationGetStatusInfo_m67AE74DA9CA1ED1529F9627FC204999060F8114F,
 	VuModelTargetObservation_get_StatusInfo_mA07F0A86FFF954E8A25D20D1937D7035612037C5,
 	VuModelTargetObservation_get_TargetInfo_mF95442AC0A2370F8E03DA6D9BF7DD24B25952463,
 	VuModelTargetObservation_get_StateInfo_mC7BD87FAE920E65C55BFD2C182514FB7515F9F87,
@@ -3610,26 +3610,26 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuMultiTargetObserver_vuEngineCreateMultiTargetObserver_m5D2EB1E5D7BAEE2D70352812B953D1E3D9FC00C8,
-	VuMultiTargetObserver_vuMultiTargetObserverGetTargetUniqueId_m8FBDB4A339C3F7B316122B14D5681A81BEB3ED0A,
-	VuMultiTargetObserver_vuMultiTargetObserverGetTargetName_m348F73F7B35155CE7E94406C07C93936D4286889,
-	VuMultiTargetObserver_vuMultiTargetObserverGetTargetSize_mDB917A090D2A882F51CE8ABE42D5C64DC50093F1,
-	VuMultiTargetObserver_vuMultiTargetObserverGetAABB_mB4CF9D99212B2F75F9918E6E8A05A078905086DF,
-	VuMultiTargetObserver_vuMultiTargetObserverSetTrackingOptimization_m059DCFB13C93BE56569DCDCC44A2847478765E18,
-	VuMultiTargetObserver_vuMultiTargetObserverGetTrackingOptimization_m1F9BA35655F36C56ABE4DCA67526070353F41290,
+	VuMultiTargetObserver_vuEngineCreateMultiTargetObserver_mA15CCB24BA8A7DB214B96D05F2A0B82980C98F35,
+	VuMultiTargetObserver_vuMultiTargetObserverGetTargetUniqueId_m31319EEDBE6DA03264D98B0BBEEE1EE30E53A835,
+	VuMultiTargetObserver_vuMultiTargetObserverGetTargetName_m7C42F451BD7E423B92354DB854DF64E95F56D029,
+	VuMultiTargetObserver_vuMultiTargetObserverGetTargetSize_m9916FF533B948599F83A7226E0D5697725DD17AC,
+	VuMultiTargetObserver_vuMultiTargetObserverGetAABB_mD1EA7E42993676991AC5B69B5204AD4430D6A5EE,
+	VuMultiTargetObserver_vuMultiTargetObserverSetTrackingOptimization_mEBCCAACC80B531DF7B5674D4CBD6C29863C2EBC6,
+	VuMultiTargetObserver_vuMultiTargetObserverGetTrackingOptimization_m6B6CF22E5614B68490477EFCF3F1D182EF7D1E43,
 	VuMultiTargetObserver_get_TargetUniqueID_m3E622FA8519E6C3E7CA31F760393F1E6197C236A,
 	VuMultiTargetObserver_get_TargetName_m0A18D339825A1ADA1E69077B4F5459F4EEDBFC21,
 	VuMultiTargetObserver_get_TargetSize_m3E5424F6CA817D51E4D432AF7424B8224D2509B1,
 	VuMultiTargetObserver_get_BoundingBox_m823D1C29B1B796EC68D5C2A162396A96A06BF023,
 	VuMultiTargetObserver_get_TrackingOptimization_m935019665D585D63955CF2A99239ABF914B2822B,
-	VuMultiTargetObserver_Create_mCB4667335ADFB761C84E4664DDC095A51B2F2E6A,
+	VuMultiTargetObserver_Create_m61A4274B7746E3A9A819D6609B07BDC4ABBD17CB,
 	VuMultiTargetObserver__ctor_mF483E1DEF69F602B8A7A76ED4858A3170DAC14AC,
 	VuMultiTargetObserver_SetTrackingOptimization_m89FF7D2E1F139BFA0CE8E0093297FE43FF901DE1,
-	VuMultiTargetObservationTargetInfo_vuMultiTargetObservationGetTargetInfo_m05EA85E26AFDF3CAFED1A2D086DC49A18C8DB40A,
-	VuMultiTargetObservationTargetInfo_Create_mDA7884F7422C0BB873970F0331718F8BD5BFC993,
+	VuMultiTargetObservationTargetInfo_vuMultiTargetObservationGetTargetInfo_m7AAC9B1B8513C933E3355FCCBAEE3808B36B15A8,
+	VuMultiTargetObservationTargetInfo_Create_m973FD74AB4E2765EB1F3AE500FCFC06A31B0676E,
 	NULL,
 	NULL,
-	VuMultiTargetObservation_vuMultiTargetObservationGetStatusInfo_mDB596B36209F582E9D580807A860AB045C836789,
+	VuMultiTargetObservation_vuMultiTargetObservationGetStatusInfo_mD6726E359B74F3BE1D382F182F2EC94DB622F90A,
 	VuMultiTargetObservation_get_StatusInfo_mCF2F14E80298258A4CB4F34D65812C4D5F3B4ED5,
 	VuMultiTargetObservation_get_TargetInfo_mC5233CCFDDCF0881D52D61AE620B17C2F7D3CC94,
 	VuMultiTargetObservation__ctor_mA88A7F59CAE3097F1C27162A8DB9A4F90C15209D,
@@ -3663,7 +3663,7 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	U3CU3Ec__cctor_mECDD2B57C1F1130BAB5F40EBF7500409E84228BF,
+	U3CU3Ec__cctor_mEDE465B40322EB11AB9A884A79D1C0DF1471E8B7,
 	U3CU3Ec__ctor_mEC08503B50954E0AC851000920170BF9A950F96E,
 	U3CU3Ec_U3C_ctorU3Eb__3_0_m0CAB4684A28DC3D286435895118D1FB2EA823E92,
 	U3CU3Ec_U3C_ctorU3Eb__3_1_m9DC94FD7DE36393AC75974C1F4364315BF197240,
@@ -3684,12 +3684,12 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuObserver_vuObserverGetId_mC289123933F84503B433BDCD1811B9772CFD0D84,
-	VuObserver_vuObserverGetType_m323F855E6BD1824944A0ABDADB974ECFD8FBF346,
-	VuObserver_vuObserverIsActivated_m0D4EC3A23973F240256FD9B13ACFF8F4E450804D,
-	VuObserver_vuObserverActivate_mA56112A5AB98924CE9132A25B4A4F4BFDD57F1D6,
-	VuObserver_vuObserverDeactivate_mCC7FF226E94693DA57740552CA5F68515ACCDB70,
-	VuObserver_vuObserverDestroy_mF7364EB9BFE1314E26BD8C4C1AA6356C4D207D91,
+	VuObserver_vuObserverGetId_mE76B18F825D3842DCDADBC6EFC02BE3B2FBA2944,
+	VuObserver_vuObserverGetType_mA488EAD9C5B785290884481B3F673A3DEC0528B3,
+	VuObserver_vuObserverIsActivated_m189C631B44B3E2E5EDFFFB542B7B239DC4D9BF5F,
+	VuObserver_vuObserverActivate_mFD449988D5B85CB4ECED5DBF4D8A3696DC0F6F58,
+	VuObserver_vuObserverDeactivate_mE186ED7DCB16E45E5F208BBEA4EBAF3025966EEC,
+	VuObserver_vuObserverDestroy_mD9955770CDE706C990EB7D996D160BFA5C066D99,
 	VuObserver_get_NativeHandle_m0DF9843ED5DCA1A40CD3A38E73C34795D6B68642,
 	VuObserver_get_Id_mA8C3FE4D8F2844C66CBB6C24EF14024B0EC44042,
 	VuObserver_get_ObserverType_m46FEEB329D2E704D04ED9A4E25E6B9066D338C95,
@@ -3703,12 +3703,12 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuObservation_vuObservationGetType_mC1E8FDE337C36E926A59B6D03DC07D5AC71EC6C5,
-	VuObservation_vuObservationGetObserverId_m48FAE9DA084B90778A73D0AAE35A54B8AF30513C,
+	VuObservation_vuObservationGetType_m1B3AE3F1105DE026496FFD942E673263552096C9,
+	VuObservation_vuObservationGetObserverId_mE3D9AA130109E8659F9CD1FFB9C83182CC99A615,
 	VuObservation_get_NativeHandle_m2D08BF2A7AEA86F35765D87E4AF46542C0AA541F,
 	VuObservation_get_ObserverId_m3B012578A6260B048E2F6D2FD71EEF8736AFEFEE,
 	VuObservation_get_ObservationType_m58DC771B5E963526D9FD48B27C764DE505FC2E63,
-	VuObservation_GetObservationType_m4770228627CDF25E2E443656101EBA80518FBF13,
+	VuObservation_GetObservationType_mAF20715FAF74EF1C12E75D86AD592DFD93F574C7,
 	VuObservation__ctor_m81F1087E180A9B41AFAD882FCC0445D76E7E4B8C,
 	VuObservation_RegisterObservation_mB7B47EE07C44AB1046C401C56606442BB7D1FAE6,
 	VuObservation_UnregisterObservation_m141E1195B89A96D4DDCB00DC3E39B098A668BF66,
@@ -3719,26 +3719,26 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuObservationWithPose_vuObservationGetPoseInfo_mAFB4982C2A96507379924D798B8BC26D34ABE58F,
+	VuObservationWithPose_vuObservationGetPoseInfo_m6EB04AC8908E64FA8732C5BA3935B570BD2A6153,
 	VuObservationWithPose_get_PoseInfo_mF34D1567C7B7AE099E16406AA4E3ABE8F4099598,
 	VuObservationWithPose__ctor_m17EC32281AF1EE6DCFF47420E850FD7321B29714,
 	VuObservationWithPose_UnregisterObservation_mB0A5D31E2887F0F108B728AFDF83C3C043C716D8,
-	VuObservationList_vuObservationListCreate_m3D28C1A2953213E460565E87E8076D5E9520E035,
-	VuObservationList_vuObservationListGetSize_m7B812968E3B8C18B59EC8733E604350F2F54B8C4,
-	VuObservationList_vuObservationListGetElement_mA321C04C1534B24A60FC0D28118003E5D8C8C41C,
-	VuObservationList_vuObservationListDestroy_mBA25200EB9F8BAA66A29D7841D263299EE32DD11,
+	VuObservationList_vuObservationListCreate_mE34820FA00E41576A2B4C164C72F6305906982B3,
+	VuObservationList_vuObservationListGetSize_m24E80CF75F0CE8B01916EB13ABB0E7BA90BB5CCA,
+	VuObservationList_vuObservationListGetElement_m017EB60D8CD4661EBBCBF521856B9495EABE9785,
+	VuObservationList_vuObservationListDestroy_mCFC0464757063191693D77E994CC8817A92DC854,
 	VuObservationList__ctor_m845690DD73824E13318D7EF674558AAA728A6454,
 	VuObservationList__ctor_m6C9FF1799253B96A6DE90EE5C572E9256433301B,
 	NULL,
 	NULL,
 	NULL,
-	VuPlatformController_vuPlatformControllerSetViewOrientation_m54EF8BDBB54BE5C8CA71CF9088E34B6B1C18A409,
-	VuPlatformController_vuEngineGetPlatformController_mEF57F57AE85E05097778EFA6E781AF08680ECA98,
-	VuPlatformController_vuPlatformControllerGetFusionProviderType_m575A7D61B0005A7B0EBB441CA5DD311EAD6DBA7C,
-	VuPlatformController_vuPlatformControllerGetFusionProviderPlatformType_m7628AF2F296200258A01C4BD67A3F6FD68323977,
+	VuPlatformController_vuPlatformControllerSetViewOrientation_mE507B157F9DA89BB8D206BCAB9114625834210D6,
+	VuPlatformController_vuEngineGetPlatformController_m978C38A528CB7B6049AF031C412F8DDD5241CFCA,
+	VuPlatformController_vuPlatformControllerGetFusionProviderType_mB2E4544EF2FEAA18178A32F1189BF51F62821922,
+	VuPlatformController_vuPlatformControllerGetFusionProviderPlatformType_mAFD7DDEF4966DAD82F443EFF0834927814B388A0,
 	VuPlatformController_get_FusionProviderType_mEA3B2280BE22352654A27363994847B095D0EAB7,
 	VuPlatformController_get_FusionProviderPlatformType_m242FDCEEB998DDF86A4A6314C5697E4281D47FA8,
-	VuPlatformController_Create_mBCF8089BC4DA9B3C820FA54DDCDBB2A093C10C63,
+	VuPlatformController_Create_m8C103887F098294013EE13C23CF0E6F2887C3605,
 	VuPlatformController__ctor_m8C49EC70D8483BEB417951414CD7E5102826F34C,
 	VuPlatformController_SetViewOrientation_m81C0860C0A34D986D7DD8D7FB4DE3231801A9A8D,
 	NULL,
@@ -3747,20 +3747,20 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuRenderController_vuEngineGetRenderController_m4E71991F2CCD2B94CB6AAECD629C78412A3A3D16,
-	VuRenderController_vuRenderControllerSetRenderViewConfig_m54D079237EB9E48BC5A2A8D800DBD7A5116DCDBE,
-	VuRenderController_vuRenderControllerGetRenderViewConfig_m1D1EB6843E10966AAFBE7FEF0CBAFC2B6430E082,
-	VuRenderController_vuRenderControllerGetVideoBackgroundViewport_m06364CD80513E96527622509588D9139F4E61A4A,
-	VuRenderController_vuRenderControllerSetVideoBackgroundViewport_m54A25983195FBC2088B36B7ADB28A817460ACAEC,
-	VuRenderController_vuRenderControllerSetVideoBackgroundViewportMode_m31BAE9E6432655D2724EA1CFE26C55526BBE13B2,
-	VuRenderController_vuRenderControllerGetVideoBackgroundViewInfo_m1CA72889A68ABC5C9BEC5F7D37DFAD4CF9BE6370,
-	VuRenderController_vuRenderControllerUpdateVideoBackgroundTexture_m4170AF031C75DD6A47F8BC87BD0514379FF3091D,
-	VuRenderController_vuRenderControllerSetProjectionMatrixNearFar_m63A043B7AE452B1C922E38DB3676D74DC166092C,
-	VuRenderController_vuRenderControllerGetProjectionMatrixNearFar_m4543C03AD5E3FBC1E65BFB0A223A33CD1962EEE6,
+	VuRenderController_vuEngineGetRenderController_m75364B4A526046D605A9633111BF7B4A3D778DD7,
+	VuRenderController_vuRenderControllerSetRenderViewConfig_m24FD6CB80BC6F8DA9640CB418B6F31582F1E2AC7,
+	VuRenderController_vuRenderControllerGetRenderViewConfig_mCFC2A0925DD511FB30A928827C68696F5736B7FA,
+	VuRenderController_vuRenderControllerGetVideoBackgroundViewport_mDE7EC72A6FB2BC30B6E8998DBE2714FF99F65C8A,
+	VuRenderController_vuRenderControllerSetVideoBackgroundViewport_m623B67684BB2BEF0D865C8299832DD2E9BA900D4,
+	VuRenderController_vuRenderControllerSetVideoBackgroundViewportMode_mEB74EAD72A0C25BBC7A3A54D088D72E5C9161128,
+	VuRenderController_vuRenderControllerGetVideoBackgroundViewInfo_m7099454669CEAA1019176821EEB60B48E51B2FFC,
+	VuRenderController_vuRenderControllerUpdateVideoBackgroundTexture_m6A3C7AAE5DDC0E7138274D03E8D1C80D0CABD11A,
+	VuRenderController_vuRenderControllerSetProjectionMatrixNearFar_mF7DA8929108E91EC28F16822FC83DE6C916C36CD,
+	VuRenderController_vuRenderControllerGetProjectionMatrixNearFar_m67001237BDDD264950DD96ABD50FE4AEAAE8CA77,
 	VuRenderController_get_RenderViewConfig_m0C8D1C55BC2E662662A80BC22A687ACA1D233B08,
 	VuRenderController_get_VideoBackgroundViewInfo_mF1EE1AE5172679F98CFB18A6A3A4CE13BCC8EBFE,
 	VuRenderController_get_ProjectionMatrixNearFar_mED96257642EB011D1A2DA83ED5FD000D51711CD5,
-	VuRenderController_Create_m86F5C1CF681E6F1FCB8A17EA9F483A9AB64AF096,
+	VuRenderController_Create_m71769C33F1FADFBCA137F9D7E8255D5A0DB96A0D,
 	VuRenderController__ctor_m85D414D4FAC3287B310216F3AEDA3AFD3DA1A044,
 	VuRenderController_SetRenderViewConfig_mDFAE121725FCDB27CD17937EC328932CA05565B3,
 	VuRenderController_SetProjectionMatrixNearFar_m5788B6EEB912C169841607BA8030708719ED762E,
@@ -3775,20 +3775,20 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuSessionRecorderController_vuEngineGetSessionRecorderController_m186190BF1CF88603F2B0F961911F1244DC3C91EA,
-	VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingDataFlags_m1BBD0A22F2937BDD9DAC8405803D902349558D40,
-	VuSessionRecorderController_vuSessionRecorderControllerGetSupportedRecordingDataFlags_mE146CB1A0F095C5ED2C19020E29417A06D5F6F35,
-	VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingFrameRate_m114BE0EA0236D556F16FADA2167100AD2960D5EE,
-	VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingImageScale_m6C42D43E6C24610C92D96615AA6CE92CDD3E25C3,
-	VuSessionRecorderController_vuSessionRecorderControllerCreateRecording_mCEE6A191671C4D11E08CAEC0CBC572CB0945DB5E,
-	VuSessionRecorderController_vuSessionRecorderControllerGetRecordings_m72F31F987C701E6CD24EB6411169C0BF7BF2EE44,
-	VuSessionRecorderController_vuSessionRecorderControllerDestroyRecordings_mE2322CCEC3291367E024C663AAAB4275AA0B8E22,
-	VuSessionRecorderController_vuSessionRecorderControllerCleanRecordedData_mA4FBE99B7D3B2C77AB4A1D2BFA31281C4C300E2B,
+	VuSessionRecorderController_vuEngineGetSessionRecorderController_mAA9C44E676844E76241783C91CA044AE4AF6D45E,
+	VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingDataFlags_m78ACDC38596991C8233842374D0356400ABC7B11,
+	VuSessionRecorderController_vuSessionRecorderControllerGetSupportedRecordingDataFlags_m8F502248F1FC1DB1CFF9BB3A911D44643A0F5C0B,
+	VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingFrameRate_mE1AC56513217F8BFB7EAE15765241FC16E497323,
+	VuSessionRecorderController_vuSessionRecorderControllerGetDefaultRecordingImageScale_m64EBC1AD4776484020E3CA7836D30E0E613042AE,
+	VuSessionRecorderController_vuSessionRecorderControllerCreateRecording_m760C1AB068DE050364918C5DB46BA468A902F819,
+	VuSessionRecorderController_vuSessionRecorderControllerGetRecordings_mBD1ED3E3109E02425E7E45AA3713739B9352B509,
+	VuSessionRecorderController_vuSessionRecorderControllerDestroyRecordings_m9BCDDC013EE0EB2EDED05F61B4FA2D23B1ABE9B1,
+	VuSessionRecorderController_vuSessionRecorderControllerCleanRecordedData_mBD3DA3AEC4B770E9E9F3059EDCDC0B021A34F907,
 	VuSessionRecorderController_get_DefaultDataFlags_m9C2E45E52BC8EF492161B1B3E3FE46A4B5161A9E,
 	VuSessionRecorderController_get_SupportedDataFlags_m13D0F0DFC9DE49E2C5F09F6E5C15831C240ED7AB,
 	VuSessionRecorderController_get_DefaultFrameRate_m624470B194B2409843EFE30EDCD91B34692D1262,
 	VuSessionRecorderController_get_DefaultImageScale_mCA071295A5243DC8CAE4C0A3FB7FCFE3623EDAF5,
-	VuSessionRecorderController_Create_m2A8915ECAE714A0FE9B286F9AE0B54D1844F60A1,
+	VuSessionRecorderController_Create_m1D301D19F3D27838C55D961E173333C4AB04A679,
 	VuSessionRecorderController__ctor_mA0C6AA8BA3A2130966D78C09C61EE14D50A8BAF4,
 	VuSessionRecorderController_CreateRecording_m5946885B745CFC3FDE4859E8BC17C566A0B30A33,
 	VuSessionRecorderController_GetRecordings_mAAEBB12EB72DC174E6CB2016ADCBA32DB88D946B,
@@ -3800,12 +3800,12 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuRecording_vuRecordingStart_m707AFB1493BEDC7C98C680AFB0DD3B3F70FF0A66,
-	VuRecording_vuRecordingStop_m712E07AC06CEC385CD5A589BCF1B72DECB94A168,
-	VuRecording_vuRecordingGetPath_m305540FFA1A04E5F895FEBFB3882FE2F4B31B332,
-	VuRecording_vuRecordingGetStatus_mDAB321E23486DF7BFD0E72044A908E4C17D23B08,
-	VuRecording_vuRecordingGetStatusInfo_mDABD0C27E91B99A905F9D6A8920CD0E04274560E,
-	VuRecording_vuRecordingDestroy_m543621BD783B913C9342D0E476E4166FCD3F5498,
+	VuRecording_vuRecordingStart_mFE06F858553E35647472EDE5FB645C975E7C3AFB,
+	VuRecording_vuRecordingStop_mD6654A225E0DF048066DB8331854B32A4BE367BF,
+	VuRecording_vuRecordingGetPath_mDA99A93E4AA2525F9767EE2B03A32FBD9724210D,
+	VuRecording_vuRecordingGetStatus_mFF10C3CC2196AD80CF7DB4484E771D1FA4282EAE,
+	VuRecording_vuRecordingGetStatusInfo_mC61A3FC7F5FF472F174EA685E820C86DFFD858F6,
+	VuRecording_vuRecordingDestroy_mD180C0CE4911FE24D26E3C194273977B05FA5659,
 	VuRecording_get_Path_m8A980EF27D3797E700EBD485016AB1C46EA9F133,
 	VuRecording_get_Status_mA363605A1E08594C575C2040EBB0135FC6EC67DA,
 	VuRecording_get_StatusInfo_mD4A6D5A93CBEF4BF002F5180B8BDDCD40491B300,
@@ -3813,10 +3813,10 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuRecording_Start_m8378DAD0E1CA250D74975D00A4FB113DB27A0845,
 	VuRecording_Stop_m8F38454E1D109130F02CB17B362E784D8578BD4F,
 	VuRecording_Destroy_m6C93C89FA80BB421B395984B729DE5FD71DFEEEB,
-	VuRecordingList_vuRecordingListCreate_m9CE0EE4C8A9D388285B3B8C497C4E092E85CFF96,
-	VuRecordingList_vuRecordingListGetSize_m13D1279CB29AD0475C812C047CE6729E57AF2BAB,
-	VuRecordingList_vuRecordingListGetElement_m0EA1053E12EFE394F0F78E98E06D291C17E55857,
-	VuRecordingList_vuRecordingListDestroy_m1D177B5DC2B47CCF66DE8CF05B6D656D6B9DEC27,
+	VuRecordingList_vuRecordingListCreate_m386241783BE425CB814697B005EA2EB4F7E17C89,
+	VuRecordingList_vuRecordingListGetSize_m7EC7750FF07756D00C8FAAEC22EB4876495BE305,
+	VuRecordingList_vuRecordingListGetElement_mBE538AEDA28599AC264D97ACC48624BEC8D4EEC8,
+	VuRecordingList_vuRecordingListDestroy_m631CE3582AB34C013D1DFA50CB65FBEBC5B2984C,
 	VuRecordingList__ctor_m60C6115325921C8F6357EE59A97B0F6614F5724C,
 	VuRecordingList_GetElement_mFD54384F9CEE1702527989B3FE926E0852333C39,
 	NULL,
@@ -3826,8 +3826,8 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuCameraIntrinsics_vuCameraIntrinsicsGetProjectionMatrix_m0AEA88C9ABA429C18F7DBD282223ED76CD40CEB3,
-	VuCameraIntrinsics_vuCameraIntrinsicsGetFov_m5CC8EF065CA0B4882EC8FB31DBE4C8AE8ACCEE01,
+	VuCameraIntrinsics_vuCameraIntrinsicsGetProjectionMatrix_m8853A78DF40F72F19EE914889A658B9D0094DC34,
+	VuCameraIntrinsics_vuCameraIntrinsicsGetFov_m568AE5C6E107D65952DA0E981D7C2C3072857248,
 	VuCameraIntrinsics_get_Size_mB130F199D1F41A70D6F1A4F0545EDA3ECF557244,
 	VuCameraIntrinsics_set_Size_m9FD38646929721C6F8EA9B6D827812289B95AA9D,
 	VuCameraIntrinsics_get_FocalLength_m35AFA34CCAF6560B1C9B427C88B02E0EE12D7056,
@@ -3846,7 +3846,7 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuRenderState_vuStateGetRenderState_m3C823651D492717D707813CCED0948C1CC347D80,
+	VuRenderState_vuStateGetRenderState_m6C1D9CD3D3D909AF7274F69DD5489E1C3712D3E7,
 	VuRenderState_get_Viewport_mCF53A87F2E6E2BE5B35797428D1E1A6FEF292D51,
 	VuRenderState_get_VBProjectionMatrix_m83C0A6C50BF48A80A9ADCDEDDED8ADB530749E57,
 	VuRenderState_get_VBMesh_m4D508761AB8D7B9BDDD70A7F17F4C5099EE23317,
@@ -3856,9 +3856,9 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuCameraFrame_vuCameraFrameGetIndex_m54795244311470570956575BC274A185F00B7778,
-	VuCameraFrame_vuCameraFrameGetTimestamp_m7EF622F0218D4AD5FFC32F871DE10A82BA6F5665,
-	VuCameraFrame_vuCameraFrameGetImages_m1C9E14121FC85F4CF6E5B5E4B09E29D3B06BF8A7,
+	VuCameraFrame_vuCameraFrameGetIndex_mA361BB9DBB7D05204040118F43E3DFA7717523B0,
+	VuCameraFrame_vuCameraFrameGetTimestamp_m56F8B968A77FE423A2933774801B84DA501234B7,
+	VuCameraFrame_vuCameraFrameGetImages_m7319C19A238D4D2F11A340248D8709D4388F170E,
 	VuCameraFrame_get_NativeHandle_m4E18E7EF7C58BAE1F467066D298918236D944929,
 	VuCameraFrame_get_Index_mB7B8FE618DAAAD8BB586F02E3F0AB3AE65D67AD4,
 	VuCameraFrame_get_Timestamp_mB683BF6575562D150B4878C0822C7E1DE8FD9103,
@@ -3872,12 +3872,12 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuState_vuStateHasCameraFrame_m8B7DF41C2852CF880B9236653C2D3E0734356A70,
-	VuState_vuStateGetObservations_m0D02DB054212376A0CE4453B52359D0A72904724,
-	VuState_vuStateGetImageTargetObservations_m9E5F0F2F45C07901DEBC8DE647C51E76B4A92BF1,
-	VuState_vuStateGetCameraFrame_m86848748666E39E82CC2AD534F13BA751EA64A3D,
-	VuState_vuStateGetCameraIntrinsics_mAB44AFA610DF0DFAED0D9284F528D241B4AC2D6B,
-	VuState_vuStateRelease_mAFA05EAF5310285FD16CE63DF77AD7E522E5EE57,
+	VuState_vuStateHasCameraFrame_mE3BB3C1217D40147D359A81CC453F0DD012B7082,
+	VuState_vuStateGetObservations_m3BF217D38B713E516013052B71A29B9A8DAC7393,
+	VuState_vuStateGetImageTargetObservations_m0C533EB3632B30A51030005C074083396E4B6FB0,
+	VuState_vuStateGetCameraFrame_mCA81262F07C6E6B90F588318E2C00A8483286F05,
+	VuState_vuStateGetCameraIntrinsics_mF81643044116C6002C897B30E4997488EFAA34BC,
+	VuState_vuStateRelease_m2BC7B01DF60786604C90AE6270B2CAB6E641B779,
 	VuState_get_Engine_m6DED02ADE1776484572550FD662971F81B8F6F01,
 	VuState_get_NativeHandle_m38F9CCF7020CFB17E0C9E1A8FDF80057EBEE9A35,
 	VuState_get_Observations_m812F9D00CBCBE4F5D25272FDAC5ED83BA922CA5A,
@@ -3891,27 +3891,27 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuState_Dispose_mD537466782654FF4F2553EED241F1D06C0BB43D1,
 	VuVirtualButtonConfig_Clone_mC9F29E9C8BE8B58792D538A432D58249A96098FF,
 	VuVirtualButtonConfig__ctor_m2928CC48A065AE0C2492C9DCF75CD68035DF03FB,
-	Internal_Create_m3506B7B5FEC09FD3C56C55696F56B7AA1F5E9146,
+	Internal_Create_mE93F1B632F0BC0A03FE5A086E08A47A57F3111A7,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
-	VuVirtualButtonObserver_vuEngineCreateVirtualButtonObserver_mE2B852D380AAC04D72F1B391242588F400BBD2FD,
-	VuVirtualButtonObserver_vuVirtualButtonObserverGetSensitivity_mB0F7BDCEB8ADC2AF7449E78E13434858DC70ED42,
-	VuVirtualButtonObserver_vuVirtualButtonObserverSetSensitivity_mE64A98034DBE26F03C68E2302AFBD1E29C60BEF1,
-	VuVirtualButtonObserver_vuVirtualButtonObserverGetArea_mCD709C635628AA2D2BEDCE8CC8997532A743CB54,
-	VuVirtualButtonObserver_vuVirtualButtonObserverSetArea_m8A6E05144CEA385000F7AA0C7F445F6AB1B9BA1D,
-	VuVirtualButtonObserver_vuVirtualButtonObserverGetAssociatedObserver_m7FA56A8D9B137DF60C1946D47882E3410B37255A,
+	VuVirtualButtonObserver_vuEngineCreateVirtualButtonObserver_mBA05884A25D74FC4C1FE5020289FA53868D37FD6,
+	VuVirtualButtonObserver_vuVirtualButtonObserverGetSensitivity_mF363CB8963731BEBEDE5501370B026AAF7B3B8A6,
+	VuVirtualButtonObserver_vuVirtualButtonObserverSetSensitivity_m6646C710AD871644A584DACA852E785484884271,
+	VuVirtualButtonObserver_vuVirtualButtonObserverGetArea_m91E398451D4CD4802AE482A7F17968418B6F02ED,
+	VuVirtualButtonObserver_vuVirtualButtonObserverSetArea_mF86288609290305C433CA306F0EF4A9F690011DA,
+	VuVirtualButtonObserver_vuVirtualButtonObserverGetAssociatedObserver_m30C80BB9CC3DD81587812B4CCBFF164CF99F260C,
 	VuVirtualButtonObserver_get_Sensitivity_m33FB12EF1A746BD635A3DA86A9CADC44BEC478C5,
 	VuVirtualButtonObserver_get_Area_mDFEC5F7C90BEBE1C30F1453FF4704B446BE5ED70,
 	VuVirtualButtonObserver_get_AssociatedObserver_m1082A003666C7FE99EA00BA2D765181CBE098402,
-	VuVirtualButtonObserver_Create_mEE4A9F2F40717E59B61E4CA9D73DFA2D05AD8BFE,
+	VuVirtualButtonObserver_Create_m5DD45F221C4EADB8FD3D762591065124A511EDED,
 	VuVirtualButtonObserver__ctor_mE464D04793FA99CEFB8F3B0F216ADD41CBFF13BB,
 	VuVirtualButtonObserver_SetSensitivity_m2E82AD30592D65D22019532EA850A8DA38B5ACCF,
 	VuVirtualButtonObserver_SetArea_mEBC8268F49682D9402C37FAE665C1EDD1417FC54,
-	VuVirtualButtonObservationInfo_vuVirtualButtonObservationGetInfo_m428101C86AB86739D187E4C4EBB5009D424C0245,
-	VuVirtualButtonObservationInfo_Create_m1F72AC16EE4C87199FBE3831A42A7E031FCF6532,
+	VuVirtualButtonObservationInfo_vuVirtualButtonObservationGetInfo_mA19E256EC648FBEC0EC95B54479394C7BB3D8ACD,
+	VuVirtualButtonObservationInfo_Create_m2C8DC6FDD8D80F0382C9B63BA4BB2D2E774C8ECB,
 	NULL,
 	VuVirtualButtonObservation_get_Info_mB0DB070F097BD056800719354649C0E8B882E5FA,
 	VuVirtualButtonObservation__ctor_mE5B9255973136804AA922D1BDF621A617AE29F07,
@@ -3958,18 +3958,18 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuVuMarkObserver_vuEngineCreateVuMarkObserver_mBCFA07F373352E3DAD2E743AD77FCE73FA138384,
-	VuVuMarkObserver_vuVuMarkObserverGetTargetUniqueId_m12636C23768CC7F73E277521C96556D748EA4DBD,
-	VuVuMarkObserver_vuVuMarkObserverGetTemplateName_mA6876C701821F1E720467B08F204D2BFD7B475F8,
-	VuVuMarkObserver_vuVuMarkObserverSetTemplateScale_m64EDF0F013177EF567FD433C46F388DC8D8287F4,
-	VuVuMarkObserver_vuVuMarkObserverGetTemplateSize_mC4E4DE328BE7F79961964836A67459B40A6189CB,
-	VuVuMarkObserver_vuVuMarkObserverGetTemplateAABB_mE17C317A8DA06229451F00D07E0D3A8BEAF43D3A,
-	VuVuMarkObserver_vuVuMarkObserverGetUserData_mCFCD2EFFC323C3F7C6F1E0C05D5DC1BA2D2D2C15,
-	VuVuMarkObserver_vuVuMarkObserverGetOrigin_mFBDCFE4A4B66F90E2C02CE4E82A1134A9506D053,
-	VuVuMarkObserver_vuVuMarkObserverGetTrackingFromRuntimeAppearance_m78172A0441818B625163B102931D7700D8CE63B1,
-	VuVuMarkObserver_vuVuMarkObserverSetTrackingFromRuntimeAppearance_m95094E267FDFC6C87618CA53F2EFB709240C2191,
-	VuVuMarkObserver_vuVuMarkObserverSetTrackingOptimization_m7129A6C6A6230153A90B34AC03E7CD4B7ABE3BEA,
-	VuVuMarkObserver_vuVuMarkObserverGetTrackingOptimization_mC213CCB5CBE95DA348A4AE1FD309283919B5F0E2,
+	VuVuMarkObserver_vuEngineCreateVuMarkObserver_mA18C8A278628C4A4C845341F51215C66C064542D,
+	VuVuMarkObserver_vuVuMarkObserverGetTargetUniqueId_mF236C694D7BAA90D66CDB0CEEC967DB04B3B5E83,
+	VuVuMarkObserver_vuVuMarkObserverGetTemplateName_mD92405D587A4EB81B0CB4DFAB5905EB5CF1DBE4F,
+	VuVuMarkObserver_vuVuMarkObserverSetTemplateScale_m847207B60BA80E82620D78B9751533B0C9D644A9,
+	VuVuMarkObserver_vuVuMarkObserverGetTemplateSize_m75858092A1CB32B33C009C28321E83EAD4498444,
+	VuVuMarkObserver_vuVuMarkObserverGetTemplateAABB_mF13B7CF20CE3BAEB17E19D77BD70070AFD9ED018,
+	VuVuMarkObserver_vuVuMarkObserverGetUserData_m202EE43B5B16A72174FF6840E9C6827165F5C961,
+	VuVuMarkObserver_vuVuMarkObserverGetOrigin_mA6115DB0046E1E85DDE26753466CC2DEDA30D044,
+	VuVuMarkObserver_vuVuMarkObserverGetTrackingFromRuntimeAppearance_m527E0A7D02C1CC868DC13844D21425AC8F0E43AD,
+	VuVuMarkObserver_vuVuMarkObserverSetTrackingFromRuntimeAppearance_mA3F94ECC88DE48C651A280144A1C5265BA3CA44C,
+	VuVuMarkObserver_vuVuMarkObserverSetTrackingOptimization_m3E6F57899F792D5868D8624EBC09F708CD119C65,
+	VuVuMarkObserver_vuVuMarkObserverGetTrackingOptimization_m05DADFBD2A8CADE6F1621FAF7BC1639BD19E3260,
 	VuVuMarkObserver_get_TemplateUniqueID_m8D932A2650A7449244A1E88078D20F16B6D3BF07,
 	VuVuMarkObserver_get_TemplateName_mB82CD0EA4854C20E3ED1EC2515ED7BA6266FE0D8,
 	VuVuMarkObserver_get_TemplateSize_mC0C35BED2BB5ABE9B3A05D2F705D8D6B9B3CCABD,
@@ -3978,24 +3978,24 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuVuMarkObserver_get_Origin_m3B411F0BFD0397AED95D5207BF5674B1FF0F6403,
 	VuVuMarkObserver_get_TrackingFromRuntimeAppearance_m9B1575762468E380291A7F028EC407F363740963,
 	VuVuMarkObserver_get_TrackingOptimization_mC6E4D7193B958B80F9038CC2E48A439A848D290A,
-	VuVuMarkObserver_Create_m06F1E0BE53565572A644F674824510F9D11652F4,
+	VuVuMarkObserver_Create_mB0792CE12E822D35C5FA4CDC45C3C06FF5203AFA,
 	VuVuMarkObserver__ctor_mE750EA3DCF8F1D046F28E9966795F1B5551D21B7,
 	VuVuMarkObserver_SetTemplateScale_mD490F4F667E9BC24655F21741D80E6348E71CCD1,
 	VuVuMarkObserver_SetTrackingFromRuntimeAppearance_mC2C2D23053D89983CCD752D56590F89809BDBC60,
 	VuVuMarkObserver_SetTrackingOptimization_m399DACDFE58572CF101386992A8EAD10695C72F9,
-	VuVuMarkObservationTemplateInfo_vuVuMarkObservationGetTemplateInfo_m0034E2B0F8247A6487DE409BAF01022A2043121D,
-	VuVuMarkObservationTemplateInfo_Create_mCF299CADADBFB235A65EFAFAF8D85BECA3B48393,
-	VuVuMarkObservationInstanceInfo_vuVuMarkObservationGetInstanceInfo_m3CB7898258F4E304AA7ECD962BABFDC95D6FCB58,
-	VuVuMarkObservationInstanceInfo_Create_m194A3E29D91695A739826AD3DCE5D72D8D2A5500,
+	VuVuMarkObservationTemplateInfo_vuVuMarkObservationGetTemplateInfo_m779714873746E6E2DEB4BA45D8BB941F577C009D,
+	VuVuMarkObservationTemplateInfo_Create_m3DC7D152FCE30D4D9B744377D45B7E8D54B0DE10,
+	VuVuMarkObservationInstanceInfo_vuVuMarkObservationGetInstanceInfo_m7A419DD9304AE9C96A34D6405B5B5513F6B3FCCB,
+	VuVuMarkObservationInstanceInfo_Create_m03E1D38E5A4DB624DFA8D6C15EEA8D1024EA7901,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
-	VuVuMarkObservationInfo_vuVuMarkObservationGetInfo_m9CB839163023CF1072FAAB58D22474CD82145E26,
-	VuVuMarkObservationInfo_Create_m5F3C1CBD908DA1435906F581E0902DE19CDBFCF8,
-	VuMarkObservation_vuVuMarkObservationGetStatusInfo_m21E4CFC38E38AE1A2E2D175D10D7DCA3CB95E893,
-	VuMarkObservation_vuVuMarkObservationGetInstanceImage_m717FABD7323C8D3F378E1E6B17733D71B0456F6B,
+	VuVuMarkObservationInfo_vuVuMarkObservationGetInfo_mC4298C0C07C5666301A91C4E93A192275AA4B87F,
+	VuVuMarkObservationInfo_Create_m6FC50CF0C22746151B912767C0B1FD6560B59400,
+	VuMarkObservation_vuVuMarkObservationGetStatusInfo_m5BB41C7821792DF8055E8CA3DB07F560E2D3C794,
+	VuMarkObservation_vuVuMarkObservationGetInstanceImage_m0D82F8DE81BAE132FB4178C86721BE7B51B93EB9,
 	VuMarkObservation_get_StatusInfo_m41927F757A768AD98932D36158E762F28E1B518A,
 	VuMarkObservation_get_TemplateInfo_mEFBD7E781B40D4CB13A8931B583541DCFCB908B9,
 	VuMarkObservation_get_InstanceInfo_m2B9BD12C53802E5325376FD8EEDF63EC84C5F8C6,
@@ -4013,72 +4013,72 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NativeString_Clone_m182FB17E063FB51DE09B9A9E8B7E2FB11E032958,
 	VuVector2I__ctor_mC863BEC3CA75633C33F8C80C550BD5249976605D,
 	VuVector2I__ctor_m84CEFDEA432FEEC8B37FC46B725447DA1AE49F40,
-	VuVector2I_get_Zero_m5D2F9F5A9C5923CC7C3B59B95CA81FC0C2CC78E8,
-	VuVector2I_get_Identity_m41587F1822026EF0969DF4C37DB6E26BAE527E90,
-	VuVector2I_op_Equality_mB72424CD8291C03765E425304ACFD60BB6601B3B,
-	VuVector2I_op_Inequality_m6CDF83DCF38D1F401E05981C01EB9C0021407A3E,
+	VuVector2I_get_Zero_mEFF00A162B2C3D09B4692B1280704676A9EDA534,
+	VuVector2I_get_Identity_mDF704EAC224E3D1291620ED1C09815B7C017806B,
+	VuVector2I_op_Equality_mB1DC02576E9EFA987E52A0C530B6FE9F5C25F3A6,
+	VuVector2I_op_Inequality_m32168EF3A16FA1136E3E8BC120797EEEF3221108,
 	VuVector2I_Equals_mEB5893346E834E2DDE7CF37986257248EC5CE07A,
 	VuVector2I_GetHashCode_m0CE55E20A92E016C33D95D6BC9C2AC2404C9E4A6,
 	VuVector3I__ctor_m2FFD3F223C41E184FE5EBD415E94C12DDC7E210A,
 	VuVector3I__ctor_mE709F461BC5832B578C6FFA14EEB99BA312892F2,
-	VuVector3I_get_Zero_m74527758A012D8D88666C3BA36761B7A31401130,
-	VuVector3I_get_Identity_m45299E788D29F4800826DFCA11DB2C297C3BBE55,
-	VuVector3I_op_Equality_mFBE878C02BAC0F1FEEF616409B093EE49EAF1295,
-	VuVector3I_op_Inequality_m6328E11DEECA8C6E2082AD42A33066ADA3318563,
+	VuVector3I_get_Zero_m199601D548C9FE8F8D6E91FCE6B1F6C9210F5E30,
+	VuVector3I_get_Identity_m7AE5665013C24ABDE95518A2007C1F59071A7ADD,
+	VuVector3I_op_Equality_m67643066D332421A1ACBEBAA87ED4316F7084CDE,
+	VuVector3I_op_Inequality_m6E4AD85B58FB957563DED0D4A0C88510B38D16C1,
 	VuVector3I_Equals_m6603F5BF259F4AD737A46483A3B47F3FBEA9A193,
 	VuVector3I_GetHashCode_mFC0BF58445FE2FBF83F755695C2F0C9BFB347431,
 	VuVector4I__ctor_mB3949012EE3E276E3A96944EBB9D21C9F76E54D5,
 	VuVector4I__ctor_m1707D19E856D72F52225506E0D4A362203326449,
-	VuVector4I_get_Zero_m119E544AEFAAF9A53BC95462D8EC6F20A82A0675,
-	VuVector4I_get_Identity_mF0B2ECCE4DD43C6FE9AF2F7EF160B1CAF1132BA6,
-	VuVector4I_op_Equality_mE4FF63AAB81B6CFEF4F4B6A231700C600459C70E,
-	VuVector4I_op_Inequality_mDF8C8400D2E1295750B49371CC573DDE4C7F9B09,
+	VuVector4I_get_Zero_mA83A4DD40AA84E6B2A60AA42A7CB43D309087385,
+	VuVector4I_get_Identity_m019353824B1A874A3DA7E493EB068029158EEC2D,
+	VuVector4I_op_Equality_m8DCDDEE7ADFB2812C0ADB106B742995BF3587E29,
+	VuVector4I_op_Inequality_mC3941FABF7467399375AB9C9F2A681F97F087273,
 	VuVector4I_Equals_mB59E301B2EEA726B849BAF1A18CB8C9A18A69C8E,
 	VuVector4I_GetHashCode_m9BC992D28FB569AE237D4CFB1A569EC5A70480D6,
 	VuVector2F__ctor_mA50F69888B9CB7BEA0C729A98274D80D1046C66B,
 	VuVector2F__ctor_mD1920E1C1C392CD6738E0E1DF5C03D467431A1D9,
-	VuVector2F_get_Zero_mCD106EC58A33E43DEAEE3D770FEEFF861FED19C4,
-	VuVector2F_get_Identity_m0B05137534DB7CABE6ED21F7FB43F49C54CB64CA,
-	VuVector2F_op_Equality_m2AC42F9254656A4B9298BF56DA1AD1B6276A62AC,
-	VuVector2F_op_Inequality_m62A6B52B9222E6C4FF0DFF260A2FAD1AED5A440B,
+	VuVector2F_get_Zero_m49BE8AC3AAC73F476B61304E5DD589D220AF1BBD,
+	VuVector2F_get_Identity_m2E35F475F5CCC1C3E00F3D8D7AF8BD0053B0C2DC,
+	VuVector2F_op_Equality_m433BCFBF834C5244355933540A9E9E4F9CABFCE7,
+	VuVector2F_op_Inequality_mF13EEEEE788E22F5C0FFCBEC7F281E61A5ACE3AB,
 	VuVector2F_Equals_m3E4FFA3C29081BE998AE21649889CCAF9999C16C,
 	VuVector2F_GetHashCode_mD6DAE6C33E0B60BAF51069C2C329E7AAA1546C07,
 	VuVector3F__ctor_m6536390E25B53B7EE4F7FBC958E4A73935DED807,
 	VuVector3F__ctor_m38F164E71990B30C8C0C95FCF56ADEA1E9217E7C,
-	VuVector3F_get_Zero_m07B6C856CFD57564727066C5046EB913869473E0,
-	VuVector3F_get_Identity_m643C5F8F92AAA513AA87F695EF49AE8F0834659B,
-	VuVector3F_op_Equality_m6974DD05A879FCD7D7AA44ABAC2416E8A07904B5,
-	VuVector3F_op_Inequality_m5F24C0F7FC270D38DE737623D2FB4CD3868488E6,
+	VuVector3F_get_Zero_m7DAFEC204137C3F24E67536BABB7AFF2B0C7B268,
+	VuVector3F_get_Identity_m9AA699CA4E93B4C83304BBEBBF0F45CC89AEAB23,
+	VuVector3F_op_Equality_m463D4B24E8BB823AEA3D24DC11F7A9133FF778A2,
+	VuVector3F_op_Inequality_m1A03FDE34276ECF4A3B53DDF9354F48D1A27352C,
 	VuVector3F_Equals_mA6B642264A2FBA9B0EE45FE2DCA42A6A073AE8FC,
 	VuVector3F_GetHashCode_m67EAAFE8603FE61CE5A35D0FD538F3736A677889,
 	VuVector4F__ctor_m848782FE5D521A3F39CDA3752538515D425B201C,
 	VuVector4F__ctor_m3A07ACFD2E6BA1760B72C9686B19EC57BE63FBF7,
-	VuVector4F_get_Zero_m59CDAECE6059C7050587E9E5CB3783D11D00AEC5,
-	VuVector4F_get_Identity_mF9A47E1244022DCCE0A9D474B747369FFFDC9F66,
-	VuVector4F_op_Equality_m567D7A666C5ADB2871B4A4D02C87B09A72698841,
-	VuVector4F_op_Inequality_mEF0F7B1CFFB7702D1D02196212151559889E57D9,
+	VuVector4F_get_Zero_mD23C24248D411B8C6752BF2686F552B8DFA4B95C,
+	VuVector4F_get_Identity_m5517485D6A94124FC8C83EBD78D865C620D90114,
+	VuVector4F_op_Equality_m88BD231707C683777CB95B2C9ECF1861E65692D1,
+	VuVector4F_op_Inequality_mDC2FE2C1584189ED13A709582A5781E10B9AB974,
 	VuVector4F_Equals_m605536B1F3C5B1B78BDE6ACF258A1EB77213ADFB,
 	VuVector4F_GetHashCode_mC32724F2D652860F0ADFCDE6F4DE24F0BFA90F91,
 	VuVector8F__ctor_m2C54CAFDFF1078CBE63F4EA3FA01826F2E4B7AC4,
 	VuVector8F__ctor_mDF1F9CAC8810F3ACAA8A5953B403FC18CBF32C94,
-	VuVector8F_get_Zero_mCB2BB9208E8DF57470FA2B529F578341FA47F6FE,
-	VuVector8F_get_Identity_m8F94DDB9A33ADCD1963B0B5A35C28555144A5627,
-	VuVector8F_op_Equality_m96E1DC18E225438E936A24033F28F8669992D03D,
-	VuVector8F_op_Inequality_m39370F2D380CF59812CCFAE23A0CB7B5D07623AC,
+	VuVector8F_get_Zero_m32632535AECD45CB88B42F84AC10C999CF122FF8,
+	VuVector8F_get_Identity_m43923F9539F19A0CC30CB481696185CCEA685F11,
+	VuVector8F_op_Equality_m8224F7B01BCCD3F43D06A0F3D764DC7953D3FEC0,
+	VuVector8F_op_Inequality_mC08FE9F47F7767334820DEE4C03ABBB8B7275825,
 	VuVector8F_Equals_m0C3D97C81F6D16700488BB216F637AEA65B0025E,
 	VuVector8F_GetHashCode_m5885649ABF1F6DB86EADEBDC3B9D74E4BF1CC2D7,
 	VuMatrix33F__ctor_m25A039E83FFDFF3C12B07DD85C354BC29BB29EBB,
-	VuMatrix33F_get_Zero_m79DF198669ACE931D15016D2CD6BC91BC64360AF,
-	VuMatrix33F_get_Identity_m0DC5B8927D5EFE6CE7724A3FC92BE42B91B5E0DC,
-	VuMatrix33F_op_Equality_m88D2B9CA36523F8AC5C0DBF60FED76DBB5CB922F,
-	VuMatrix33F_op_Inequality_mA7BF5D962E62C8BC9247A2AF5637E6850EEC2C51,
+	VuMatrix33F_get_Zero_mCF39F024F8737B5E11F166C704E0F198445BFF97,
+	VuMatrix33F_get_Identity_m5D2493DBD5219E5031C0F8A09664E19B56D9B5A1,
+	VuMatrix33F_op_Equality_mF9CC962A8D9E43E944708669556B4C351347E59B,
+	VuMatrix33F_op_Inequality_m70711C6301A101EA46EEF20AA7AA815ED0DC8605,
 	VuMatrix33F_Equals_mDAA0FC6CAE06EB3975AB060D82627FD6A4FD3421,
 	VuMatrix33F_GetHashCode_m28A0F04A46A0B473F6F52343E060277B79085A14,
 	VuMatrix44F__ctor_m9EB36FF091105F033F834B59FE051465DF6FE61E,
-	VuMatrix44F_get_Zero_mDFE7457F1A836108B261278DB63A8EB14515E748,
-	VuMatrix44F_get_Identity_mC274BF6C8D7FBEE1CDA3CA222AC7B086EAB59F8F,
-	VuMatrix44F_op_Equality_m0242A2CA65A8A7953B7386FE145743E40EBB690E,
-	VuMatrix44F_op_Inequality_mF77CDDDE6757F3AD7A71BB17FA1C8DB6AEFA958E,
+	VuMatrix44F_get_Zero_m3A37541F82005ACDEA1A2CFD150F1937C5159D89,
+	VuMatrix44F_get_Identity_mC6761C455C18FE7A9B1AF026FC6D54B9D3C29627,
+	VuMatrix44F_op_Equality_mE0F278E2D96B76BB04B9E56520C7B5AA9DDE3C83,
+	VuMatrix44F_op_Inequality_mC5BDBF23C9818E1957573CC6EF4D3A6E24FB3317,
 	VuMatrix44F_Equals_m5FEA274551E330BE6DE3748ADA2FAE2C57EFAF16,
 	VuMatrix44F_GetHashCode_m2910C7834B562F0F6624E45B9EED2C57CDA933B7,
 	VuAABB__ctor_m21FBF1271283B64F79E38CB18F32032DDC48FA43,
@@ -4110,9 +4110,9 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	ValueAccessUtils_GetStringValue_m2BAAE1DC3B1B41D15DADC8AD489D85245A3E53A3,
+	ValueAccessUtils_GetStringValue_m58ABB08F1DB179681D518DD29000425DC07872CB,
 	NULL,
-	ValueAccessUtils_GetBoolValue_m15133468B5BDE58EB95EBF60681B69DEBE44ED54,
+	ValueAccessUtils_GetBoolValue_m898D997EB4E80F1EA994A65A3C74CD18B96BE7A2,
 	NULL,
 	NULL,
 	GetStringValueDelegate__ctor_mB8AACA1C472B2A76BE792D7EFF3AAABCA18FA880,
@@ -4149,23 +4149,23 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuValidationAreaLabel_vuValidationAreaLabelGetName_m2837156FC467F45306440E293AA17F89E4FEB7BB,
+	VuValidationAreaLabel_vuValidationAreaLabelGetName_m0EDD99B5C7E14ABBB1366E2FD9884F29863D7B9A,
 	VuValidationAreaLabel_get_Name_m615C3283FB09B6512C6F106D0868B6C650B8DF7A,
 	VuValidationAreaLabel_set_Name_m96D85B5687F984B0A26280B882434D1A82496D72,
-	VuValidationAreaLabel_Create_m45AB94E39B03E58EB66E454CC9D68B9DB9127EB9,
+	VuValidationAreaLabel_Create_m4AF34F9CF802F659A1032D77D2AADB6D17EFB668,
 	VuValidationAreaLabel__ctor_mDF175CCA8EB781D808A16F733F790DA58D9EECD9,
-	VuValidationAreaObserver_vuEngineCreateValidationAreaObserver_m4A06984DC8DADBFBC76B439A884A062C455E4133,
-	VuValidationAreaObserver_vuValidationAreaObserverGetUniqueId_mF0EBA16B941AC7D743807228BE85160969D1B683,
-	VuValidationAreaObserver_vuValidationAreaObserverGetAreaName_m36B002D9D216FC87A3AF16B4FE547147BA5FBC47,
-	VuValidationAreaObserver_vuValidationAreaObserverGetSize_m7FA877E2F42742A1252F20AEE260061985F854A4,
-	VuValidationAreaObserver_vuValidationAreaObserverGetPoseOffset_m75A1CA7C8A73C4A08267E279D8088686849928AE,
-	VuValidationAreaObserver_vuValidationAreaObserverIsClassifierTrained_m9BE07A8D54E7A79829AF848FBD8B0DBBB6F55AF7,
-	VuValidationAreaObserver_vuValidationAreaObserverGetAvailableLabels_mA728AAEA073A1320B098272DE1922B2C17DA32FC,
-	VuValidationAreaObserver_vuValidationAreaObserverGetRepresentativeImageInfos_m38A81DB06249E13093679128EC4BF8C89AED7CDC,
-	VuValidationAreaObserver_vuValidationAreaObserverSetAssociatedObserver_mB5EC573E6A19BCBE97A3BB27500BD412D2C07479,
-	VuValidationAreaObserver_vuValidationAreaObserverGetAssociatedObserver_m9C9D1F60ACE5924E220B9A25E7D89BDC3A177082,
-	VuValidationAreaObserver_vuValidationAreaObserverRemoveAssociatedObserver_m93FCF44E8A271F3FADC549B21B0EE20595860133,
-	VuValidationAreaObserver_vuObserverGetId_m0282C0E70918BC66FE65DB85C7670CA8084924B2,
+	VuValidationAreaObserver_vuEngineCreateValidationAreaObserver_m96D0163F1785554C54321409A4AEDE6537DC25A9,
+	VuValidationAreaObserver_vuValidationAreaObserverGetUniqueId_m45ECD2CB872B1F2D3FADF98FB350BDD9719AB97A,
+	VuValidationAreaObserver_vuValidationAreaObserverGetAreaName_m8C76473511DC19C7810D2BAEA904B10FBE77A231,
+	VuValidationAreaObserver_vuValidationAreaObserverGetSize_m1812812B123648A2141E5ACD12F5098DD31A65FA,
+	VuValidationAreaObserver_vuValidationAreaObserverGetPoseOffset_m123612F7CFB32FC7D85B243E82D9FFA248FFFAA1,
+	VuValidationAreaObserver_vuValidationAreaObserverIsClassifierTrained_mB1F2AF11374457458311992CCF09C550D3D5E423,
+	VuValidationAreaObserver_vuValidationAreaObserverGetAvailableLabels_m36E7FEAF609C598C9466BD0D26A084127F21786C,
+	VuValidationAreaObserver_vuValidationAreaObserverGetRepresentativeImageInfos_m2DA50EB7993F9C07D9783A506453C8CF05F95975,
+	VuValidationAreaObserver_vuValidationAreaObserverSetAssociatedObserver_m837C9CE8FECDCC79FBD022649776ABE47696637E,
+	VuValidationAreaObserver_vuValidationAreaObserverGetAssociatedObserver_m37463DE31A07F0224C8209B4F2C34C522E18A218,
+	VuValidationAreaObserver_vuValidationAreaObserverRemoveAssociatedObserver_m8BC53C1190FB27EE222FF1FF2D7ED8E053C28F77,
+	VuValidationAreaObserver_vuObserverGetId_mAA886DBBDD4F9F1B560EB9F52115369D93AFA720,
 	VuValidationAreaObserver_get_UniqueID_m3B6546157C1B7C0C8174C230D4B02A33196A542E,
 	VuValidationAreaObserver_get_AreaName_m68A1970B2C650FD881377FBF675900D06AA11F2B,
 	VuValidationAreaObserver_get_AreaSize_mD81E35F08B76D97C7DC4F19F1D60727E9466D671,
@@ -4173,31 +4173,31 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuValidationAreaObserver_get_IsClassifierTrained_m7D6A56C54CADD42AD922A605FF5923A4227DC246,
 	VuValidationAreaObserver_get_AvailableLabels_mBB56F67F301AC27E4AE54036713FBF785144C151,
 	VuValidationAreaObserver_get_RepresentativeImageInfos_m2532927D92534F0B5F2E0FB6689663FAE5F03911,
-	VuValidationAreaObserver_Create_mEC98ECF1275FBB740C518A671579C1BA4DFEA333,
+	VuValidationAreaObserver_Create_m1BC0A9B7C449685BB72551A2C351CC0C5B6C6A6A,
 	VuValidationAreaObserver__ctor_m2F0EDB3E5498EABE618AE98B647E22FD9527DCA3,
 	VuValidationAreaObserver_SetAssociatedObserver_m292FC0B4F30B05EE201D21AC9041B93AAD140BD5,
 	VuValidationAreaObserver_GetAssociatedObserver_mF5BAAE9329654D3E19DE18DEBC602D5003BD1B98,
 	VuValidationAreaObserver_RemoveAssociatedObserver_m80EC2A569AE0DD25115F95547989429156DE4D2C,
-	VuValidationAreaLabelList_vuValidationAreaLabelListCreate_m306944F72E8FAC0A12749A9AC1D125E0BDE6683A,
-	VuValidationAreaLabelList_vuValidationAreaLabelListGetSize_mEAE0D2D5D3C4E7A255C3D6F86ACDC520375FC4BE,
-	VuValidationAreaLabelList_vuValidationAreaLabelListGetElement_m259ECF478AD5F4EEA21A99D4DD705821BAA98F81,
-	VuValidationAreaLabelList_vuValidationAreaLabelListDestroy_m51C75C85CA9E63B0C145CAC2CD38692700B57CEB,
+	VuValidationAreaLabelList_vuValidationAreaLabelListCreate_mB47C37CF01FC37E2A8B9667C5E7C3ED939DA63B8,
+	VuValidationAreaLabelList_vuValidationAreaLabelListGetSize_m12BFFA7B8DB179FE444D53344328099F3BF1967E,
+	VuValidationAreaLabelList_vuValidationAreaLabelListGetElement_m06E9989F42BE2B29D602CC8348C522AEA6ADBA19,
+	VuValidationAreaLabelList_vuValidationAreaLabelListDestroy_mCEB8FD48E91E1A81BD5159C04EA077F15BF9A94E,
 	VuValidationAreaLabelList__ctor_m591EE27D3BA58E9EFF06A66DC6FABD505365769A,
 	VuValidationAreaLabelList_GetElement_m642C78C36391F864FDB12DF7720C542B06AF4B50,
-	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListCreate_mFD33265233A9A158095EE8F22B7D6F363B491AB4,
-	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetSize_m3AFEA9E4989923C7254DDC92E5CCFCFDCD32ADF7,
-	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetElement_mAA614FECED4382A278D1AB2A2788BB3C0CA04387,
-	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListDestroy_m5814C3E71E3830D8DA65D650BE25B506BE3AB03F,
+	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListCreate_mF2B845BB945964202DCFE4BFA03AA574EB1C9C9B,
+	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetSize_mE51E1B585D67E2AD5A439A90D5BCA8EBBAA5D058,
+	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetElement_mA32A5C2A4FF2ED1D0EA537DE357C9FDE5D2726F0,
+	VuRepresentativeImageInfoList_vuRepresentativeImageInfoListDestroy_mF8E618899CE2A93F3A8100F4FA1C33281B50D0D1,
 	VuRepresentativeImageInfoList__ctor_m0D661EB2A1815A0B276ED1B0C81C58A182034ADB,
 	VuRepresentativeImageInfoList_GetElement_m93A87468DE55B2E21CC5FB86B7BDC3C09F9039B3,
-	VuValidationAreaObservationTargetInfo_vuValidationAreaObservationGetTargetInfo_mBE2EFEAE5290FADAF10DCBCDFEFF10EA00D1F560,
-	VuValidationAreaObservationTargetInfo_Create_m10E8E4BBEC20676342577A3A705897ED37817FFE,
-	VuValidationAreaObservationValidationInfo_vuValidationAreaObservationGetValidationInfo_m732B842452593DA59181D4E5076E12418C71521D,
-	VuValidationAreaObservationValidationInfo_Create_mDE5BE368484A42166FE7E9965B1C02FC1AFDC35C,
+	VuValidationAreaObservationTargetInfo_vuValidationAreaObservationGetTargetInfo_m9196FEEE89EB63D0920E7E2BDCE414F983E536D3,
+	VuValidationAreaObservationTargetInfo_Create_m25A8A2E3C5490DE06473723AD74D8EB29BFA9353,
+	VuValidationAreaObservationValidationInfo_vuValidationAreaObservationGetValidationInfo_m757EDB809877CF04BC1515B7C70AC9DF2646E07E,
+	VuValidationAreaObservationValidationInfo_Create_m084A04452258A613798DFF436E1EC3D5ABBA09B9,
 	NULL,
 	NULL,
 	NULL,
-	VuValidationAreaObservation_vuValidationAreaObservationGetStatusInfo_m42305AE7328ADBF79A901A08A0EAFF72A6A488C6,
+	VuValidationAreaObservation_vuValidationAreaObservationGetStatusInfo_m3ACE3D2B94917FB93E4ECF8D58007ABDD6EAD810,
 	VuValidationAreaObservation_get_StatusInfo_m9255703BB2872425D5331EBDE86B7E1A66023C10,
 	VuValidationAreaObservation_get_TargetInfo_m57986FA1D0445D7786A9F7BFCB419E7312EC77F5,
 	VuValidationAreaObservation_get_ValidationInfo_mE2C824D9C815C6522F8026EDB5DBF56245BC68EE,
@@ -4205,12 +4205,12 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuValidationAreaObservation_UnregisterObservation_m640E03E90ECB8D6D40ED4B6094D5D7AF4505B574,
 	VuValidationAreaCaptureConfig_Clone_m8E9FBE2AA260B2C5462F2DD4FC1C3A26317D964F,
 	VuValidationAreaCaptureConfig__ctor_m99A67A8DFFB52D3A80A564551867047E53B32476,
-	Internal_Create_m86D464746F5D1808A83008C7C320A75A9ADE5D22,
+	Internal_Create_m400E61F1F49AAEC5948272620724FD48810F8605,
 	Internal_Clone_m2AB04196F6137F4D1F24B673E54B6C11973CA878,
 	NULL,
-	VuValidationAreaCaptureController_vuEngineGetValidationAreaCaptureController_mAA0858AE185307ACE49898B4F5CC6A8C90EC8BB8,
-	VuValidationAreaCaptureController_vuValidationAreaCaptureControllerCreateValidationAreaCapture_m9B0621AAB8E6B8C0D6C9A15E6529917FD4269A73,
-	VuValidationAreaCaptureController_Create_m6743EE20376EB477F5D688BF61E1508005C3871B,
+	VuValidationAreaCaptureController_vuEngineGetValidationAreaCaptureController_m37DCAF6C9C0DB24D92C018C32656EAF1CAD5A5D8,
+	VuValidationAreaCaptureController_vuValidationAreaCaptureControllerCreateValidationAreaCapture_m8CC0BE91C5645F59112F707CA0CF33575504563F,
+	VuValidationAreaCaptureController_Create_mB8D62DA04FDBCE66EDC3C37767219EE2DBA62AF4,
 	VuValidationAreaCaptureController__ctor_mD54D00B9EB014C11F2A83D2BF634D373855C3D94,
 	VuValidationAreaCaptureController_CreateValidationAreaCapture_m5A77CBCE1F983B468F4E72A6E2EE14E1C5B74C7A,
 	NULL,
@@ -4223,16 +4223,16 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuValidationAreaCapture_vuValidationAreaCaptureStart_m00218145BC0EC9F178A6A31C89F6EB1C588F263B,
-	VuValidationAreaCapture_vuValidationAreaCaptureStop_mC509E271F8B5D24B44273DEB8DED828C8CBC6F60,
-	VuValidationAreaCapture_vuValidationAreaCapturePause_m007D9DC31F0D681C443680B45CA52B4AA1DD5C06,
-	VuValidationAreaCapture_vuValidationAreaCaptureResume_m4599829F0D22580278D5E05AB3D2F3C954DE3F07,
-	VuValidationAreaCapture_vuValidationAreaCaptureGetCaptureDirectory_m309AFF46AEB3AF1D9DC3C50BD2420F2EE18140DA,
-	VuValidationAreaCapture_vuValidationAreaCaptureGetSessionId_mAE720A2789AF7BBE4C59A8F79AD86527B9C54F2E,
-	VuValidationAreaCapture_vuValidationAreaCaptureGetStatus_mA8B45DFA6E6EA907632DAC563453E486105A1A24,
-	VuValidationAreaCapture_vuValidationAreaCaptureGetStatusInfo_m0B16ABEBA8BCFFBAA1560AD77624F97BEF24C492,
-	VuValidationAreaCapture_vuValidationAreaCaptureGetProgress_mAF3FDBB6CD7082AFEC19575BF37A8D0D7AC5A091,
-	VuValidationAreaCapture_vuValidationAreaCaptureDestroy_m4D8D69164C42C0A527D746A35B6271E7E4BDFAEC,
+	VuValidationAreaCapture_vuValidationAreaCaptureStart_m46DFF6F78635A579F463A3AC3689F58817277F31,
+	VuValidationAreaCapture_vuValidationAreaCaptureStop_mB57D973F89E6873840DA24B3C9F44DF9B775CC91,
+	VuValidationAreaCapture_vuValidationAreaCapturePause_mECCEA24C62DA2C2C2F1DADD5625BA5D577C1FA90,
+	VuValidationAreaCapture_vuValidationAreaCaptureResume_m502B727A5700400391CF1C79A833ED98E82C7551,
+	VuValidationAreaCapture_vuValidationAreaCaptureGetCaptureDirectory_mB0F2C81DF14B1C45B9A7D21F5E3A97BAB5F2E20B,
+	VuValidationAreaCapture_vuValidationAreaCaptureGetSessionId_mC888D77870B0A4BC3994AAB87AEC9FEBDDAC16E8,
+	VuValidationAreaCapture_vuValidationAreaCaptureGetStatus_mFFC74F8044983E1574428CEE6858EE99BB895F1A,
+	VuValidationAreaCapture_vuValidationAreaCaptureGetStatusInfo_m2C1E174108BEFE843BD13540F6084624375BCCC1,
+	VuValidationAreaCapture_vuValidationAreaCaptureGetProgress_mE404AB1ECC1271268DC8C48F07284E59DF96AE94,
+	VuValidationAreaCapture_vuValidationAreaCaptureDestroy_m8D4F346974104B91616C5E82ED0C2E625BE66CA6,
 	VuValidationAreaCapture_get_NativeHandle_mD2E84261566E1D941CAF04B2E8C4B8344F481957,
 	VuValidationAreaCapture_get_Status_mCD23923010853AC506C192E2841767A529ADF066,
 	VuValidationAreaCapture_get_StatusInfo_m288B74C8665B37A52CB50312C8EA168A649087B7,
@@ -4248,9 +4248,9 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	VuValidationAreaCaptureUploadConfig_Clone_m56D24CBC584FFACE350E107BBFB8F9E6563509EA,
 	VuValidationAreaCaptureUploadConfig__ctor_m3149C1E4E1A422B198FB75B45793E001465041B6,
 	NULL,
-	VuUploadController_vuEngineGetUploadController_m61C02E969C19FBA1FCFBBFC8E1F403E70B9B184E,
-	VuUploadController_vuUploadControllerCreateValidationAreaCaptureUpload_m652E4EC452908E709FF93BC808993327B015628F,
-	VuUploadController_Create_m4E53E0FE0CB9D683C2B96BD7D2ED5FB3F9C897B2,
+	VuUploadController_vuEngineGetUploadController_m93D24D5274C2B3559AF4353D7F979A3E56948A01,
+	VuUploadController_vuUploadControllerCreateValidationAreaCaptureUpload_mDA96AC0034F852F6CBF8184FAD67DF11C57118C0,
+	VuUploadController_Create_m2F85A259302234C7A70B0CDF0A2AB400D82B367A,
 	VuUploadController__ctor_m853DE6D43CCFBBAD0298A6C49CF9E4DAA9CEA7CF,
 	VuUploadController_CreateValidationAreaCaptureUpload_mF4D400F6A9EA11D859A5F57E4E859B8C6A5500F9,
 	NULL,
@@ -4259,12 +4259,12 @@ static Il2CppMethodPointer s_methodPointers[1551] =
 	NULL,
 	NULL,
 	NULL,
-	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadStart_m1074010D8C5175B31339F862785DB84EE4B4E19E,
-	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadCancel_m18B985096AC301D7F6C49C2AC9DDA806F649DEC6,
-	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatus_mDC1C00534B0EB9A24DDAF7C5E4B928C26F005EAE,
-	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatusInfo_m40600801C8C4F0C04A69E58B2AE1FEE7BF5E9AD2,
-	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetProgress_m7A298A7D53D95377D4003862CEC131EFA9910BC8,
-	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadDestroy_m3E7C7FA6266E9A9AA645F4C9A2D88D88678D6BB9,
+	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadStart_m10CEAFA4133ABAB83189CE088FDEBAD29598FC59,
+	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadCancel_m2024881257A66A5424A5A4A6223BD01EF4C5D3A9,
+	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatus_m05507159F949BCCB6C845725F78BBB9ADA859AFA,
+	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatusInfo_mE8E916B69420AE11D987904CF01B6D652834F548,
+	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetProgress_m6C7CE1A21CB1603C9012A3A2E08652D467501243,
+	VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadDestroy_m4B99FEB19633E9CC85E4757C8B17719525BCF765,
 	VuValidationAreaCaptureUpload_get_NativeHandle_m458E7F769ADEC803C0D4BD9BA9048F73E0AE8691,
 	VuValidationAreaCaptureUpload_get_Status_mF1B59EBD85B4E02CF26FB6D5FDE9E5590AA9EB75,
 	VuValidationAreaCaptureUpload_get_StatusInfo_mEA8724DE257FC9FCA8035BE55E57238033E0B6F5,
@@ -4363,1216 +4363,494 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[42] =
 };
 static const int32_t s_InvokerIndices[1551] = 
 {
-	4949,
-	7323,
-	4855,
-	4949,
-	7324,
-	4855,
-	0,
-	6489,
-	5584,
-	7106,
-	2219,
-	1768,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6993,
-	6993,
-	6993,
-	6993,
-	5982,
-	6489,
-	6489,
-	6993,
-	6489,
-	6489,
-	6993,
-	4834,
-	4832,
-	4832,
-	4898,
-	4832,
-	3911,
-	4786,
-	4786,
-	4786,
-	4786,
-	1383,
-	4786,
-	4786,
-	4855,
-	4949,
-	7106,
-	4949,
-	6984,
-	6489,
-	5984,
-	6490,
-	6993,
-	4949,
-	3929,
-	4855,
-	4855,
-	7438,
-	0,
-	0,
-	5586,
-	6491,
-	4855,
-	4832,
-	6083,
-	2219,
-	6489,
-	7288,
-	0,
-	0,
-	6489,
-	4955,
-	4954,
-	4949,
-	4949,
-	5575,
-	5145,
-	6993,
-	6489,
-	6993,
-	5576,
-	5576,
-	5575,
-	5575,
-	6993,
-	6489,
-	5984,
-	6489,
-	6489,
-	6489,
-	5984,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	5576,
-	5575,
-	6489,
-	6489,
-	6993,
-	6489,
-	5984,
-	5576,
-	5575,
-	6489,
-	6993,
-	6489,
-	6489,
-	5987,
-	6489,
-	6993,
-	6489,
-	6993,
-	6489,
-	5984,
-	5984,
-	6490,
-	6489,
-	6489,
-	6489,
-	5987,
-	6489,
-	6993,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	4855,
-	4949,
-	7322,
-	4949,
-	3929,
-	0,
-	6489,
-	4834,
-	4965,
-	3911,
-	0,
-	0,
-	4834,
-	4832,
-	3500,
-	4949,
-	4949,
-	4949,
-	3862,
-	4855,
-	4009,
-	0,
-	0,
+	5169,
+	7570,
+	5064,
+	5169,
+	7571,
+	5064,
+	0,
+	6726,
+	5809,
+	7352,
+	2289,
+	1811,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	7238,
+	7238,
+	7238,
+	7238,
+	6212,
+	6726,
+	6726,
+	7238,
+	6726,
+	6726,
+	7238,
+	5042,
+	5040,
+	5040,
+	5108,
+	5040,
+	4078,
+	4991,
+	4991,
+	4991,
+	4991,
+	1421,
+	4991,
+	4991,
+	5064,
+	5169,
+	7352,
+	5169,
+	7229,
+	6726,
+	6214,
+	6727,
+	7238,
+	5169,
+	4097,
+	5064,
+	5064,
+	7687,
+	0,
+	0,
+	5811,
+	6728,
+	5064,
+	5040,
+	6313,
+	2289,
+	6726,
+	7535,
+	0,
+	0,
+	6726,
+	5175,
+	5174,
+	5169,
+	5169,
+	5800,
+	5368,
+	7238,
+	6726,
+	7238,
+	5801,
+	5801,
+	5800,
+	5800,
+	7238,
+	6726,
+	6214,
+	6726,
+	6726,
+	6726,
+	6214,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	5801,
+	5800,
+	6726,
+	6726,
+	7238,
+	6726,
+	6214,
+	5801,
+	5800,
+	6726,
+	7238,
+	6726,
+	6726,
+	6217,
+	6726,
+	7238,
+	6726,
+	7238,
+	6726,
+	6214,
+	6214,
+	6727,
+	6726,
+	6726,
+	6726,
+	6217,
+	6726,
+	7238,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	5064,
+	5169,
+	7569,
+	5169,
+	4097,
+	0,
+	6726,
+	5042,
+	5185,
+	4078,
+	0,
+	0,
+	5042,
+	5040,
+	3637,
+	5169,
+	5169,
+	5169,
+	4022,
+	5064,
+	4188,
+	0,
+	0,
 	0,
 	0,
 	0,
 	0,
-	5584,
-	5983,
-	5982,
-	5982,
-	6490,
-	6993,
-	6491,
-	4855,
-	6083,
-	2219,
-	2474,
-	2475,
-	2831,
-	4786,
-	3503,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	3502,
+	5809,
+	6213,
+	6212,
+	6212,
+	6727,
+	7238,
+	6728,
+	5064,
+	6313,
+	2289,
+	2550,
+	2551,
+	2928,
+	4991,
+	3640,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	3639,
 	0,
 	0,
-	6489,
-	7286,
-	6489,
-	4832,
-	4832,
-	4949,
-	4949,
-	4855,
-	4949,
-	7326,
-	4855,
-	4949,
-	7325,
+	6726,
+	7533,
+	6726,
+	5040,
+	5040,
+	5169,
+	5169,
+	5064,
+	5169,
+	7573,
+	5064,
+	5169,
+	7572,
 	0,
 	0,
 	0,
 	0,
-	0,
-	0,
-	0,
-	5584,
-	5584,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	5996,
-	5591,
-	4855,
-	4855,
-	4981,
-	4951,
-	4786,
-	6083,
-	6083,
-	2219,
-	1473,
-	986,
-	6489,
-	7287,
-	0,
-	0,
-	6489,
-	4832,
-	4953,
-	4949,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	6491,
-	6489,
-	6490,
-	6489,
-	6490,
-	6489,
-	6490,
-	6489,
-	6490,
-	5984,
-	5984,
-	6489,
-	6494,
-	6489,
-	6494,
-	6489,
-	6489,
-	6491,
-	6490,
-	6490,
-	6491,
-	5588,
-	5993,
-	5989,
-	5991,
-	5989,
-	5994,
-	5989,
-	5990,
-	5989,
-	5992,
-	4832,
-	4832,
-	4786,
-	4786,
-	4786,
-	4832,
-	4855,
-	7106,
-	2219,
-	2831,
-	2831,
-	2788,
-	2831,
-	2831,
-	4710,
-	2946,
-	4710,
-	2946,
-	4855,
-	4711,
-	2831,
-	2831,
-	2831,
-	4855,
-	1383,
-	1390,
-	1383,
-	1388,
-	1383,
-	1392,
-	1383,
-	1384,
-	1383,
-	1389,
-	4949,
-	2947,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	2219,
-	6896,
-	6896,
-	6987,
-	4855,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5586,
-	6489,
-	6489,
-	6493,
-	6489,
-	6493,
-	6489,
-	6493,
-	6489,
-	6489,
-	6490,
-	6489,
-	4855,
-	4855,
-	4898,
-	4898,
-	4898,
-	4951,
-	4832,
-	6083,
-	2219,
-	2889,
-	2889,
-	2889,
-	2831,
-	6489,
-	7290,
-	0,
-	0,
-	6489,
-	4832,
-	4960,
-	4949,
-	4949,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	4142,
-	4855,
-	4949,
-	0,
-	0,
-	5586,
-	6490,
-	6489,
-	6083,
-	4786,
-	2219,
-	2788,
-	0,
-	6489,
-	4832,
-	4949,
-	4949,
-	7412,
-	4855,
-	4949,
-	2219,
-	2042,
-	720,
-	3929,
-	4855,
-	4949,
-	4855,
-	4949,
-	4855,
-	2853,
-	2853,
-	4832,
-	4949,
-	4855,
-	4949,
-	4855,
-	4949,
-	4855,
-	4949,
-	4949,
-	4855,
-	4855,
-	2853,
-	2853,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6984,
-	6993,
-	6489,
-	6492,
-	6492,
-	6492,
-	6492,
-	6492,
-	6492,
-	6492,
-	6489,
-	6492,
-	4834,
-	4832,
-	4855,
-	7412,
-	3911,
-	4949,
-	4949,
-	3862,
-	2853,
-	2853,
-	2853,
-	2853,
-	2853,
-	2853,
-	2853,
-	2853,
-	2853,
-	3929,
-	0,
-	7293,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5970,
-	6993,
-	6993,
-	6993,
-	6993,
-	6489,
-	6993,
-	7452,
-	5589,
-	6490,
-	6489,
-	6490,
-	6489,
-	6993,
-	6984,
-	4834,
-	7439,
-	4786,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4832,
-	4786,
-	6557,
-	3911,
-	4949,
-	4949,
-	3862,
-	4786,
-	4786,
-	4855,
-	3929,
-	3929,
-	0,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	1768,
-	3500,
-	3929,
-	3929,
-	4786,
-	1768,
-	2831,
-	2788,
-	4786,
-	7405,
-	0,
-	0,
-	0,
-	0,
-	4855,
-	4949,
-	5586,
-	6083,
-	2219,
-	6489,
-	7291,
-	0,
-	4962,
-	4949,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	6489,
-	6993,
-	4963,
-	4832,
-	4832,
-	4832,
-	2197,
-	3929,
-	4949,
-	4949,
-	3862,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	4855,
-	4949,
-	4855,
-	4949,
-	4855,
-	4949,
-	4855,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5586,
-	5586,
-	5586,
-	5584,
-	6489,
-	6489,
-	6493,
-	6489,
-	6489,
-	6490,
-	6489,
-	4855,
-	4855,
-	4980,
-	4951,
-	4832,
-	6083,
-	6083,
-	6083,
-	6083,
-	2219,
-	2889,
-	2831,
-	6489,
-	7292,
-	0,
-	0,
-	6489,
-	4832,
-	4964,
-	4949,
-	4949,
-	4855,
-	4949,
-	2219,
-	2221,
-	750,
-	3929,
-	2219,
-	2059,
-	721,
-	3929,
-	0,
-	0,
-	5586,
-	5590,
-	6993,
-	4786,
-	5737,
-	1237,
-	6719,
-	6709,
-	3862,
-	958,
-	2219,
-	2199,
-	725,
-	3929,
-	2219,
-	2042,
-	720,
-	3929,
-	6489,
-	7289,
-	0,
-	4959,
-	4949,
-	4949,
-	7442,
-	7442,
-	7444,
-	7444,
-	7446,
-	7446,
-	7448,
-	7448,
-	7440,
-	7440,
-	7441,
-	7441,
-	7442,
-	7442,
-	7444,
-	7444,
-	7446,
-	7446,
-	7448,
-	7448,
-	7440,
-	7440,
-	7441,
-	7441,
-	4855,
-	4949,
-	7327,
-	4855,
-	4949,
-	7328,
-	4855,
-	4949,
-	7329,
-	5584,
-	5584,
-	5584,
-	6491,
-	2219,
-	6083,
-	6083,
-	6083,
-	4967,
-	6489,
-	5984,
-	3911,
-	6489,
-	7297,
-	0,
-	0,
-	6489,
-	4832,
-	4968,
-	4949,
-	4949,
-	4855,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5586,
-	6489,
-	6489,
-	6493,
-	6489,
-	6491,
-	6490,
-	6489,
-	6489,
-	6491,
-	6489,
-	6491,
-	6491,
-	6489,
-	6993,
-	6993,
-	4855,
-	4855,
-	4981,
-	4951,
-	4832,
-	4855,
-	4855,
-	4855,
-	4855,
-	4786,
-	4786,
-	6083,
-	2219,
-	3862,
-	2889,
-	2831,
-	2853,
-	2853,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	4834,
-	4855,
-	4855,
-	4965,
-	4855,
-	4786,
-	7105,
-	3911,
-	4949,
-	4949,
-	3862,
-	2949,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	3502,
-	0,
-	6489,
-	4855,
-	7105,
-	3911,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	3502,
-	6489,
-	7299,
-	6489,
-	7298,
-	0,
-	0,
-	0,
-	6489,
-	4832,
-	4970,
-	4969,
-	4949,
-	4949,
-	3929,
-	4855,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5586,
-	6489,
-	6489,
-	6489,
-	6489,
-	6490,
-	6489,
-	4855,
-	4855,
-	4981,
-	4951,
-	4832,
-	6083,
-	2219,
-	2831,
-	6489,
-	7300,
-	0,
-	0,
-	6489,
-	4832,
-	4971,
-	4949,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4949,
-	4949,
-	3502,
-	3929,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	7438,
-	4949,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	4855,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6993,
-	6489,
-	6993,
-	6993,
-	6993,
-	6993,
-	4834,
-	4832,
-	4832,
-	4786,
-	2219,
-	4949,
-	4949,
-	3862,
-	4786,
-	4786,
-	0,
-	0,
-	0,
-	6489,
-	6993,
-	4834,
-	4832,
-	4832,
-	6993,
-	4949,
-	3911,
-	4949,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	4972,
-	4949,
-	4949,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	3911,
-	0,
-	0,
-	0,
-	6490,
-	6489,
-	6489,
-	6489,
-	4832,
-	4712,
-	7106,
-	2219,
-	2831,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6490,
-	6489,
-	5986,
-	5995,
-	5982,
-	4974,
-	4984,
-	4855,
-	7106,
-	2219,
-	2952,
-	2853,
-	2831,
-	4855,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	5587,
-	6491,
-	6490,
-	6993,
-	4832,
-	4832,
-	4832,
-	4832,
-	7106,
-	2219,
-	1768,
-	4855,
-	2788,
-	4786,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	6993,
-	6489,
-	6489,
-	6489,
-	6490,
-	4855,
-	4832,
-	4832,
-	3911,
-	4832,
-	4786,
-	2788,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	3502,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5854,
-	7304,
-	4980,
-	4033,
-	4980,
-	4033,
-	4980,
-	4033,
-	4832,
-	3909,
-	4983,
-	4034,
-	4108,
-	2325,
-	4980,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	4982,
-	4965,
-	4966,
-	4965,
-	4965,
-	3929,
-	0,
-	0,
-	0,
-	6489,
-	6489,
-	6491,
-	4834,
-	4833,
-	4833,
-	4855,
-	2219,
-	4949,
-	4949,
-	3862,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6993,
-	6491,
-	6491,
-	6489,
-	6489,
-	6993,
-	4855,
-	4834,
-	4855,
-	4786,
-	4855,
-	4855,
-	4855,
-	1237,
-	4949,
-	4949,
-	3862,
-	4855,
-	4949,
-	7331,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5584,
-	6489,
-	6490,
-	6489,
-	6489,
-	6489,
-	4832,
-	4973,
-	4834,
-	6083,
-	2219,
-	2831,
+	0,
+	0,
+	0,
+	5809,
+	5809,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6226,
+	5816,
+	5064,
+	5064,
+	5201,
+	5171,
+	4991,
+	6313,
+	6313,
+	2289,
+	1511,
+	1013,
+	6726,
+	7534,
+	0,
+	0,
+	6726,
+	5040,
+	5173,
+	5169,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	6728,
+	6726,
+	6727,
+	6726,
+	6727,
+	6726,
+	6727,
+	6726,
+	6727,
+	6214,
+	6214,
+	6726,
+	6731,
+	6726,
+	6731,
+	6726,
+	6726,
+	6728,
+	6727,
+	6727,
+	6728,
+	5813,
+	6223,
+	6219,
+	6221,
+	6219,
+	6224,
+	6219,
+	6220,
+	6219,
+	6222,
+	5040,
+	5040,
+	4991,
+	4991,
+	4991,
+	5040,
+	5064,
+	7352,
+	2289,
+	2928,
+	2928,
+	2885,
+	2928,
+	2928,
+	4907,
+	3053,
+	4907,
+	3053,
+	5064,
+	4908,
+	2928,
+	2928,
+	2928,
+	5064,
+	1421,
+	1428,
+	1421,
+	1426,
+	1421,
+	1430,
+	1421,
+	1422,
+	1421,
+	1427,
+	5169,
+	3054,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	2289,
+	7141,
+	7141,
+	7232,
+	5064,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5811,
+	6726,
+	6726,
+	6730,
+	6726,
+	6730,
+	6726,
+	6730,
+	6726,
+	6726,
+	6727,
+	6726,
+	5064,
+	5064,
+	5108,
+	5108,
+	5108,
+	5171,
+	5040,
+	6313,
+	2289,
+	2988,
+	2988,
+	2988,
+	2928,
+	6726,
+	7537,
+	0,
+	0,
+	6726,
+	5040,
+	5180,
+	5169,
+	5169,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	4324,
+	5064,
+	5169,
+	0,
+	0,
+	5811,
+	6727,
+	6726,
+	6313,
+	4991,
+	2289,
+	2885,
+	0,
+	6726,
+	5040,
+	5169,
+	5169,
+	7659,
+	5064,
+	5169,
+	2289,
+	2100,
+	736,
+	4097,
+	5064,
+	5169,
+	5064,
+	5169,
+	5064,
 	2951,
-	6489,
-	7309,
-	0,
-	4985,
-	4949,
-	4949,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	2951,
+	5040,
+	5169,
+	5064,
+	5169,
+	5064,
+	5169,
+	5064,
+	5169,
+	5169,
+	5064,
+	5064,
+	2951,
+	2951,
+	5169,
 	0,
 	0,
 	0,
 	0,
 	0,
+	7229,
+	7238,
+	6726,
+	6729,
+	6729,
+	6729,
+	6729,
+	6729,
+	6729,
+	6729,
+	6726,
+	6729,
+	5042,
+	5040,
+	5064,
+	7659,
+	4078,
+	5169,
+	5169,
+	4022,
+	2951,
+	2951,
+	2951,
+	2951,
+	2951,
+	2951,
+	2951,
+	2951,
+	2951,
+	4097,
+	0,
+	7540,
 	0,
 	0,
 	0,
@@ -5586,8 +4864,6 @@ static const int32_t s_InvokerIndices[1551] =
 	0,
 	0,
 	0,
-	4855,
-	4949,
 	0,
 	0,
 	0,
@@ -5599,144 +4875,406 @@ static const int32_t s_InvokerIndices[1551] =
 	0,
 	0,
 	0,
-	5586,
-	6489,
-	6489,
-	6493,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6490,
-	6490,
-	6489,
-	4855,
-	4855,
-	4980,
-	4951,
-	4855,
-	4980,
-	4786,
-	4832,
-	6083,
-	2219,
-	2889,
-	2788,
-	2831,
-	6489,
-	7312,
-	6489,
-	7311,
 	0,
 	0,
 	0,
 	0,
 	0,
-	6489,
-	7310,
-	6489,
-	6489,
-	4832,
-	4988,
-	4987,
-	4855,
-	4832,
-	4949,
-	4949,
-	4834,
-	3911,
-	4949,
-	4949,
-	3862,
 	0,
-	3929,
-	4855,
-	2040,
-	3929,
-	7443,
-	7443,
-	6427,
-	6427,
-	2853,
-	4832,
-	1172,
-	3929,
-	7445,
-	7445,
-	6429,
-	6429,
-	2853,
-	4832,
-	806,
-	3929,
-	7447,
-	7447,
-	6431,
-	6431,
-	2853,
-	4832,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6200,
+	7238,
+	7238,
+	7238,
+	7238,
+	6726,
+	7238,
+	7701,
+	5814,
+	6727,
+	6726,
+	6727,
+	6726,
+	7238,
+	7229,
+	5042,
+	7688,
+	4991,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5040,
+	4991,
+	6794,
+	4078,
+	5169,
+	5169,
+	4022,
+	4991,
+	4991,
+	5064,
+	4097,
+	4097,
+	0,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	1811,
+	3637,
+	4097,
+	4097,
+	4991,
+	1811,
+	2928,
+	2885,
+	4991,
+	7652,
+	0,
+	0,
+	0,
+	0,
+	5064,
+	5169,
+	5811,
+	6313,
+	2289,
+	6726,
+	7538,
+	0,
+	5182,
+	5169,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	6726,
+	7238,
+	5183,
+	5040,
+	5040,
+	5040,
 	2267,
-	3929,
-	7442,
-	7442,
-	6426,
-	6426,
-	2853,
-	4832,
-	1262,
-	3929,
-	7444,
-	7444,
-	6428,
-	6428,
-	2853,
-	4832,
-	897,
-	3929,
-	7446,
-	7446,
-	6430,
-	6430,
-	2853,
-	4832,
-	98,
-	3929,
-	7448,
-	7448,
-	6432,
-	6432,
-	2853,
-	4832,
-	3929,
-	7440,
-	7440,
-	6424,
-	6424,
-	2853,
-	4832,
-	3929,
-	7441,
-	7441,
-	6425,
-	6425,
-	2853,
-	4832,
-	2297,
+	4097,
+	5169,
+	5169,
+	4022,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	5064,
+	5169,
+	5064,
+	5169,
+	5064,
+	5169,
+	5064,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5811,
+	5811,
+	5811,
+	5809,
+	6726,
+	6726,
+	6730,
+	6726,
+	6726,
+	6727,
+	6726,
+	5064,
+	5064,
+	5200,
+	5171,
+	5040,
+	6313,
+	6313,
+	6313,
+	6313,
+	2289,
+	2988,
+	2928,
+	6726,
+	7539,
+	0,
+	0,
+	6726,
+	5040,
+	5184,
+	5169,
+	5169,
+	5064,
+	5169,
+	2289,
+	2291,
+	766,
+	4097,
+	2289,
+	2118,
+	737,
+	4097,
+	0,
+	0,
+	5811,
+	5815,
+	7238,
+	4991,
+	5965,
+	1271,
+	6960,
+	6950,
+	4022,
+	985,
+	2289,
+	2269,
+	741,
+	4097,
+	2289,
+	2100,
+	736,
+	4097,
+	6726,
+	7536,
+	0,
+	5179,
+	5169,
+	5169,
+	7691,
+	7691,
+	7693,
+	7693,
+	7695,
+	7695,
+	7697,
+	7697,
+	7689,
+	7689,
+	7690,
+	7690,
+	7691,
+	7691,
+	7693,
+	7693,
+	7695,
+	7695,
+	7697,
+	7697,
+	7689,
+	7689,
+	7690,
+	7690,
+	5064,
+	5169,
+	7574,
+	5064,
+	5169,
+	7575,
+	5064,
+	5169,
+	7576,
+	5809,
+	5809,
+	5809,
+	6728,
+	2289,
+	6313,
+	6313,
+	6313,
+	5187,
+	6726,
+	6214,
+	4078,
+	6726,
+	7544,
+	0,
+	0,
+	6726,
+	5040,
+	5188,
+	5169,
+	5169,
+	5064,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5811,
+	6726,
+	6726,
+	6730,
+	6726,
+	6728,
+	6727,
+	6726,
+	6726,
+	6728,
+	6726,
+	6728,
+	6728,
+	6726,
+	7238,
+	7238,
+	5064,
+	5064,
+	5201,
+	5171,
+	5040,
+	5064,
+	5064,
+	5064,
+	5064,
+	4991,
+	4991,
+	6313,
+	2289,
+	4022,
+	2988,
+	2928,
+	2951,
+	2951,
+	0,
+	0,
+	0,
+	0,
 	0,
 	0,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	5042,
+	5064,
+	5064,
+	5185,
+	5064,
+	4991,
+	7351,
+	4078,
+	5169,
+	5169,
+	4022,
+	3056,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	3639,
 	0,
+	6726,
+	5064,
+	7351,
+	4078,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	3639,
+	6726,
+	7546,
+	6726,
+	7545,
 	0,
 	0,
 	0,
+	6726,
+	5040,
+	5190,
+	5189,
+	5169,
+	5169,
+	4097,
+	5064,
+	5169,
 	0,
 	0,
 	0,
 	0,
 	0,
 	0,
+	5811,
+	6726,
+	6726,
+	6726,
+	6726,
+	6727,
+	6726,
+	5064,
+	5064,
+	5201,
+	5171,
+	5040,
+	6313,
+	2289,
+	2928,
+	6726,
+	7547,
 	0,
 	0,
+	6726,
+	5040,
+	5191,
+	5169,
+	5169,
 	0,
 	0,
 	0,
@@ -5751,174 +5289,636 @@ static const int32_t s_InvokerIndices[1551] =
 	0,
 	0,
 	0,
-	6555,
 	0,
-	6363,
 	0,
 	0,
-	2219,
-	1598,
-	722,
-	1562,
+	5169,
+	5169,
+	3639,
+	4097,
 	0,
 	0,
 	0,
 	0,
-	2219,
-	1598,
-	722,
-	1562,
 	0,
 	0,
 	0,
 	0,
+	7687,
+	5169,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
+	5064,
 	0,
 	0,
 	0,
 	0,
-	4855,
-	4949,
-	0,
-	4110,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6489,
-	4855,
-	3929,
-	7105,
-	3911,
-	5586,
-	6489,
-	6489,
-	6489,
-	6489,
-	6993,
-	6491,
-	6491,
-	6491,
-	6489,
-	6993,
-	6993,
-	4855,
-	4855,
-	4981,
-	4965,
-	4786,
-	4855,
-	4855,
-	6083,
-	2219,
-	2853,
-	4855,
-	4786,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	3502,
-	6984,
-	6489,
-	5984,
-	6993,
-	4949,
-	4168,
-	6489,
-	7302,
-	6489,
-	7303,
-	0,
-	0,
-	0,
-	6489,
-	4832,
-	4978,
-	4979,
-	4949,
-	4949,
-	4855,
-	4949,
-	7330,
-	4855,
-	0,
-	6489,
-	5584,
-	7106,
-	2219,
-	1768,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6993,
-	5986,
-	6993,
-	6993,
-	6489,
-	6489,
-	6489,
-	6489,
-	6489,
-	6490,
-	4834,
-	4832,
-	4832,
-	4976,
-	4855,
-	4855,
-	3911,
-	4786,
-	2853,
-	4786,
-	4786,
-	2788,
-	4855,
-	4949,
-	0,
-	6489,
-	5587,
-	7106,
-	2219,
-	1768,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6993,
-	6993,
-	6489,
-	6489,
-	6489,
-	6993,
-	4834,
-	4832,
-	4832,
-	4977,
-	3911,
-	4786,
-	4786,
-	4786,
+	0,
+	7238,
+	6726,
+	7238,
+	7238,
+	7238,
+	7238,
+	5042,
+	5040,
+	5040,
+	4991,
+	2289,
+	5169,
+	5169,
+	4022,
+	4991,
+	4991,
+	0,
+	0,
+	0,
+	6726,
+	7238,
+	5042,
+	5040,
+	5040,
+	7238,
+	5169,
+	4078,
+	5169,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	5192,
+	5169,
+	5169,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	4078,
+	0,
+	0,
+	0,
+	6727,
+	6726,
+	6726,
+	6726,
+	5040,
+	4909,
+	7352,
+	2289,
+	2928,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6727,
+	6726,
+	6216,
+	6225,
+	6212,
+	5194,
+	5204,
+	5064,
+	7352,
+	2289,
+	3059,
+	2951,
+	2928,
+	5064,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	5812,
+	6728,
+	6727,
+	7238,
+	5040,
+	5040,
+	5040,
+	5040,
+	7352,
+	2289,
+	1811,
+	5064,
+	2885,
+	4991,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	7238,
+	6726,
+	6726,
+	6726,
+	6727,
+	5064,
+	5040,
+	5040,
+	4078,
+	5040,
+	4991,
+	2885,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	3639,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6081,
+	7551,
+	5200,
+	4212,
+	5200,
+	4212,
+	5200,
+	4212,
+	5040,
+	4076,
+	5203,
+	4213,
+	4290,
+	2397,
+	5200,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	5202,
+	5185,
+	5186,
+	5185,
+	5185,
+	4097,
+	0,
+	0,
+	0,
+	6726,
+	6726,
+	6728,
+	5042,
+	5041,
+	5041,
+	5064,
+	2289,
+	5169,
+	5169,
+	4022,
+	0,
+	0,
+	0,
+	0,
+	0,
+	7238,
+	6728,
+	6728,
+	6726,
+	6726,
+	7238,
+	5064,
+	5042,
+	5064,
+	4991,
+	5064,
+	5064,
+	5064,
+	1271,
+	5169,
+	5169,
+	4022,
+	5064,
+	5169,
+	7578,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5809,
+	6726,
+	6727,
+	6726,
+	6726,
+	6726,
+	5040,
+	5193,
+	5042,
+	6313,
+	2289,
+	2928,
+	3058,
+	6726,
+	7556,
+	0,
+	5205,
+	5169,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5064,
+	5169,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5811,
+	6726,
+	6726,
+	6730,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6727,
+	6727,
+	6726,
+	5064,
+	5064,
+	5200,
+	5171,
+	5064,
+	5200,
+	4991,
+	5040,
+	6313,
+	2289,
+	2988,
+	2885,
+	2928,
+	6726,
+	7559,
+	6726,
+	7558,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	7557,
+	6726,
+	6726,
+	5040,
+	5208,
+	5207,
+	5064,
+	5040,
+	5169,
+	5169,
+	5042,
+	4078,
+	5169,
+	5169,
+	4022,
+	0,
+	4097,
+	5064,
+	2098,
+	4097,
+	7692,
+	7692,
+	6662,
+	6662,
+	2951,
+	5040,
+	1206,
+	4097,
+	7694,
+	7694,
+	6664,
+	6664,
+	2951,
+	5040,
+	825,
+	4097,
+	7696,
+	7696,
+	6666,
+	6666,
+	2951,
+	5040,
+	2337,
+	4097,
+	7691,
+	7691,
+	6661,
+	6661,
+	2951,
+	5040,
+	1297,
+	4097,
+	7693,
+	7693,
+	6663,
+	6663,
+	2951,
+	5040,
+	920,
+	4097,
+	7695,
+	7695,
+	6665,
+	6665,
+	2951,
+	5040,
+	102,
+	4097,
+	7697,
+	7697,
+	6667,
+	6667,
+	2951,
+	5040,
+	4097,
+	7689,
+	7689,
+	6659,
+	6659,
+	2951,
+	5040,
+	4097,
+	7690,
+	7690,
+	6660,
+	6660,
+	2951,
+	5040,
+	2369,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6792,
+	0,
+	6597,
+	0,
+	0,
+	2289,
+	1638,
+	738,
+	1602,
+	0,
+	0,
+	0,
+	0,
+	2289,
+	1638,
+	738,
+	1602,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5064,
+	5169,
+	0,
+	4292,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6726,
+	5064,
+	4097,
+	7351,
+	4078,
+	5811,
+	6726,
+	6726,
+	6726,
+	6726,
+	7238,
+	6728,
+	6728,
+	6728,
+	6726,
+	7238,
+	7238,
+	5064,
+	5064,
+	5201,
+	5185,
+	4991,
+	5064,
+	5064,
+	6313,
+	2289,
+	2951,
+	5064,
+	4991,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	3639,
+	7229,
+	6726,
+	6214,
+	7238,
+	5169,
+	4350,
+	6726,
+	7549,
+	6726,
+	7550,
+	0,
+	0,
+	0,
+	6726,
+	5040,
+	5198,
+	5199,
+	5169,
+	5169,
+	5064,
+	5169,
+	7577,
+	5064,
+	0,
+	6726,
+	5809,
+	7352,
+	2289,
+	1811,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	7238,
+	6216,
+	7238,
+	7238,
+	6726,
+	6726,
+	6726,
+	6726,
+	6726,
+	6727,
+	5042,
+	5040,
+	5040,
+	5196,
+	5064,
+	5064,
+	4078,
+	4991,
+	2951,
+	4991,
+	4991,
+	2885,
+	5064,
+	5169,
+	0,
+	6726,
+	5812,
+	7352,
+	2289,
+	1811,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	7238,
+	7238,
+	6726,
+	6726,
+	6726,
+	7238,
+	5042,
+	5040,
+	5040,
+	5197,
+	4078,
+	4991,
+	4991,
+	4991,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[2] = 
 {
-	{ 0x060002BF, 14,  (void**)&VuCloudImageTargetObserver_HandleObservations_mFF4D5D104658E28566F34729D345C85F0E3BE84A_RuntimeMethod_var, 0 },
-	{ 0x060002C0, 15,  (void**)&VuCloudImageTargetObserver_HandleQueryError_m457E52E7A90C36D4BFA825AFBEDE5C48034B84FD_RuntimeMethod_var, 0 },
+	{ 0x060002BF, 14,  (void**)&VuCloudImageTargetObserver_HandleObservations_mE49F9F40FAB47D37ACD176A9CD7BFA30BC5B8BE3_RuntimeMethod_var, 0 },
+	{ 0x060002C0, 15,  (void**)&VuCloudImageTargetObserver_HandleQueryError_mA370AEF5C4D3505500F7360C18520C88E6F74B47_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[15] = 
 {
@@ -5984,7 +5984,7 @@ extern const uint32_t g_rgctx_U3CU3Ec__ctor_mB020E25C8E4A55ADAB59465B5C1E4FD467A
 extern const uint32_t g_rgctx_U3CU3Ec_t2ABE404EC872F2C2CED1966B3160F3375F5437CD;
 extern const uint32_t g_rgctx_T_t9610CED84449F30C559F62BB8C8907D35C11E0E9;
 extern const uint32_t g_rgctx_Nullable_1_get_HasValue_mE0FAEEE2429B7F450CB682A0D529F9B6631FC406;
-extern const uint32_t g_rgctx_ValueAccessUtils_GetEnumValue_TisT_t91303CE403257ED150BB36FA98C04A50FAD6CF1E_m7588B61438FF755ACD2BF7CE9BCA19ACE02A2A46;
+extern const uint32_t g_rgctx_ValueAccessUtils_GetEnumValue_TisT_t91303CE403257ED150BB36FA98C04A50FAD6CF1E_mF4E08FCBA1919BF1FEAE7CF951864F3C88B0571B;
 extern const uint32_t g_rgctx_Nullable_1_t5EA1E2392D6D0A3ADC66C4B7DBD89EA5ED8635CF;
 extern const uint32_t g_rgctx_Nullable_1__ctor_mEE258700F2B84B513FFFCDB9A539635714F16441;
 extern const uint32_t g_rgctx_Nullable_1_get_Value_m8D0AC20731E498CB34DB79C502BE76B3D0E9A708;
@@ -6006,8 +6006,8 @@ extern const uint32_t g_rgctx_CreateSetDelegate_Invoke_m3E3088FC7BAC26237F1A0CBB
 extern const uint32_t g_rgctx_VuGenericSet_1_Dispose_m556ED479DD4716C6811A0CF63FC82874ACC91C78;
 extern const uint32_t g_rgctx_DeleteSetDelegate_t4FEDC36BAA9B223DA26A9D8DFBF363BE6DE939E7;
 extern const uint32_t g_rgctx_DeleteSetDelegate_Invoke_m2FBE0AEDE1BCE0C5C426A85252CFC35CA5088DE4;
-extern const uint32_t g_rgctx_Marshal_SizeOf_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_mE6B68F6BA6523C4C012EB94FBFFE403F58E07F3B;
-extern const uint32_t g_rgctx_Marshal_StructureToPtr_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_mB55FB97E82160B572A43F70A217AC47E3127BF4B;
+extern const uint32_t g_rgctx_Marshal_SizeOf_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_m5B585F7B445170E892EBF1B409FFD57BEFB65EFE;
+extern const uint32_t g_rgctx_Marshal_StructureToPtr_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_m5C935A59F027A64D254BE5C3D6E2F38F46E73D77;
 extern const uint32_t g_rgctx_GetListSizeDelegate_tC90CDF452EDEF6A91A81414A6C3B9F1B1905749A;
 extern const uint32_t g_rgctx_GetListSizeDelegate_Invoke_m7BEBA288BB1775FB70C92BD954917048B4131EB8;
 extern const uint32_t g_rgctx_GetListElementDelegate_tB47BF5285330A1A7D2B357E4C1D6D2FFD07884CB;
@@ -6023,12 +6023,12 @@ extern const uint32_t g_rgctx_VuGenericTypedList_2_GetElement_mD398E77D65B11C45B
 extern const uint32_t g_rgctx_VuGenericList_1__ctor_m4B2CF9EE985B65FD57918803986B6C3F45EC89F1;
 extern const uint32_t g_rgctx_VuGenericList_1_t24397EE8C89571FCD4ABB4716FD410B401DAA8E6;
 extern const uint32_t g_rgctx_VuGenericList_1__ctor_mC6723A166A4EF02D17FC2546C83B08F784E39F78;
-extern const uint32_t g_rgctx_GetPrimitiveValueDelegate_1_tCFAEBC69FB07826CA4829EEC45E5E1B0D9315E16;
-extern const uint32_t g_rgctx_GetPrimitiveValueDelegate_1_Invoke_m008920D4F0BA86C084C195080C71BBCB6EFCC15E;
-extern const uint32_t g_rgctx_GetStructValueDelegate_1_t212D805C8DEA5B964CF30875B67649C68CC7E4A8;
-extern const uint32_t g_rgctx_GetStructValueDelegate_1_Invoke_mC25EBBF33B0BA365C793D4A379C43680676585CC;
-extern const uint32_t g_rgctx_GetEnumValueDelegate_1_t27FF3B27E9982286A28A8D71F43BED02C32EFDCD;
-extern const uint32_t g_rgctx_GetEnumValueDelegate_1_Invoke_mB331AE4D08133AEDE25EA190EBD91142B7A998F2;
+extern const uint32_t g_rgctx_GetPrimitiveValueDelegate_1_t4EE75BCD78C2CB18CA693D2B7319A37C76109044;
+extern const uint32_t g_rgctx_GetPrimitiveValueDelegate_1_Invoke_m8270143E1E3A5791FE028300366F5B8FE832009A;
+extern const uint32_t g_rgctx_GetStructValueDelegate_1_t2FE774B8C702D18AA9158358C05D94E32C761601;
+extern const uint32_t g_rgctx_GetStructValueDelegate_1_Invoke_mA701A8961EEE7BD272D700A980D0D535291ACCBD;
+extern const uint32_t g_rgctx_GetEnumValueDelegate_1_tCEBE6FD2D730CB3E82D42928E59D078797647FB0;
+extern const uint32_t g_rgctx_GetEnumValueDelegate_1_Invoke_m7C2E3CD34C414AE8273FA94EE15C12F86A288E71;
 static const Il2CppRGCTXDefinition s_rgctxValues[91] = 
 {
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tBBE7D5B5263E8C3D4A149412025AF19D473D6310 },
@@ -6077,7 +6077,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[91] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec_t2ABE404EC872F2C2CED1966B3160F3375F5437CD },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t9610CED84449F30C559F62BB8C8907D35C11E0E9 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Nullable_1_get_HasValue_mE0FAEEE2429B7F450CB682A0D529F9B6631FC406 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ValueAccessUtils_GetEnumValue_TisT_t91303CE403257ED150BB36FA98C04A50FAD6CF1E_m7588B61438FF755ACD2BF7CE9BCA19ACE02A2A46 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ValueAccessUtils_GetEnumValue_TisT_t91303CE403257ED150BB36FA98C04A50FAD6CF1E_mF4E08FCBA1919BF1FEAE7CF951864F3C88B0571B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Nullable_1_t5EA1E2392D6D0A3ADC66C4B7DBD89EA5ED8635CF },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Nullable_1__ctor_mEE258700F2B84B513FFFCDB9A539635714F16441 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Nullable_1_get_Value_m8D0AC20731E498CB34DB79C502BE76B3D0E9A708 },
@@ -6099,8 +6099,8 @@ static const Il2CppRGCTXDefinition s_rgctxValues[91] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_VuGenericSet_1_Dispose_m556ED479DD4716C6811A0CF63FC82874ACC91C78 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DeleteSetDelegate_t4FEDC36BAA9B223DA26A9D8DFBF363BE6DE939E7 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DeleteSetDelegate_Invoke_m2FBE0AEDE1BCE0C5C426A85252CFC35CA5088DE4 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Marshal_SizeOf_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_mE6B68F6BA6523C4C012EB94FBFFE403F58E07F3B },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Marshal_StructureToPtr_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_mB55FB97E82160B572A43F70A217AC47E3127BF4B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Marshal_SizeOf_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_m5B585F7B445170E892EBF1B409FFD57BEFB65EFE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Marshal_StructureToPtr_TisT_t89EC6D7D007AE6B4F2AA19263F7366F696F6BDB2_m5C935A59F027A64D254BE5C3D6E2F38F46E73D77 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetListSizeDelegate_tC90CDF452EDEF6A91A81414A6C3B9F1B1905749A },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GetListSizeDelegate_Invoke_m7BEBA288BB1775FB70C92BD954917048B4131EB8 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetListElementDelegate_tB47BF5285330A1A7D2B357E4C1D6D2FFD07884CB },
@@ -6116,12 +6116,12 @@ static const Il2CppRGCTXDefinition s_rgctxValues[91] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_VuGenericList_1__ctor_m4B2CF9EE985B65FD57918803986B6C3F45EC89F1 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_VuGenericList_1_t24397EE8C89571FCD4ABB4716FD410B401DAA8E6 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_VuGenericList_1__ctor_mC6723A166A4EF02D17FC2546C83B08F784E39F78 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetPrimitiveValueDelegate_1_tCFAEBC69FB07826CA4829EEC45E5E1B0D9315E16 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GetPrimitiveValueDelegate_1_Invoke_m008920D4F0BA86C084C195080C71BBCB6EFCC15E },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetStructValueDelegate_1_t212D805C8DEA5B964CF30875B67649C68CC7E4A8 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GetStructValueDelegate_1_Invoke_mC25EBBF33B0BA365C793D4A379C43680676585CC },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetEnumValueDelegate_1_t27FF3B27E9982286A28A8D71F43BED02C32EFDCD },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GetEnumValueDelegate_1_Invoke_mB331AE4D08133AEDE25EA190EBD91142B7A998F2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetPrimitiveValueDelegate_1_t4EE75BCD78C2CB18CA693D2B7319A37C76109044 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GetPrimitiveValueDelegate_1_Invoke_m8270143E1E3A5791FE028300366F5B8FE832009A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetStructValueDelegate_1_t2FE774B8C702D18AA9158358C05D94E32C761601 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GetStructValueDelegate_1_Invoke_mA701A8961EEE7BD272D700A980D0D535291ACCBD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_GetEnumValueDelegate_1_tCEBE6FD2D730CB3E82D42928E59D078797647FB0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GetEnumValueDelegate_1_Invoke_m7C2E3CD34C414AE8273FA94EE15C12F86A288E71 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Vuforia_Unity_Wrapper_CodeGenModule;
 const Il2CppCodeGenModule g_Vuforia_Unity_Wrapper_CodeGenModule = 
