@@ -3,15 +3,34 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class GenericVideoPlayer : MonoBehaviour
 {
-    public List<VideoUrl> VideoUrls = new List<VideoUrl>();
+    public List<VideoByEnum> VideoUrls = new List<VideoByEnum>();
     private EnumVideo CurrentVideo = EnumVideo.BOAT;
+
+    private void Start()
+    {
+        if (FindObjectsOfType<GenericVideoPlayer>().Count() > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(this);
+        }
+    }
 
     public void SetCurrentVideo(EnumVideo videoCode)
     {
         CurrentVideo = videoCode;
+    }
+
+    public VideoClip GetCurrentVideo()
+    {
+        return VideoUrls.First( v => v.VideoCode == CurrentVideo).Video;
     }
 
     public void StartVideo()
@@ -22,15 +41,14 @@ public class GenericVideoPlayer : MonoBehaviour
         }
         else
         {
-            var url = VideoUrls.FirstOrDefault(v => v.VideoCode == CurrentVideo)?.Url ?? "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-            Application.OpenURL(url);
+            SceneManager.LoadScene("VideoPlayer");
         }
     }
 }
 
 [Serializable]
-public class VideoUrl
+public class VideoByEnum
 {
     public EnumVideo VideoCode;
-    public string Url;
+    public VideoClip Video;
 }
