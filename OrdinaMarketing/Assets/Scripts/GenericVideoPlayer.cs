@@ -11,6 +11,11 @@ public class GenericVideoPlayer : MonoBehaviour
     public List<VideoByEnum> VideoUrls = new List<VideoByEnum>();
     private EnumVideo CurrentVideo = EnumVideo.BOAT;
 
+    [SerializeField]
+    private VideoPlayer HoloLensVideo;
+    [SerializeField]
+    private GameObject HoloLensVideoObject;
+
     private void Start()
     {
         if (FindObjectsOfType<GenericVideoPlayer>().Count() > 1)
@@ -37,7 +42,9 @@ public class GenericVideoPlayer : MonoBehaviour
     {
         if (Application.platform == RuntimePlatform.WSAPlayerARM)
         {
-
+            HoloLensVideoObject.SetActive(true);
+            HoloLensVideo.clip = GetCurrentVideo();
+            HoloLensVideo.Play();
         }
         else
         {

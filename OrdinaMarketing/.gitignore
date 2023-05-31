@@ -59,4 +59,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Large file
-/Packages/com.ptc.vuforia.engine-10.15.3.tgz
+/Packages/com.ptc.vuforia.engine-*.tgz

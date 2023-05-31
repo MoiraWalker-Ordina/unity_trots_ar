@@ -26,6 +26,5 @@ public class UserDetector : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         VideoPlayButton.SetActive(false);
-
     }
 }
