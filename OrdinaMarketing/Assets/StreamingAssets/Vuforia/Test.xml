@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="Tree" size="0.147300 0.147300" />
     <ImageTarget name="ShoppingCart" size="0.135500 0.135500" />
     <ImageTarget name="Boat" size="0.153500 0.101980" />
   </Tracking>

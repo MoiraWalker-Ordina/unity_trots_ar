@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58R63Z8HMN",
         "name": "com.vuforia.engine.VuforiaEngine",
-        "processId": 13082,
+        "processId": 21349,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,24 @@
             "deviceId": "R58R63Z8HMN",
             "name": "com.vuforia.engine.VuforiaEngine",
             "processId": 13082,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R63Z8HMN",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 18772,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R63Z8HMN",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 7877,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R63Z8HMN",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 21349,
             "exited": false
         }
     ],

@@ -854,9 +854,9 @@ PlayerSettings:
   metroPackageVersion: 10.15.3.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: Vuforia
-  metroCertificateIssuer: Vuforia
-  metroCertificateNotAfter: 80a428773e1cd501
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 808ddfe53db8da01
   metroApplicationDescription: Vuforia Engine
   wsaImages:
     65636: Assets/Common/Icons/UWP/StoreLogo.scale-100.png
