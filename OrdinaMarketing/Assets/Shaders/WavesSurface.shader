@@ -6,10 +6,6 @@ Shader "Custom/WavesSurface"
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
         _Glossiness("Smoothness", Range(0,1)) = 0.5
         _Metallic("Metallic", Range(0,1)) = 0.0
-
-        //_Direction("Direction", Vector) = (1.0, 0.0, 0.0, 1.0)
-        //_Steepness("Steepness", Range(0.01, 1.0)) = 0.5
-        //_Freq("Frequency", Range(.01, 1.0)) = 1.0
         _Speed("Speed", Range(.01, 1.0)) = .5
 
         _WaveA("Wave A (dir, steepness, wavelength)", Vector) = (1,0,0.5,10)
@@ -17,15 +13,18 @@ Shader "Custom/WavesSurface"
         _WaveC("Wave C", Vector) = (1,1,0.15,10)
 
         _Wall("Wall", Int) = 0
+
+        _SizeX("Size X", Float) = 1
+        _SizeZ("Size Z", Float) = 1
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
+        Tags {"Queue" = "Transparent" "RenderType"="Transparent" }
         LOD 200
 
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf Standard fullforwardshadows vertex:vert addshadow
+        #pragma surface surf Standard noshadow vertex:vert alpha:premul
 
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0
@@ -35,7 +34,7 @@ Shader "Custom/WavesSurface"
         struct Input
         {
             float2 uv_MainTex;
-            float3 normal;
+            float2 vertex;
         };
 
         half _Glossiness;
@@ -49,7 +48,10 @@ Shader "Custom/WavesSurface"
         float4 _WaveA, _WaveB, _WaveC;
 
         int _Wall;
-        float3 _WallNormal;
+
+        float _SizeX, _SizeZ;
+
+        float _GameTime;
 
         // Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
         // See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
@@ -65,12 +67,7 @@ Shader "Custom/WavesSurface"
             float k = 2 * UNITY_PI / wavelength;
             float c = sqrt(9.8 / k);
             float2 d = normalize(wave.xy);
-            float f = k * (dot(d, p.xz) - c * _Time.y * _Speed);
-            float a = steepness / k;
-
-            //p.x += d.x * (a * cos(f));
-            //p.y = a * sin(f);
-            //p.z += d.y * (a * cos(f));
+            float f = k * (dot(d, p.xz) - c * _GameTime * _Speed);
 
             float sf = steepness * sin(f);
             float cf = steepness * cos(f);
@@ -84,44 +81,10 @@ Shader "Custom/WavesSurface"
             return float3(d.x * ac, as, d.y * ac);
         }
 
-        //void vert(inout appdata_full v)
-        //{
-        //    float3 pos = v.vertex.xyz;
-        //    float4 dir = normalize(_Direction);
-        //    float defaultWavelength = 2 * UNITY_PI;
-
-        //    float wL = defaultWavelength / _Freq;
-
-        //    float phase = sqrt(9.8 / wL);
-        //    float disp = wL * (dot(dir, pos) - (phase * _Time.y * _Speed));
-        //    float peak = _Steepness / wL;
-
-        //    pos.x += dir.x * (peak * cos(disp));
-        //    pos.y = peak * sin(disp);
-        //    pos.z += dir.y * (peak * cos(disp));
-
-        //    float3 tangent = normalize(float3(1 - wL * peak * sin(disp), wL * peak * cos(disp), 0));
-        //    float3 normal = float3(-tangent.y, tangent.x, 0);
-
-        //    v.vertex.xyz = pos;
-        //    v.normal = normal;
-        //}
-
-        //void vert(inout appdata_full vertexData) {
-        //    float3 gridPoint = vertexData.vertex.xyz;
-        //    float3 tangent = 0;
-        //    float3 binormal = 0;
-        //    float3 p = gridPoint;
-        //    p += GerstnerWave(_WaveA, gridPoint, tangent, binormal);
-        //    p += GerstnerWave(_WaveB, gridPoint, tangent, binormal);
-        //    p += GerstnerWave(_WaveC, gridPoint, tangent, binormal);
-        //    float3 normal = normalize(cross(binormal, tangent));
-        //    vertexData.vertex.xyz = p;
-        //    vertexData.normal = normal;
-        //}
-
-        void vert(inout appdata_full vertexData)
+        void vert(inout appdata_full vertexData, out Input o)
         {
+            UNITY_INITIALIZE_OUTPUT(Input, o);
+
             float3 gridPoint = vertexData.vertex.xyz;
             float3 tangent = float3(1, 0, 0);
             float3 binormal = float3(0, 0, 1);
@@ -143,10 +106,11 @@ Shader "Custom/WavesSurface"
 
                 float3 wallTangent = (binormalWall * vertexData.normal.x + tangentWall * vertexData.normal.z);
 
-                // somewhat inefficient solution to have correct bottom normals
+                //// somewhat inefficient solution to have correct bottom normals
                 normal = lerp(cross(float3(0, 1, 0), normalize(wallTangent)), vertexData.normal, abs(vertexData.normal.y));
             
                 //normal = vertexData.normal;
+                //p *= float3(0, 1, 0);
             }
             else normal = normalize(cross(binormal, tangent));
 
@@ -155,6 +119,9 @@ Shader "Custom/WavesSurface"
             vertexData.vertex.xyz = p;
             vertexData.normal = normal;
             vertexData.color = half4(normal, 1);
+
+            o.vertex = p.xz;
+            //o.uv = vertexData.uv;
         }
 
         void surf (Input IN, inout SurfaceOutputStandard o)
@@ -168,6 +135,8 @@ Shader "Custom/WavesSurface"
             o.Metallic = _Metallic;
             o.Smoothness = _Glossiness;
             o.Alpha = c.a;
+
+            //if (_Wall == 0 && (abs(IN.vertex.x) > _SizeX / 2 || abs(IN.vertex.y) > _SizeZ / 2)) clip(-1);
         }
         ENDCG
     }

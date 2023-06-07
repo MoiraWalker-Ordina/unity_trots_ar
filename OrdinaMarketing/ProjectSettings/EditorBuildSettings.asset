@@ -14,4 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VideoPlayer.unity
     guid: c614c415e19c110489a128fc574e7293
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c8a97875bcb91054094bb763aec891f4,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4d2a77d1cd66ba4459c22fc5237f40ce,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3557b60806d7d5244a1f02e59c610bd8,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e4fafe55f7eedf54e82b7019977fc2ec,
+      type: 2}

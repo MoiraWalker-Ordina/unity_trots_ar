@@ -25,10 +25,10 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            var distance = Vector3.Distance(transform.position, Target.position);
+            var distance = Vector3.Distance(transform.localPosition, Target.localPosition);
             if (distance > 0.02)
             {
-                var direction = (Target.position - transform.position).normalized;
+                var direction = (Target.localPosition - transform.localPosition).normalized;
                 var lookRotation = Quaternion.LookRotation(direction);
                 transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * RotationSpeed);
 
@@ -36,7 +36,7 @@ namespace Assets.Scripts
                 var speed = WalkSpeed;
                 if (angleLookAt > LookDirectionAngleBeforeWalking)
                     speed /= 2;
-                transform.position = transform.position + transform.forward * Time.deltaTime * speed;
+                transform.localPosition = transform.localPosition + transform.forward * Time.deltaTime * speed;
             }
             else
             {
@@ -44,7 +44,7 @@ namespace Assets.Scripts
                 while (distance <= 0.1 && attempts < 20)
                 {
                     MoveTarget();
-                    distance = Vector3.Distance(transform.position, Target.position);
+                    distance = Vector3.Distance(transform.localPosition, Target.localPosition);
                     attempts++;
                 }
             }

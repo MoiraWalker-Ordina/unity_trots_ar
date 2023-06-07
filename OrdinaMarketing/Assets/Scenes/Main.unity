@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -555,7 +555,7 @@ PrefabInstance:
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.907
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -1325,7 +1325,7 @@ PrefabInstance:
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.907
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -1513,6 +1513,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1879425272}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1879425283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782628375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1879425272}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ShoppingCart
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 1879425272}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!114 &2026443255 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
@@ -1626,6 +1645,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2026443255}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &2026443268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578990921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2026443255}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Boat
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 2026443255}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2079365781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,6 +1694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1780,7 +1819,7 @@ PrefabInstance:
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.907
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}

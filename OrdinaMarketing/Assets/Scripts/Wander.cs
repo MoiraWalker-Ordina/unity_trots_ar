@@ -25,10 +25,10 @@ public class Wander : MonoBehaviour
 
     private void Update()
     {
-        var distance = Vector3.Distance(transform.position, Target.transform.position);
+        var distance = Vector3.Distance(transform.localPosition, Target.transform.localPosition);
         if (distance > TargetMargine)
         {
-            var direction = (Target.transform.position - transform.position).normalized;
+            var direction = (Target.transform.localPosition - transform.localPosition).normalized;
             var lookRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * RotationSpeed);
 
@@ -36,7 +36,7 @@ public class Wander : MonoBehaviour
             var speed = WalkSpeed;
             if (angleLookAt > LookDirectionAngleBeforeWalking)
                 speed /= SpeedDecreaseWhileTurning;
-            transform.position = transform.position + transform.forward * Time.deltaTime * speed;
+            transform.localPosition = transform.localPosition + transform.forward * Time.deltaTime * speed;
         }
         else
         {
