@@ -5,13 +5,10 @@ using UnityEngine;
 public class Wander : MonoBehaviour
 {
     [SerializeField]
-    private float AreaWidth = 0.35f;
+    private float TargetMargine = 0.2f;
     [SerializeField]
-    private float AreaHeight = 0.35f;
-    [SerializeField]
-    private Transform StartLocation;
-    [SerializeField]
-    private Transform Target;
+    private PathNode Target;
+    private PathNode PreviousTarget = null;
 
     [SerializeField]
     private float RotationSpeed = 0.35f;
@@ -22,37 +19,35 @@ public class Wander : MonoBehaviour
     [SerializeField]
     private float LookDirectionAngleBeforeWalking = 40f;
 
+    [SerializeField]
+    private float SpeedDecreaseWhileTurning = 3;
+    
+
     private void Update()
     {
-        var distance = Vector3.Distance(transform.position, Target.position);
-        if (distance > 0.02)
+        var distance = Vector3.Distance(transform.position, Target.transform.position);
+        if (distance > TargetMargine)
         {
-            var direction = (Target.position - transform.position).normalized;
+            var direction = (Target.transform.position - transform.position).normalized;
             var lookRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * RotationSpeed);
 
             var angleLookAt = Quaternion.Angle(transform.rotation, lookRotation);
             var speed = WalkSpeed;
             if (angleLookAt > LookDirectionAngleBeforeWalking)
-                speed /= 2;
+                speed /= SpeedDecreaseWhileTurning;
             transform.position = transform.position + transform.forward * Time.deltaTime * speed;
         }
         else
         {
-            var attempts = 0;
-            while (distance <= 0.1 && attempts < 20)
+            PathNode nextTarget = null;
+            while (nextTarget == null || nextTarget == PreviousTarget)
             {
-                MoveTarget();
-                distance = Vector3.Distance(transform.position, Target.position);
-                attempts++;
+                var nextValue = Random.Range(0, Target.Connected.Length);
+                nextTarget = Target.Connected[nextValue];
             }
+            PreviousTarget = Target;
+            Target = nextTarget;
         }
-    }
-
-    private void MoveTarget()
-    {
-        var x = Random.Range(StartLocation.localPosition.x - AreaWidth / 2, StartLocation.localPosition.x + AreaWidth / 2);
-        var z = Random.Range(StartLocation.localPosition.z - AreaWidth / 2, StartLocation.localPosition.z + AreaWidth / 2);
-        Target.localPosition = new Vector3(x, Target.localPosition.y, z);
     }
 }

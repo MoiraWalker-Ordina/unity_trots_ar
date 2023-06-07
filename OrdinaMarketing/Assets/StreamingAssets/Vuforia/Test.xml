@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="MicrosoftTeams-image" size="0.080000 0.080000" />
-    <ImageTarget name="card" size="0.087000 0.054984" />
+    <ImageTarget name="ShoppingCart" size="0.135500 0.135500" />
+    <ImageTarget name="Boat" size="0.153500 0.101980" />
   </Tracking>
 </QCARConfig>

@@ -158,7 +158,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2767031339486364265}
-  - component: {fileID: 2767031339486364270}
   m_Layer: 0
   m_Name: Boat
   m_TagString: Untagged
@@ -185,23 +184,6 @@ Transform:
   m_Father: {fileID: 2767031339985859672}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2767031339486364270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2767031339486364264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eed4d67e8a5b91a4894ec3997ff26605, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  JointAttachments:
-  - {fileID: 2767031339084369376}
-  - {fileID: 2767031339094931564}
-  - {fileID: 2767031338895871059}
-  LerpT: 0.1
 --- !u!1 &2767031339499635067
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,3 +367,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   LerpT: 0.1
+  HeightLine: {fileID: 0}

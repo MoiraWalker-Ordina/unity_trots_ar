@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935421266708135416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.201, z: 0.311}
+  m_LocalPosition: {x: 0, y: 0.201, z: -0.297}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1.0020674}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1280,7 +1280,6 @@ GameObject:
   - component: {fileID: 935421267891082380}
   - component: {fileID: 935421267891082379}
   - component: {fileID: 935421267891082378}
-  - component: {fileID: 935421267891082381}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -1322,18 +1321,18 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: card
+  mTrackableName: Boat
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 0.632
+  mAspectRatio: 0.6643648
   mImageTargetType: 0
-  mWidth: 0.087
-  mHeight: 0.054984
+  mWidth: 0.1535
+  mHeight: 0.10198
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 935421267891082381}
+  mPreview: {fileID: 0}
 --- !u!114 &935421267891082378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1378,25 +1377,6 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &935421267891082381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935421267891082376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 935421267891082379}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: card
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 935421267891082379}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &935421267914592961
 GameObject:
   m_ObjectHideFlags: 0
