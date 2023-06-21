@@ -13,39 +13,53 @@ namespace Assets.Scripts
         private Transform StartLocation;
         [SerializeField]
         private Transform Target;
-
         [SerializeField]
         private float RotationSpeed = 0.35f;
-
         [SerializeField]
         private float WalkSpeed = 0.01f;
-
         [SerializeField]
         private float LookDirectionAngleBeforeWalking = 40f;
+        [SerializeField]
+        private float SpeedDevisionWhenTurning = 3;
+        [SerializeField]
+        private float DetectionRange = 0.03f;
+        [SerializeField]
+        private ITargetReachInteraction CartItems;
+
 
         private void Update()
         {
+
             var distance = Vector3.Distance(transform.localPosition, Target.localPosition);
-            if (distance > 0.02)
+            if (distance > DetectionRange)
             {
                 var direction = (Target.localPosition - transform.localPosition).normalized;
                 var lookRotation = Quaternion.LookRotation(direction);
-                transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * RotationSpeed);
+                transform.localRotation = Quaternion.Slerp(transform.localRotation, lookRotation, Time.deltaTime * RotationSpeed);
 
-                var angleLookAt = Quaternion.Angle(transform.rotation, lookRotation);
+                var angleLookAt = Quaternion.Angle(transform.localRotation, lookRotation);
                 var speed = WalkSpeed;
                 if (angleLookAt > LookDirectionAngleBeforeWalking)
-                    speed /= 2;
-                transform.localPosition = transform.localPosition + transform.forward * Time.deltaTime * speed;
+                    speed /= SpeedDevisionWhenTurning;
+
+                var newPos = transform.localPosition + transform.TransformDirection(Vector3.left) * Time.deltaTime * speed; ;
+                newPos.y = 0;
+                transform.localPosition = newPos;
+
+
             }
             else
             {
                 var attempts = 0;
-                while (distance <= 0.1 && attempts < 20)
+                while (distance <= DetectionRange && attempts < 20)
                 {
                     MoveTarget();
                     distance = Vector3.Distance(transform.localPosition, Target.localPosition);
                     attempts++;
+                }
+                if (CartItems != null)
+                {
+                    CartItems.OnTargetReach();
                 }
             }
         }

@@ -505,12 +505,12 @@ PrefabInstance:
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: mWidth
-      value: 0.1473
+      value: 0.1355
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: mHeight
-      value: 0.1473
+      value: 0.1355
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -530,7 +530,7 @@ PrefabInstance:
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: mTrackableName
-      value: Tree
+      value: ShoppingCart
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -668,7 +668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tree
+  mTargetName: ShoppingCart
   mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tree
+  mTargetName: ShoppingCart
   mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tree
+  mTargetName: ShoppingCart
   mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
@@ -725,7 +725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tree
+  mTargetName: ShoppingCart
   mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tree
+  mTargetName: ShoppingCart
   mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
@@ -763,7 +763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tree
+  mTargetName: ShoppingCart
   mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
@@ -1275,7 +1275,7 @@ PrefabInstance:
     - target: {fileID: 935421267891082376, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -1532,6 +1532,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1879425272}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1879425285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782628375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1879425272}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ShoppingCart
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 1879425272}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!114 &2026443255 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
@@ -1646,6 +1665,25 @@ MonoBehaviour:
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
 --- !u!114 &2026443268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578990921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2026443255}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Boat
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 2026443255}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2026443270
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

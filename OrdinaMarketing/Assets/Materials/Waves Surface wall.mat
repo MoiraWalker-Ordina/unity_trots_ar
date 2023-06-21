@@ -103,7 +103,7 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.02
+    - _Speed: 0.04
     - _SrcBlend: 1
     - _Steepness: 0.375
     - _Surface: 0
