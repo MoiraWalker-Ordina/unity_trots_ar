@@ -313,6 +313,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShoppingCartDemoAlternative
       objectReference: {fileID: 0}
+    - target: {fileID: 6639245509431412460, guid: 7bd725598d3732b4d883a06ff79e2f52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7995497869552028420, guid: 7bd725598d3732b4d883a06ff79e2f52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835592703736926800, guid: 7bd725598d3732b4d883a06ff79e2f52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bd725598d3732b4d883a06ff79e2f52, type: 3}
 --- !u!1 &1488305671
