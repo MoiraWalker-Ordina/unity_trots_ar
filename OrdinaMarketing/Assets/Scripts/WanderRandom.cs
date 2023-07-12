@@ -24,6 +24,8 @@ namespace Assets.Scripts
         [SerializeField]
         private float DetectionRange = 0.03f;
         [SerializeField]
+        private float DistanceToTravel = 0.05f;
+        [SerializeField]
         private ITargetReachInteraction CartItems;
 
 
@@ -51,7 +53,7 @@ namespace Assets.Scripts
             else
             {
                 var attempts = 0;
-                while (distance <= DetectionRange && attempts < 20)
+                while (distance <= DistanceToTravel && attempts < 20)
                 {
                     MoveTarget();
                     distance = Vector3.Distance(transform.localPosition, Target.localPosition);
