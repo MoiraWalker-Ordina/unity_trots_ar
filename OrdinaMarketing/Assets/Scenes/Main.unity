@@ -502,15 +502,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShoppingCartAlternative
       objectReference: {fileID: 0}
+    - target: {fileID: 935421267891082376, guid: c185a5d08e5ab7c438a11bc28f3b3373,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: mWidth
-      value: 0.1355
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: mHeight
-      value: 0.1355
+      value: 0.055245
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -525,12 +530,17 @@ PrefabInstance:
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: mAspectRatio
-      value: 1
+      value: 1.1049
+      objectReference: {fileID: 0}
+    - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
+        type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/OrdinaMarketing.xml
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: mTrackableName
-      value: ShoppingCart
+      value: shopping_cart
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082380, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -668,8 +678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ShoppingCart
-  mDatasetName: Vuforia/Test.xml
+  mTargetName: shopping_cart
+  mDatasetName: Vuforia/OrdinaMarketing.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -687,8 +697,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ShoppingCart
-  mDatasetName: Vuforia/Test.xml
+  mTargetName: shopping_cart
+  mDatasetName: Vuforia/OrdinaMarketing.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -706,8 +716,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ShoppingCart
-  mDatasetName: Vuforia/Test.xml
+  mTargetName: shopping_cart
+  mDatasetName: Vuforia/OrdinaMarketing.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -725,8 +735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ShoppingCart
-  mDatasetName: Vuforia/Test.xml
+  mTargetName: shopping_cart
+  mDatasetName: Vuforia/OrdinaMarketing.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -744,8 +754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ShoppingCart
-  mDatasetName: Vuforia/Test.xml
+  mTargetName: shopping_cart
+  mDatasetName: Vuforia/OrdinaMarketing.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -763,8 +773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1406730802}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ShoppingCart
-  mDatasetName: Vuforia/Test.xml
+  mTargetName: shopping_cart
+  mDatasetName: Vuforia/OrdinaMarketing.xml
   mCastedBehaviour: {fileID: 1406730802}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1702,6 +1712,82 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2026443255}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &2026443271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578990921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2026443255}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Boat
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 2026443255}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2026443272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578990921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2026443255}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Boat
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 2026443255}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2026443273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578990921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2026443255}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Boat
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 2026443255}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2026443274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578990921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2026443255}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Boat
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 2026443255}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2079365781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,7 +1927,7 @@ PrefabInstance:
     - target: {fileID: 935421267891082376, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 935421267891082379, guid: c185a5d08e5ab7c438a11bc28f3b3373,
         type: 3}
@@ -1921,7 +2007,7 @@ PrefabInstance:
     - target: {fileID: 6601457587393616382, guid: 7bd725598d3732b4d883a06ff79e2f52,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.175
       objectReference: {fileID: 0}
     - target: {fileID: 6601457587393616382, guid: 7bd725598d3732b4d883a06ff79e2f52,
         type: 3}
@@ -1931,7 +2017,7 @@ PrefabInstance:
     - target: {fileID: 6601457587393616382, guid: 7bd725598d3732b4d883a06ff79e2f52,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.175
       objectReference: {fileID: 0}
     - target: {fileID: 6601457587393616382, guid: 7bd725598d3732b4d883a06ff79e2f52,
         type: 3}
