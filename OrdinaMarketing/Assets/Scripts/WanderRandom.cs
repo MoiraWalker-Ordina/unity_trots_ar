@@ -27,13 +27,13 @@ namespace Assets.Scripts
         private float DistanceToTravel = 0.05f;
         [SerializeField]
         private ITargetReachInteraction CartItems;
-
+        private float TimeSinceLastPoint = 0;
 
         private void Update()
         {
-
+            TimeSinceLastPoint += Time.deltaTime;
             var distance = Vector3.Distance(transform.localPosition, Target.localPosition);
-            if (distance > DetectionRange)
+            if (distance > DetectionRange && TimeSinceLastPoint < 4f)
             {
                 var direction = (Target.localPosition - transform.localPosition).normalized;
                 var lookRotation = Quaternion.LookRotation(direction);
@@ -52,6 +52,7 @@ namespace Assets.Scripts
             }
             else
             {
+                TimeSinceLastPoint = 0;
                 var attempts = 0;
                 while (distance <= DistanceToTravel && attempts < 20)
                 {
